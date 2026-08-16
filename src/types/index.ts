@@ -16,6 +16,7 @@ export interface TextArea {
   uppercase?: boolean; // If true, force uppercase rendering
   textAlign?: 'left' | 'center' | 'right';
   fontFamily?: string;
+  fontWeight?: 'normal' | 'bold';
 }
 
 export interface MemeTemplate {

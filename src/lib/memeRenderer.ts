@@ -1,9 +1,30 @@
-import { createCanvas, loadImage } from '@napi-rs/canvas';
+import { createCanvas, loadImage, GlobalFonts } from '@napi-rs/canvas';
 import path from 'path';
+import fs from 'fs';
 import { MemeTemplate } from '@/types';
 
+// Register global fonts for serverless environments (e.g., Vercel / Linux containers)
+try {
+  const fontsDir = path.join(process.cwd(), 'public', 'fonts');
+  const impactPath = path.join(fontsDir, 'Impact.ttf');
+  const arialPath = path.join(fontsDir, 'Arial.ttf');
+  const arialBoldPath = path.join(fontsDir, 'Arial Bold.ttf');
+
+  if (fs.existsSync(impactPath)) {
+    GlobalFonts.registerFromPath(impactPath, 'Impact');
+  }
+  if (fs.existsSync(arialPath)) {
+    GlobalFonts.registerFromPath(arialPath, 'Arial');
+  }
+  if (fs.existsSync(arialBoldPath)) {
+    GlobalFonts.registerFromPath(arialBoldPath, 'Arial Bold');
+  }
+} catch (e) {
+  console.warn('Failed to register global fonts:', e);
+}
+
 // Simple text wrapping helper for Canvas
-export function wrapText(ctx: any, text: string, x: number, y: number, maxWidth: number, lineHeight: number) {
+export function wrapText(ctx: any, text: string, x: number, y: number, maxWidth: number, lineHeight: number, hasStroke: boolean) {
   const words = text.split(' ');
   let line = '';
   let currentY = y;
@@ -14,16 +35,18 @@ export function wrapText(ctx: any, text: string, x: number, y: number, maxWidth:
     const testWidth = metrics.width;
     
     if (testWidth > maxWidth && n > 0) {
-      ctx.strokeText(line, x, currentY);
-      ctx.fillText(line, x, currentY);
+      const trimmed = line.trim();
+      if (hasStroke) ctx.strokeText(trimmed, x, currentY);
+      ctx.fillText(trimmed, x, currentY);
       line = words[n] + ' ';
       currentY += lineHeight;
     } else {
       line = testLine;
     }
   }
-  ctx.strokeText(line, x, currentY);
-  ctx.fillText(line, x, currentY);
+  const trimmedFinal = line.trim();
+  if (hasStroke) ctx.strokeText(trimmedFinal, x, currentY);
+  ctx.fillText(trimmedFinal, x, currentY);
 }
 
 export async function renderMeme(template: MemeTemplate, textPayloads: Record<string, string>): Promise<Buffer> {
@@ -56,18 +79,33 @@ export async function renderMeme(template: MemeTemplate, textPayloads: Record<st
   ctx.textBaseline = 'middle';
 
   template.text_areas.forEach(area => {
-    let text = textPayloads[area.id] || "";
+    // 1. Try exact match
+    let text = textPayloads[area.id];
+    
+    // 2. Try case-insensitive match
+    if (!text && textPayloads) {
+      const lowerId = area.id.toLowerCase();
+      const matchedKey = Object.keys(textPayloads).find(k => k.toLowerCase() === lowerId);
+      if (matchedKey) text = textPayloads[matchedKey];
+    }
+
+    // 3. Example fallback if LLM omitted text for this area
+    if (!text && template.example && template.example[area.id]) {
+      text = template.example[area.id];
+    }
+
+    text = text || "";
     if (area.uppercase) text = text.toUpperCase();
     
-    const fontFamily = area.fontFamily || 'Arial';
-    ctx.font = `bold ${area.fontSize}px ${fontFamily}`;
-    ctx.fillStyle = area.color;
+    const fontFamily = area.fontFamily || 'Impact';
+    const fontWeight = area.fontWeight || 'normal';
+    ctx.font = `${fontWeight} ${area.fontSize}px ${fontFamily}`;
+    ctx.fillStyle = area.color || 'white';
     
-    if (area.stroke) {
-      ctx.strokeStyle = area.stroke;
-      ctx.lineWidth = area.fontSize / 10;
-    } else {
-      ctx.lineWidth = 0;
+    const hasStroke = !!area.stroke;
+    if (hasStroke) {
+      ctx.strokeStyle = area.stroke!;
+      ctx.lineWidth = Math.max(area.fontSize / 10, 2);
     }
 
     ctx.textAlign = area.textAlign || 'center';
@@ -78,7 +116,7 @@ export async function renderMeme(template: MemeTemplate, textPayloads: Record<st
     if (ctx.textAlign === 'right') anchorX = area.x + area.width;
 
     const anchorY = area.y + (area.height / 2);
-    wrapText(ctx, text, anchorX, anchorY, area.width, area.fontSize * 1.2);
+    wrapText(ctx, text, anchorX, anchorY, area.width, area.fontSize * 1.2, hasStroke);
   });
 
   return canvas.toBuffer('image/png');
