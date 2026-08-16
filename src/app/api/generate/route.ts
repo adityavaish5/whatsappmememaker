@@ -73,7 +73,7 @@ Instructions:
 }`;
 
     const { text } = await generateText({
-      model: google('gemini-3.7-flash'),
+      model: google('gemini-2.5-flash'),
       system: systemPromptWithSchema,
       prompt: userPrompt
     });
