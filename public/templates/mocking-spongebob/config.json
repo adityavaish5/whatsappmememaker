@@ -1,0 +1,54 @@
+{
+  "id": "mocking-spongebob",
+  "name": "Mocking SpongeBob",
+  "visual_description": "SpongeBob bent over flapping his arms like a chicken with mismatched eyes and an open mouth.",
+  "usage_context": "Used to mockingly repeat opinions or rules in alternating upper and lowercase letters.",
+  "keywords": [
+    "mocking spongebob",
+    "spongebob chicken",
+    "sarcasm",
+    "mockery",
+    "taunt",
+    "nickelodeon",
+    "derision"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 502,
+  "image_height": 353,
+  "example": {
+    "top_text": "You can't just repeat what I say",
+    "bottom_text": "yOu CaN't JuSt RePeAt WhAt I sAy"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Original statement being mocked",
+      "x": 10,
+      "y": 10,
+      "width": 482,
+      "height": 55,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Mocking repetition in alternating case",
+      "x": 10,
+      "y": 288,
+      "width": 482,
+      "height": 55,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}
