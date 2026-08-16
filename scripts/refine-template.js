@@ -94,29 +94,7 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
   const model = genAI.getGenerativeModel({ model: 'gemini-3.7-flash' });
 
   try {
-<<<<<<< Updated upstream
     // Git & PR Creation Workflow - MUST checkout branch BEFORE modifying files!
-=======
-    const result = await model.generateContent([
-      systemPrompt,
-      imagePart
-    ]);
-
-    let responseText = result.response.text().trim();
-    responseText = responseText.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-
-    const updatedConfig = JSON.parse(responseText);
-
-    // Save updated config.json
-    fs.writeFileSync(configPath, JSON.stringify(updatedConfig, null, 2));
-    console.log(`✅ Updated public/templates/${templateId}/config.json`);
-
-    // Run test renderer for ONLY this template to generate updated test output image
-    console.log(`🎨 Rendering updated test image for ${templateId}...`);
-    execSync(`npx ts-node -O '{"module":"commonjs"}' scripts/render-single.ts "${templateId}"`, { stdio: 'inherit' });
-
-    // Git & PR Creation Workflow
->>>>>>> Stashed changes
     const branchName = `template-improve/${templateId}`;
     console.log(`\n🌿 Creating git branch: ${branchName}...`);
 
