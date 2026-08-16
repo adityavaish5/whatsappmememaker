@@ -1,28 +1,28 @@
 {
   "id": "mocking-spongebob",
   "name": "Mocking SpongeBob",
-  "visual_description": "SpongeBob SquarePants bent over acting like a chicken with mismatched eyes and an open beak-like mouth.",
-  "usage_context": "Used to mockingly mimic someone's statement using alternating upper and lower case text.",
+  "visual_description": "SpongeBob crouched in a chicken-like pose with mismatched eyes and an open beak.",
+  "usage_context": "Used to mockingly mimic someone's statement using alternating capitalization.",
   "keywords": [
     "mocking spongebob",
     "spongebob chicken",
     "sarcasm",
     "mockery",
     "spongebob squarepants",
-    "nickelodeon",
-    "taunting"
+    "taunting",
+    "alternating caps"
   ],
   "sentiment": "sarcastic",
   "image_width": 502,
   "image_height": 353,
   "example": {
-    "top_text": "You can't just repeat what I say",
-    "bottom_text": "yOu CaN't JuSt RePeAt WhAt I sAy"
+    "top_text": "You need to act mature",
+    "bottom_text": "yOu nEeD tO aCt mAtUrE"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Original statement being mocked",
+      "description": "Original claim being mocked",
       "x": 10,
       "y": 10,
       "width": 482,
@@ -37,7 +37,7 @@
     },
     {
       "id": "bottom_text",
-      "description": "Mocking repetition in alternating case",
+      "description": "Mocking repetition with alternating uppercase and lowercase letters",
       "x": 10,
       "y": 285,
       "width": 482,
