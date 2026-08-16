@@ -68,6 +68,14 @@ async function run() {
     failed.forEach(f => console.log(`- ${f.id}`));
   }
   console.log(`==================================================`);
+
+  try {
+    const { execSync } = require('child_process');
+    console.log('\n🔄 Running template registry sync...');
+    execSync('node scripts/sync-template-registry.js', { stdio: 'inherit' });
+  } catch (err) {
+    console.error('❌ Failed to sync template registry:', err.message);
+  }
 }
 
 run().catch(console.error);

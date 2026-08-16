@@ -1,18 +1,17 @@
 {
   "id": "angry-anjali",
   "name": "Angry Anjali Stare",
-  "visual_description": "Kajol in a pink saree glaring suspiciously from behind a wooden door frame.",
-  "usage_context": "Conveying silent rage, deep suspicion, or stern disapproval when catching someone in the act.",
+  "visual_description": "Kajol as Anjali peering around a dark door frame with a suspicious, stern glare.",
+  "usage_context": "Used to show suspicion, judgment, or catching someone doing something secret or forbidden.",
   "keywords": [
     "angry anjali",
     "kajol",
     "k3g",
     "kabhi khushi kabhie gham",
+    "suspicious glare",
     "death stare",
-    "glare",
-    "suspicious",
     "judging",
-    "bollywood"
+    "indian meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1600,
@@ -24,9 +23,9 @@
   "text_areas": [
     {
       "id": "top_text",
-      "description": "The person or entity observing with intense scrutiny",
+      "description": "Entity or person doing the judging/observing",
       "x": 50,
-      "y": 30,
+      "y": 40,
       "width": 1500,
       "height": 110,
       "fontSize": 56,
@@ -39,9 +38,9 @@
     },
     {
       "id": "bottom_text",
-      "description": "The suspicious or forbidden action being watched",
+      "description": "The suspicious activity being caught",
       "x": 50,
-      "y": 760,
+      "y": 750,
       "width": 1500,
       "height": 110,
       "fontSize": 56,

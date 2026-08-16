@@ -1,33 +1,33 @@
 {
   "id": "amit-shah-aap-chronology-samajh-lijiye",
   "name": "Amit Shah Aap Chronology Samajh Lijiye",
-  "visual_description": "Amit Shah at a press conference gesturing with his fingers, with bottom text 'Aap chronology samajh lijiye'.",
-  "usage_context": "Used to sarcastically explain a ridiculous sequence of events, conspiracy theory, or escalation.",
+  "visual_description": "Amit Shah gesturing with his hand during a press conference with subtitle text 'Aap chronology samajh lijiye' at the bottom.",
+  "usage_context": "Used to humorously or sarcastically explain an escalating sequence of events, conspiracy theories, or cause-and-effect timelines.",
   "keywords": [
     "amit shah",
     "aap chronology samajh lijiye",
     "chronology",
     "bjp",
-    "indian politics",
-    "explanation",
-    "steps",
-    "timeline"
+    "politics",
+    "timeline",
+    "sequence",
+    "steps"
   ],
   "sentiment": "sarcastic",
   "image_width": 1200,
   "image_height": 675,
   "example": {
-    "top_text": "First you miss one lecture, then whole semester, then you start a startup"
+    "top_text": "FIRST YOU SKIP ONE CLASS, THEN THE SEMESTER, THEN YOU BECOME A LIFE COACH"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Chain of events or absurd timeline explanation",
-      "x": 30,
-      "y": 20,
-      "width": 1140,
+      "description": "Absurd sequence of events or timeline setup",
+      "x": 40,
+      "y": 25,
+      "width": 1120,
       "height": 130,
-      "fontSize": 44,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
       "maxLength": 120,

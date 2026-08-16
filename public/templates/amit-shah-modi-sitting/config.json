@@ -1,34 +1,34 @@
 {
   "id": "amit-shah-modi-sitting",
   "name": "Amit Shah and Modi in Shawls",
-  "visual_description": "Amit Shah tightly wrapped in a brown shawl covering his head and Narendra Modi wrapped in a cream shawl sitting outdoors in winter.",
-  "usage_context": "Used to depict extreme cold weather, early morning winter classes, or sitting quietly and shivering outdoors with a friend.",
+  "visual_description": "Amit Shah completely wrapped in a brown shawl over his head alongside Narendra Modi wrapped in a white shawl sitting outdoors in winter.",
+  "usage_context": "Used to joke about freezing winter mornings, Delhi cold waves, or attending early morning classes while shivering.",
   "keywords": [
     "amit shah",
     "modi",
     "narendra modi",
     "shawl",
-    "winter",
     "delhi winter",
-    "cold",
+    "cold wave",
     "shivering",
-    "bjp"
+    "bjp",
+    "early morning"
   ],
   "sentiment": "sarcastic",
   "image_width": 750,
   "image_height": 464,
   "example": {
-    "top_text": "ME AND BRO AT 6 AM WINTER TUITION"
+    "top_text": "Me and my friend at 6 AM winter tuition"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Caption describing early morning winter struggles or feeling frozen",
+      "description": "Text describing extreme cold or early morning struggles",
       "x": 20,
-      "y": 15,
+      "y": 10,
       "width": 710,
-      "height": 65,
-      "fontSize": 34,
+      "height": 55,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

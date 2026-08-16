@@ -1,19 +1,20 @@
 {
   "id": "amrish-puri-beautiful",
-  "name": "Amrish Puri Koyla Beautiful OK Sign",
-  "visual_description": "Amrish Puri with silver hair in a white sherwani smiling mischievously and showing an OK gesture.",
-  "usage_context": "Used to express perfection, sinister approval, satisfaction, or sarcastic praise.",
+  "name": "Amrish Puri Koyla Beautiful Gesture",
+  "visual_description": "Amrish Puri with shoulder-length grey hair in a white sherwani smiling delightfully and making an OK hand sign.",
+  "usage_context": "Used to express sinister perfection, utter satisfaction, smug approval, or sarcastic praise.",
   "keywords": [
     "amrish puri",
     "koyla",
     "raja saab",
     "beautiful",
-    "ok gesture",
+    "ok sign",
     "chef kiss",
-    "perfect",
-    "bollywood villain"
+    "perfection",
+    "bollywood villain",
+    "approval"
   ],
-  "sentiment": "positive",
+  "sentiment": "sarcastic",
   "image_width": 1248,
   "image_height": 824,
   "example": {

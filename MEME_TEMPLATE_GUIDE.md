@@ -2,11 +2,18 @@
 
 This guide explains the schema we use to add new meme templates to the generator. By giving the LLM rich metadata, we guarantee that the AI will understand the nuance of the meme and generate highly relevant text.
 
-## 1. Directory Structure
+## 1. Directory Structure and Type Safety
 
-Each meme template lives in its own dedicated folder inside `public/templates/`. The name of the folder is the unique ID for the meme. Inside the folder, there must be two files:
-- `config.json`: The metadata for the meme template.
-- `image.jpg`: The blank base image of the meme template.
+Each meme template lives in its own dedicated folder inside `public/templates/`. The name of the folder is the unique ID for the meme and **must be registered in the codebase**.
+
+### Type-Safe Mappings
+We maintain a centralized TypeScript Enum (`src/types/templates.ts`) that maps directories to strongly-typed identifiers. Every directory name has a corresponding `UPPERCASE_SNAKE_CASE` key. If a directory name starts with a number (e.g., `3-idiots-interview-scene`), the digit is spelled out (e.g., `THREE_IDIOTS_INTERVIEW_SCENE`).
+
+To register newly added template folders into the TypeScript Enum, run the sync command:
+```bash
+npm run sync:registry
+```
+The workspace scripts (`import-all-memes`, `refine-all-templates`, etc.) will trigger this command automatically.
 
 ```text
 public/
@@ -111,7 +118,12 @@ The system will automatically align the text and wrap words that exceed the `wid
    - Create a file named `config.json` next to the image (`public/templates/my_new_meme/config.json`).
    - Define the dimensions (`image_width`, `image_height`), the LLM instructions, and the `text_areas` bounding boxes.
 
-4. **Test it!** Run the app (`npm run dev`) and supply a chat context that matches your new template to see the LLM select it automatically!
+4. **Test and Register it!**
+   - Register your new template folder in the TypeScript Enum by running:
+     ```bash
+     npm run sync:registry
+     ```
+   - Run the app (`npm run dev`) and supply a chat context that matches your new template to see the LLM select it automatically!
 
 ---
 

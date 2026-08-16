@@ -1,8 +1,8 @@
 {
   "id": "aaj-mere-dukh-nirasha-ki-koi-seema-nahi-hai",
   "name": "Munna Bhai Saying Nahi",
-  "visual_description": "Munna Bhai (Sanjay Dutt) wearing a turquoise shirt in a hospital ward, giving an awkward, hesitant expression with the subtitle 'Nahi'.",
-  "usage_context": "Used to express an immediate, direct, or reluctant refusal to an absurd, unwanted, or unrealistic proposition.",
+  "visual_description": "Munna Bhai (Sanjay Dutt) wearing a turquoise shirt looking awkward and hesitant, with the subtitle 'Nahi'.",
+  "usage_context": "Used to express an immediate, hesitant, or funny refusal to an unwanted question or absurd request.",
   "keywords": [
     "munna bhai",
     "sanjay dutt",
@@ -10,28 +10,27 @@
     "no",
     "refusal",
     "munna bhai mbbs",
-    "bollywood",
-    "rejection",
-    "meme"
+    "bollywood meme",
+    "rejection"
   ],
-  "sentiment": "negative",
+  "sentiment": "sarcastic",
   "image_width": 1046,
   "image_height": 454,
   "example": {
-    "caption": "Kal subah 6 baje uthkar padhai karega?"
+    "caption": "Boss: Sunday ko thoda urgent kaam kar loge?"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or question being rejected with a straight 'No'",
-      "x": 30,
+      "description": "Situation or question being rejected",
+      "x": 20,
       "y": 15,
-      "width": 986,
-      "height": 75,
-      "fontSize": 36,
+      "width": 1006,
+      "height": 70,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
-      "maxLength": 70,
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

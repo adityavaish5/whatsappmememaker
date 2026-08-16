@@ -1,3 +1,7 @@
+import { MemeTemplateId } from './templates';
+
+export * from './templates';
+
 export interface TextArea {
   id: string;
   description: string; // Tells the LLM what kind of text belongs in this box
@@ -15,7 +19,7 @@ export interface TextArea {
 }
 
 export interface MemeTemplate {
-  id: string;
+  id: MemeTemplateId;
   name: string;
   visual_description: string; // What does the image physically show?
   usage_context: string; // When is this meme appropriate?
@@ -33,7 +37,7 @@ export interface GenerateMemeRequest {
 }
 
 export interface MemeGenerationResult {
-  selected_template_id: string;
+  selected_template_id: MemeTemplateId;
   text_payloads: Record<string, string>;
 }
 

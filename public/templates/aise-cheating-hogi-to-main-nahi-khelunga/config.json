@@ -1,8 +1,8 @@
 {
   "id": "aise-cheating-hogi-to-main-nahi-khelunga",
   "name": "Aise Cheating Hogi Toh Main Nahi Khelunga",
-  "visual_description": "Dr. Ghungroo (Paresh Rawal) in a white prayer cap complaining next to Ishika (Mallika Sherawat) in Welcome.",
-  "usage_context": "Used to protest unfair situations, sudden rule changes, or perceived cheating in playful frustration.",
+  "visual_description": "Dr. Ghungroo (Paresh Rawal) wearing a white cap and glasses complaining next to Ishika (Mallika Sherawat) in Welcome.",
+  "usage_context": "Expressing playful frustration when facing unfair rules, unexpected difficulties, or rigged situations.",
   "keywords": [
     "paresh rawal",
     "dr ghungroo",
@@ -11,23 +11,24 @@
     "aise cheating hogi",
     "cheating",
     "unfair",
-    "complaint"
+    "complaint",
+    "bollywood meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1200,
   "image_height": 550,
   "example": {
-    "caption": "When the interviewer asks questions outside the job description"
+    "caption": "When the exam has questions directly from the omitted syllabus"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Setup or situation text",
-      "x": 20,
+      "description": "Situation or setup text triggering the complaint",
+      "x": 30,
       "y": 15,
-      "width": 1160,
-      "height": 85,
-      "fontSize": 38,
+      "width": 1140,
+      "height": 80,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

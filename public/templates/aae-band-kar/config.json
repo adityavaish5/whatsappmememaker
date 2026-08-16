@@ -1,8 +1,8 @@
 {
   "id": "aae-band-kar",
   "name": "Aae Band Kar Band Kar",
-  "visual_description": "Jethalal panicking and waving his hands wildly while Taarak Mehta and Champaklal watch in shock.",
-  "usage_context": "Used to demand someone immediately stop doing something annoying, embarrassing, or cringe.",
+  "visual_description": "Panicking Jethalal frantically waving his hands while Taarak Mehta and Champaklal watch in shock.",
+  "usage_context": "Used to urgently tell someone to stop doing something annoying, embarrassing, or disastrous.",
   "keywords": [
     "jethalal",
     "taarak mehta",
@@ -11,23 +11,24 @@
     "band kar",
     "stop it",
     "cringe",
-    "dilip joshi"
+    "dilip joshi",
+    "panic"
   ],
   "sentiment": "negative",
   "image_width": 768,
   "image_height": 432,
   "example": {
-    "caption": "When friend plays cringe Reels on full volume in public"
+    "caption": "When your friend starts playing cringe reels on speaker in public"
   },
   "text_areas": [
     {
       "id": "caption",
       "description": "Situation causing panic or demand to stop",
       "x": 20,
-      "y": 12,
+      "y": 10,
       "width": 728,
-      "height": 65,
-      "fontSize": 32,
+      "height": 60,
+      "fontSize": 30,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

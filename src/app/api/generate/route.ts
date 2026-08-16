@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { createCanvas, loadImage, registerFont } from 'canvas';
-import { GenerateMemeRequest, MemeTemplate, LLMResponse } from '@/types';
+import { GenerateMemeRequest, MemeTemplate, LLMResponse, MemeTemplateId } from '@/types';
 
 import { google } from '@ai-sdk/google';
 import { generateText } from 'ai';
@@ -89,7 +89,7 @@ Instructions:
     return {
       memes: [
         {
-          selected_template_id: 'drake',
+          selected_template_id: MemeTemplateId.DRAKE,
           text_payloads: {
             top_right: "The LLM failed to connect",
             bottom_right: "But the fallback code works!"

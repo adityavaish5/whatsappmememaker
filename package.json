@@ -9,7 +9,8 @@
     "lint": "eslint",
     "test:templates": "ts-node -O '{\"module\":\"commonjs\"}' scripts/test-templates.ts",
     "refine:template": "node scripts/refine-template.js",
-    "refine:all": "node scripts/refine-all-templates.js"
+    "refine:all": "node scripts/refine-all-templates.js",
+    "sync:registry": "node scripts/sync-template-registry.js"
   },
   "dependencies": {
     "@ai-sdk/google": "^4.0.44",

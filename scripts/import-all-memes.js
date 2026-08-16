@@ -382,6 +382,14 @@ async function main() {
   }
 
   console.log(`\nImport completed! ${successCount}/${requestedMemes.length} templates configured.`);
+
+  try {
+    const { execSync } = require('child_process');
+    console.log('🔄 Running template registry sync...');
+    execSync('node scripts/sync-template-registry.js', { stdio: 'inherit' });
+  } catch (err) {
+    console.error('❌ Failed to sync template registry:', err.message);
+  }
 }
 
 main().catch(console.error);

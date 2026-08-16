@@ -1,8 +1,8 @@
 {
   "id": "akshay-kumar-stopping-himself",
   "name": "Akshay Kumar Controlling Hand (Housefull 3)",
-  "visual_description": "Akshay Kumar clenches his teeth while physically restraining his own extending arm.",
-  "usage_context": "Used to show extreme self-control against doing an impulsive, aggressive, or petty act.",
+  "visual_description": "Akshay Kumar clenches his jaw with his head tilted back, desperately using one hand to restrain his outstretched other hand.",
+  "usage_context": "Depicts extreme self-control while trying to stop oneself from doing or saying something impulsive, aggressive, or petty.",
   "keywords": [
     "akshay kumar",
     "housefull 3",
@@ -11,13 +11,14 @@
     "controlling hand",
     "holding back",
     "self control",
-    "urge"
+    "urge",
+    "restraining"
   ],
   "sentiment": "sarcastic",
   "image_width": 1080,
   "image_height": 708,
   "example": {
-    "caption": "Me stopping myself from saying 'told you so' to my best friend"
+    "caption": "Me stopping myself from saying 'Told you so' after warning them 10 times"
   },
   "text_areas": [
     {

@@ -1,13 +1,13 @@
 {
   "id": "ananya-pandey-maine-bahut-struggle-kiya-hai",
   "name": "Ananya Panday Maine Bohot Struggle Kiya Hai",
-  "visual_description": "Ananya Panday speaking earnestly in an interview with yellow subtitle text 'Mene bhot struggle kiya hai'.",
-  "usage_context": "Sarcastically mocking exaggerated hardship claims, first-world problems, or minor daily inconveniences.",
+  "visual_description": "Ananya Panday speaking earnestly in a roundtable interview with yellow caption text 'Mene bhot struggle kiya hai'.",
+  "usage_context": "Mocks exaggerated claims of hardship, privileged complaints, or trivial daily struggles.",
   "keywords": [
     "ananya pandey",
     "struggle",
     "mene bhot struggle kiya hai",
-    "rajeev masand interview",
+    "rajeev masand",
     "nepotism",
     "sarcasm",
     "first world problems"
@@ -16,20 +16,20 @@
   "image_width": 1280,
   "image_height": 720,
   "example": {
-    "top_text": "When you have to walk 10 steps to find your phone charger"
+    "top_text": "When you have to walk 5 steps to get the TV remote"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "The trivial inconvenience or fake hardship",
+      "description": "The trivial hardship or exaggerated struggle",
       "x": 40,
-      "y": 25,
+      "y": 20,
       "width": 1200,
-      "height": 140,
-      "fontSize": 48,
+      "height": 130,
+      "fontSize": 46,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"
