@@ -24,7 +24,6 @@ export interface MemeTemplate {
   image_width: number;
   image_height: number;
   example: Record<string, string>; // An example payload to help the LLM
-  filename: string;
   text_areas: TextArea[];
 }
 

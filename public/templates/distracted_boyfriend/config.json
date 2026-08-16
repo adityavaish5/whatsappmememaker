@@ -1,0 +1,62 @@
+{
+  "id": "distracted_boyfriend",
+  "name": "Distracted Boyfriend",
+  "visual_description": "A man walking with his girlfriend looks back checking out another attractive woman. The girlfriend looks offended.",
+  "usage_context": "Use when someone is distracted by a new, shiny, or bad thing while ignoring their current obligation, reliable option, or partner.",
+  "keywords": ["distracted", "boyfriend", "girlfriend", "jealous", "looking back"],
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 800,
+  "example": {
+    "new_thing": "New JS Framework",
+    "person": "Web Developers",
+    "old_thing": "The app they need to finish"
+  },
+  "text_areas": [
+    {
+      "id": "new_thing",
+      "description": "The new, attractive distraction (woman in red)",
+      "x": 100,
+      "y": 450,
+      "width": 350,
+      "height": 300,
+      "fontSize": 40,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "person",
+      "description": "The person being distracted (the boyfriend)",
+      "x": 550,
+      "y": 350,
+      "width": 300,
+      "height": 250,
+      "fontSize": 40,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "old_thing",
+      "description": "The neglected original obligation/option (the angry girlfriend)",
+      "x": 900,
+      "y": 400,
+      "width": 250,
+      "height": 250,
+      "fontSize": 40,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

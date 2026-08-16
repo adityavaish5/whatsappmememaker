@@ -7,9 +7,23 @@ import { GenerateMemeRequest, MemeTemplate, LLMResponse } from '@/types';
 import { google } from '@ai-sdk/google';
 import { generateText } from 'ai';
 
-// Read registry once
-const registryPath = path.join(process.cwd(), 'public', 'templates', 'registry.json');
-const templates: MemeTemplate[] = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
+// Dynamically build the registry by reading the templates directory
+const templatesDir = path.join(process.cwd(), 'public', 'templates');
+const templates: MemeTemplate[] = [];
+
+if (fs.existsSync(templatesDir)) {
+  const folders = fs.readdirSync(templatesDir, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name);
+  
+  for (const folder of folders) {
+    const configPath = path.join(templatesDir, folder, 'config.json');
+    if (fs.existsSync(configPath)) {
+      const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+      templates.push(config);
+    }
+  }
+}
 
 async function getMemeFromLLM(reqData: GenerateMemeRequest): Promise<LLMResponse> {
   // Build a minimal catalog for the LLM to save tokens and keep it focused
@@ -136,19 +150,19 @@ export async function POST(req: NextRequest) {
       }
 
       // 3. Load image buffer
-      const imagePath = path.join(process.cwd(), 'public', 'templates', template.filename);
+      const imagePath = path.join(process.cwd(), 'public', 'templates', template.id, 'image.jpg');
       
       let image;
       try {
         image = await loadImage(imagePath);
       } catch(e) {
-        const dummyCanvas = createCanvas(1200, 1200);
+        const dummyCanvas = createCanvas(template.image_width || 1200, template.image_height || 1200);
         const dctx = dummyCanvas.getContext('2d');
         dctx.fillStyle = '#cccccc';
-        dctx.fillRect(0, 0, 1200, 1200);
+        dctx.fillRect(0, 0, dummyCanvas.width, dummyCanvas.height);
         dctx.fillStyle = '#000000';
         dctx.font = '40px Arial';
-        dctx.fillText('Placeholder Image for: ' + template.filename, 100, 100);
+        dctx.fillText('Placeholder Image for: ' + template.id, 100, 100);
         template.text_areas.forEach(area => {
           dctx.strokeStyle = 'red';
           dctx.lineWidth = 4;

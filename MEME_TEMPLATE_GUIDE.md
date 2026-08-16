@@ -2,57 +2,89 @@
 
 This guide explains the schema we use to add new meme templates to the generator. By giving the LLM rich metadata, we guarantee that the AI will understand the nuance of the meme and generate highly relevant text.
 
-## 1. The Schema (`MemeTemplate` and `TextArea`)
+## 1. Directory Structure
 
-Every template lives inside `public/templates/registry.json` and must adhere to the following schema:
+Each meme template lives in its own dedicated folder inside `public/templates/`. The name of the folder is the unique ID for the meme. Inside the folder, there must be two files:
+- `config.json`: The metadata for the meme template.
+- `image.jpg`: The blank base image of the meme template.
 
-```typescript
-export interface TextArea {
-  id: string; // A unique programmatic ID for this specific text box (e.g. "top_right")
-  description: string; // Critical: Tell the LLM exactly what belongs here (e.g., "The bad/rejected option")
-  
-  // Coordinates and Size (measured from the top-left of the image)
-  x: number;
-  y: number;
-  width: number;
-  height: number;
-  
-  // Styling
-  fontSize: number;
-  color: string; // e.g., "black" or "white"
-  stroke?: string; // Optional: Outline color (e.g., "black" for classic meme font)
-  
-  // Constraints & Modifiers
-  maxLength?: number; // Optional soft limit to prevent the LLM from writing an essay
-  uppercase?: boolean; // If true, forces text to render IN ALL CAPS
-  textAlign?: 'left' | 'center' | 'right'; // Defaults to 'center'
-  fontFamily?: string; // Defaults to 'Arial'. Use 'Impact' for classic memes.
-}
+```text
+public/
+  templates/
+    drake/
+      config.json
+      image.jpg
+    distracted_boyfriend/
+      config.json
+      image.jpg
+    two_buttons/
+      config.json
+      image.jpg
+```
 
-export interface MemeTemplate {
-  id: string; // Global unique identifier for the template (e.g., "distracted_boyfriend")
-  name: string; // Human readable name
-  
-  // AI Context Metadata
-  visual_description: string; // Detail exactly what is happening in the picture
-  usage_context: string; // Explain to the AI *when* it should choose this template
-  keywords: string[]; // Search tags
-  sentiment?: 'positive' | 'negative' | 'neutral' | 'sarcastic' | 'comparison' | 'custom';
-  
-  // Dimensions
-  image_width: number;
-  image_height: number;
-  
-  // Reference
-  example: Record<string, string>; // Keys must match TextArea IDs. Provides a few shot example for the AI.
-  
-  // File bindings
-  filename: string; // Must exactly match the image file in the public/templates folder
-  text_areas: TextArea[];
+## 2. The Configuration Schema (`config.json`)
+
+The `config.json` inside a template folder must adhere to the following structure:
+
+```json
+{
+  "id": "two_buttons",
+  "name": "Two Buttons",
+  "visual_description": "A superhero sweating, struggling to choose between two red buttons.",
+  "usage_context": "Use when someone is faced with two difficult, contradictory, or equally bad choices.",
+  "keywords": ["choice", "sweating", "two buttons", "hard decision"],
+  "sentiment": "comparison",
+  "image_width": 600,
+  "image_height": 908,
+  "example": {
+    "left_button": "Sleep 8 hours",
+    "right_button": "Fix one more bug"
+  },
+  "text_areas": [
+    {
+      "id": "left_button",
+      "description": "The first difficult choice",
+      "x": 60,
+      "y": 90,
+      "width": 200,
+      "height": 100,
+      "fontSize": 24,
+      "color": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "right_button",
+      "description": "The second difficult choice",
+      "x": 300,
+      "y": 60,
+      "width": 200,
+      "height": 100,
+      "fontSize": 24,
+      "color": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
 }
 ```
 
-## 2. How to find the Coordinates (`x, y, width, height`)
+### Text Area Properties:
+- `id`: A unique programmatic ID for this specific text box.
+- `description`: **Critical** Tells the LLM exactly what type of joke or phrase belongs here.
+- `x`, `y`, `width`, `height`: The bounding box coordinates (measured from top-left of the image).
+- `fontSize`, `color`: Text styling (e.g., `48`, `"white"`).
+- `stroke`: Optional outline color (e.g., `"black"` for classic memes).
+- `maxLength`: Soft character limit to guide the LLM's response length.
+- `uppercase`: Set to `true` to force text into ALL CAPS.
+- `textAlign`: `'left'`, `'center'`, or `'right'`.
+- `fontFamily`: Defaults to `'Arial'`. Use `'Impact'` for classic internet memes.
+
+## 3. How to find the Coordinates (`x, y, width, height`)
 
 To map out a new template, you need to define the "bounding boxes" where text is allowed to be drawn. 
 
@@ -64,54 +96,19 @@ To map out a new template, you need to define the "bounding boxes" where text is
    - `width`: Width of the rectangle.
    - `height`: Height of the rectangle.
 
-The system will automatically center the text (horizontally and vertically) *inside* this bounding box and wrap words that exceed the `width`.
+The system will automatically align the text and wrap words that exceed the `width` inside this box.
 
-## 3. Adding a new Meme (Step-by-Step)
+## 4. Adding a new Meme (Step-by-Step)
 
-1. **Download the Image:**
-   - Find a high-quality, blank version of the meme template.
-   - Save it as a `.jpg` or `.png` into `public/templates/` (e.g., `public/templates/my_meme.jpg`).
+1. **Create the Folder:**
+   - Create a new directory under `public/templates/` (e.g., `public/templates/my_new_meme`).
    
-2. **Measure the text areas:**
-   - Find the image's total dimensions (`image_width`, `image_height`).
-   - Find the coordinates for each text box as described above.
+2. **Add the Image:**
+   - Find a high-quality, blank version of the meme template.
+   - Save it EXACTLY as `image.jpg` into your new folder (`public/templates/my_new_meme/image.jpg`).
+   
+3. **Add the Config:**
+   - Create a file named `config.json` next to the image (`public/templates/my_new_meme/config.json`).
+   - Define the dimensions (`image_width`, `image_height`), the LLM instructions, and the `text_areas` bounding boxes.
 
-3. **Add to `registry.json`:**
-   - Open `public/templates/registry.json`.
-   - Add a new JSON object to the array following the schema.
-   - Example addition:
-   ```json
-   {
-     "id": "two_buttons",
-     "name": "Two Buttons",
-     "visual_description": "A superhero sweating, struggling to choose between two red buttons.",
-     "usage_context": "Use when someone is faced with two difficult, contradictory, or equally bad choices.",
-     "keywords": ["choice", "sweating", "two buttons", "hard decision"],
-     "sentiment": "comparison",
-     "image_width": 600,
-     "image_height": 908,
-     "example": {
-       "left_button": "Sleep 8 hours",
-       "right_button": "Fix one more bug",
-       "guy": "Programmers"
-     },
-     "filename": "two_buttons.jpg",
-     "text_areas": [
-       {
-         "id": "left_button",
-         "description": "The first difficult choice",
-         "x": 60, "y": 90, "width": 200, "height": 100,
-         "fontSize": 24, "color": "black",
-         "uppercase": true, "textAlign": "center"
-       },
-       {
-         "id": "right_button",
-         "description": "The second difficult choice",
-         "x": 300, "y": 60, "width": 200, "height": 100,
-         "fontSize": 24, "color": "black",
-         "uppercase": true, "textAlign": "center"
-       }
-     ]
-   }
-   ```
-4. **Test it!** Run the app and supply a context that matches your new template to see the LLM select it automatically!
+4. **Test it!** Run the app (`npm run dev`) and supply a chat context that matches your new template to see the LLM select it automatically!
