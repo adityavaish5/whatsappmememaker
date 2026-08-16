@@ -107,6 +107,10 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
       execSync(`git checkout -b ${branchName}`, { stdio: 'pipe' });
     } catch (e) {
       execSync(`git checkout ${branchName}`, { stdio: 'pipe' });
+      // Ensure we have the latest master/main files (like scripts/render-single.ts) in the branch
+      try {
+        execSync(`git merge main --no-edit`, { stdio: 'pipe' });
+      } catch (err) {}
     }
 
     const result = await model.generateContent([
