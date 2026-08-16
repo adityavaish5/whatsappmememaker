@@ -1,0 +1,53 @@
+{
+  "id": "ancient-aliens",
+  "name": "Ancient Aliens / Giorgio A. Tsoukalos",
+  "visual_description": "Giorgio Tsoukalos with eccentric poofy hair gesturing with both hands outward on the History Channel.",
+  "usage_context": "Humorously attributing unexplainable situations, everyday mysteries, or absurd logic to aliens or wild conspiracies.",
+  "keywords": [
+    "ancient aliens",
+    "giorgio tsoukalos",
+    "aliens guy",
+    "history channel",
+    "conspiracy",
+    "aliens meme"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 500,
+  "image_height": 446,
+  "example": {
+    "top_text": "I'M NOT SAYING IT WAS ALIENS",
+    "bottom_text": "BUT IT WAS ALIENS"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Setup or premise",
+      "x": 10,
+      "y": 15,
+      "width": 480,
+      "height": 75,
+      "fontSize": 34,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Punchline concluding it was aliens",
+      "x": 10,
+      "y": 355,
+      "width": 480,
+      "height": 75,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

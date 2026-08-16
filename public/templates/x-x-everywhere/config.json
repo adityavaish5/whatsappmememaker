@@ -1,0 +1,54 @@
+{
+  "id": "x-x-everywhere",
+  "name": "X, X Everywhere",
+  "visual_description": "Buzz Lightyear with his arm around a concerned Woody, gesturing expansively toward the room.",
+  "usage_context": "Highlighting an overwhelming abundance or irritating ubiquity of something.",
+  "keywords": [
+    "buzz lightyear",
+    "woody",
+    "toy story",
+    "everywhere",
+    "pixar",
+    "gesturing",
+    "abundance"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 2118,
+  "image_height": 1440,
+  "example": {
+    "top_text": "ENGINEERS",
+    "bottom_text": "ENGINEERS EVERYWHERE"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "The item or concept observed",
+      "x": 60,
+      "y": 40,
+      "width": 1998,
+      "height": 180,
+      "fontSize": 96,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Phrase completing '[Item], [Item] Everywhere'",
+      "x": 60,
+      "y": 1220,
+      "width": 1998,
+      "height": 180,
+      "fontSize": 96,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

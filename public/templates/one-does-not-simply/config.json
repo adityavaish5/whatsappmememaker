@@ -1,0 +1,54 @@
+{
+  "id": "one-does-not-simply",
+  "name": "One Does Not Simply",
+  "visual_description": "Boromir from Lord of the Rings making a hand gesture with an earnest, strained expression in warm lighting.",
+  "usage_context": "Used to explain that a particular task or action is far more difficult, perilous, or complex than people assume.",
+  "keywords": [
+    "one does not simply",
+    "boromir",
+    "lord of the rings",
+    "sean bean",
+    "mordor",
+    "warning",
+    "difficulty"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 568,
+  "image_height": 335,
+  "example": {
+    "top_text": "ONE DOES NOT SIMPLY",
+    "bottom_text": "WALK INTO MORDOR"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "The setup clause, typically 'ONE DOES NOT SIMPLY'",
+      "x": 20,
+      "y": 20,
+      "width": 528,
+      "height": 67,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "The impossible or difficult action being attempted",
+      "x": 20,
+      "y": 251,
+      "width": 528,
+      "height": 67,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

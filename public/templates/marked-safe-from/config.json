@@ -1,0 +1,37 @@
+{
+  "id": "marked-safe-from",
+  "name": "Marked Safe From",
+  "visual_description": "A Facebook Safety Check-inspired notification featuring a blue flag icon on a white background with text reading 'Marked Safe From' above and 'Today' below.",
+  "usage_context": "Used sarcastically to announce avoiding a trivial inconvenience, viral trend, annoying pop culture event, or workplace drama.",
+  "keywords": [
+    "marked safe from",
+    "facebook safety check",
+    "blue flag",
+    "avoided",
+    "pop culture",
+    "trend"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 618,
+  "image_height": 499,
+  "example": {
+    "event": "Watching the Super Bowl"
+  },
+  "text_areas": [
+    {
+      "id": "event",
+      "description": "The annoying trend, event, or situation you successfully avoided",
+      "x": 30,
+      "y": 260,
+      "width": 558,
+      "height": 90,
+      "fontSize": 34,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    }
+  ]
+}

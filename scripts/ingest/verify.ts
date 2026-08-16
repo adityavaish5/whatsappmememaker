@@ -22,44 +22,11 @@ export async function verifyCandidateQA(
     const memeBuffer = await renderMeme(config as any, renderPayload);
     fs.writeFileSync(previewPath, memeBuffer);
 
-    // 2. Query Gemini Vision to evaluate preview image QA score
-    const base64Image = memeBuffer.toString('base64');
-
-    const prompt = `You are a quality assurance expert for meme graphics.
-Inspect this rendered meme image against the following criteria:
-
-1. Text Legibility: Is the rendered text readable and clearly legible against the image background?
-2. Bounding & Alignment: Is the text placed in reasonable areas/panels without running off the outer image edges?
-3. Visuals: Does the meme look usable for internet sharing? Note that classic meme styling (bold ALL CAPS Impact text with black stroke) is standard and expected.
-
-Respond ONLY with a valid JSON object matching this schema (no markdown formatting, no code blocks):
-{
-  "score": number, // integer from 0 to 100
-  "passed": boolean, // true if score >= 70
-  "feedback": "short explanation of scoring"
-}`;
-
-    const result = await genAI.models.generateContent({
-      model: 'gemini-3.7-flash',
-      contents: [{
-        role: 'user',
-        parts: [
-          { text: prompt },
-          { inlineData: { mimeType: 'image/png', data: base64Image } },
-        ],
-      }],
-    });
-
-    const rawText = (result.text ?? '').trim().replace(/^```json\s*/i, '').replace(/\s*```$/i, '');
-    const json = JSON.parse(rawText);
-
-    const score = typeof json.score === 'number' ? json.score : 75;
-    const passed = score >= 70;
-
+    // Skip Gemini QA check as requested by the user
     return {
-      score,
-      passed,
-      feedback: json.feedback || 'QA evaluation completed.',
+      score: 100,
+      passed: true,
+      feedback: 'Rendered successfully (Gemini QA check skipped)',
     };
   } catch (err: any) {
     console.warn(`⚠️ QA verification error for ${slug}:`, err?.message || err);

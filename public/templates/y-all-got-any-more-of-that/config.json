@@ -1,0 +1,53 @@
+{
+  "id": "y-all-got-any-more-of-that",
+  "name": "Y'all Got Any More Of That",
+  "visual_description": "Dave Chappelle as Tyrone Biggums in a red beanie and jacket, scratching his neck with a desperate craving expression and white residue around his mouth.",
+  "usage_context": "Used humorously to depict desperate craving, addiction, or intense anticipation for something trivial, rare, or entertaining.",
+  "keywords": [
+    "dave chappelle",
+    "tyrone biggums",
+    "yall got any more",
+    "craving",
+    "scratching neck",
+    "addict"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 600,
+  "image_height": 471,
+  "example": {
+    "top_text": "Y'ALL GOT ANY MORE OF THEM",
+    "bottom_text": "WEEKENDS?"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Opening phrase, typically 'Y'all got any more of that/them'",
+      "x": 20,
+      "y": 20,
+      "width": 560,
+      "height": 94,
+      "fontSize": 40,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "The desired object or topic being craved",
+      "x": 20,
+      "y": 353,
+      "width": 560,
+      "height": 98,
+      "fontSize": 40,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

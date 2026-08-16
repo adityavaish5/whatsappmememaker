@@ -1,0 +1,69 @@
+{
+  "id": "is-this-a-pigeon",
+  "name": "Is This A Pigeon",
+  "visual_description": "An anime man with glasses gestures with an open palm toward a fluttering yellow butterfly.",
+  "usage_context": "Used to satirize utter confusion or the complete misidentification of an obvious concept or object.",
+  "keywords": [
+    "is this a pigeon",
+    "butterfly",
+    "anime",
+    "confusion",
+    "misunderstanding",
+    "yutaro katori"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 1587,
+  "image_height": 1425,
+  "example": {
+    "person_label": "Software Engineers",
+    "butterfly_label": "A minor bug",
+    "subtitle_text": "Is this a complete rewrite?"
+  },
+  "text_areas": [
+    {
+      "id": "person_label",
+      "description": "Label for the man making the gesture",
+      "x": 80,
+      "y": 780,
+      "width": 500,
+      "height": 180,
+      "fontSize": 42,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 35,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "butterfly_label",
+      "description": "Label for the yellow butterfly",
+      "x": 1050,
+      "y": 380,
+      "width": 480,
+      "height": 180,
+      "fontSize": 42,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 35,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "subtitle_text",
+      "description": "Bottom question caption (usually 'Is this a [X]?')",
+      "x": 50,
+      "y": 1260,
+      "width": 1487,
+      "height": 130,
+      "fontSize": 46,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

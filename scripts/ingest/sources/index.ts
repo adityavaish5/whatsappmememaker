@@ -3,7 +3,7 @@ import { fetchImgflipCandidates } from './imgflip';
 
 export async function fetchCandidates(options: IngestOptions): Promise<MemeCandidate[]> {
   console.log('📡 Fetching candidates from Imgflip API...');
-  const limit = Math.max(100, (options.limit || 5) * 10);
+  const limit = options.limit || 5;
   const candidates = await fetchImgflipCandidates(limit);
   console.log(`✓ Fetched ${candidates.length} candidates from Imgflip.`);
   return candidates;

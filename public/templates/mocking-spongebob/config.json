@@ -1,16 +1,16 @@
 {
   "id": "mocking-spongebob",
   "name": "Mocking SpongeBob",
-  "visual_description": "SpongeBob bent over flapping his arms like a chicken with mismatched eyes and an open mouth.",
-  "usage_context": "Used to mockingly repeat opinions or rules in alternating upper and lowercase letters.",
+  "visual_description": "SpongeBob SquarePants bent over acting like a chicken with mismatched eyes and an open beak-like mouth.",
+  "usage_context": "Used to mockingly mimic someone's statement using alternating upper and lower case text.",
   "keywords": [
     "mocking spongebob",
     "spongebob chicken",
     "sarcasm",
     "mockery",
-    "taunt",
+    "spongebob squarepants",
     "nickelodeon",
-    "derision"
+    "taunting"
   ],
   "sentiment": "sarcastic",
   "image_width": 502,
@@ -39,7 +39,7 @@
       "id": "bottom_text",
       "description": "Mocking repetition in alternating case",
       "x": 10,
-      "y": 288,
+      "y": 285,
       "width": 482,
       "height": 55,
       "fontSize": 30,

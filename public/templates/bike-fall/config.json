@@ -1,0 +1,70 @@
+{
+  "id": "bike-fall",
+  "name": "Bicycle Fall / Stick in Bike Wheel",
+  "visual_description": "Three-panel webcomic of a man riding a bicycle, jamming a stick into the front spokes, and falling over in pain.",
+  "usage_context": "Used to mock self-inflicted failures where an individual or group causes their own problem and blames an innocent scapegoat.",
+  "keywords": [
+    "bike fall",
+    "stick in bike wheel",
+    "batonoue",
+    "self sabotage",
+    "blame game",
+    "bicycle meme",
+    "falling off bike"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 500,
+  "image_height": 680,
+  "example": {
+    "panel_1": "Me staying up until 4 AM binge-watching reels",
+    "panel_2": "Setting alarm for 7 AM",
+    "panel_3": "Why is corporate life so exhausting?"
+  },
+  "text_areas": [
+    {
+      "id": "panel_1",
+      "description": "Initial setup or peaceful state",
+      "x": 20,
+      "y": 30,
+      "width": 460,
+      "height": 60,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "panel_2",
+      "description": "The self-sabotaging decision or action",
+      "x": 20,
+      "y": 270,
+      "width": 460,
+      "height": 60,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "panel_3",
+      "description": "The complaint blaming an external factor for the failure",
+      "x": 20,
+      "y": 485,
+      "width": 460,
+      "height": 60,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

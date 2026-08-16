@@ -20,10 +20,17 @@ function parseArgs(): IngestOptions {
     dryRun: false,
   };
 
-  for (const arg of args) {
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
     if (arg.startsWith('--limit=')) {
       const val = parseInt(arg.split('=')[1], 10);
       if (!isNaN(val) && val > 0) options.limit = val;
+    } else if (arg === '--limit' && i + 1 < args.length) {
+      const val = parseInt(args[i + 1], 10);
+      if (!isNaN(val) && val > 0) {
+        options.limit = val;
+        i++; // skip next arg
+      }
     } else if (arg === '--dry-run') {
       options.dryRun = true;
     }
@@ -69,6 +76,27 @@ async function main() {
 
     processedCount++;
     const slug = candidate.suggestedSlug || 'unknown';
+
+    // 1. Quick local duplicate check upfront (before downloading/processing)
+    const templatesDir = path.join(process.cwd(), 'public', 'templates');
+    if (fs.existsSync(templatesDir)) {
+      const existingDirs = fs.readdirSync(templatesDir);
+      const normalizedCandidateSlug = slug.replace(/[-_]/g, '');
+
+      const duplicateDir = existingDirs.find((dir) => {
+        const normalizedExisting = dir.replace(/[-_]/g, '');
+        return dir === slug || normalizedExisting === normalizedCandidateSlug || normalizedCandidateSlug.includes(normalizedExisting) || normalizedExisting.includes(normalizedCandidateSlug);
+      });
+
+      if (duplicateDir) {
+        console.log(`\n--------------------------------------------------`);
+        console.log(`[${processedCount}/${candidates.length}] Skipping duplicate candidate: "${candidate.title}" -> '${slug}'`);
+        console.log(`  ⏭️ Skipped: Template already exists locally under 'public/templates/${duplicateDir}'.`);
+        summary.push({ slug, name: candidate.title, status: 'skipped', reason: `Template already exists locally under '${duplicateDir}'` });
+        continue;
+      }
+    }
+
     console.log(`\n--------------------------------------------------`);
     console.log(`[${processedCount}/${candidates.length}] Processing candidate: "${candidate.title}" -> '${slug}'`);
 
@@ -80,7 +108,7 @@ async function main() {
       const height = canvasImg.height;
 
       // Filter Check (Deduplication & Blank Template Verification)
-      console.log(`  🔍 Running deduplication & blank-template inspection...`);
+      console.log(`  🔍 Running blank-template inspection...`);
       const inspection = await inspectCandidate(candidate, imageBuffer, genAI);
 
       if (!inspection.passedFilter) {
@@ -112,26 +140,26 @@ async function main() {
       const configPath = path.join(templateDir, 'config.json');
       fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
 
-      // QA Verification via Canvas & Gemini Vision
-      console.log(`  🎨 Rendering preview & running Vision QA check...`);
+      // Render Preview
+      console.log(`  🎨 Rendering preview image...`);
       const qa = await verifyCandidateQA(config, genAI);
 
-      if (!qa.passed) {
-        console.warn(`  ❌ QA Failed (Score ${qa.score}/100): ${qa.feedback}`);
-        // Clean up directory if QA failed
-        if (fs.existsSync(templateDir)) {
-          fs.rmSync(templateDir, { recursive: true, force: true });
-        }
-        summary.push({ slug, name: candidate.title, status: 'failed', reason: `QA score ${qa.score}: ${qa.feedback}` });
-        continue;
-      }
-
-      console.log(`  ✨ QA Passed (Score ${qa.score}/100): ${qa.feedback}`);
+      console.log(`  ✨ Render Completed (Score ${qa.score}/100): ${qa.feedback}`);
       console.log(`  🎉 Successfully created public/templates/${slug}/!`);
 
       addedCount++;
       addedSlugs.push(slug);
       summary.push({ slug, name: candidate.title, status: 'added' });
+
+      // Run refine-template.js immediately after ingest is done for this meme
+      console.log(`  🔧 Running auto-refinement for '${slug}'...`);
+      try {
+        execSync(`node scripts/refine-template.js ${slug} --no-git`, { stdio: 'inherit' });
+        console.log(`  ✓ Auto-refinement completed for '${slug}'.`);
+      } catch (err: any) {
+        console.warn(`  ⚠️ Refinement failed for '${slug}': ${err?.message || err}`);
+      }
+
     } catch (err: any) {
       console.error(`  ❌ Error processing '${slug}':`, err?.message || err);
       summary.push({ slug, name: candidate.title, status: 'failed', reason: err?.message || String(err) });
@@ -146,20 +174,6 @@ async function main() {
       console.log(`✓ Registry sync completed.`);
     } catch (err: any) {
       console.error(`Failed to sync registry:`, err?.message || err);
-    }
-
-    // Auto-refine newly added templates
-    if (addedSlugs.length > 0) {
-      console.log(`\n🔧 Auto-refining ${addedSlugs.length} newly added template(s)...`);
-      for (const slug of addedSlugs) {
-        try {
-          console.log(`\n  Refining '${slug}'...`);
-          execSync(`node scripts/refine-template.js ${slug}`, { stdio: 'inherit' });
-        } catch (err: any) {
-          console.warn(`  ⚠️ Refine skipped for '${slug}': ${err?.message || err}`);
-        }
-      }
-      console.log(`\n✓ Auto-refine completed for all new templates.`);
     }
   }
 

@@ -1,0 +1,54 @@
+{
+  "id": "trade-offer",
+  "name": "Trade Offer",
+  "visual_description": "A man in a suit steeple-fingering intently beneath a red 'TRADE OFFER' banner with purple neon lighting.",
+  "usage_context": "Used to propose absurdly unbalanced, one-sided, or humorous bargains and transactions.",
+  "keywords": [
+    "trade offer",
+    "i receive you receive",
+    "deal",
+    "bargain",
+    "suit",
+    "business",
+    "tiktok"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 607,
+  "image_height": 794,
+  "example": {
+    "i_receive": "Your continuous attention",
+    "you_receive": "A funny picture of a cat"
+  },
+  "text_areas": [
+    {
+      "id": "i_receive",
+      "description": "The item or benefit the speaker gets in the trade",
+      "x": 30,
+      "y": 225,
+      "width": 250,
+      "height": 135,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "you_receive",
+      "description": "The item or benefit the other party gets in the trade",
+      "x": 327,
+      "y": 225,
+      "width": 250,
+      "height": 135,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

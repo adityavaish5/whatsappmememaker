@@ -1,0 +1,55 @@
+{
+  "id": "disaster-girl",
+  "name": "Disaster Girl",
+  "visual_description": "A young girl glances back at the camera with a sly smirk while a house burns uncontrollably in the background.",
+  "usage_context": "Humorously portraying a scenario where someone secretly caused a catastrophe or takes malicious joy in chaos.",
+  "keywords": [
+    "disaster girl",
+    "fire",
+    "burning house",
+    "smirk",
+    "evil smile",
+    "revenge",
+    "chaos",
+    "firefighter"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 500,
+  "image_height": 375,
+  "example": {
+    "top_text": "THEY WOULDN'T LET ME PLAY VIDEO GAMES",
+    "bottom_text": "SO I PLAYED WITH MATCHES"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Setup describing a slight, conflict, or initial condition",
+      "x": 25,
+      "y": 20,
+      "width": 450,
+      "height": 75,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Punchline revealing vindictive sabotage or extreme retaliation",
+      "x": 25,
+      "y": 281,
+      "width": 450,
+      "height": 75,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

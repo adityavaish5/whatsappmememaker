@@ -32,6 +32,18 @@ if (!apiKey) {
 
 const genAI = new GoogleGenAI({ apiKey });
 
+function renderTemplatePreview(templateId) {
+  try {
+    console.log(`🎨 Rendering preview image for ${templateId}...`);
+    execSync(`npx ts-node -O '{"module":"commonjs"}' scripts/render-single.ts "${templateId}"`, { stdio: 'inherit' });
+    console.log(`✅ Preview saved to test-output/${templateId}.png`);
+    return true;
+  } catch (error) {
+    console.warn(`⚠️ Could not generate preview image for ${templateId}:`, error?.message || error);
+    return false;
+  }
+}
+
 async function run() {
   console.log(`\n🔍 Analyzing template: ${templateId}...`);
 
@@ -95,6 +107,10 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
   try {
     // Git & PR Creation Workflow - MUST checkout branch BEFORE modifying files!
     const branchName = `template-improve/${templateId}`;
+    let existingConfigBackup = null;
+    if (fs.existsSync(configPath)) {
+      existingConfigBackup = fs.readFileSync(configPath, 'utf8');
+    }
     if (!noGit) {
       console.log(`\n🌿 Creating git branch: ${branchName}...`);
 
@@ -102,6 +118,10 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
         execSync(`git checkout main`, { stdio: 'pipe' });
         execSync(`git pull origin main`, { stdio: 'pipe' });
       } catch (e) {}
+
+      if (existingConfigBackup && !fs.existsSync(configPath)) {
+        fs.writeFileSync(configPath, existingConfigBackup, 'utf8');
+      }
 
       try {
         execSync(`git checkout -b ${branchName}`, { stdio: 'pipe' });
@@ -192,8 +212,11 @@ Check test-output/${templateId}.png for the newly rendered sample.`;
         console.log("Error checking/creating PR (might exist or CLI auth error):", e.message);
       }
 
-      // Switch back to main branch
+      // Switch back to main branch and preserve config.json on main
       execSync(`git checkout main`, { stdio: 'pipe' });
+      try {
+        execSync(`git checkout ${branchName} -- ${configPath}`, { stdio: 'pipe' });
+      } catch (e) {}
     }
 
   } catch (err) {
