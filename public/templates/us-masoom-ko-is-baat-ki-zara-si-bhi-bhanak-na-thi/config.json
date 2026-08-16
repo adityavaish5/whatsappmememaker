@@ -1,0 +1,39 @@
+{
+  "id": "us-masoom-ko-is-baat-ki-zara-si-bhi-bhanak-na-thi",
+  "name": "Us Masoom Ko Is Baat Ki Zara Si Bhi Bhanak Na Thi (Crime Patrol)",
+  "visual_description": "Indian meme template: Us Masoom Ko Is Baat Ki Zara Si Bhi Bhanak Na Thi (Crime Patrol)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Us Masoom Ko Is Baat Ki Zara Si Bhi Bhanak Na Thi (Crime Patrol)'",
+  "keywords": [
+    "indian meme",
+    "masoom",
+    "baat",
+    "zara",
+    "bhi",
+    "bhanak",
+    "thi",
+    "(crime",
+    "patrol)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Us Masoom Ko Is Baat Ki Zara Si Bhi Bhanak Na Thi (Crime Patrol)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "meri-rooh-ka-parinda-phadphadaye",
+  "name": "Meri Rooh Ka Parinda Phadphadaye",
+  "visual_description": "Indian meme template: Meri Rooh Ka Parinda Phadphadaye",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Meri Rooh Ka Parinda Phadphadaye'",
+  "keywords": [
+    "indian meme",
+    "meri",
+    "rooh",
+    "parinda",
+    "phadphadaye"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Meri Rooh Ka Parinda Phadphadaye"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

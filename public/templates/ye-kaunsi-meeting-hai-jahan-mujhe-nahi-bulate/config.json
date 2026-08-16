@@ -1,0 +1,40 @@
+{
+  "id": "ye-kaunsi-meeting-hai-jahan-mujhe-nahi-bulate",
+  "name": "Ye Kaunsi Meeting Hai Jahan Mujhe Nahi Bulate (Abhishek Upmanyu)",
+  "visual_description": "Indian meme template: Ye Kaunsi Meeting Hai Jahan Mujhe Nahi Bulate (Abhishek Upmanyu)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Kaunsi Meeting Hai Jahan Mujhe Nahi Bulate (Abhishek Upmanyu)'",
+  "keywords": [
+    "indian meme",
+    "kaunsi",
+    "meeting",
+    "hai",
+    "jahan",
+    "mujhe",
+    "nahi",
+    "bulate",
+    "(abhishek",
+    "upmanyu)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Ye Kaunsi Meeting Hai Jahan Mujhe Nahi Bulate (Abhishek Upmanyu)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

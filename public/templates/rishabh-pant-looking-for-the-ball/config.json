@@ -1,0 +1,37 @@
+{
+  "id": "rishabh-pant-looking-for-the-ball",
+  "name": "Rishabh Pant Looking For The Ball",
+  "visual_description": "Indian meme template: Rishabh Pant Looking For The Ball",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Rishabh Pant Looking For The Ball'",
+  "keywords": [
+    "indian meme",
+    "rishabh",
+    "pant",
+    "looking",
+    "for",
+    "the",
+    "ball"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Rishabh Pant Looking For The Ball"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

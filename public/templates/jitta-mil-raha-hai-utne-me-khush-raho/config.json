@@ -1,0 +1,38 @@
+{
+  "id": "jitta-mil-raha-hai-utne-me-khush-raho",
+  "name": "Jitta Mil Raha Hai Utne Me Khush Raho",
+  "visual_description": "Indian meme template: Jitta Mil Raha Hai Utne Me Khush Raho",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Jitta Mil Raha Hai Utne Me Khush Raho'",
+  "keywords": [
+    "indian meme",
+    "jitta",
+    "mil",
+    "raha",
+    "hai",
+    "utne",
+    "khush",
+    "raho"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Jitta Mil Raha Hai Utne Me Khush Raho"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

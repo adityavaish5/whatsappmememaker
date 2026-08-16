@@ -1,0 +1,41 @@
+{
+  "id": "sorry-jaan-pehchan-ke-liye-humare-paas-waqt-hai-hai",
+  "name": "Sorry Jaan Pehchan Ke Liye Humare Paas Waqt Hai Hai (Nayak)",
+  "visual_description": "Indian meme template: Sorry Jaan Pehchan Ke Liye Humare Paas Waqt Hai Hai (Nayak)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Sorry Jaan Pehchan Ke Liye Humare Paas Waqt Hai Hai (Nayak)'",
+  "keywords": [
+    "indian meme",
+    "sorry",
+    "jaan",
+    "pehchan",
+    "liye",
+    "humare",
+    "paas",
+    "waqt",
+    "hai",
+    "hai",
+    "(nayak)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Sorry Jaan Pehchan Ke Liye Humare Paas Waqt Hai Hai (Nayak)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

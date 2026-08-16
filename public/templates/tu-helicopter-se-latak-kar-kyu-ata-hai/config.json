@@ -1,0 +1,38 @@
+{
+  "id": "tu-helicopter-se-latak-kar-kyu-ata-hai",
+  "name": "Tu Helicopter Se Latak Kar Kyu Ata Hai (Sooryavanshi)",
+  "visual_description": "Indian meme template: Tu Helicopter Se Latak Kar Kyu Ata Hai (Sooryavanshi)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Tu Helicopter Se Latak Kar Kyu Ata Hai (Sooryavanshi)'",
+  "keywords": [
+    "indian meme",
+    "helicopter",
+    "latak",
+    "kar",
+    "kyu",
+    "ata",
+    "hai",
+    "(sooryavanshi)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Tu Helicopter Se Latak Kar Kyu Ata Hai (Sooryavanshi)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

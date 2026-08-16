@@ -1,0 +1,37 @@
+{
+  "id": "jali-na-teri-jali-na",
+  "name": "Jali Na Teri Jali Na (Mujhse Shaadi Karogi)",
+  "visual_description": "Indian meme template: Jali Na Teri Jali Na (Mujhse Shaadi Karogi)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Jali Na Teri Jali Na (Mujhse Shaadi Karogi)'",
+  "keywords": [
+    "indian meme",
+    "jali",
+    "teri",
+    "jali",
+    "(mujhse",
+    "shaadi",
+    "karogi)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Jali Na Teri Jali Na (Mujhse Shaadi Karogi)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

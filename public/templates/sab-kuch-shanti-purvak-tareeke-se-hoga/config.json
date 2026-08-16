@@ -1,0 +1,37 @@
+{
+  "id": "sab-kuch-shanti-purvak-tareeke-se-hoga",
+  "name": "Sab Kuch Shanti Purvak Tareeke Se Hoga",
+  "visual_description": "Indian meme template: Sab Kuch Shanti Purvak Tareeke Se Hoga",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Sab Kuch Shanti Purvak Tareeke Se Hoga'",
+  "keywords": [
+    "indian meme",
+    "sab",
+    "kuch",
+    "shanti",
+    "purvak",
+    "tareeke",
+    "hoga"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Sab Kuch Shanti Purvak Tareeke Se Hoga"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chamgadar-ko-ulta-latkaane-se-morr-nahi-banta",
+  "name": "Chamgadar Ko Ulta Latkaane Se Morr Nahi Banta",
+  "visual_description": "Indian meme template: Chamgadar Ko Ulta Latkaane Se Morr Nahi Banta",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Chamgadar Ko Ulta Latkaane Se Morr Nahi Banta'",
+  "keywords": [
+    "indian meme",
+    "chamgadar",
+    "ulta",
+    "latkaane",
+    "morr",
+    "nahi",
+    "banta"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Chamgadar Ko Ulta Latkaane Se Morr Nahi Banta"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

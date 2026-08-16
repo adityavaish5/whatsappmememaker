@@ -1,0 +1,37 @@
+{
+  "id": "koi-sense-hai-is-baat-ki",
+  "name": "Koi Sense Hai Is Baat Ki (Bassi Standup)",
+  "visual_description": "Indian meme template: Koi Sense Hai Is Baat Ki (Bassi Standup)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Koi Sense Hai Is Baat Ki (Bassi Standup)'",
+  "keywords": [
+    "indian meme",
+    "koi",
+    "sense",
+    "hai",
+    "baat",
+    "(bassi",
+    "standup)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Koi Sense Hai Is Baat Ki (Bassi Standup)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

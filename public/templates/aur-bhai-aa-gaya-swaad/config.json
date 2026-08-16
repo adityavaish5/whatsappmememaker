@@ -1,0 +1,37 @@
+{
+  "id": "aur-bhai-aa-gaya-swaad",
+  "name": "Aur Bhai Aa Gaya Swaad (Abhishek Upmanyu)",
+  "visual_description": "Indian meme template: Aur Bhai Aa Gaya Swaad (Abhishek Upmanyu)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Aur Bhai Aa Gaya Swaad (Abhishek Upmanyu)'",
+  "keywords": [
+    "indian meme",
+    "aur",
+    "bhai",
+    "gaya",
+    "swaad",
+    "(abhishek",
+    "upmanyu)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Aur Bhai Aa Gaya Swaad (Abhishek Upmanyu)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ye-shareef-shaney-ki-kundli-chahiye-mereko-immediately",
+  "name": "Ye Shareef Shaney Ki Kundli Chahiye Mereko Immediately",
+  "visual_description": "Indian meme template: Ye Shareef Shaney Ki Kundli Chahiye Mereko Immediately",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Shareef Shaney Ki Kundli Chahiye Mereko Immediately'",
+  "keywords": [
+    "indian meme",
+    "shareef",
+    "shaney",
+    "kundli",
+    "chahiye",
+    "mereko",
+    "immediately"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Ye Shareef Shaney Ki Kundli Chahiye Mereko Immediately"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

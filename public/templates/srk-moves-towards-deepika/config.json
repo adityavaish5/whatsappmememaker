@@ -1,0 +1,37 @@
+{
+  "id": "srk-moves-towards-deepika",
+  "name": "SRK Moves Towards Deepika (Chennai Express)",
+  "visual_description": "Indian meme template: SRK Moves Towards Deepika (Chennai Express)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'SRK Moves Towards Deepika (Chennai Express)'",
+  "keywords": [
+    "indian meme",
+    "srk",
+    "moves",
+    "towards",
+    "deepika",
+    "(chennai",
+    "express)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "SRK Moves Towards Deepika (Chennai Express)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "bahut-tej-ho-gaye-ho",
+  "name": "Bahut Tej Ho Gaye Ho",
+  "visual_description": "Indian meme template: Bahut Tej Ho Gaye Ho",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Bahut Tej Ho Gaye Ho'",
+  "keywords": [
+    "indian meme",
+    "bahut",
+    "tej",
+    "gaye"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Bahut Tej Ho Gaye Ho"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

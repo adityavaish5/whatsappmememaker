@@ -1,0 +1,41 @@
+{
+  "id": "haath-jod-kar-guzarish-hai-aapse-dur-rahiye-mere-bete-se",
+  "name": "Haath Jod Kar Guzarish Hai Aapse Dur Rahiye Mere Bete Se",
+  "visual_description": "Indian meme template: Haath Jod Kar Guzarish Hai Aapse Dur Rahiye Mere Bete Se",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Haath Jod Kar Guzarish Hai Aapse Dur Rahiye Mere Bete Se'",
+  "keywords": [
+    "indian meme",
+    "haath",
+    "jod",
+    "kar",
+    "guzarish",
+    "hai",
+    "aapse",
+    "dur",
+    "rahiye",
+    "mere",
+    "bete"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Haath Jod Kar Guzarish Hai Aapse Dur Rahiye Mere Bete Se"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

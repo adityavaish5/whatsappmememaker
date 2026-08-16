@@ -1,0 +1,38 @@
+{
+  "id": "ye-koi-tarika-hai-bheek-mangne-ka",
+  "name": "Ye Koi Tarika Hai Bheek Mangne Ka? (Golmaal)",
+  "visual_description": "Indian meme template: Ye Koi Tarika Hai Bheek Mangne Ka? (Golmaal)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Koi Tarika Hai Bheek Mangne Ka? (Golmaal)'",
+  "keywords": [
+    "indian meme",
+    "koi",
+    "tarika",
+    "hai",
+    "bheek",
+    "mangne",
+    "ka?",
+    "(golmaal)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Ye Koi Tarika Hai Bheek Mangne Ka? (Golmaal)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sweety-laughing-while-dying",
+  "name": "Sweety Laughing While Dying (Mirzapur)",
+  "visual_description": "Indian meme template: Sweety Laughing While Dying (Mirzapur)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Sweety Laughing While Dying (Mirzapur)'",
+  "keywords": [
+    "indian meme",
+    "sweety",
+    "laughing",
+    "while",
+    "dying",
+    "(mirzapur)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Sweety Laughing While Dying (Mirzapur)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

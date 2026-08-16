@@ -1,0 +1,37 @@
+{
+  "id": "tumhare-tarah-40-log-aur-hai",
+  "name": "Tumhare Tarah 40 Log Aur Hai (Sooryavanshi)",
+  "visual_description": "Indian meme template: Tumhare Tarah 40 Log Aur Hai (Sooryavanshi)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Tumhare Tarah 40 Log Aur Hai (Sooryavanshi)'",
+  "keywords": [
+    "indian meme",
+    "tumhare",
+    "tarah",
+    "log",
+    "aur",
+    "hai",
+    "(sooryavanshi)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Tumhare Tarah 40 Log Aur Hai (Sooryavanshi)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

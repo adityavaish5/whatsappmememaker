@@ -1,0 +1,36 @@
+{
+  "id": "mujhe-maaf-karna-om-sai-ram",
+  "name": "Mujhe Maaf Karna Om Sai Ram",
+  "visual_description": "Indian meme template: Mujhe Maaf Karna Om Sai Ram",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Mujhe Maaf Karna Om Sai Ram'",
+  "keywords": [
+    "indian meme",
+    "mujhe",
+    "maaf",
+    "karna",
+    "sai",
+    "ram"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Mujhe Maaf Karna Om Sai Ram"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

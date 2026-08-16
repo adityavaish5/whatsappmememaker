@@ -1,0 +1,36 @@
+{
+  "id": "marne-se-main-kabhi-darta-nahi",
+  "name": "Marne Se Main Kabhi Darta Nahi",
+  "visual_description": "Indian meme template: Marne Se Main Kabhi Darta Nahi",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Marne Se Main Kabhi Darta Nahi'",
+  "keywords": [
+    "indian meme",
+    "marne",
+    "main",
+    "kabhi",
+    "darta",
+    "nahi"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Marne Se Main Kabhi Darta Nahi"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

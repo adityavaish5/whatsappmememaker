@@ -1,0 +1,37 @@
+{
+  "id": "rohit-sharma-takes-virat-kohli-s-catch",
+  "name": "Rohit Sharma Takes Virat Kohli's Catch",
+  "visual_description": "Indian meme template: Rohit Sharma Takes Virat Kohli's Catch",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Rohit Sharma Takes Virat Kohli's Catch'",
+  "keywords": [
+    "indian meme",
+    "rohit",
+    "sharma",
+    "takes",
+    "virat",
+    "kohli's",
+    "catch"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Rohit Sharma Takes Virat Kohli's Catch"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

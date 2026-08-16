@@ -1,0 +1,37 @@
+{
+  "id": "venkaiah-naidu-smiling-as-rajya-sabha-speaker",
+  "name": "Venkaiah Naidu Smiling As Rajya Sabha Speaker",
+  "visual_description": "Indian meme template: Venkaiah Naidu Smiling As Rajya Sabha Speaker",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Venkaiah Naidu Smiling As Rajya Sabha Speaker'",
+  "keywords": [
+    "indian meme",
+    "venkaiah",
+    "naidu",
+    "smiling",
+    "rajya",
+    "sabha",
+    "speaker"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Venkaiah Naidu Smiling As Rajya Sabha Speaker"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

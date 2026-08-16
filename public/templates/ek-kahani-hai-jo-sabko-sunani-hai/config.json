@@ -1,0 +1,36 @@
+{
+  "id": "ek-kahani-hai-jo-sabko-sunani-hai",
+  "name": "Ek Kahani Hai Jo Sabko Sunani Hai",
+  "visual_description": "Indian meme template: Ek Kahani Hai Jo Sabko Sunani Hai",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Ek Kahani Hai Jo Sabko Sunani Hai'",
+  "keywords": [
+    "indian meme",
+    "kahani",
+    "hai",
+    "sabko",
+    "sunani",
+    "hai"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Ek Kahani Hai Jo Sabko Sunani Hai"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

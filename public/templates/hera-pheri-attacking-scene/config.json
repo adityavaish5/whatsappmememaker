@@ -1,0 +1,35 @@
+{
+  "id": "hera-pheri-attacking-scene",
+  "name": "Hera Pheri Attacking Scene",
+  "visual_description": "Indian meme template: Hera Pheri Attacking Scene",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Hera Pheri Attacking Scene'",
+  "keywords": [
+    "indian meme",
+    "hera",
+    "pheri",
+    "attacking",
+    "scene"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Hera Pheri Attacking Scene"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

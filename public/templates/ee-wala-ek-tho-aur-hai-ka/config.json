@@ -1,0 +1,35 @@
+{
+  "id": "ee-wala-ek-tho-aur-hai-ka",
+  "name": "Ee Wala Ek Tho Aur Hai Ka",
+  "visual_description": "Indian meme template: Ee Wala Ek Tho Aur Hai Ka",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Ee Wala Ek Tho Aur Hai Ka'",
+  "keywords": [
+    "indian meme",
+    "wala",
+    "tho",
+    "aur",
+    "hai"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Ee Wala Ek Tho Aur Hai Ka"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

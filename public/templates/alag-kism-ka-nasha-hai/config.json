@@ -1,0 +1,37 @@
+{
+  "id": "alag-kism-ka-nasha-hai",
+  "name": "Alag Kism Ka Nasha Hai (Criminal Justice)",
+  "visual_description": "Indian meme template: Alag Kism Ka Nasha Hai (Criminal Justice)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Alag Kism Ka Nasha Hai (Criminal Justice)'",
+  "keywords": [
+    "indian meme",
+    "alag",
+    "kism",
+    "nasha",
+    "hai",
+    "(criminal",
+    "justice)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Alag Kism Ka Nasha Hai (Criminal Justice)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

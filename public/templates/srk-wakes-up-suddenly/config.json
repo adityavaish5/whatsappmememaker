@@ -1,0 +1,34 @@
+{
+  "id": "srk-wakes-up-suddenly",
+  "name": "SRK Wakes Up Suddenly",
+  "visual_description": "Indian meme template: SRK Wakes Up Suddenly",
+  "usage_context": "Use when expressing the sentiment or reaction of 'SRK Wakes Up Suddenly'",
+  "keywords": [
+    "indian meme",
+    "srk",
+    "wakes",
+    "suddenly"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "SRK Wakes Up Suddenly"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

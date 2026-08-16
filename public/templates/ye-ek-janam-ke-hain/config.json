@@ -1,0 +1,33 @@
+{
+  "id": "ye-ek-janam-ke-hain",
+  "name": "Ye Ek Janam Ke Hain",
+  "visual_description": "Indian meme template: Ye Ek Janam Ke Hain",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Ek Janam Ke Hain'",
+  "keywords": [
+    "indian meme",
+    "janam",
+    "hain"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Ye Ek Janam Ke Hain"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

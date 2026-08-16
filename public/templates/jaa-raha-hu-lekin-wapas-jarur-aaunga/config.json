@@ -1,0 +1,37 @@
+{
+  "id": "jaa-raha-hu-lekin-wapas-jarur-aaunga",
+  "name": "Jaa Raha Hu Lekin Wapas Jarur Aaunga",
+  "visual_description": "Indian meme template: Jaa Raha Hu Lekin Wapas Jarur Aaunga",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Jaa Raha Hu Lekin Wapas Jarur Aaunga'",
+  "keywords": [
+    "indian meme",
+    "jaa",
+    "raha",
+    "lekin",
+    "wapas",
+    "jarur",
+    "aaunga"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Jaa Raha Hu Lekin Wapas Jarur Aaunga"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

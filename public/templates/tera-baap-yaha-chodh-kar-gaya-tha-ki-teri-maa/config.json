@@ -1,0 +1,41 @@
+{
+  "id": "tera-baap-yaha-chodh-kar-gaya-tha-ki-teri-maa",
+  "name": "Tera Baap Yaha Chodh Kar Gaya Tha Ki Teri Maa (Welcome)",
+  "visual_description": "Indian meme template: Tera Baap Yaha Chodh Kar Gaya Tha Ki Teri Maa (Welcome)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Tera Baap Yaha Chodh Kar Gaya Tha Ki Teri Maa (Welcome)'",
+  "keywords": [
+    "indian meme",
+    "tera",
+    "baap",
+    "yaha",
+    "chodh",
+    "kar",
+    "gaya",
+    "tha",
+    "teri",
+    "maa",
+    "(welcome)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Tera Baap Yaha Chodh Kar Gaya Tha Ki Teri Maa (Welcome)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

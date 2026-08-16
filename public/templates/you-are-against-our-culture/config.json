@@ -1,0 +1,41 @@
+{
+  "id": "you-are-against-our-culture",
+  "name": "You Are Against Our Culture (One Mic Stand - Taapsee Pannu)",
+  "visual_description": "Indian meme template: You Are Against Our Culture (One Mic Stand - Taapsee Pannu)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'You Are Against Our Culture (One Mic Stand - Taapsee Pannu)'",
+  "keywords": [
+    "indian meme",
+    "you",
+    "are",
+    "against",
+    "our",
+    "culture",
+    "(one",
+    "mic",
+    "stand",
+    "taapsee",
+    "pannu)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "You Are Against Our Culture (One Mic Stand - Taapsee Pannu)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

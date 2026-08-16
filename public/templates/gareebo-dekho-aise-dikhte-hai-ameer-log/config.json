@@ -1,0 +1,38 @@
+{
+  "id": "gareebo-dekho-aise-dikhte-hai-ameer-log",
+  "name": "Gareebo Dekho Aise Dikhte Hai Ameer Log",
+  "visual_description": "Indian meme template: Gareebo Dekho Aise Dikhte Hai Ameer Log",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Gareebo Dekho Aise Dikhte Hai Ameer Log'",
+  "keywords": [
+    "indian meme",
+    "gareebo",
+    "dekho",
+    "aise",
+    "dikhte",
+    "hai",
+    "ameer",
+    "log"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Gareebo Dekho Aise Dikhte Hai Ameer Log"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

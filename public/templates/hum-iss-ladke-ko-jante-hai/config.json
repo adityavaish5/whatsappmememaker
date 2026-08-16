@@ -1,0 +1,38 @@
+{
+  "id": "hum-iss-ladke-ko-jante-hai",
+  "name": "Hum Iss Ladke Ko Jante Hai (MS Dhoni)",
+  "visual_description": "Indian meme template: Hum Iss Ladke Ko Jante Hai (MS Dhoni)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Hum Iss Ladke Ko Jante Hai (MS Dhoni)'",
+  "keywords": [
+    "indian meme",
+    "hum",
+    "iss",
+    "ladke",
+    "jante",
+    "hai",
+    "(ms",
+    "dhoni)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Hum Iss Ladke Ko Jante Hai (MS Dhoni)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

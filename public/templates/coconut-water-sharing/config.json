@@ -1,0 +1,34 @@
+{
+  "id": "coconut-water-sharing",
+  "name": "Coconut Water Sharing",
+  "visual_description": "Indian meme template: Coconut Water Sharing",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Coconut Water Sharing'",
+  "keywords": [
+    "indian meme",
+    "coconut",
+    "water",
+    "sharing"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Coconut Water Sharing"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

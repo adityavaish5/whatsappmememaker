@@ -1,0 +1,42 @@
+{
+  "id": "hum-koi-mandir-ka-ghanta-hai-jo-koi-bhi-baja-jata-hai",
+  "name": "Hum Koi Mandir Ka Ghanta Hai Jo Koi Bhi Baja Jata Hai (Hungama)",
+  "visual_description": "Indian meme template: Hum Koi Mandir Ka Ghanta Hai Jo Koi Bhi Baja Jata Hai (Hungama)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Hum Koi Mandir Ka Ghanta Hai Jo Koi Bhi Baja Jata Hai (Hungama)'",
+  "keywords": [
+    "indian meme",
+    "hum",
+    "koi",
+    "mandir",
+    "ghanta",
+    "hai",
+    "koi",
+    "bhi",
+    "baja",
+    "jata",
+    "hai",
+    "(hungama)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Hum Koi Mandir Ka Ghanta Hai Jo Koi Bhi Baja Jata Hai (Hungama)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "dhanda-karo-to-bada-karo-purushottam-bhai",
+  "name": "Dhanda Karo To Bada Karo Purushottam Bhai",
+  "visual_description": "Indian meme template: Dhanda Karo To Bada Karo Purushottam Bhai",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Dhanda Karo To Bada Karo Purushottam Bhai'",
+  "keywords": [
+    "indian meme",
+    "dhanda",
+    "karo",
+    "bada",
+    "karo",
+    "purushottam",
+    "bhai"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Dhanda Karo To Bada Karo Purushottam Bhai"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

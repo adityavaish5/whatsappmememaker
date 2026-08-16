@@ -1,0 +1,35 @@
+{
+  "id": "zinda-pakadna-hai-bhosdiwale-ko",
+  "name": "Zinda Pakadna Hai Bhosdiwale Ko",
+  "visual_description": "Indian meme template: Zinda Pakadna Hai Bhosdiwale Ko",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Zinda Pakadna Hai Bhosdiwale Ko'",
+  "keywords": [
+    "indian meme",
+    "zinda",
+    "pakadna",
+    "hai",
+    "bhosdiwale"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Zinda Pakadna Hai Bhosdiwale Ko"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

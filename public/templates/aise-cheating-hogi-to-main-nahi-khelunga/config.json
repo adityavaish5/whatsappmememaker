@@ -1,0 +1,37 @@
+{
+  "id": "aise-cheating-hogi-to-main-nahi-khelunga",
+  "name": "Aise Cheating Hogi To Main Nahi Khelunga",
+  "visual_description": "Indian meme template: Aise Cheating Hogi To Main Nahi Khelunga",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Aise Cheating Hogi To Main Nahi Khelunga'",
+  "keywords": [
+    "indian meme",
+    "aise",
+    "cheating",
+    "hogi",
+    "main",
+    "nahi",
+    "khelunga"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Aise Cheating Hogi To Main Nahi Khelunga"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

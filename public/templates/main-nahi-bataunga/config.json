@@ -1,0 +1,35 @@
+{
+  "id": "main-nahi-bataunga",
+  "name": "Main Nahi Bataunga (Golmaal 3)",
+  "visual_description": "Indian meme template: Main Nahi Bataunga (Golmaal 3)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Main Nahi Bataunga (Golmaal 3)'",
+  "keywords": [
+    "indian meme",
+    "main",
+    "nahi",
+    "bataunga",
+    "(golmaal"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Main Nahi Bataunga (Golmaal 3)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

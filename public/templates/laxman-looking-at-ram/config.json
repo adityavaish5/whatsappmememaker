@@ -1,0 +1,35 @@
+{
+  "id": "laxman-looking-at-ram",
+  "name": "Laxman Looking At Ram (Ramayana)",
+  "visual_description": "Indian meme template: Laxman Looking At Ram (Ramayana)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Laxman Looking At Ram (Ramayana)'",
+  "keywords": [
+    "indian meme",
+    "laxman",
+    "looking",
+    "ram",
+    "(ramayana)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Laxman Looking At Ram (Ramayana)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

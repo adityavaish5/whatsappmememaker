@@ -1,0 +1,35 @@
+{
+  "id": "kajol-srk-train-scene",
+  "name": "Kajol SRK Train Scene",
+  "visual_description": "Indian meme template: Kajol SRK Train Scene",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Kajol SRK Train Scene'",
+  "keywords": [
+    "indian meme",
+    "kajol",
+    "srk",
+    "train",
+    "scene"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Kajol SRK Train Scene"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

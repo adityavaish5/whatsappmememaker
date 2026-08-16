@@ -1,0 +1,37 @@
+{
+  "id": "meri-aankhon-me-to-dekh",
+  "name": "Meri Aankhon Me To Dekh (Mujhse Shaadi Karogi)",
+  "visual_description": "Indian meme template: Meri Aankhon Me To Dekh (Mujhse Shaadi Karogi)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Meri Aankhon Me To Dekh (Mujhse Shaadi Karogi)'",
+  "keywords": [
+    "indian meme",
+    "meri",
+    "aankhon",
+    "dekh",
+    "(mujhse",
+    "shaadi",
+    "karogi)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Meri Aankhon Me To Dekh (Mujhse Shaadi Karogi)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

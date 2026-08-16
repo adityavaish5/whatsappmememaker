@@ -1,0 +1,36 @@
+{
+  "id": "modi-trump-melania-spinning-wheel",
+  "name": "Modi Trump Melania Spinning Wheel",
+  "visual_description": "Indian meme template: Modi Trump Melania Spinning Wheel",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Modi Trump Melania Spinning Wheel'",
+  "keywords": [
+    "indian meme",
+    "modi",
+    "trump",
+    "melania",
+    "spinning",
+    "wheel"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Modi Trump Melania Spinning Wheel"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

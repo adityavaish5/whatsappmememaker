@@ -1,0 +1,35 @@
+{
+  "id": "gopal-looking-from-above",
+  "name": "Gopal Looking From Above",
+  "visual_description": "Indian meme template: Gopal Looking From Above",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Gopal Looking From Above'",
+  "keywords": [
+    "indian meme",
+    "gopal",
+    "looking",
+    "from",
+    "above"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Gopal Looking From Above"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

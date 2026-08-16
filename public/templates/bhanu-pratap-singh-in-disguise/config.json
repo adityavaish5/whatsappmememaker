@@ -1,0 +1,35 @@
+{
+  "id": "bhanu-pratap-singh-in-disguise",
+  "name": "Bhanu Pratap Singh In Disguise",
+  "visual_description": "Indian meme template: Bhanu Pratap Singh In Disguise",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Bhanu Pratap Singh In Disguise'",
+  "keywords": [
+    "indian meme",
+    "bhanu",
+    "pratap",
+    "singh",
+    "disguise"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Bhanu Pratap Singh In Disguise"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

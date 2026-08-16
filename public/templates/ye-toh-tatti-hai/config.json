@@ -1,0 +1,34 @@
+{
+  "id": "ye-toh-tatti-hai",
+  "name": "Ye Toh Tatti Hai",
+  "visual_description": "Indian meme template: Ye Toh Tatti Hai",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Toh Tatti Hai'",
+  "keywords": [
+    "indian meme",
+    "toh",
+    "tatti",
+    "hai"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Ye Toh Tatti Hai"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "aye-tum-log-bhi-chalo-na-mere-sath",
+  "name": "Aye Tum Log Bhi Chalo Na Mere Sath (Welcome)",
+  "visual_description": "Indian meme template: Aye Tum Log Bhi Chalo Na Mere Sath (Welcome)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Aye Tum Log Bhi Chalo Na Mere Sath (Welcome)'",
+  "keywords": [
+    "indian meme",
+    "aye",
+    "tum",
+    "log",
+    "bhi",
+    "chalo",
+    "mere",
+    "sath",
+    "(welcome)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Aye Tum Log Bhi Chalo Na Mere Sath (Welcome)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

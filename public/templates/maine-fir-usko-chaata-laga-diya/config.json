@@ -1,0 +1,38 @@
+{
+  "id": "maine-fir-usko-chaata-laga-diya",
+  "name": "Maine Fir Usko Chaata Laga Diya (Roadies)",
+  "visual_description": "Indian meme template: Maine Fir Usko Chaata Laga Diya (Roadies)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Maine Fir Usko Chaata Laga Diya (Roadies)'",
+  "keywords": [
+    "indian meme",
+    "maine",
+    "fir",
+    "usko",
+    "chaata",
+    "laga",
+    "diya",
+    "(roadies)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Maine Fir Usko Chaata Laga Diya (Roadies)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

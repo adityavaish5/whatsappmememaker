@@ -1,0 +1,36 @@
+{
+  "id": "cheerful-vs-afraid",
+  "name": "Cheerful vs Afraid (Chup Chup Ke)",
+  "visual_description": "Indian meme template: Cheerful vs Afraid (Chup Chup Ke)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Cheerful vs Afraid (Chup Chup Ke)'",
+  "keywords": [
+    "indian meme",
+    "cheerful",
+    "afraid",
+    "(chup",
+    "chup",
+    "ke)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Cheerful vs Afraid (Chup Chup Ke)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

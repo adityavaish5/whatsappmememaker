@@ -1,0 +1,35 @@
+{
+  "id": "amit-shah-modi-sitting",
+  "name": "Amit Shah & Modi Sitting",
+  "visual_description": "Indian meme template: Amit Shah & Modi Sitting",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Amit Shah & Modi Sitting'",
+  "keywords": [
+    "indian meme",
+    "amit",
+    "shah",
+    "modi",
+    "sitting"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Amit Shah & Modi Sitting"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

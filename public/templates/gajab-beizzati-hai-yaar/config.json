@@ -1,0 +1,36 @@
+{
+  "id": "gajab-beizzati-hai-yaar",
+  "name": "Gajab Beizzati Hai Yaar (Panchayat)",
+  "visual_description": "Indian meme template: Gajab Beizzati Hai Yaar (Panchayat)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Gajab Beizzati Hai Yaar (Panchayat)'",
+  "keywords": [
+    "indian meme",
+    "gajab",
+    "beizzati",
+    "hai",
+    "yaar",
+    "(panchayat)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Gajab Beizzati Hai Yaar (Panchayat)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

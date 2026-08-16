@@ -1,0 +1,38 @@
+{
+  "id": "tu-hai-tereko-pata-nahi-hai-lekin-tu-hai",
+  "name": "Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai",
+  "visual_description": "Indian meme template: Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai'",
+  "keywords": [
+    "indian meme",
+    "hai",
+    "tereko",
+    "pata",
+    "nahi",
+    "hai",
+    "lekin",
+    "hai"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

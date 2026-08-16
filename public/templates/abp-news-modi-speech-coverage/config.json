@@ -1,0 +1,36 @@
+{
+  "id": "abp-news-modi-speech-coverage",
+  "name": "ABP News' Modi Speech Coverage",
+  "visual_description": "Indian meme template: ABP News' Modi Speech Coverage",
+  "usage_context": "Use when expressing the sentiment or reaction of 'ABP News' Modi Speech Coverage'",
+  "keywords": [
+    "indian meme",
+    "abp",
+    "news'",
+    "modi",
+    "speech",
+    "coverage"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "ABP News' Modi Speech Coverage"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

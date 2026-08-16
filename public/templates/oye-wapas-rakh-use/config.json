@@ -1,0 +1,37 @@
+{
+  "id": "oye-wapas-rakh-use",
+  "name": "Oye Wapas Rakh Use (Kabir Singh)",
+  "visual_description": "Indian meme template: Oye Wapas Rakh Use (Kabir Singh)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Oye Wapas Rakh Use (Kabir Singh)'",
+  "keywords": [
+    "indian meme",
+    "oye",
+    "wapas",
+    "rakh",
+    "use",
+    "(kabir",
+    "singh)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Oye Wapas Rakh Use (Kabir Singh)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

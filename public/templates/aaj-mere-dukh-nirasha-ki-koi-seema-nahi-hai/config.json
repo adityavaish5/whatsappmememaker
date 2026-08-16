@@ -1,0 +1,40 @@
+{
+  "id": "aaj-mere-dukh-nirasha-ki-koi-seema-nahi-hai",
+  "name": "Aaj Mere Dukh Nirasha Ki Koi Seema Nahi Hai (Ramayana)",
+  "visual_description": "Indian meme template: Aaj Mere Dukh Nirasha Ki Koi Seema Nahi Hai (Ramayana)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Aaj Mere Dukh Nirasha Ki Koi Seema Nahi Hai (Ramayana)'",
+  "keywords": [
+    "indian meme",
+    "aaj",
+    "mere",
+    "dukh",
+    "nirasha",
+    "koi",
+    "seema",
+    "nahi",
+    "hai",
+    "(ramayana)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Aaj Mere Dukh Nirasha Ki Koi Seema Nahi Hai (Ramayana)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

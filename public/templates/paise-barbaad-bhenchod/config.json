@@ -1,0 +1,34 @@
+{
+  "id": "paise-barbaad-bhenchod",
+  "name": "Paise Barbaad Bhenchod",
+  "visual_description": "Indian meme template: Paise Barbaad Bhenchod",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Paise Barbaad Bhenchod'",
+  "keywords": [
+    "indian meme",
+    "paise",
+    "barbaad",
+    "bhenchod"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Paise Barbaad Bhenchod"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

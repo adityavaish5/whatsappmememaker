@@ -1,0 +1,35 @@
+{
+  "id": "modi-looking-at-solar-eclipse",
+  "name": "Modi Looking At Solar Eclipse",
+  "visual_description": "Indian meme template: Modi Looking At Solar Eclipse",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Modi Looking At Solar Eclipse'",
+  "keywords": [
+    "indian meme",
+    "modi",
+    "looking",
+    "solar",
+    "eclipse"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Modi Looking At Solar Eclipse"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

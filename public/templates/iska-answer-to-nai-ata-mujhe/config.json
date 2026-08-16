@@ -1,0 +1,38 @@
+{
+  "id": "iska-answer-to-nai-ata-mujhe",
+  "name": "Iska Answer To Nai Ata Mujhe (Abhishek Upmanyu)",
+  "visual_description": "Indian meme template: Iska Answer To Nai Ata Mujhe (Abhishek Upmanyu)",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Iska Answer To Nai Ata Mujhe (Abhishek Upmanyu)'",
+  "keywords": [
+    "indian meme",
+    "iska",
+    "answer",
+    "nai",
+    "ata",
+    "mujhe",
+    "(abhishek",
+    "upmanyu)"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Iska Answer To Nai Ata Mujhe (Abhishek Upmanyu)"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "bas-kijiye-bohot-hogaya",
+  "name": "Bas Kijiye Bohot Hogaya",
+  "visual_description": "Indian meme template: Bas Kijiye Bohot Hogaya",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Bas Kijiye Bohot Hogaya'",
+  "keywords": [
+    "indian meme",
+    "bas",
+    "kijiye",
+    "bohot",
+    "hogaya"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Bas Kijiye Bohot Hogaya"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

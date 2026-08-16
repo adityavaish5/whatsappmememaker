@@ -1,0 +1,36 @@
+{
+  "id": "main-yahaan-wahaan-bhi-gayi",
+  "name": "Main Yahaan Wahaan Bhi Gayi",
+  "visual_description": "Indian meme template: Main Yahaan Wahaan Bhi Gayi",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Main Yahaan Wahaan Bhi Gayi'",
+  "keywords": [
+    "indian meme",
+    "main",
+    "yahaan",
+    "wahaan",
+    "bhi",
+    "gayi"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Main Yahaan Wahaan Bhi Gayi"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

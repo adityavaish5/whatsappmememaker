@@ -1,0 +1,38 @@
+{
+  "id": "chota-aadmi-gundai-karna-chahta-hai-karne-do",
+  "name": "Chota Aadmi Gundai Karna Chahta Hai Karne Do",
+  "visual_description": "Indian meme template: Chota Aadmi Gundai Karna Chahta Hai Karne Do",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Chota Aadmi Gundai Karna Chahta Hai Karne Do'",
+  "keywords": [
+    "indian meme",
+    "chota",
+    "aadmi",
+    "gundai",
+    "karna",
+    "chahta",
+    "hai",
+    "karne"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Chota Aadmi Gundai Karna Chahta Hai Karne Do"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

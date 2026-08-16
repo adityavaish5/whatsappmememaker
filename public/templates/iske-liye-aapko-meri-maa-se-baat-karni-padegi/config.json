@@ -1,0 +1,39 @@
+{
+  "id": "iske-liye-aapko-meri-maa-se-baat-karni-padegi",
+  "name": "Iske Liye Aapko Meri Maa Se Baat Karni Padegi",
+  "visual_description": "Indian meme template: Iske Liye Aapko Meri Maa Se Baat Karni Padegi",
+  "usage_context": "Use when expressing the sentiment or reaction of 'Iske Liye Aapko Meri Maa Se Baat Karni Padegi'",
+  "keywords": [
+    "indian meme",
+    "iske",
+    "liye",
+    "aapko",
+    "meri",
+    "maa",
+    "baat",
+    "karni",
+    "padegi"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Iske Liye Aapko Meri Maa Se Baat Karni Padegi"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main caption or reaction text for this meme",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 180,
+      "fontSize": 44,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}
