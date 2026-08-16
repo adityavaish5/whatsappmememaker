@@ -112,3 +112,30 @@ The system will automatically align the text and wrap words that exceed the `wid
    - Define the dimensions (`image_width`, `image_height`), the LLM instructions, and the `text_areas` bounding boxes.
 
 4. **Test it!** Run the app (`npm run dev`) and supply a chat context that matches your new template to see the LLM select it automatically!
+
+---
+
+## 5. Automated AI Template Refinement & GitHub PR Subagent
+
+We have an automated subagent script that uses Gemini Vision to inspect any template's image, fix its bounding boxes, enrich its metadata, render a test sample image, and automatically raise a GitHub Pull Request!
+
+### How to use:
+
+Run the following command passing the folder name of the template you want to refine:
+
+```bash
+npm run refine:template <template_id>
+# Example:
+npm run refine:template welcome-laughing-scene
+```
+
+### What the Subagent does automatically:
+1. **Multimodal Analysis**: Reads `public/templates/<template_id>/image.jpg` and passes it to Gemini 3.7 Flash.
+2. **Context Enrichment**: Identifies actors, movies, scenes, and cultural nuances to enrich `name`, `visual_description`, `usage_context`, `keywords`, and `example`.
+3. **Bounding Box Calculation**: Calculates the exact dimensions (`image_width`, `image_height`) and places text areas (`x`, `y`, `width`, `height`, `fontSize`, `stroke`) so text does not obscure key faces or existing text.
+4. **Sample Test Rendering**: Runs `npm run test:templates` to render the updated sample image into `test-output/<template_id>.png`.
+5. **Single-Template Git Branch & PR**:
+   - Creates a dedicated git branch: `template-improve/<template_id>`.
+   - Stages **only** `public/templates/<template_id>/config.json` and `test-output/<template_id>.png`.
+   - Pushes to GitHub and opens a dedicated Pull Request on GitHub for your review!
+   - Returns safely to the `main` branch.

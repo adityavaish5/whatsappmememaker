@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:templates": "ts-node -O '{\"module\":\"commonjs\"}' scripts/test-templates.ts"
+    "test:templates": "ts-node -O '{\"module\":\"commonjs\"}' scripts/test-templates.ts",
+    "refine:template": "node scripts/refine-template.js"
   },
   "dependencies": {
     "@ai-sdk/google": "^4.0.44",
