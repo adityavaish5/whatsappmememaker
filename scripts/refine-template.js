@@ -5,10 +5,12 @@ const { GoogleGenAI } = require('@google/genai');
 require('dotenv').config();
 
 const templateId = process.argv[2];
-const noGit = process.argv.includes('--no-git');
+// By default, refine locally without git branch manipulation unless --git or --create-pr is explicitly passed
+const createGitPR = process.argv.includes('--git') || process.argv.includes('--create-pr');
+const noGit = !createGitPR || process.argv.includes('--no-git');
 
 if (!templateId) {
-  console.error("Please provide a template ID. Usage: node scripts/refine-template.js <template_id> [--no-git]");
+  console.error("Please provide a template ID. Usage: node scripts/refine-template.js <template_id> [--git]");
   process.exit(1);
 }
 
@@ -31,6 +33,14 @@ if (!apiKey) {
 }
 
 const genAI = new GoogleGenAI({ apiKey });
+
+function renderTemplatePreview(id) {
+  try {
+    execSync(`npx ts-node -O '{"module":"commonjs"}' scripts/render-single.ts "${id}"`, { stdio: 'pipe' });
+  } catch (err) {
+    console.error(`⚠️ Preview render failed for ${id}:`, err.message);
+  }
+}
 
 async function run() {
   console.log(`\n🔍 Analyzing template: ${templateId}...`);
@@ -149,9 +159,9 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
     renderTemplatePreview(templateId);
 
     if (!noGit) {
-      // Stage only this template's config.json and its test output image
-      // Using -f to force add the test image because test-output is in .gitignore
-      execSync(`git add public/templates/${templateId}/config.json test-output/${templateId}.png -f`, { stdio: 'pipe' });
+      // Stage the entire template folder and preview image
+      // Using -f to force add because test-output is in .gitignore
+      execSync(`git add public/templates/${templateId} test-output/${templateId}.png -f`, { stdio: 'pipe' });
 
       // Commit
       const commitMsg = `refactor(template): improve metadata and bounding boxes for ${updatedConfig.name || templateId}`;
@@ -181,7 +191,6 @@ Check test-output/${templateId}.png for the newly rendered sample.`;
         if (prs && prs.length > 0) {
           prOutput = prs[0].url;
           console.log(`\n🔄 Pull Request already exists: ${prOutput}`);
-          // Optionally edit/update the PR body if needed, or just push changes which updates the PR automatically
         } else {
           const prCommand = `gh pr create --title "${prTitle}" --body "${prBody}" --head "${branchName}" --base main`;
           prOutput = execSync(prCommand).toString().trim();
@@ -191,18 +200,12 @@ Check test-output/${templateId}.png for the newly rendered sample.`;
       } catch (e) {
         console.log("Error checking/creating PR (might exist or CLI auth error):", e.message);
       }
-
-      // Switch back to main branch
-      execSync(`git checkout main`, { stdio: 'pipe' });
     }
 
   } catch (err) {
-    console.error(`❌ Failed to refine template ${templateId}:`, err);
+    console.error(`❌ Failed to refine template ${templateId}:`, err.message || err);
     // Still generate a preview from the current config so the template has a visual artifact even when the model is unavailable.
     renderTemplatePreview(templateId);
-    if (!noGit) {
-      try { execSync(`git checkout main`, { stdio: 'pipe' }); } catch(e){}
-    }
     process.exit(1);
   }
 }
