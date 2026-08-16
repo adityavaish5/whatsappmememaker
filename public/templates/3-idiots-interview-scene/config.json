@@ -1,35 +1,40 @@
 {
   "id": "3-idiots-interview-scene",
-  "name": "3 Idiots Raju Interview (Aap Apni Naukri Rakh Lijiye)",
-  "visual_description": "Three-panel template from 3 Idiots: Interviewers listening, Raju Rastogi speaking calmly, and the lead interviewer smiling impressed.",
-  "usage_context": "Used to portray standing firm on one's principles/boundaries despite the stakes, leading to an unexpectedly positive reaction or acceptance.",
+  "name": "3 Idiots Raju Interview",
+  "visual_description": "Three-panel sequence showing campus placement interviewers, Raju Rastogi calmly answering, and the interviewer asking the final question.",
+  "usage_context": "Used to portray staying true to principles under pressure, leading to unexpected respect or acceptance.",
   "keywords": [
     "3 idiots",
     "raju rastogi",
     "interview",
     "sharman joshi",
-    "attitude",
     "salary kitni loge",
+    "aap apni naukri rakh lijiye",
     "placement",
-    "bollywood meme"
+    "bollywood"
   ],
   "sentiment": "positive",
   "image_width": 736,
   "image_height": 981,
   "example": {
-    "interviewer_condition": "Client: We need this done overnight with zero extra budget.",
-    "raju_reply": "Me: Then find someone else who doesn't value sleep.",
-    "interviewer_reaction": "Client: Deal, sending advance payment now."
+    "interviewer_condition": "Interviewer: This attitude won't work in our company.",
+    "raju_reply": "Me: You can keep your job, I'll keep my attitude.",
+    "interviewer_reaction": "Interviewer: Salary kitni loge?"
   },
   "text_areas": [
     {
       "id": "interviewer_condition",
-      "description": "Dialogue or question from the interviewers in the top panel",
+      "description": "Dialogue from interviewers in top panel",
       "x": 20,
-      "y": 20,
+      "y": 15,
       "width": 696,
+<<<<<<< HEAD
       "height": 80,
       "fontSize": 48,
+=======
+      "height": 65,
+      "fontSize": 24,
+>>>>>>> template-improve/3-idiots-interview-scene
       "color": "white",
       "stroke": "black",
       "maxLength": 100,
@@ -39,12 +44,17 @@
     },
     {
       "id": "raju_reply",
-      "description": "Raju's bold response in the middle panel",
+      "description": "Raju's straightforward response in middle panel",
       "x": 20,
-      "y": 350,
+      "y": 300,
       "width": 696,
+<<<<<<< HEAD
       "height": 80,
       "fontSize": 48,
+=======
+      "height": 65,
+      "fontSize": 24,
+>>>>>>> template-improve/3-idiots-interview-scene
       "color": "white",
       "stroke": "black",
       "maxLength": 100,
@@ -54,12 +64,17 @@
     },
     {
       "id": "interviewer_reaction",
-      "description": "Interviewer's impressed final response in the bottom panel",
+      "description": "Impressed interviewer question in bottom panel",
       "x": 20,
-      "y": 880,
+      "y": 900,
       "width": 696,
+<<<<<<< HEAD
       "height": 80,
       "fontSize": 48,
+=======
+      "height": 65,
+      "fontSize": 24,
+>>>>>>> template-improve/3-idiots-interview-scene
       "color": "white",
       "stroke": "black",
       "maxLength": 100,
