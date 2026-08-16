@@ -1,42 +1,55 @@
 {
   "id": "drake",
   "name": "Drake Hotline Bling",
-  "visual_description": "Two panels of Drake. Top panel: Drake looking disgusted and turning away. Bottom panel: Drake pointing approvingly with a smile.",
-  "usage_context": "Use when comparing two things, rejecting the first option (bad/undesired) and accepting the second option (good/desired).",
-  "keywords": ["drake", "reject", "accept", "comparison", "prefer"],
+  "visual_description": "Two vertical panels: top shows Drake turning away in disapproval; bottom shows Drake smiling and pointing in approval, next to blank white text boxes.",
+  "usage_context": "Used to show preference or contrast between two options, rejecting the top and endorsing the bottom.",
+  "keywords": [
+    "drake",
+    "hotline bling",
+    "drakeposting",
+    "disapproval",
+    "approval",
+    "comparison",
+    "preference",
+    "choice"
+  ],
   "sentiment": "comparison",
-  "image_width": 1200,
-  "image_height": 1200,
+  "image_width": 1000,
+  "image_height": 1000,
   "example": {
-    "top_right": "Writing your own CSS",
-    "bottom_right": "Using Tailwind"
+    "top_text": "Fixing bugs properly",
+    "bottom_text": "Restarting the server"
   },
   "text_areas": [
     {
-      "id": "top_right",
-      "description": "The bad or rejected option",
-      "x": 600,
-      "y": 250,
-      "width": 550,
-      "height": 500,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "Rejected or disapproved option",
+      "x": 520,
+      "y": 50,
+      "width": 440,
+      "height": 400,
+      "fontSize": 52,
       "color": "black",
-      "maxLength": 60,
+      "stroke": "none",
+      "maxLength": 70,
       "uppercase": false,
-      "textAlign": "center"
+      "textAlign": "center",
+      "fontFamily": "Impact"
     },
     {
-      "id": "bottom_right",
-      "description": "The good or preferred option",
-      "x": 600,
-      "y": 800,
-      "width": 550,
+      "id": "bottom_text",
+      "description": "Approved or preferred option",
+      "x": 520,
+      "y": 550,
+      "width": 440,
       "height": 400,
-      "fontSize": 48,
+      "fontSize": 52,
       "color": "black",
-      "maxLength": 60,
+      "stroke": "none",
+      "maxLength": 70,
       "uppercase": false,
-      "textAlign": "center"
+      "textAlign": "center",
+      "fontFamily": "Impact"
     }
   ]
 }
