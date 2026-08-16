@@ -1,38 +1,36 @@
 {
   "id": "welcome-laughing-scene",
-  "name": "Welcome Movie Crew Laughing",
-  "visual_description": "Vijay Raaz and crew members laughing hysterically together outdoors near a railing in the movie Welcome.",
-  "usage_context": "Used to mock someone's absurd statement, uncontrollable group laughter, or reacting to a hilarious failure.",
+  "name": "Welcome Movie Laughing Scene",
+  "visual_description": "Vijay Raaz, Mushtaq Khan, and crew laughing uncontrollably outdoors during the fake film shoot in the movie Welcome.",
+  "usage_context": "Used to show uncontrollable collective laughter at an absurd plan, foolish idea, or friend's fail.",
   "keywords": [
     "welcome",
     "vijay raaz",
     "laughing",
     "bollywood",
-    "mocking",
-    "group laugh",
-    "funny reaction",
-    "akshay kumar",
-    "majnu bhai"
+    "mushtaq khan",
+    "comedy",
+    "hindi meme"
   ],
   "sentiment": "sarcastic",
-  "image_width": 924,
-  "image_height": 516,
+  "image_width": 930,
+  "image_height": 523,
   "example": {
-    "caption": "When the backbencher says he will top the exam"
+    "caption": "When a backbencher says 'Kal se pakka padhai shuru'"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Main caption at the top",
-      "x": 30,
-      "y": 20,
-      "width": 864,
+      "description": "Top caption describing the funny or ridiculous situation",
+      "x": 20,
+      "y": 15,
+      "width": 890,
       "height": 90,
-      "fontSize": 32,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
-      "maxLength": 90,
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }
