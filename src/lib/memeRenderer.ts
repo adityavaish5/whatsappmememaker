@@ -1,4 +1,4 @@
-import { createCanvas, loadImage } from 'canvas';
+import { createCanvas, loadImage } from '@napi-rs/canvas';
 import path from 'path';
 import { MemeTemplate } from '@/types';
 
@@ -45,7 +45,7 @@ export async function renderMeme(template: MemeTemplate, textPayloads: Record<st
       dctx.lineWidth = 4;
       dctx.strokeRect(area.x, area.y, area.width, area.height);
     });
-    image = await loadImage(dummyCanvas.toBuffer());
+    image = await loadImage(dummyCanvas.toBuffer('image/png'));
   }
 
   const canvas = createCanvas(image.width, image.height);

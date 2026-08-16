@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
-import { createCanvas, loadImage, registerFont } from 'canvas';
 import { GenerateMemeRequest, MemeTemplate, LLMResponse, MemeTemplateId } from '@/types';
 
 import { google } from '@ai-sdk/google';
@@ -27,8 +26,12 @@ if (fs.existsSync(templatesDir)) {
 }
 
 async function getMemeFromLLM(reqData: GenerateMemeRequest): Promise<LLMResponse> {
+  // Select a random sample of 100 templates from the loaded list to reduce tokens and improve speed
+  const shuffled = [...templates].sort(() => 0.5 - Math.random());
+  const selectedTemplates = shuffled.slice(0, 100);
+
   // Build a minimal catalog for the LLM to save tokens and keep it focused
-  const llmCatalog = templates.map(t => ({
+  const llmCatalog = selectedTemplates.map(t => ({
     id: t.id,
     name: t.name,
     visual_description: t.visual_description,
@@ -56,7 +59,7 @@ Instructions:
   const userPrompt = `Context: ${reqData.context}\n\nConversation:\n${reqData.conversation}`;
 
   try {
-    const validTemplateIds = templates.map(t => t.id).join(', ');
+    const validTemplateIds = selectedTemplates.map(t => t.id).join(', ');
     
     // We use generateText and parse manually because Vercel AI SDK has a known bug
     // parsing z.record() objects with Gemini's structured output.
