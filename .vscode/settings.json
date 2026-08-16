@@ -1,0 +1,4 @@
+{
+  "git.enableSmartCommit": true,
+  "github.copilot.git.commitTemplate": true
+}
