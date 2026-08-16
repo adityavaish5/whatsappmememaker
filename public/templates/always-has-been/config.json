@@ -1,0 +1,52 @@
+{
+  "id": "always-has-been",
+  "name": "Always Has Been",
+  "visual_description": "Two astronauts in outer space overlooking Earth; one discovers a truth while the other aims a handgun at him from behind.",
+  "usage_context": "Used to dramatize sudden realizations or reveal humorous conspiracy theories about universal truths.",
+  "keywords": [
+    "always has been",
+    "astronaut with gun",
+    "wait its all",
+    "space meme",
+    "ohio astronaut"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 960,
+  "image_height": 540,
+  "example": {
+    "question_text": "Wait, it's all engineering colleges?",
+    "answer_text": "Always has been."
+  },
+  "text_areas": [
+    {
+      "id": "question_text",
+      "description": "The realization question starting with 'Wait, it's all...?'",
+      "x": 120,
+      "y": 25,
+      "width": 440,
+      "height": 110,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "answer_text",
+      "description": "The response 'Always has been.'",
+      "x": 580,
+      "y": 25,
+      "width": 360,
+      "height": 100,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 35,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

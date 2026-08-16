@@ -1,0 +1,40 @@
+{
+  "id": "sad-pablo-escobar",
+  "name": "Sad Pablo Escobar Waiting",
+  "visual_description": "Three-panel montage of Wagner Moura as Pablo Escobar in Narcos looking sad, bored, and lonely across different locations.",
+  "usage_context": "Depicts long waits, intense boredom, loneliness, or having nothing left to do.",
+  "keywords": [
+    "narcos",
+    "pablo escobar",
+    "wagner moura",
+    "waiting",
+    "bored",
+    "lonely",
+    "sad",
+    "netflix",
+    "alone"
+  ],
+  "sentiment": "negative",
+  "image_width": 720,
+  "image_height": 709,
+  "example": {
+    "caption": "Waiting for the weekend to arrive"
+  },
+  "text_areas": [
+    {
+      "id": "caption",
+      "description": "Main caption describing the wait or boredom",
+      "x": 20,
+      "y": 15,
+      "width": 680,
+      "height": 90,
+      "fontSize": 38,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 70,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "two-buttons",
+  "name": "Two Buttons / Daily Struggle",
+  "visual_description": "Two-panel comic showing a gloved hand struggling to choose between two red buttons, followed by a sweating superhero wiping his forehead.",
+  "usage_context": "Used to express difficult decisions, hypocritical dilemmas, or conflicting choices.",
+  "keywords": [
+    "two buttons",
+    "daily struggle",
+    "sweating man",
+    "dilemma",
+    "difficult choice",
+    "jake clark"
+  ],
+  "sentiment": "comparison",
+  "image_width": 600,
+  "image_height": 908,
+  "example": {
+    "button_1": "SLEEP ON TIME",
+    "button_2": "ONE MORE EPISODE"
+  },
+  "text_areas": [
+    {
+      "id": "button_1",
+      "description": "Option 1 label on the left button panel",
+      "x": 65,
+      "y": 90,
+      "width": 190,
+      "height": 130,
+      "fontSize": 36,
+      "color": "black",
+      "stroke": "transparent",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "button_2",
+      "description": "Option 2 label on the right button panel",
+      "x": 265,
+      "y": 65,
+      "width": 185,
+      "height": 120,
+      "fontSize": 36,
+      "color": "black",
+      "stroke": "transparent",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

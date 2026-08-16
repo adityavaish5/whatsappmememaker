@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
-const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { GoogleGenAI } = require('@google/genai');
 require('dotenv').config();
 
 const templateId = process.argv[2];
@@ -30,7 +30,7 @@ if (!apiKey) {
   process.exit(1);
 }
 
-const genAI = new GoogleGenerativeAI(apiKey);
+const genAI = new GoogleGenAI({ apiKey });
 
 async function run() {
   console.log(`\n🔍 Analyzing template: ${templateId}...`);
@@ -92,8 +92,6 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
   ]
 }`;
 
-  const model = genAI.getGenerativeModel({ model: 'gemini-3.7-flash' });
-
   try {
     // Git & PR Creation Workflow - MUST checkout branch BEFORE modifying files!
     const branchName = `template-improve/${templateId}`;
@@ -116,12 +114,18 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
       }
     }
 
-    const result = await model.generateContent([
-      systemPrompt,
-      imagePart
-    ]);
+    const result = await genAI.models.generateContent({
+      model: 'gemini-3.7-flash',
+      contents: [{
+        role: 'user',
+        parts: [
+          { text: systemPrompt },
+          imagePart,
+        ],
+      }],
+    });
 
-    let responseText = result.response.text().trim();
+    let responseText = (result.text ?? '').trim();
     responseText = responseText.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
 
     const updatedConfig = JSON.parse(responseText);
@@ -141,9 +145,8 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
     fs.writeFileSync(configPath, JSON.stringify(updatedConfig, null, 2));
     console.log(`✅ Updated public/templates/${templateId}/config.json`);
 
-    // Run test renderer for ONLY this template to generate updated test output image
-    console.log(`🎨 Rendering updated test image for ${templateId}...`);
-    execSync(`npx ts-node -O '{"module":"commonjs"}' scripts/render-single.ts "${templateId}"`, { stdio: 'inherit' });
+    // Always render a preview image so new refinements have a visual QA artifact.
+    renderTemplatePreview(templateId);
 
     if (!noGit) {
       // Stage only this template's config.json and its test output image
@@ -195,6 +198,8 @@ Check test-output/${templateId}.png for the newly rendered sample.`;
 
   } catch (err) {
     console.error(`❌ Failed to refine template ${templateId}:`, err);
+    // Still generate a preview from the current config so the template has a visual artifact even when the model is unavailable.
+    renderTemplatePreview(templateId);
     if (!noGit) {
       try { execSync(`git checkout main`, { stdio: 'pipe' }); } catch(e){}
     }

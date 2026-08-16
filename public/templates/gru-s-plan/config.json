@@ -1,0 +1,85 @@
+{
+  "id": "gru-s-plan",
+  "name": "Gru's Plan",
+  "visual_description": "Four-panel meme of Gru from Despicable Me presenting a plan on an easel board, looking excited across steps 1 to 3, then staring back in shock at step 4.",
+  "usage_context": "Used to describe a multi-step plan or sequence of events where the final step leads to an unexpected, disastrous, or embarrassing outcome.",
+  "keywords": [
+    "gru s plan",
+    "gru presentation",
+    "despicable me",
+    "gru flip chart",
+    "gru whiteboard",
+    "4 panel"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 700,
+  "image_height": 449,
+  "example": {
+    "step_1": "Study all night for the exam",
+    "step_2": "Feel confident in the morning",
+    "step_3": "The exam was yesterday",
+    "step_4": "The exam was yesterday"
+  },
+  "text_areas": [
+    {
+      "id": "step_1",
+      "description": "First step of the plan",
+      "x": 195,
+      "y": 45,
+      "width": 140,
+      "height": 165,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "step_2",
+      "description": "Second step of the plan",
+      "x": 545,
+      "y": 45,
+      "width": 140,
+      "height": 165,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "step_3",
+      "description": "Third step (the unexpected failure)",
+      "x": 195,
+      "y": 270,
+      "width": 140,
+      "height": 165,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "step_4",
+      "description": "Repeated failure step that Gru realizes in shock",
+      "x": 545,
+      "y": 270,
+      "width": 140,
+      "height": 165,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

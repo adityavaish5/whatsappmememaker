@@ -1,0 +1,70 @@
+{
+  "id": "anakin-padme-4-panel",
+  "name": "For the Better, Right? (Anakin and Padme)",
+  "visual_description": "Four-panel scene from Star Wars Episode II showing Anakin Skywalker talking and Padmé Amidala reacting with initial amusement then concern.",
+  "usage_context": "Used to express an alarming realization when a seemingly positive or ambiguous statement turns out to have sinister implications.",
+  "keywords": [
+    "anakin padme",
+    "for the better right",
+    "star wars",
+    "attack of the clones",
+    "natalie portman",
+    "hayden christensen",
+    "right meme"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 768,
+  "image_height": 768,
+  "example": {
+    "panel_1_text": "I'm going to release the code directly to production.",
+    "panel_2_text": "After testing it, right?",
+    "panel_4_text": "After testing it, right?"
+  },
+  "text_areas": [
+    {
+      "id": "panel_1_text",
+      "description": "Anakin's initial statement or idea (top-left panel)",
+      "x": 14,
+      "y": 14,
+      "width": 356,
+      "height": 110,
+      "fontSize": 31,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 70,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "panel_2_text",
+      "description": "Padme's optimistic question (top-right panel)",
+      "x": 398,
+      "y": 14,
+      "width": 356,
+      "height": 110,
+      "fontSize": 31,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "panel_4_text",
+      "description": "Padme's concerned follow-up (bottom-right panel)",
+      "x": 398,
+      "y": 398,
+      "width": 356,
+      "height": 110,
+      "fontSize": 31,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

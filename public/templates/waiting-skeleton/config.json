@@ -1,0 +1,37 @@
+{
+  "id": "waiting-skeleton",
+  "name": "Waiting Skeleton on a Bench",
+  "visual_description": "A prop human skeleton sitting on a wooden park bench outdoors on a grassy lawn.",
+  "usage_context": "Used to express an endlessly long wait for something that takes forever or never happens.",
+  "keywords": [
+    "waiting skeleton",
+    "skeleton on bench",
+    "still waiting",
+    "waiting forever",
+    "skeleton meme",
+    "patience"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 298,
+  "image_height": 403,
+  "example": {
+    "top_text": "Me waiting for my crush to reply"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Text describing what you are endlessly waiting for",
+      "x": 10,
+      "y": 10,
+      "width": 278,
+      "height": 70,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "uno-draw-25-cards",
+  "name": "Draw 25 Cards UNO Meme",
+  "visual_description": "Two-panel meme featuring a custom UNO wild card with an action prompt on the left, and a man holding a massive fan of drawn cards on the right.",
+  "usage_context": "Used to express an extreme reluctance or refusal to perform an undesirable task, choosing an absurd penalty over doing it.",
+  "keywords": [
+    "uno",
+    "draw 25",
+    "or draw 25",
+    "card game",
+    "relatable",
+    "stubborn",
+    "refusal"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 500,
+  "image_height": 494,
+  "example": {
+    "choice_text": "Reply to texts on time"
+  },
+  "text_areas": [
+    {
+      "id": "choice_text",
+      "description": "The undesirable action to avoid",
+      "x": 55,
+      "y": 140,
+      "width": 140,
+      "height": 110,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 45,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    }
+  ]
+}

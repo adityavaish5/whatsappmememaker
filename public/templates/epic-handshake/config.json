@@ -1,0 +1,73 @@
+{
+  "id": "epic-handshake",
+  "name": "Epic Handshake / Predator Arm Wrestling",
+  "visual_description": "Painted recreation of the muscular handshake between Dutch (Arnold Schwarzenegger) and Dillon (Carl Weathers) from the movie Predator.",
+  "usage_context": "Used to represent two opposing or completely different groups agreeing on a shared interest, mutual feeling, or common enemy.",
+  "keywords": [
+    "epic handshake",
+    "predator",
+    "arnold schwarzenegger",
+    "carl weathers",
+    "dutch",
+    "dillon",
+    "arm wrestle",
+    "agreement",
+    "muscles",
+    "biceps"
+  ],
+  "sentiment": "positive",
+  "image_width": 900,
+  "image_height": 645,
+  "example": {
+    "left_arm": "Introverts",
+    "right_arm": "Extroverts",
+    "agreement": "Cancelling plans when tired"
+  },
+  "text_areas": [
+    {
+      "id": "left_arm",
+      "description": "First group or individual (left arm)",
+      "x": 40,
+      "y": 420,
+      "width": 260,
+      "height": 130,
+      "fontSize": 34,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "right_arm",
+      "description": "Second group or individual (right arm)",
+      "x": 600,
+      "y": 400,
+      "width": 260,
+      "height": 130,
+      "fontSize": 34,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "agreement",
+      "description": "Shared common ground or agreement (center handshake)",
+      "x": 280,
+      "y": 70,
+      "width": 340,
+      "height": 130,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

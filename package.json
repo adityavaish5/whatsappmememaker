@@ -10,10 +10,12 @@
     "test:templates": "ts-node -O '{\"module\":\"commonjs\"}' scripts/test-templates.ts",
     "refine:template": "node scripts/refine-template.js",
     "refine:all": "node scripts/refine-all-templates.js",
-    "sync:registry": "node scripts/sync-template-registry.js"
+    "sync:registry": "node scripts/sync-template-registry.js",
+    "ingest:memes": "npx ts-node -O '{\"module\":\"commonjs\"}' scripts/auto-ingest-memes.ts"
   },
   "dependencies": {
     "@ai-sdk/google": "^4.0.44",
+    "@google/genai": "^1.12.0",
     "@google/generative-ai": "^0.24.1",
     "@napi-rs/canvas": "^1.0.6",
     "ai": "^7.0.66",

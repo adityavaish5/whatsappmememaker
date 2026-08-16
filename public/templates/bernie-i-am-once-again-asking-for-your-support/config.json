@@ -1,0 +1,55 @@
+{
+  "id": "bernie-i-am-once-again-asking-for-your-support",
+  "name": "I Am Once Again Asking",
+  "visual_description": "US Senator Bernie Sanders wearing a winter parka outdoors, looking directly at the camera, with the subtitle 'I am once again asking'.",
+  "usage_context": "Used to humorously plead, request, or beg for the same thing repeatedly.",
+  "keywords": [
+    "bernie sanders",
+    "i am once again asking",
+    "financial support",
+    "begging",
+    "asking",
+    "pleading",
+    "politics",
+    "donation"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 750,
+  "image_height": 750,
+  "example": {
+    "top_context": "Wikipedia every December",
+    "bottom_text": "for your $3 donation"
+  },
+  "text_areas": [
+    {
+      "id": "top_context",
+      "description": "Context or entity making the repeated request",
+      "x": 25,
+      "y": 25,
+      "width": 700,
+      "height": 110,
+      "fontSize": 42,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 70,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Text completing the request after 'I am once again asking'",
+      "x": 25,
+      "y": 660,
+      "width": 700,
+      "height": 70,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

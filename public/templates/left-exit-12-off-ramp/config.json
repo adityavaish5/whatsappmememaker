@@ -1,0 +1,69 @@
+{
+  "id": "left-exit-12-off-ramp",
+  "name": "Left Exit 12 Off Ramp / Swerving Car",
+  "visual_description": "A highway sign showing a straight path and a sharp right exit ramp above a blue car aggressively swerving off the road toward the exit.",
+  "usage_context": "Used to illustrate impulsively choosing a chaotic, fun, or irrational path over a sensible, healthy, or boring default option.",
+  "keywords": [
+    "left exit 12",
+    "off ramp",
+    "drifting car",
+    "swerving car",
+    "highway exit",
+    "choice meme"
+  ],
+  "sentiment": "comparison",
+  "image_width": 804,
+  "image_height": 767,
+  "example": {
+    "straight_option": "Going to sleep at 10 PM",
+    "exit_option": "Watching random video essays until 4 AM",
+    "car_label": "Me"
+  },
+  "text_areas": [
+    {
+      "id": "straight_option",
+      "description": "Sensible / rational default choice",
+      "x": 230,
+      "y": 120,
+      "width": 220,
+      "height": 210,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "none",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "exit_option",
+      "description": "Impulsive / tempting alternative choice",
+      "x": 500,
+      "y": 120,
+      "width": 225,
+      "height": 210,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "none",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "car_label",
+      "description": "Person or entity making the impulsive decision",
+      "x": 300,
+      "y": 660,
+      "width": 300,
+      "height": 80,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

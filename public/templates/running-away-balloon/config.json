@@ -1,0 +1,69 @@
+{
+  "id": "running-away-balloon",
+  "name": "Running Away Balloon / Pink Guy Holding Back",
+  "visual_description": "A two-panel webcomic where a white figure excitedly reaches for a yellow balloon, but is held back by a giant pink creature in the second panel.",
+  "usage_context": "Used to represent someone trying to achieve a goal or pursue happiness, only to be held back or restrained by an obstacle, anxiety, addiction, or life responsibility.",
+  "keywords": [
+    "running away balloon",
+    "pink blob",
+    "holding back",
+    "procrastination",
+    "supernormal comic",
+    "goal vs reality"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 761,
+  "image_height": 1024,
+  "example": {
+    "yellow_balloon": "8 hours of healthy sleep",
+    "white_character": "Me at 11 PM",
+    "pink_monster": "One more episode"
+  },
+  "text_areas": [
+    {
+      "id": "yellow_balloon",
+      "description": "The goal, aspiration, or desirable thing being chased",
+      "x": 480,
+      "y": 70,
+      "width": 260,
+      "height": 240,
+      "fontSize": 41,
+      "color": "black",
+      "stroke": "transparent",
+      "maxLength": 40,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "pink_monster",
+      "description": "The obstacle, addiction, or responsibility holding you back",
+      "x": 20,
+      "y": 750,
+      "width": 230,
+      "height": 160,
+      "fontSize": 41,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 35,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "white_character",
+      "description": "The person trying to reach the goal (usually 'Me')",
+      "x": 300,
+      "y": 790,
+      "width": 170,
+      "height": 130,
+      "fontSize": 41,
+      "color": "black",
+      "stroke": "transparent",
+      "maxLength": 25,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "change-my-mind",
+  "name": "Change My Mind",
+  "visual_description": "Steven Crowder sitting outdoors behind a folding table with a coffee mug and a white banner.",
+  "usage_context": "Used to express an assertive, unpopular, or humorous opinion challenging others to convince you otherwise.",
+  "keywords": [
+    "change my mind",
+    "steven crowder",
+    "prove me wrong",
+    "debate",
+    "unpopular opinion",
+    "hot take",
+    "table sign"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 482,
+  "image_height": 361,
+  "example": {
+    "sign_text": "Maggi tastes better when cooked by someone else."
+  },
+  "text_areas": [
+    {
+      "id": "sign_text",
+      "description": "The controversial opinion or statement written on the banner above 'CHANGE MY MIND'",
+      "x": 215,
+      "y": 215,
+      "width": 200,
+      "height": 80,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 80,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    }
+  ]
+}
