@@ -1,0 +1,30 @@
+{
+  "id": "welcome-laughing-scene",
+  "name": "Welcome Laughing Scene",
+  "visual_description": "Indian meme template for Welcome Laughing Scene",
+  "usage_context": "Use when appropriate based on Welcome Laughing Scene",
+  "keywords": [
+    "indian meme"
+  ],
+  "sentiment": "neutral",
+  "image_width": 800,
+  "image_height": 600,
+  "example": {
+    "text": "Example text"
+  },
+  "text_areas": [
+    {
+      "id": "text",
+      "description": "Main text area",
+      "x": 50,
+      "y": 50,
+      "width": 700,
+      "height": 200,
+      "fontSize": 48,
+      "color": "white",
+      "stroke": "black",
+      "uppercase": true,
+      "textAlign": "center"
+    }
+  ]
+}
