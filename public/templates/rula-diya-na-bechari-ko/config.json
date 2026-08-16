@@ -1,32 +1,36 @@
 {
   "id": "rula-diya-na-bechari-ko",
-  "name": "Rula Diya Na Bechari Ko (Baghban)",
-  "visual_description": "Indian meme template: Rula Diya Na Bechari Ko (Baghban)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Rula Diya Na Bechari Ko (Baghban)'",
+  "name": "Rula Diya Na Bechaari Ko",
+  "visual_description": "Aman Verma consoles his crying wife while casting an accusing look at his mother Hema Malini from the film Baghban.",
+  "usage_context": "Used sarcastically to call someone out for unnecessarily hurting, upsetting, or offending someone, or making a trivial issue dramatic.",
   "keywords": [
-    "indian meme",
-    "rula",
-    "diya",
-    "bechari",
-    "(baghban)"
+    "baghban",
+    "rula diya na bechari ko",
+    "hema malini",
+    "aman verma",
+    "guilt trip",
+    "drama",
+    "family drama",
+    "crying wife"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1280,
+  "image_height": 720,
   "example": {
-    "text": "Rula Diya Na Bechari Ko (Baghban)"
+    "top_text": "When you show your mom her own screen time report"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "Setup or action causing the emotional distress/drama",
+      "x": 40,
+      "y": 20,
+      "width": 1200,
+      "height": 130,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

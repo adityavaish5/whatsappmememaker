@@ -1,33 +1,37 @@
 {
   "id": "guess-karo-hum-kahan-hain",
-  "name": "Guess Karo Hum Kahan Hain",
-  "visual_description": "Indian meme template: Guess Karo Hum Kahan Hain",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Guess Karo Hum Kahan Hain'",
+  "name": "Guess Karo Hum Kahan Hain - K3G",
+  "visual_description": "Amitabh Bachchan wearing sunglasses on a phone call while stepping off a private jet with Jaya Bachchan, with caption 'Guess karo hum kahan hain?'.",
+  "usage_context": "Used to mock unannounced visits, flex luxury locations, or surprise someone by arriving at an unexpected place.",
   "keywords": [
-    "indian meme",
-    "guess",
-    "karo",
-    "hum",
-    "kahan",
-    "hain"
+    "guess karo hum kahan hain",
+    "kabhi khushi kabhie gham",
+    "k3g",
+    "amitabh bachchan",
+    "yashvardhan raichand",
+    "private jet",
+    "surprise visit",
+    "flex",
+    "bollywood meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1024,
+  "image_height": 460,
   "example": {
-    "text": "Guess Karo Hum Kahan Hain"
+    "setup": "Relatives when you are home alone on a Sunday"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "setup",
+      "description": "Situation or scenario leading to the surprise arrival",
+      "x": 520,
+      "y": 40,
+      "width": 470,
+      "height": 220,
       "fontSize": 48,
-      "color": "white",
-      "stroke": "black",
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

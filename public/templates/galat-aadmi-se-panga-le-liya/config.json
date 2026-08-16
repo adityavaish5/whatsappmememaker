@@ -1,32 +1,35 @@
 {
   "id": "galat-aadmi-se-panga-le-liya",
-  "name": "Galat Aadmi Se Panga Le Liya",
-  "visual_description": "Indian meme template: Galat Aadmi Se Panga Le Liya",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Galat Aadmi Se Panga Le Liya'",
+  "name": "Galat Aadmi Se Panga Le Liya - Puneet Superstar",
+  "visual_description": "Puneet Superstar looking into his phone camera with a serious and menacing face, with the caption 'Galat aadmi se panga le liya' at the bottom.",
+  "usage_context": "Used humorously to warn someone they picked a fight or messed with the wrong person, often in petty or ironically non-threatening situations.",
   "keywords": [
-    "indian meme",
-    "galat",
-    "aadmi",
-    "panga",
-    "liya"
+    "puneet superstar",
+    "lord puneet",
+    "galat aadmi se panga le liya",
+    "warning",
+    "threat",
+    "revenge",
+    "indian meme template"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1600,
+  "image_height": 900,
   "example": {
-    "text": "Galat Aadmi Se Panga Le Liya"
+    "setup": "When someone cuts you off in traffic and you follow them all the way home"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "setup",
+      "description": "Situation or scenario describing who made the mistake of messing with you",
+      "x": 60,
+      "y": 40,
+      "width": 1480,
+      "height": 160,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

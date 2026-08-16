@@ -1,35 +1,37 @@
 {
   "id": "maine-fir-usko-chaata-laga-diya",
-  "name": "Maine Fir Usko Chaata Laga Diya (Roadies)",
-  "visual_description": "Indian meme template: Maine Fir Usko Chaata Laga Diya (Roadies)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Maine Fir Usko Chaata Laga Diya (Roadies)'",
+  "name": "Maine Fir Usko Chaata Laga Diya",
+  "visual_description": "A male MTV Roadies contestant speaking earnestly during his audition with the subtitle 'Maine fir usko chaata lagadiya' at the bottom.",
+  "usage_context": "Used to describe reacting aggressively, slapping someone, or taking extreme action in response to annoying behavior or betrayal.",
   "keywords": [
-    "indian meme",
-    "maine",
-    "fir",
-    "usko",
+    "maine fir usko chaata laga diya",
+    "roadies",
+    "mtv roadies",
+    "its her choice",
+    "slap",
     "chaata",
-    "laga",
-    "diya",
-    "(roadies)"
+    "audition",
+    "neha dhupia",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1280,
+  "image_height": 720,
   "example": {
-    "text": "Maine Fir Usko Chaata Laga Diya (Roadies)"
+    "top_text": "When my sibling ate the last slice of pizza I saved for myself:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "Setup or scenario describing the provocative situation",
+      "x": 40,
+      "y": 30,
+      "width": 1200,
+      "height": 160,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

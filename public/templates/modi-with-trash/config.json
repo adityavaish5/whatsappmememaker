@@ -1,31 +1,52 @@
 {
   "id": "modi-with-trash",
-  "name": "Modi With Trash",
-  "visual_description": "Indian meme template: Modi With Trash",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Modi With Trash'",
+  "name": "Modi Plogging on Beach / Carrying Trash",
+  "visual_description": "Indian Prime Minister Narendra Modi walking on a sandy beach holding an acupressure roller and carrying a large plastic bag filled with collected trash over his shoulder.",
+  "usage_context": "Used to represent carrying useless teammates, cleaning up someone else's mess, or bearing the burden of toxic/worthless things alone.",
   "keywords": [
-    "indian meme",
+    "narendra modi",
     "modi",
-    "with",
-    "trash"
+    "plogging",
+    "beach",
+    "mamallapuram",
+    "trash",
+    "carrying team",
+    "swachh bharat",
+    "indian politician"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 736,
+  "image_height": 818,
   "example": {
-    "text": "Modi With Trash"
+    "top_text": "ME CARRYING MY SQUAD IN EVERY MATCH"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Top caption describing carrying useless people or cleaning up a mess",
+      "x": 30,
+      "y": 25,
+      "width": 676,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 65,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "trash_label",
+      "description": "Optional label placed over the trash bag",
+      "x": 260,
+      "y": 280,
+      "width": 200,
+      "height": 80,
+      "fontSize": 48,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 20,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

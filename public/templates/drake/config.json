@@ -1,42 +1,54 @@
 {
   "id": "drake",
-  "name": "Drake Hotline Bling",
-  "visual_description": "Two panels of Drake. Top panel: Drake looking disgusted and turning away. Bottom panel: Drake pointing approvingly with a smile.",
-  "usage_context": "Use when comparing two things, rejecting the first option (bad/undesired) and accepting the second option (good/desired).",
-  "keywords": ["drake", "reject", "accept", "comparison", "prefer"],
+  "name": "Drake Hotline Bling / Drakeposting",
+  "visual_description": "Two-panel meme with Drake in an orange puffer jacket. Top shows Drake turning away in disgust; bottom shows him smiling and pointing in approval.",
+  "usage_context": "Used to compare two options, expressing rejection or disapproval of the first and preference or satisfaction with the second.",
+  "keywords": [
+    "drake",
+    "hotline bling",
+    "drakeposting",
+    "nah yea",
+    "disapproval approval",
+    "prefer",
+    "comparison"
+  ],
   "sentiment": "comparison",
   "image_width": 1200,
   "image_height": 1200,
   "example": {
-    "top_right": "Writing your own CSS",
-    "bottom_right": "Using Tailwind"
+    "rejected_option": "Writing raw CSS from scratch",
+    "approved_option": "Using Tailwind CSS classes"
   },
   "text_areas": [
     {
-      "id": "top_right",
-      "description": "The bad or rejected option",
-      "x": 600,
-      "y": 250,
-      "width": 550,
-      "height": 500,
-      "fontSize": 48,
-      "color": "black",
-      "maxLength": 60,
+      "id": "rejected_option",
+      "description": "Text describing the disliked or rejected concept",
+      "x": 620,
+      "y": 60,
+      "width": 540,
+      "height": 480,
+      "fontSize": 52,
+      "color": "#000000",
+      "stroke": "transparent",
+      "maxLength": 80,
       "uppercase": false,
-      "textAlign": "center"
+      "textAlign": "center",
+      "fontFamily": "Impact"
     },
     {
-      "id": "bottom_right",
-      "description": "The good or preferred option",
-      "x": 600,
-      "y": 800,
-      "width": 550,
-      "height": 400,
-      "fontSize": 48,
-      "color": "black",
-      "maxLength": 60,
+      "id": "approved_option",
+      "description": "Text describing the preferred or approved concept",
+      "x": 620,
+      "y": 660,
+      "width": 540,
+      "height": 480,
+      "fontSize": 52,
+      "color": "#000000",
+      "stroke": "transparent",
+      "maxLength": 80,
       "uppercase": false,
-      "textAlign": "center"
+      "textAlign": "center",
+      "fontFamily": "Impact"
     }
   ]
 }

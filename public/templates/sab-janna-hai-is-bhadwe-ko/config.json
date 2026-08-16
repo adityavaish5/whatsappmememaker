@@ -1,33 +1,37 @@
 {
   "id": "sab-janna-hai-is-bhadwe-ko",
-  "name": "Sab Janna Hai Is Bhadwe Ko",
-  "visual_description": "Indian meme template: Sab Janna Hai Is Bhadwe Ko",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Sab Janna Hai Is Bhadwe Ko'",
+  "name": "Sab Janna Hai Iss Bhadwe Ko",
+  "visual_description": "An elderly Indian woman in white dismissively gesturing with her hand next to a smiling Biswa Kalyan Rath in a white shirt and glasses.",
+  "usage_context": "Used to react sarcastically to nosy people, relatives, or apps demanding unnecessary personal information and details.",
   "keywords": [
+    "sab janna hai iss bhadwe ko",
+    "biswa kalyan rath",
+    "dadi",
+    "tvf",
+    "nosy",
     "indian meme",
-    "sab",
-    "janna",
-    "hai",
-    "bhadwe"
+    "curious",
+    "privacy"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 893,
+  "image_height": 468,
   "example": {
-    "text": "Sab Janna Hai Is Bhadwe Ko"
+    "top_text": "Calculator app asking for contacts and location permission:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation where someone or something asks too many intrusive questions",
+      "x": 30,
+      "y": 20,
+      "width": 833,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

@@ -1,31 +1,35 @@
 {
   "id": "bahut-tej-ho-gaye-ho",
-  "name": "Bahut Tej Ho Gaye Ho",
-  "visual_description": "Indian meme template: Bahut Tej Ho Gaye Ho",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Bahut Tej Ho Gaye Ho'",
+  "name": "Bahut Tej Ho Gaye Ho (CarryMinati)",
+  "visual_description": "CarryMinati (Ajey Nagar) wearing glasses and smirking/winking in front of his wooden studio background with YouTube play buttons.",
+  "usage_context": "Used sarcastically or playfully when reacting to someone acting overly clever, sly, or opportunistic.",
   "keywords": [
-    "indian meme",
-    "bahut",
-    "tej",
-    "gaye"
+    "carryminati",
+    "ajey nagar",
+    "bahut tej ho gaye ho",
+    "clever",
+    "smart",
+    "sarcasm",
+    "indian youtuber"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1080,
+  "image_height": 608,
   "example": {
-    "text": "Bahut Tej Ho Gaye Ho"
+    "caption": "When your younger brother starts deleting his browser history"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Situation setup explaining someone acting clever",
+      "x": 40,
+      "y": 20,
+      "width": 1000,
+      "height": 130,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

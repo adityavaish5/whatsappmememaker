@@ -1,30 +1,52 @@
 {
   "id": "man-singing",
-  "name": "Man Singing",
-  "visual_description": "Indian meme template: Man Singing",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Man Singing'",
+  "name": "Bleeding Gums Murphy 26 Minute Song / Simpsons Clock 7:30 to 7:56",
+  "visual_description": "Two-panel Simpsons meme showing a singer at a microphone with a digital clock changing from 7:30 to 7:56 as he holds or drags out a long note.",
+  "usage_context": "Used to joke about unnecessarily long song intros, guitar solos, rants, or stories that drag on forever.",
   "keywords": [
-    "indian meme",
-    "man",
-    "singing"
+    "simpsons",
+    "bleeding gums murphy",
+    "7:30",
+    "7:56",
+    "national anthem",
+    "long song",
+    "rant",
+    "clock"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 450,
   "example": {
-    "text": "Man Singing"
+    "left_text": "Pink Floyd song starts",
+    "right_text": "First vocal lyric"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "left_text",
+      "description": "Caption for the start of the event at 7:30",
+      "x": 20,
+      "y": 340,
+      "width": 560,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "right_text",
+      "description": "Caption for the continuation/end at 7:56",
+      "x": 620,
+      "y": 340,
+      "width": 560,
+      "height": 90,
+      "fontSize": 48,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

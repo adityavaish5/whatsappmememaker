@@ -1,31 +1,37 @@
 {
   "id": "arey-aao",
-  "name": "Arey Aao (Welcome)",
-  "visual_description": "Indian meme template: Arey Aao (Welcome)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Arey Aao (Welcome)'",
+  "name": "Arey Aao - Welcome",
+  "visual_description": "Vijay Raaz in a red shirt frantically waving his arm and calling out on a movie set with film equipment in the background.",
+  "usage_context": "Used to express impatience while waiting for someone or something to arrive, or calling upon chaotic situations eagerly.",
   "keywords": [
-    "indian meme",
-    "arey",
-    "aao",
-    "(welcome)"
+    "welcome",
+    "vijay raaz",
+    "arey aao",
+    "bollywood",
+    "director",
+    "shouting",
+    "waiting",
+    "impatient",
+    "movie set"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1024,
+  "image_height": 576,
   "example": {
-    "text": "Arey Aao (Welcome)"
+    "top_text": "Me waiting for the weekend like:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Top caption setting up the situation or waiting scenario",
+      "x": 30,
+      "y": 20,
+      "width": 964,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 70,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

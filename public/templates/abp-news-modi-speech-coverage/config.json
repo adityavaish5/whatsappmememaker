@@ -1,33 +1,37 @@
 {
   "id": "abp-news-modi-speech-coverage",
-  "name": "ABP News' Modi Speech Coverage",
-  "visual_description": "Indian meme template: ABP News' Modi Speech Coverage",
-  "usage_context": "Use when expressing the sentiment or reaction of 'ABP News' Modi Speech Coverage'",
+  "name": "ABP News Modi Hath Joda Analysis",
+  "visual_description": "ABP News split screen tracking each instance PM Narendra Modi folded hands during a speech with numbered captions from 1st to 7th time.",
+  "usage_context": "Used sarcastically to mock over-the-top Indian news media coverage, or to depict repeatedly apologizing or pleading.",
   "keywords": [
-    "indian meme",
-    "abp",
-    "news'",
+    "abp news",
     "modi",
-    "speech",
-    "coverage"
+    "hath joda",
+    "godi media",
+    "news channel",
+    "indian media",
+    "sarcastic",
+    "begging",
+    "apology"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1007,
+  "image_height": 357,
   "example": {
-    "text": "ABP News' Modi Speech Coverage"
+    "caption": "Me counting how many times I apologized to keep the friendship"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Top contextual caption describing repetitive actions or media obsession",
+      "x": 20,
+      "y": 10,
+      "width": 967,
+      "height": 60,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

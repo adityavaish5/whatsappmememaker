@@ -1,34 +1,35 @@
 {
   "id": "chamgadar-ko-ulta-latkaane-se-morr-nahi-banta",
   "name": "Chamgadar Ko Ulta Latkaane Se Morr Nahi Banta",
-  "visual_description": "Indian meme template: Chamgadar Ko Ulta Latkaane Se Morr Nahi Banta",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Chamgadar Ko Ulta Latkaane Se Morr Nahi Banta'",
+  "visual_description": "Paresh Rawal as Lilaram in Malamaal Weekly wearing a white turban and kurta, speaking next to a lottery blackboard.",
+  "usage_context": "Used sarcastically to call out pretentiousness or when changing superficial aspects does not change reality.",
   "keywords": [
-    "indian meme",
+    "paresh rawal",
+    "malamaal weekly",
     "chamgadar",
-    "ulta",
-    "latkaane",
     "morr",
-    "nahi",
-    "banta"
+    "hindi movie dialogue",
+    "sarcasm",
+    "roast"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 680,
+  "image_height": 425,
   "example": {
-    "text": "Chamgadar Ko Ulta Latkaane Se Morr Nahi Banta"
+    "caption": "Putting RGB lights on a potato PC"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Top caption describing a futile attempt to make something mediocre look premium",
+      "x": 20,
+      "y": 15,
+      "width": 640,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

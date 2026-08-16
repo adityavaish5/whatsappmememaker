@@ -1,37 +1,36 @@
 {
   "id": "iske-liye-aapko-meri-maa-se-baat-karni-padegi",
-  "name": "Iske Liye Aapko Meri Maa Se Baat Karni Padegi",
-  "visual_description": "Indian meme template: Iske Liye Aapko Meri Maa Se Baat Karni Padegi",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Iske Liye Aapko Meri Maa Se Baat Karni Padegi'",
+  "name": "Iske Liye Aapko Meri Maa Se Baat Karni Padegi - Baadshah",
+  "visual_description": "Shah Rukh Khan in a black fedora and pink jacket holding a paper letter while speaking seriously across a table.",
+  "usage_context": "Used humorously when deflecting responsibility or permission to one's mother, especially for marriage, night outs, or financial decisions.",
   "keywords": [
+    "shah rukh khan",
+    "baadshah",
+    "srk",
+    "iske liye aapko meri maa se baat karni padegi",
+    "permission",
     "indian meme",
-    "iske",
-    "liye",
-    "aapko",
-    "meri",
-    "maa",
-    "baat",
-    "karni",
-    "padegi"
+    "bollywood"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 960,
+  "image_height": 540,
   "example": {
-    "text": "Iske Liye Aapko Meri Maa Se Baat Karni Padegi"
+    "top_text": "Relatives: Beta shaadi kab kar rahe ho?"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Setup or question prompting the dialogue reaction",
+      "x": 30,
+      "y": 20,
+      "width": 900,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 80,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

@@ -5,9 +5,10 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 require('dotenv').config();
 
 const templateId = process.argv[2];
+const noGit = process.argv.includes('--no-git');
 
 if (!templateId) {
-  console.error("Please provide a template ID. Usage: node scripts/refine-template.js <template_id>");
+  console.error("Please provide a template ID. Usage: node scripts/refine-template.js <template_id> [--no-git]");
   process.exit(1);
 }
 
@@ -96,21 +97,23 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
   try {
     // Git & PR Creation Workflow - MUST checkout branch BEFORE modifying files!
     const branchName = `template-improve/${templateId}`;
-    console.log(`\n🌿 Creating git branch: ${branchName}...`);
+    if (!noGit) {
+      console.log(`\n🌿 Creating git branch: ${branchName}...`);
 
-    try {
-      execSync(`git checkout main`, { stdio: 'pipe' });
-      execSync(`git pull origin main`, { stdio: 'pipe' });
-    } catch (e) {}
-
-    try {
-      execSync(`git checkout -b ${branchName}`, { stdio: 'pipe' });
-    } catch (e) {
-      execSync(`git checkout ${branchName}`, { stdio: 'pipe' });
-      // Ensure we have the latest master/main files (like scripts/render-single.ts) in the branch
       try {
-        execSync(`git merge main --no-edit`, { stdio: 'pipe' });
-      } catch (err) {}
+        execSync(`git checkout main`, { stdio: 'pipe' });
+        execSync(`git pull origin main`, { stdio: 'pipe' });
+      } catch (e) {}
+
+      try {
+        execSync(`git checkout -b ${branchName}`, { stdio: 'pipe' });
+      } catch (e) {
+        execSync(`git checkout ${branchName}`, { stdio: 'pipe' });
+        // Ensure we have the latest master/main files (like scripts/render-single.ts) in the branch
+        try {
+          execSync(`git merge main --no-edit`, { stdio: 'pipe' });
+        } catch (err) {}
+      }
     }
 
     const result = await model.generateContent([
@@ -141,22 +144,23 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
     console.log(`🎨 Rendering updated test image for ${templateId}...`);
     execSync(`npx ts-node -O '{"module":"commonjs"}' scripts/render-single.ts "${templateId}"`, { stdio: 'inherit' });
 
-    // Stage only this template's config.json and its test output image
-    // Using -f to force add the test image because test-output is in .gitignore
-    execSync(`git add public/templates/${templateId}/config.json test-output/${templateId}.png -f`, { stdio: 'pipe' });
+    if (!noGit) {
+      // Stage only this template's config.json and its test output image
+      // Using -f to force add the test image because test-output is in .gitignore
+      execSync(`git add public/templates/${templateId}/config.json test-output/${templateId}.png -f`, { stdio: 'pipe' });
 
-    // Commit
-    const commitMsg = `refactor(template): improve metadata and bounding boxes for ${updatedConfig.name || templateId}`;
-    execSync(`git commit -m "${commitMsg}"`, { stdio: 'inherit' });
+      // Commit
+      const commitMsg = `refactor(template): improve metadata and bounding boxes for ${updatedConfig.name || templateId}`;
+      execSync(`git commit -m "${commitMsg}"`, { stdio: 'inherit' });
 
-    // Push branch
-    console.log(`🚀 Pushing branch ${branchName} to GitHub...`);
-    execSync(`git push -u origin ${branchName} --force`, { stdio: 'inherit' });
+      // Push branch
+      console.log(`🚀 Pushing branch ${branchName} to GitHub...`);
+      execSync(`git push -u origin ${branchName} --force`, { stdio: 'inherit' });
 
-    // Create GitHub PR
-    console.log(`📝 Creating Pull Request on GitHub...`);
-    const prTitle = `refine(template): ${updatedConfig.name || templateId}`;
-    const prBody = `## Template Refinement: ${updatedConfig.name || templateId}
+      // Create GitHub PR
+      console.log(`📝 Creating Pull Request on GitHub...`);
+      const prTitle = `refine(template): ${updatedConfig.name || templateId}`;
+      const prBody = `## Template Refinement: ${updatedConfig.name || templateId}
 
 ### Improvements Made:
 1. **Context & Metadata**: Refined visual description, usage context, and keywords after multimodal image analysis.
@@ -165,31 +169,34 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
 ### Updated Template Sample:
 Check test-output/${templateId}.png for the newly rendered sample.`;
 
-    // Check if PR already exists to avoid throwing an error
-    let prOutput = '';
-    try {
-      const prCheck = execSync(`gh pr list --head "${branchName}" --json url`, { stdio: 'pipe' }).toString().trim();
-      const prs = JSON.parse(prCheck);
-      if (prs && prs.length > 0) {
-        prOutput = prs[0].url;
-        console.log(`\n🔄 Pull Request already exists: ${prOutput}`);
-        // Optionally edit/update the PR body if needed, or just push changes which updates the PR automatically
-      } else {
-        const prCommand = `gh pr create --title "${prTitle}" --body "${prBody}" --head "${branchName}" --base main`;
-        prOutput = execSync(prCommand).toString().trim();
-        console.log(`\n🎉 Pull Request created successfully!`);
-        console.log(`PR Link: ${prOutput}\n`);
+      // Check if PR already exists to avoid throwing an error
+      let prOutput = '';
+      try {
+        const prCheck = execSync(`gh pr list --head "${branchName}" --json url`, { stdio: 'pipe' }).toString().trim();
+        const prs = JSON.parse(prCheck);
+        if (prs && prs.length > 0) {
+          prOutput = prs[0].url;
+          console.log(`\n🔄 Pull Request already exists: ${prOutput}`);
+          // Optionally edit/update the PR body if needed, or just push changes which updates the PR automatically
+        } else {
+          const prCommand = `gh pr create --title "${prTitle}" --body "${prBody}" --head "${branchName}" --base main`;
+          prOutput = execSync(prCommand).toString().trim();
+          console.log(`\n🎉 Pull Request created successfully!`);
+          console.log(`PR Link: ${prOutput}\n`);
+        }
+      } catch (e) {
+        console.log("Error checking/creating PR (might exist or CLI auth error):", e.message);
       }
-    } catch (e) {
-      console.log("Error checking/creating PR (might exist or CLI auth error):", e.message);
-    }
 
-    // Switch back to main branch
-    execSync(`git checkout main`, { stdio: 'pipe' });
+      // Switch back to main branch
+      execSync(`git checkout main`, { stdio: 'pipe' });
+    }
 
   } catch (err) {
     console.error(`❌ Failed to refine template ${templateId}:`, err);
-    try { execSync(`git checkout main`, { stdio: 'pipe' }); } catch(e){}
+    if (!noGit) {
+      try { execSync(`git checkout main`, { stdio: 'pipe' }); } catch(e){}
+    }
     process.exit(1);
   }
 }

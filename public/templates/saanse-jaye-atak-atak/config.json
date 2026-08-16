@@ -1,32 +1,36 @@
 {
   "id": "saanse-jaye-atak-atak",
   "name": "Saanse Jaye Atak Atak",
-  "visual_description": "Indian meme template: Saanse Jaye Atak Atak",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Saanse Jaye Atak Atak'",
+  "visual_description": "Jacqueline Fernandez in traditional Bengali attire holding a dhunachi in the music video Genda Phool, captioned 'Saanse jaye atak atak'.",
+  "usage_context": "Used to describe moments of extreme shock, breathless anxiety, sudden panic, or being completely awestruck.",
   "keywords": [
-    "indian meme",
-    "saanse",
-    "jaye",
-    "atak",
-    "atak"
+    "saanse jaye atak atak",
+    "jacqueline fernandez",
+    "genda phool",
+    "badshah",
+    "breathless",
+    "panic",
+    "shock",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1000,
+  "image_height": 525,
   "example": {
-    "text": "Saanse Jaye Atak Atak"
+    "top_text": "When the teacher says 'Take out a blank sheet of paper'"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation causing anxiety, breathless shock, or intense awe",
+      "x": 40,
+      "y": 30,
+      "width": 920,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

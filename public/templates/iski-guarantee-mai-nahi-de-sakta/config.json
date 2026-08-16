@@ -1,33 +1,35 @@
 {
   "id": "iski-guarantee-mai-nahi-de-sakta",
-  "name": "Iski Guarantee Mai Nahi De Sakta",
-  "visual_description": "Indian meme template: Iski Guarantee Mai Nahi De Sakta",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Iski Guarantee Mai Nahi De Sakta'",
+  "name": "Iski Guarantee Main Nahi De Sakta",
+  "visual_description": "Johnny Lever with a soot-stained face and wide eyes raising his hand in hesitation while speaking to another man.",
+  "usage_context": "Used to express complete uncertainty, reluctance, or refusal to take responsibility for an unpredictable outcome.",
   "keywords": [
-    "indian meme",
-    "iski",
-    "guarantee",
-    "mai",
-    "nahi",
-    "sakta"
+    "johnny lever",
+    "iski guarantee main nahi de sakta",
+    "hindi comedy",
+    "bollywood meme",
+    "no guarantee",
+    "uncertainty",
+    "reaction"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1100,
+  "image_height": 445,
   "example": {
-    "text": "Iski Guarantee Mai Nahi De Sakta"
+    "setup": "Code works on my local machine, will it work in production?"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "setup",
+      "description": "Situation or question leading to uncertainty",
+      "x": 30,
+      "y": 20,
+      "width": 1040,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

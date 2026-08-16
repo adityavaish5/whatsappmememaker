@@ -1,32 +1,36 @@
 {
   "id": "ee-wala-ek-tho-aur-hai-ka",
-  "name": "Ee Wala Ek Tho Aur Hai Ka",
-  "visual_description": "Indian meme template: Ee Wala Ek Tho Aur Hai Ka",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ee Wala Ek Tho Aur Hai Ka'",
+  "name": "Ee Wala Ek Thu Aur Hai Ka",
+  "visual_description": "A smiling man with a beard draped in a shawl looks greedily or eagerly at someone off-screen with the subtitle 'Ee Wala Ek Thu Aur Hai Ka'.",
+  "usage_context": "Used to react when someone asks for an extra item, bribe, bonus, or demanding a duplicate of something they really like.",
   "keywords": [
-    "indian meme",
-    "wala",
-    "tho",
-    "aur",
-    "hai"
+    "ee wala ek thu aur hai ka",
+    "panchayat",
+    "tvf",
+    "greedy smile",
+    "asking for more",
+    "bhojpuri",
+    "hindi web series",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1080,
+  "image_height": 608,
   "example": {
-    "text": "Ee Wala Ek Tho Aur Hai Ka"
+    "setup": "Relatives after already taking 3 boxes of sweets from the wedding"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "setup",
+      "description": "Situation leading to asking for one more of something",
+      "x": 30,
+      "y": 20,
+      "width": 1020,
+      "height": 130,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

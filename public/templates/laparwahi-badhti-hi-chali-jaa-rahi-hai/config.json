@@ -1,30 +1,39 @@
 {
   "id": "laparwahi-badhti-hi-chali-jaa-rahi-hai",
-  "name": "Laparwahi Badhti Hi Chali Jaa Rahi Hai",
-  "visual_description": "Indian meme template for Laparwahi Badhti Hi Chali Jaa Rahi Hai",
-  "usage_context": "Use when appropriate based on Laparwahi Badhti Hi Chali Jaa Rahi Hai",
+  "name": "Narendra Modi Laparwahi Badhte Hee Chale Jaa Rahi Hai",
+  "visual_description": "Indian Prime Minister Narendra Modi speaking with a concerned expression against the Indian national flag backdrop, with the subtitle 'Laparwahi badhte hee chale jaa rahi hai'.",
+  "usage_context": "Used to call out someone's increasing carelessness, procrastination, bad habits, or deteriorating discipline.",
   "keywords": [
-    "indian meme"
+    "narendra modi",
+    "pm modi",
+    "laparwahi",
+    "badhte hee chale jaa rahi hai",
+    "carelessness",
+    "speech",
+    "indian political meme",
+    "covid address"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1600,
+  "image_height": 900,
   "example": {
-    "text": "Example text"
+    "top_text": "Me watching myself open Instagram during exam prep for the 50th time:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main text area",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 200,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "Setup or context showing increasing carelessness or bad habits",
+      "x": 60,
+      "y": 30,
+      "width": 1480,
+      "height": 180,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
-      "textAlign": "center"
+      "maxLength": 120,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
     }
   ]
 }

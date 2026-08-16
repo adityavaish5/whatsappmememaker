@@ -1,34 +1,36 @@
 {
   "id": "ek-cheez-bolke-char-gina-raha-hai",
-  "name": "Ek Cheez Bolke Char Gina Raha Hai",
-  "visual_description": "Indian meme template: Ek Cheez Bolke Char Gina Raha Hai",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ek Cheez Bolke Char Gina Raha Hai'",
+  "name": "Ek Cheez Bolke Chaar Gina Raha Hai CarryMinati",
+  "visual_description": "YouTuber CarryMinati (Ajey Nagar) holding up four fingers with an annoyed expression in his gaming chair.",
+  "usage_context": "Used to mock someone who promises one simple point or thing but ends up giving a long list, overcomplicating, or exaggerating.",
   "keywords": [
-    "indian meme",
-    "cheez",
-    "bolke",
-    "char",
-    "gina",
-    "raha",
-    "hai"
+    "carryminati",
+    "ajey nagar",
+    "ek cheez bolke char",
+    "youtube",
+    "roast",
+    "four fingers",
+    "hindi meme",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 728,
+  "image_height": 409,
   "example": {
-    "text": "Ek Cheez Bolke Char Gina Raha Hai"
+    "top_text": "Teacher: Only one question for homework\nMeanwhile the question: 1(a), 1(b), 1(c), 1(d)"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or setup text explaining someone promising one thing but delivering multiple",
+      "x": 20,
+      "y": 15,
+      "width": 688,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

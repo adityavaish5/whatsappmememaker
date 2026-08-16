@@ -1,33 +1,35 @@
 {
   "id": "sweety-laughing-while-dying",
-  "name": "Sweety Laughing While Dying (Mirzapur)",
-  "visual_description": "Indian meme template: Sweety Laughing While Dying (Mirzapur)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Sweety Laughing While Dying (Mirzapur)'",
+  "name": "Chup Bilkul Chup - Nawazuddin Siddiqui",
+  "visual_description": "Nawazuddin Siddiqui holding a finger to his lips with a stern expression, gesturing to stay completely silent.",
+  "usage_context": "Used to aggressively silence someone, shut down irritating opinions, or demand total quiet.",
   "keywords": [
-    "indian meme",
-    "sweety",
-    "laughing",
-    "while",
-    "dying",
-    "(mirzapur)"
+    "nawazuddin siddiqui",
+    "chup bilkul chup",
+    "shut up",
+    "gangs of wasseypur",
+    "silence",
+    "finger on lips",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 658,
+  "image_height": 345,
   "example": {
-    "text": "Sweety Laughing While Dying (Mirzapur)"
+    "top_text": "Relatives: Beta shaadi kab kar rahe ho?"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Setup or situation being aggressively silenced",
+      "x": 20,
+      "y": 15,
+      "width": 618,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

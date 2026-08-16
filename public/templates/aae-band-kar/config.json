@@ -1,8 +1,8 @@
 {
   "id": "aae-band-kar",
   "name": "Aae Band Kar Band Kar TMKOC",
-  "visual_description": "Jethalal from Taarak Mehta Ka Ooltah Chashmah looking terrified and waving his hands in panic, with Taarak and Champaklal standing beside him.",
-  "usage_context": "Used to react when someone is doing something extremely annoying, playing cringe content, or to tell someone to immediately shut up or stop.",
+  "visual_description": "Jethalal panicking and waving his hands frantically while Taarak and Champaklal stand behind him in TMKOC.",
+  "usage_context": "Used to react when someone needs to immediately stop doing something cringe, annoying, or unbearable.",
   "keywords": [
     "jethalal",
     "taarak mehta",
@@ -12,13 +12,13 @@
     "stop it",
     "cringe",
     "shut up",
-    "hindi comedy"
+    "dilip joshi"
   ],
   "sentiment": "negative",
   "image_width": 768,
   "image_height": 432,
   "example": {
-    "caption": "Friend starts playing cringe Reels with full volume in public"
+    "caption": "Friend starts playing cringe Reels at full volume in public"
   },
   "text_areas": [
     {

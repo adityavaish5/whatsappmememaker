@@ -1,33 +1,40 @@
 {
   "id": "hiding-face-under-cooking-pots",
-  "name": "Hiding Face Under Cooking Pots",
-  "visual_description": "Indian meme template: Hiding Face Under Cooking Pots",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Hiding Face Under Cooking Pots'",
+  "name": "Golmaal Boys Hiding Under Pots",
+  "visual_description": "Four men walking in a row at an event covering their heads and faces with large metal cooking vessels and boxes to disguise themselves.",
+  "usage_context": "Used to depict awkwardly trying to avoid someone, sneaking into a place uninvited, or hiding from responsibilities and embarrassing situations.",
   "keywords": [
-    "indian meme",
+    "golmaal",
+    "ajay devgn",
+    "arshad warsi",
+    "sharman joshi",
+    "tusshar kapoor",
     "hiding",
-    "face",
-    "under",
-    "cooking",
-    "pots"
+    "cooking pots",
+    "patila",
+    "stealth",
+    "introvert",
+    "avoiding someone",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 724,
+  "image_height": 348,
   "example": {
-    "text": "Hiding Face Under Cooking Pots"
+    "top_text": "Me and the boys entering the wedding for free food"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Top caption describing the stealthy or embarrassing situation",
+      "x": 20,
+      "y": 15,
+      "width": 684,
+      "height": 65,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

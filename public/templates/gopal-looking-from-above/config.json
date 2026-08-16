@@ -1,34 +1,40 @@
 {
   "id": "gopal-looking-from-above",
-  "name": "Gopal Looking From Above",
-  "visual_description": "Indian meme template: Gopal Looking From Above",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Gopal Looking From Above'",
+  "name": "Gopal On Ceiling Fan Looking Down",
+  "visual_description": "Ajay Devgn as Gopal from Golmaal sitting atop a ceiling fan, smirking and looking down mischievously.",
+  "usage_context": "Used to portray smug superiority, silently judging someone from an unexpected position, or catching someone red-handed.",
   "keywords": [
-    "indian meme",
     "gopal",
-    "looking",
-    "from",
-    "above"
+    "ajay devgn",
+    "golmaal",
+    "fan",
+    "ceiling fan",
+    "looking down",
+    "smirk",
+    "caught",
+    "hindi meme",
+    "bollywood"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1080,
+  "image_height": 456,
   "example": {
-    "text": "Gopal Looking From Above"
+    "caption": "Me watching guests leave after eating all their snacks"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Caption placed in the empty space on the left",
+      "x": 40,
+      "y": 40,
+      "width": 440,
+      "height": 220,
       "fontSize": 48,
-      "color": "white",
-      "stroke": "black",
-      "uppercase": true,
-      "textAlign": "center",
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 80,
+      "uppercase": false,
+      "textAlign": "left",
       "fontFamily": "Impact"
     }
   ]

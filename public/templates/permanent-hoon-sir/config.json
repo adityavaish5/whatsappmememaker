@@ -1,33 +1,36 @@
 {
   "id": "permanent-hoon-sir",
-  "name": "Permanent Hoon Sir (3 Idiots)",
-  "visual_description": "Indian meme template: Permanent Hoon Sir (3 Idiots)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Permanent Hoon Sir (3 Idiots)'",
+  "name": "Permanent Hoon Sir",
+  "visual_description": "Govind from 3 Idiots staring wide-eyed and stunned from behind a green wooden door with the caption 'Permanent hoon sir'.",
+  "usage_context": "Used to express invulnerability to firing, stubborn job security, staying indefinitely, or unshakeable tenure in any situation.",
   "keywords": [
+    "permanent hoon sir",
+    "3 idiots",
+    "govind",
+    "job security",
+    "government employee",
     "indian meme",
-    "permanent",
-    "hoon",
-    "sir",
-    "idiots)"
+    "tenure"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 900,
+  "image_height": 473,
   "example": {
-    "text": "Permanent Hoon Sir (3 Idiots)"
+    "setup": "Boss: Kaam nahi karoge toh nikaal dunga\nGovt Employee:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "setup",
+      "description": "Situation or dialog prompting the 'Permanent hoon sir' reaction",
+      "x": 30,
+      "y": 20,
+      "width": 840,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 90,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

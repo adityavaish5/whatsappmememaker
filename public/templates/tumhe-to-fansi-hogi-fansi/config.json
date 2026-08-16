@@ -1,33 +1,36 @@
 {
   "id": "tumhe-to-fansi-hogi-fansi",
-  "name": "Tumhe To Fansi Hogi Fansi (CID)",
-  "visual_description": "Indian meme template: Tumhe To Fansi Hogi Fansi (CID)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Tumhe To Fansi Hogi Fansi (CID)'",
+  "name": "Tumhe To Fansi Hogi Fansi - ACP Pradyuman CID",
+  "visual_description": "ACP Pradyuman from CID looking furious with a raised hand gesture, delivering his iconic dialogue with subtitle 'Tumhe to fansi hogi fansi'.",
+  "usage_context": "Used to comically declare extreme, exaggerated punishment for minor mistakes, petty crimes, or annoying habits.",
   "keywords": [
-    "indian meme",
-    "tumhe",
-    "fansi",
-    "hogi",
-    "fansi",
-    "(cid)"
+    "CID",
+    "ACP Pradyuman",
+    "Shivaji Satam",
+    "tumhe to fansi hogi",
+    "death sentence",
+    "indian tv meme",
+    "sony tv",
+    "anger"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 640,
+  "image_height": 402,
   "example": {
-    "text": "Tumhe To Fansi Hogi Fansi (CID)"
+    "setup": "Friend who reveals spoilers without a warning:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "setup",
+      "description": "Situation or minor offense deserving extreme punishment",
+      "x": 20,
+      "y": 15,
+      "width": 600,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

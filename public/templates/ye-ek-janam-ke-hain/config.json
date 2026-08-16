@@ -1,30 +1,35 @@
 {
   "id": "ye-ek-janam-ke-hain",
-  "name": "Ye Ek Janam Ke Hain",
-  "visual_description": "Indian meme template: Ye Ek Janam Ke Hain",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Ek Janam Ke Hain'",
+  "name": "Ye Ek Janam K Hain - Anubhav Singh Bassi",
+  "visual_description": "Stand-up comedian Anubhav Singh Bassi bending forward holding a mic on the Canvas Laugh Club stage with a shocked expression.",
+  "usage_context": "Used to express shock, disbelief, or overwhelmed amusement when someone reveals an excessively long list of problems, sins, tasks, or backlogs.",
   "keywords": [
-    "indian meme",
-    "janam",
-    "hain"
+    "anubhav singh bassi",
+    "bassi stand up",
+    "canvas laugh club",
+    "ye ek janam ke hain",
+    "cheating stand up",
+    "disbelief",
+    "indian standup comedy"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 564,
   "example": {
-    "text": "Ye Ek Janam Ke Hain"
+    "caption": "Looking at my engineering backlogs list:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
+      "id": "caption",
+      "description": "Situation or setup creating an overwhelming list",
+      "x": 380,
+      "y": 40,
+      "width": 780,
       "height": 180,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

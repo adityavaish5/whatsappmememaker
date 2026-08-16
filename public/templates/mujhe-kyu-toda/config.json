@@ -1,31 +1,35 @@
 {
   "id": "mujhe-kyu-toda",
   "name": "Mujhe Kyu Toda",
-  "visual_description": "Indian meme template: Mujhe Kyu Toda",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Mujhe Kyu Toda'",
+  "visual_description": "A bruised character with a battered expression surrounded by distressed henchmen, edited with Devendra Fadnavis's face, asking 'Mujhe kyu toda?'.",
+  "usage_context": "Used when someone gets dragged into a conflict, punished unfairly, or blamed and targeted for no apparent reason.",
   "keywords": [
-    "indian meme",
-    "mujhe",
-    "kyu",
-    "toda"
+    "mujhe kyu toda",
+    "welcome movie",
+    "devendra fadnavis",
+    "beaten up",
+    "innocent bystander",
+    "unfair punishment",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 630,
   "example": {
-    "text": "Mujhe Kyu Toda"
+    "top_text": "Me minding my own business during a family argument"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "Situation or context describing why someone unfairly got caught in the crossfire",
+      "x": 40,
+      "y": 20,
+      "width": 1120,
+      "height": 130,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

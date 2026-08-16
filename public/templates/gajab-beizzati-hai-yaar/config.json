@@ -1,33 +1,36 @@
 {
   "id": "gajab-beizzati-hai-yaar",
-  "name": "Gajab Beizzati Hai Yaar (Panchayat)",
-  "visual_description": "Indian meme template: Gajab Beizzati Hai Yaar (Panchayat)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Gajab Beizzati Hai Yaar (Panchayat)'",
+  "name": "Gajab Beizzati Hai Yaar",
+  "visual_description": "Asif Khan (Ganesh) looking offended and shocked sideways in a scene from Panchayat Season 1 with the Hindi subtitle 'गजब बेज्जती है यार'.",
+  "usage_context": "Used to express intense embarrassment, public humiliation, or being unexpectedly roasted or disrespected.",
   "keywords": [
+    "gajab beizzati hai yaar",
+    "panchayat",
+    "asif khan",
+    "ganesh",
+    "insult",
+    "embarrassment",
     "indian meme",
-    "gajab",
-    "beizzati",
-    "hai",
-    "yaar",
-    "(panchayat)"
+    "tvf"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 640,
+  "image_height": 360,
   "example": {
-    "text": "Gajab Beizzati Hai Yaar (Panchayat)"
+    "top_text": "When your card gets declined in front of your date"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Setup or situation describing an insulting or embarrassing moment",
+      "x": 20,
+      "y": 15,
+      "width": 600,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

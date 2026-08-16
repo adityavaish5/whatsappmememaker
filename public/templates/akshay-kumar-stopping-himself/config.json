@@ -1,33 +1,36 @@
 {
   "id": "akshay-kumar-stopping-himself",
-  "name": "Akshay Kumar Stopping Himself (Housefull 3)",
-  "visual_description": "Indian meme template: Akshay Kumar Stopping Himself (Housefull 3)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Akshay Kumar Stopping Himself (Housefull 3)'",
+  "name": "Akshay Kumar Controlling Hand (Housefull 3)",
+  "visual_description": "Akshay Kumar in a black sleeveless shirt grimacing while using one hand to hold back his other arm from moving forward.",
+  "usage_context": "Used when trying desperately to control oneself from doing something impulsive, texting someone, or reacting violently.",
   "keywords": [
-    "indian meme",
-    "akshay",
-    "kumar",
-    "stopping",
-    "himself",
-    "(housefull"
+    "akshay kumar",
+    "housefull 3",
+    "sandy sundi",
+    "controlling hand",
+    "stopping myself",
+    "urge to slap",
+    "self control",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1080,
+  "image_height": 708,
   "example": {
-    "text": "Akshay Kumar Stopping Himself (Housefull 3)"
+    "caption": "Me trying not to reply 'ok' when someone writes a 500-word paragraph"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
+      "id": "caption",
+      "description": "Situation or impulse being restrained",
+      "x": 380,
+      "y": 30,
+      "width": 670,
       "height": 180,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,31 +1,35 @@
 {
   "id": "ye-toh-tatti-hai",
   "name": "Ye Toh Tatti Hai",
-  "visual_description": "Indian meme template: Ye Toh Tatti Hai",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Toh Tatti Hai'",
+  "visual_description": "A bald goon peers over the shoulder of another henchman looking into a box with disgust, subtitled 'Ye toh tatti hai'.",
+  "usage_context": "Used to express extreme disappointment, disgust, or pointing out that something hyped or received is completely worthless or garbage.",
   "keywords": [
-    "indian meme",
-    "toh",
-    "tatti",
-    "hai"
+    "delhi belly",
+    "ye toh tatti hai",
+    "vijay raaz",
+    "disappointment",
+    "trash",
+    "garbage",
+    "bollywood"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "negative",
+  "image_width": 1000,
+  "image_height": 450,
   "example": {
-    "text": "Ye Toh Tatti Hai"
+    "top_caption": "Me looking at my semester exam results after studying all night"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_caption",
+      "description": "Situation leading to receiving or discovering something completely terrible",
+      "x": 30,
+      "y": 20,
+      "width": 940,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

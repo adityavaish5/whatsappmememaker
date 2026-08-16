@@ -1,30 +1,39 @@
 {
   "id": "le-nikaal-photu",
   "name": "Le Nikaal Photu",
-  "visual_description": "Indian meme template for Le Nikaal Photu",
-  "usage_context": "Use when appropriate based on Le Nikaal Photu",
+  "visual_description": "Saurabh Shukla lifting his shirt to expose his belly in anger while a cameraman tries to film/photograph him.",
+  "usage_context": "Used to show complete shamelessness, defiance, or daring someone to expose or document your flaws/absurd behavior.",
   "keywords": [
-    "indian meme"
+    "saurabh shukla",
+    "le nikaal photu",
+    "cameraman",
+    "belly",
+    "shameless",
+    "bollywood",
+    "lage rahi munna bhai",
+    "defiance"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 553,
   "example": {
-    "text": "Example text"
+    "top_text": "When HR threatens to record me coming 2 hours late every day"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main text area",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 200,
+      "id": "top_text",
+      "description": "Situation provoking shameless defiance or exposure",
+      "x": 30,
+      "y": 20,
+      "width": 1140,
+      "height": 100,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
-      "textAlign": "center"
+      "textAlign": "center",
+      "fontFamily": "Impact"
     }
   ]
 }

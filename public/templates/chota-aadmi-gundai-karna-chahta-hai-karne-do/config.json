@@ -1,36 +1,37 @@
 {
   "id": "chota-aadmi-gundai-karna-chahta-hai-karne-do",
-  "name": "Chota Aadmi Gundai Karna Chahta Hai Karne Do",
-  "visual_description": "Indian meme template: Chota Aadmi Gundai Karna Chahta Hai Karne Do",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Chota Aadmi Gundai Karna Chahta Hai Karne Do'",
+  "name": "Chota Aadmi Gundai Karna Chahta Hai",
+  "visual_description": "Manoj Bajpayee as Sardar Khan in Gangs of Wasseypur looking casually dismissive inside an auto-rickshaw with the subtitle 'Chota Aadmi Gundai Karna Chahta Hai Karne Do'.",
+  "usage_context": "Used sarcastically to indulge, patronize, or mock someone inexperienced or weak trying to act tough, ambitious, or rebellious.",
   "keywords": [
-    "indian meme",
-    "chota",
-    "aadmi",
+    "gangs of wasseypur",
+    "sardar khan",
+    "manoj bajpayee",
+    "chota aadmi",
     "gundai",
-    "karna",
-    "chahta",
-    "hai",
-    "karne"
+    "maja lena chahta hai",
+    "bollywood",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 750,
+  "image_height": 394,
   "example": {
-    "text": "Chota Aadmi Gundai Karna Chahta Hai Karne Do"
+    "caption": "When your younger brother tries to argue with you after watching one sigma male reel"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Top scenario caption explaining the harmless attempt at defiance",
+      "x": 20,
+      "y": 15,
+      "width": 710,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

@@ -1,30 +1,35 @@
 {
   "id": "warning-do-chutiye-ko",
-  "name": "Warning Do Chutiye Ko",
-  "visual_description": "Indian meme template: Warning Do Chutiye Ko",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Warning Do Chutiye Ko'",
+  "name": "Warning Do Chutiye Ko - Paatal Lok",
+  "visual_description": "Hathi Ram Chaudhary (Jaideep Ahlawat) looking stern and exhausted with the subtitle 'warning do chutiye ko'.",
+  "usage_context": "Used to express irritation or dismissal towards someone acting foolishly, demanding they be reprimanded or warned.",
   "keywords": [
-    "indian meme",
-    "warning",
-    "chutiye"
+    "paatal lok",
+    "jaideep ahlawat",
+    "hathi ram",
+    "warning do chutiye ko",
+    "police",
+    "annoyed",
+    "indian web series"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 680,
+  "image_height": 371,
   "example": {
-    "text": "Warning Do Chutiye Ko"
+    "setup": "When a junior developer pushes untested code straight to production"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "setup",
+      "description": "Situation or scenario that triggers the warning reaction",
+      "x": 20,
+      "y": 15,
+      "width": 640,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

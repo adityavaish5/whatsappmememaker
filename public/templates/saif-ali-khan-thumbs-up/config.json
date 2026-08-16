@@ -1,32 +1,36 @@
 {
   "id": "saif-ali-khan-thumbs-up",
-  "name": "Saif Ali Khan Thumbs Up",
-  "visual_description": "Indian meme template: Saif Ali Khan Thumbs Up",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Saif Ali Khan Thumbs Up'",
+  "name": "Saif Ali Khan Double Thumbs Up",
+  "visual_description": "Saif Ali Khan as Rohit Patel in Kal Ho Naa Ho smiling enthusiastically and giving double thumbs up across a dinner table.",
+  "usage_context": "Used to express overly enthusiastic approval, forced optimism, fake confidence, or awkward agreement.",
   "keywords": [
-    "indian meme",
-    "saif",
-    "ali",
-    "khan",
-    "thumbs"
+    "saif ali khan",
+    "rohit patel",
+    "kal ho naa ho",
+    "thumbs up",
+    "bollywood",
+    "approval",
+    "agreement",
+    "awkward smile"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1024,
+  "image_height": 433,
   "example": {
-    "text": "Saif Ali Khan Thumbs Up"
+    "top_text": "WHEN YOU SAY 'YES SIR' TO EXTRA WORK ON A FRIDAY"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Main caption setting up the situation or reaction",
+      "x": 30,
+      "y": 20,
+      "width": 964,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

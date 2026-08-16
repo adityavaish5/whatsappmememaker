@@ -1,35 +1,36 @@
 {
   "id": "humko-maro-humko-zinda-mat-chhodo-saalo",
-  "name": "Humko Maro Humko Zinda Mat Chhodo Saalo",
-  "visual_description": "Indian meme template: Humko Maro Humko Zinda Mat Chhodo Saalo",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Humko Maro Humko Zinda Mat Chhodo Saalo'",
+  "name": "Humko Maro Humko Zinda Mat Chhodo Saalo - Rajpal Yadav",
+  "visual_description": "Rajpal Yadav in Chup Chup Ke wearing a ruffled servant uniform with a pained, desperate expression and subtitle text.",
+  "usage_context": "Used to express intense frustration, suffering, or feeling constantly tortured by difficult situations or bad luck.",
   "keywords": [
-    "indian meme",
-    "humko",
-    "maro",
-    "humko",
-    "zinda",
-    "mat",
-    "chhodo",
-    "saalo"
+    "rajpal yadav",
+    "chup chup ke",
+    "bandya",
+    "humko maro",
+    "hindi comedy",
+    "bollywood meme",
+    "frustration",
+    "suffering"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1024,
+  "image_height": 576,
   "example": {
-    "text": "Humko Maro Humko Zinda Mat Chhodo Saalo"
+    "top_text": "Teacher assigns homework on the last day before vacation"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation causing extreme pain, exhaustion, or frustration",
+      "x": 40,
+      "y": 30,
+      "width": 944,
+      "height": 130,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

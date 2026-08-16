@@ -1,30 +1,38 @@
 {
   "id": "isne-poori-duniya-ko-hairaan-kar-diya-hai",
   "name": "Isne Poori Duniya Ko Hairaan Kar Diya Hai",
-  "visual_description": "Indian meme template for Isne Poori Duniya Ko Hairaan Kar Diya Hai",
-  "usage_context": "Use when appropriate based on Isne Poori Duniya Ko Hairaan Kar Diya Hai",
+  "visual_description": "PM Narendra Modi gesturing during a televised address with the Indian national flag in the background and a subtitle at the bottom.",
+  "usage_context": "Used sarcastically or genuinely to react to surprising achievements, bizarre events, or unexpected actions that stun everyone.",
   "keywords": [
-    "indian meme"
+    "narendra modi",
+    "modi speech",
+    "isne poori duniya ko hairaan kar diya hai",
+    "surprise",
+    "bjp",
+    "indian politics",
+    "reaction"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 600,
+  "image_height": 338,
   "example": {
-    "text": "Example text"
+    "top_text": "Backbencher scoring 95% in exams"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main text area",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 200,
+      "id": "top_text",
+      "description": "Situation or person responsible for the shocking surprise",
+      "x": 20,
+      "y": 15,
+      "width": 560,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
-      "textAlign": "center"
+      "textAlign": "center",
+      "fontFamily": "Impact"
     }
   ]
 }

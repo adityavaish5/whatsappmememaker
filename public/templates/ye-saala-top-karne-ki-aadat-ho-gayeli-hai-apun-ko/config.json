@@ -1,35 +1,36 @@
 {
   "id": "ye-saala-top-karne-ki-aadat-ho-gayeli-hai-apun-ko",
   "name": "Ye Saala Top Karne Ki Aadat Ho Gayeli Hai Apun Ko",
-  "visual_description": "Indian meme template: Ye Saala Top Karne Ki Aadat Ho Gayeli Hai Apun Ko",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Saala Top Karne Ki Aadat Ho Gayeli Hai Apun Ko'",
+  "visual_description": "Munna Bhai (Sanjay Dutt) talking cheerfully on a mobile phone in a dark room with yellow subtitle text at the bottom.",
+  "usage_context": "Used to flex effortless winning, topping an exam unexpectedly, or sarcastically bragging about achieving first place.",
   "keywords": [
-    "indian meme",
-    "saala",
-    "top",
-    "karne",
-    "aadat",
-    "gayeli",
-    "hai",
-    "apun"
+    "munna bhai mbbs",
+    "sanjay dutt",
+    "top karne ki aadat",
+    "circuit",
+    "bollywood meme",
+    "exam topper",
+    "bragging",
+    "first rank"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 720,
   "example": {
-    "text": "Ye Saala Top Karne Ki Aadat Ho Gayeli Hai Apun Ko"
+    "caption": "Me scoring 34/100 when the class average is 20"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
+      "id": "caption",
+      "description": "Situation or setup text prompting the sarcastic flex",
       "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "y": 30,
+      "width": 1100,
+      "height": 140,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

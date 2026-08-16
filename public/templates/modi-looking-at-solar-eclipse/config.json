@@ -1,32 +1,37 @@
 {
   "id": "modi-looking-at-solar-eclipse",
   "name": "Modi Looking At Solar Eclipse",
-  "visual_description": "Indian meme template: Modi Looking At Solar Eclipse",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Modi Looking At Solar Eclipse'",
+  "visual_description": "PM Narendra Modi wearing dark sunglasses and a red muffler, holding eclipse glasses and gazing up at the sky.",
+  "usage_context": "Used sarcastically to represent looking for something elusive or nonexistent, like appraisal, career prospects, savings, or logic.",
   "keywords": [
-    "indian meme",
     "modi",
-    "looking",
-    "solar",
-    "eclipse"
+    "narendra modi",
+    "solar eclipse",
+    "sunglasses",
+    "glasses",
+    "red scarf",
+    "looking up",
+    "searching",
+    "indian politics"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 512,
+  "image_height": 547,
   "example": {
-    "text": "Modi Looking At Solar Eclipse"
+    "top_text": "Me searching for my motivation on Monday morning"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Caption describing what is being searched for or observed",
+      "x": 16,
+      "y": 16,
+      "width": 480,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

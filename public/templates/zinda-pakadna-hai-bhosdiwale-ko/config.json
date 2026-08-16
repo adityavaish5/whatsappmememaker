@@ -1,32 +1,35 @@
 {
   "id": "zinda-pakadna-hai-bhosdiwale-ko",
-  "name": "Zinda Pakadna Hai Bhosdiwale Ko",
-  "visual_description": "Indian meme template: Zinda Pakadna Hai Bhosdiwale Ko",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Zinda Pakadna Hai Bhosdiwale Ko'",
+  "name": "Zinda Pakadna Hai Bhosdiwalo Ko",
+  "visual_description": "Kaleen Bhaiya (Pankaj Tripathi) in Mirzapur points forward aggressively against a painted wall.",
+  "usage_context": "Used to express catching someone red-handed or wanting to interrogate someone who messed up.",
   "keywords": [
+    "kaleen bhaiya",
+    "pankaj tripathi",
+    "mirzapur",
+    "zinda pakadna hai",
+    "pointing",
     "indian meme",
-    "zinda",
-    "pakadna",
-    "hai",
-    "bhosdiwale"
+    "catch him alive"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1024,
+  "image_height": 576,
   "example": {
-    "text": "Zinda Pakadna Hai Bhosdiwale Ko"
+    "top_text": "When your friend takes the last slice of pizza and starts running"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation setting up the pursuit or confrontation",
+      "x": 40,
+      "y": 20,
+      "width": 944,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

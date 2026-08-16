@@ -1,32 +1,35 @@
 {
   "id": "tera-kaam-ho-gaya-tu-ja",
-  "name": "Tera Kaam Ho Gaya Tu Ja (Welcome)",
-  "visual_description": "Indian meme template: Tera Kaam Ho Gaya Tu Ja (Welcome)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Tera Kaam Ho Gaya Tu Ja (Welcome)'",
+  "name": "Tera Kaam Ho Gaya Tu Ja",
+  "visual_description": "Nana Patekar (Uday Shetty) smiling and holding Paresh Rawal's (Ghungroo) hand on a couch in Welcome, with the subtitle 'Tera kaam ho gaya tu ja'.",
+  "usage_context": "Used to dismiss someone immediately after their usefulness or task is finished.",
   "keywords": [
-    "indian meme",
-    "tera",
-    "kaam",
-    "gaya",
-    "(welcome)"
+    "tera kaam ho gaya tu ja",
+    "welcome",
+    "nana patekar",
+    "uday shetty",
+    "paresh rawal",
+    "dismissal",
+    "hindi comedy"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1024,
+  "image_height": 455,
   "example": {
-    "text": "Tera Kaam Ho Gaya Tu Ja (Welcome)"
+    "top_text": "When the group project is submitted and you talk to the free rider"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Setup or context scenario at the top",
+      "x": 30,
+      "y": 20,
+      "width": 964,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

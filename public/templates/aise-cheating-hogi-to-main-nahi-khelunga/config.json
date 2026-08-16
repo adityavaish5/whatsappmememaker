@@ -1,34 +1,36 @@
 {
   "id": "aise-cheating-hogi-to-main-nahi-khelunga",
-  "name": "Aise Cheating Hogi To Main Nahi Khelunga",
-  "visual_description": "Indian meme template: Aise Cheating Hogi To Main Nahi Khelunga",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Aise Cheating Hogi To Main Nahi Khelunga'",
+  "name": "Aise Cheating Hogi Toh Main Nahi Khelunga",
+  "visual_description": "Paresh Rawal complaining with a distressed, whining expression beside a concerned woman.",
+  "usage_context": "Used to express frustration, defeat, or annoyance when rules are broken or a situation feels unfair.",
   "keywords": [
-    "indian meme",
-    "aise",
+    "paresh rawal",
+    "aise cheating hogi",
     "cheating",
-    "hogi",
-    "main",
-    "nahi",
-    "khelunga"
+    "unfair",
+    "complaint",
+    "phir hera pheri",
+    "bollywood",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 550,
   "example": {
-    "text": "Aise Cheating Hogi To Main Nahi Khelunga"
+    "caption": "When the exam questions come from the topic teacher told to skip"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Top setup or situation text",
+      "x": 40,
+      "y": 20,
+      "width": 1120,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

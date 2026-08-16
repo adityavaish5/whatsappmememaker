@@ -1,34 +1,36 @@
 {
   "id": "sadak-se-utha-kar-star-banaunga",
-  "name": "Sadak Se Utha Kar Star Banaunga (Welcome)",
-  "visual_description": "Indian meme template: Sadak Se Utha Kar Star Banaunga (Welcome)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Sadak Se Utha Kar Star Banaunga (Welcome)'",
+  "name": "Sadak Se Utha Kar Star Banaunga",
+  "visual_description": "Film director played by Vijay Raaz pointing an assertive finger at Majnu Bhai (Anil Kapoor) in Welcome.",
+  "usage_context": "Used to mock grand promises of turning someone unskilled into a success, or boastful mentoring claims.",
   "keywords": [
-    "indian meme",
-    "sadak",
-    "utha",
-    "kar",
-    "star",
-    "banaunga",
-    "(welcome)"
+    "welcome movie",
+    "vijay raaz",
+    "anil kapoor",
+    "majnu bhai",
+    "sadak se utha kar star banaunga",
+    "bollywood meme",
+    "promise",
+    "director"
   ],
-  "sentiment": "neutral",
+  "sentiment": "sarcastic",
   "image_width": 800,
-  "image_height": 600,
+  "image_height": 450,
   "example": {
-    "text": "Sadak Se Utha Kar Star Banaunga (Welcome)"
+    "top_text": "Me giving career advice to my unemployed best friend:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Setup or situation description at the top",
+      "x": 20,
+      "y": 15,
+      "width": 760,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

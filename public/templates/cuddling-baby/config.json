@@ -1,32 +1,39 @@
 {
   "id": "cuddling-baby",
-  "name": "Cuddling Baby (TMKOC)",
-  "visual_description": "Indian meme template: Cuddling Baby (TMKOC)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Cuddling Baby (TMKOC)'",
+  "name": "TMKOC Men Pampering Baby",
+  "visual_description": "Eight-panel collage of Gokuldham society men (Jethalal, Champaklal, Iyer, Taarak Mehta, Sodhi, Popatlal, Hathi) lovingly holding and cuddling a baby wearing a colorful cap.",
+  "usage_context": "Used to express universal love, pampering, or undivided affection showered on someone or something by everyone in a group.",
   "keywords": [
-    "indian meme",
-    "cuddling",
+    "tmkoc",
+    "taarak mehta ka ooltah chashmah",
     "baby",
-    "(tmkoc)"
+    "jethalal",
+    "champaklal",
+    "gokuldham",
+    "cuddling",
+    "wholesome",
+    "pampering",
+    "affection"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "positive",
+  "image_width": 720,
+  "image_height": 911,
   "example": {
-    "text": "Cuddling Baby (TMKOC)"
+    "caption": "The youngest cousin when they visit during summer vacation:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Main situation or context text",
+      "x": 20,
+      "y": 15,
+      "width": 680,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 80,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

@@ -1,31 +1,34 @@
 {
   "id": "hiding-behind-door",
-  "name": "Hiding Behind Door",
-  "visual_description": "Indian meme template: Hiding Behind Door",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Hiding Behind Door'",
+  "name": "Guy Holding Freestanding Door",
+  "visual_description": "A man holds a freestanding wooden door closed to block intruders, unaware there are no walls around it.",
+  "usage_context": "Used to mock useless security measures, ineffective rules, or a false sense of protection.",
   "keywords": [
-    "indian meme",
-    "hiding",
-    "behind",
-    "door"
+    "holding door",
+    "useless security",
+    "open wall",
+    "false security",
+    "firewall meme",
+    "indian meme template"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 854,
+  "image_height": 360,
   "example": {
-    "text": "Hiding Behind Door"
+    "top_text": "Me accepting cookies to protect my privacy"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Caption describing a futile or useless security effort",
+      "x": 20,
+      "y": 15,
+      "width": 814,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 70,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

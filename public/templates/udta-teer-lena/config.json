@@ -1,32 +1,53 @@
 {
   "id": "udta-teer-lena",
-  "name": "Udta Teer Lena",
-  "visual_description": "Indian meme template: Udta Teer Lena",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Udta Teer Lena'",
+  "name": "Udta Teer Lena (Catching the Flying Arrow)",
+  "visual_description": "Three-panel comic strip showing a stick figure watching an arrow fly overhead, catching it out of the air, and sticking it into their own backside with a smile.",
+  "usage_context": "Used to describe knowingly inviting trouble, getting involved in avoidable drama, or bringing unnecessary problems upon oneself.",
   "keywords": [
-    "indian meme",
-    "udta",
-    "teer",
-    "lena"
+    "udta teer",
+    "udta teer lena",
+    "arrow",
+    "self sabotage",
+    "inviting trouble",
+    "drama",
+    "hindi meme",
+    "stick figure"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 700,
+  "image_height": 924,
   "example": {
-    "text": "Udta Teer Lena"
+    "arrow_text": "Family drama that has nothing to do with me",
+    "person_text": "Me giving my unsolicited opinion"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "arrow_text",
+      "description": "Label describing the avoidable problem or drama passing by",
+      "x": 30,
+      "y": 70,
+      "width": 340,
+      "height": 160,
       "fontSize": 48,
-      "color": "white",
-      "stroke": "black",
-      "uppercase": true,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "person_text",
+      "description": "Label describing the person intentionally involving themselves",
+      "x": 40,
+      "y": 420,
+      "width": 320,
+      "height": 160,
+      "fontSize": 48,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

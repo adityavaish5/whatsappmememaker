@@ -1,36 +1,36 @@
 {
   "id": "hum-iss-ladke-ko-jante-hai",
   "name": "Hum Iss Ladke Ko Jante Hai (MS Dhoni)",
-  "visual_description": "Indian meme template: Hum Iss Ladke Ko Jante Hai (MS Dhoni)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Hum Iss Ladke Ko Jante Hai (MS Dhoni)'",
+  "visual_description": "Commentator in a red shirt and hat points emphatically across a cricket field alongside a fellow commentator from the film M.S. Dhoni: The Untold Story.",
+  "usage_context": "Used to boast about recognizing someone famous, notoriously skilled, or troublemaking before anyone else did.",
   "keywords": [
-    "indian meme",
-    "hum",
-    "iss",
-    "ladke",
-    "jante",
-    "hai",
-    "(ms",
-    "dhoni)"
+    "hum iss ladke ko jante hai",
+    "ms dhoni movie",
+    "cricket",
+    "commentator pointing",
+    "rajesh sharma",
+    "we know this boy",
+    "bollywood meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1280,
+  "image_height": 603,
   "example": {
-    "text": "Hum Iss Ladke Ko Jante Hai (MS Dhoni)"
+    "top_text": "Relatives when you finally crack a government exam:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or setup text describing a moment of sudden recognition or claiming credit",
+      "x": 40,
+      "y": 20,
+      "width": 1200,
+      "height": 100,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

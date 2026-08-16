@@ -1,34 +1,36 @@
 {
   "id": "mai-ghar-todne-jaa-raha-hun",
-  "name": "Mai Ghar Todne Jaa Raha Hun",
-  "visual_description": "Indian meme template: Mai Ghar Todne Jaa Raha Hun",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Mai Ghar Todne Jaa Raha Hun'",
+  "name": "Main Ghar Todne Jaa Raha Hun",
+  "visual_description": "Bhide from TMKOC wearing sunglasses and a light blue shirt with a determined, serious expression outdoors, with the caption 'Main ghar todne jaa raha hun'.",
+  "usage_context": "Used humorously when intending to ruin someone's relationship, cause chaos in a group, or meddle in someone's personal affairs.",
   "keywords": [
-    "indian meme",
-    "mai",
-    "ghar",
-    "todne",
-    "jaa",
-    "raha",
-    "hun"
+    "bhide",
+    "tmkoc",
+    "taarak mehta",
+    "main ghar todne jaa raha hun",
+    "mandar chandwadkar",
+    "sunglasses",
+    "home wrecker",
+    "drama"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 540,
   "example": {
-    "text": "Mai Ghar Todne Jaa Raha Hun"
+    "caption": "Me after taking a screenshot of my friend's chat with his crush"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Context or setup leading to the reaction",
+      "x": 40,
+      "y": 25,
+      "width": 1120,
+      "height": 100,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

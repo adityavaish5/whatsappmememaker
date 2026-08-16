@@ -1,36 +1,35 @@
 {
   "id": "aye-tum-log-bhi-chalo-na-mere-sath",
-  "name": "Aye Tum Log Bhi Chalo Na Mere Sath (Welcome)",
-  "visual_description": "Indian meme template: Aye Tum Log Bhi Chalo Na Mere Sath (Welcome)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Aye Tum Log Bhi Chalo Na Mere Sath (Welcome)'",
+  "name": "Majnu Bhai Aye Tum Log Bhi Chalo Na Mere Saath",
+  "visual_description": "Majnu Bhai (Anil Kapoor) scratching his head shyly while asking his companions to come along with him.",
+  "usage_context": "Used when asking friends for backup or moral support before entering an intimidating, awkward, or romantic situation.",
   "keywords": [
-    "indian meme",
-    "aye",
-    "tum",
-    "log",
-    "bhi",
-    "chalo",
-    "mere",
-    "sath",
-    "(welcome)"
+    "welcome",
+    "anil kapoor",
+    "majnu bhai",
+    "aye tum log bhi chalo na mere saath",
+    "bollywood",
+    "nervous",
+    "friends"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1280,
+  "image_height": 720,
   "example": {
-    "text": "Aye Tum Log Bhi Chalo Na Mere Sath (Welcome)"
+    "caption": "Me asking my friends to come along when viva examiner calls my roll number"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "caption",
+      "description": "Situation or setup where someone needs their friends' backup",
+      "x": 40,
+      "y": 30,
+      "width": 1200,
+      "height": 160,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,35 +1,36 @@
 {
   "id": "itni-khushi-mujhe-aaj-tak-nahi-hui",
   "name": "Itni Khushi Mujhe Aaj Tak Nahi Hui",
-  "visual_description": "Indian meme template: Itni Khushi Mujhe Aaj Tak Nahi Hui",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Itni Khushi Mujhe Aaj Tak Nahi Hui'",
+  "visual_description": "Govinda crying tears of joy into a tissue next to Salman Khan from the movie Partner.",
+  "usage_context": "Used to express overwhelming, dramatic, or sarcastic joy and relief over small or unexpected wins.",
   "keywords": [
-    "indian meme",
-    "itni",
-    "khushi",
-    "mujhe",
-    "aaj",
-    "tak",
-    "nahi",
-    "hui"
+    "partner movie",
+    "govinda",
+    "salman khan",
+    "itni khushi mujhe aaj tak nahi hui",
+    "crying happy",
+    "tears of joy",
+    "bollywood meme",
+    "overwhelmed"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 750,
+  "image_height": 422,
   "example": {
-    "text": "Itni Khushi Mujhe Aaj Tak Nahi Hui"
+    "top_text": "When the teacher cancels the surprise test"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or event leading to extreme happiness or relief",
+      "x": 30,
+      "y": 15,
+      "width": 690,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

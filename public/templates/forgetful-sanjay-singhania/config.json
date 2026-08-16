@@ -1,32 +1,36 @@
 {
   "id": "forgetful-sanjay-singhania",
-  "name": "Forgetful Sanjay Singhania (Ghajini)",
-  "visual_description": "Indian meme template: Forgetful Sanjay Singhania (Ghajini)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Forgetful Sanjay Singhania (Ghajini)'",
+  "name": "Ghajini Short Term Memory Loss",
+  "visual_description": "Aamir Khan as Sanjay Singhania touching the scar on his head with a confused, forgetful expression.",
+  "usage_context": "Used to express sudden forgetfulness, memory blanks, brain fade, or trying desperately to recall something obvious.",
   "keywords": [
-    "indian meme",
+    "ghajini",
+    "aamir khan",
+    "sanjay singhania",
+    "memory loss",
     "forgetful",
-    "sanjay",
-    "singhania",
-    "(ghajini)"
+    "confused",
+    "brain fart",
+    "trying to remember"
   ],
-  "sentiment": "neutral",
+  "sentiment": "sarcastic",
   "image_width": 800,
-  "image_height": 600,
+  "image_height": 420,
   "example": {
-    "text": "Forgetful Sanjay Singhania (Ghajini)"
+    "caption": "Me entering a room and forgetting why I came there"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Caption describing a situation where someone forgets something instantly",
+      "x": 20,
+      "y": 20,
+      "width": 760,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

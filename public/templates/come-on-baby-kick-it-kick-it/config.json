@@ -1,33 +1,37 @@
 {
   "id": "come-on-baby-kick-it-kick-it",
-  "name": "Come On Baby Kick It Kick It",
-  "visual_description": "Indian meme template: Come On Baby Kick It Kick It",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Come On Baby Kick It Kick It'",
+  "name": "Badshah C'mon Baby Kick It Kick It",
+  "visual_description": "Rapper Badshah wearing orange-tinted sunglasses and a colorful jacket, singing in the 'Genda Phool' music video with dancers in traditional Bengali attire in the background.",
+  "usage_context": "Used to hype someone up, encourage immediate action, or humorously reference kick-starting an old bike/device.",
   "keywords": [
-    "indian meme",
-    "come",
-    "baby",
-    "kick",
-    "kick"
+    "badshah",
+    "genda phool",
+    "c'mon baby kick it kick it",
+    "come on baby kick it kick it",
+    "hindi music video",
+    "hype",
+    "bike kick start",
+    "jacqueline fernandez"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1600,
+  "image_height": 800,
   "example": {
-    "text": "Come On Baby Kick It Kick It"
+    "caption": "Dad when the 15-year-old Bajaj Chetak won't start:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "caption",
+      "description": "Situation or setup text prompting the kick reaction",
+      "x": 80,
+      "y": 40,
+      "width": 1440,
+      "height": 140,
+      "fontSize": 56,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

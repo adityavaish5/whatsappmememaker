@@ -1,34 +1,38 @@
 {
   "id": "koi-sense-hai-is-baat-ki",
-  "name": "Koi Sense Hai Is Baat Ki (Bassi Standup)",
-  "visual_description": "Indian meme template: Koi Sense Hai Is Baat Ki (Bassi Standup)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Koi Sense Hai Is Baat Ki (Bassi Standup)'",
+  "name": "Koi Sense Hai Is Baat Ki - Anubhav Singh Bassi",
+  "visual_description": "Two-panel meme of comedian Anubhav Singh Bassi performing stand-up on stage. Top panel shows him asking 'Koi sense hai is baat ki?' and bottom panel shows him answering 'Humein bahut lag rahi thi us time'.",
+  "usage_context": "Used to describe irrational, illogical, or bizarre decisions and actions that felt completely justified or made total sense in the heat of the moment.",
   "keywords": [
-    "indian meme",
-    "koi",
-    "sense",
-    "hai",
-    "baat",
-    "(bassi",
-    "standup)"
+    "bassi",
+    "anubhav singh bassi",
+    "standup comedy",
+    "koi sense hai is baat ki",
+    "humein bahut lag rahi thi us time",
+    "cheating",
+    "hostel",
+    "indian meme template",
+    "regret",
+    "funny logic"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1024,
+  "image_height": 1024,
   "example": {
-    "text": "Koi Sense Hai Is Baat Ki (Bassi Standup)"
+    "situation": "Drinking 4 cups of coffee at 2 AM before an 8 AM exam"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "situation",
+      "description": "The irrational decision or action that made sense back then",
+      "x": 40,
+      "y": 30,
+      "width": 944,
+      "height": 120,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

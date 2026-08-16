@@ -1,32 +1,37 @@
 {
   "id": "hum-first-hum-first",
   "name": "Hum First Hum First",
-  "visual_description": "Indian meme template: Hum First Hum First",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Hum First Hum First'",
+  "visual_description": "Akshay Kumar in a pink shirt running in a hurry beside a blue Mahindra jeep with a caption saying 'Hum first.. Hum first'.",
+  "usage_context": "Used to describe someone desperately rushing to grab an opportunity, cut in line, or claim priority over others.",
   "keywords": [
-    "indian meme",
-    "hum",
-    "first",
-    "hum",
-    "first"
+    "akshay kumar",
+    "khatta meetha",
+    "sachin tichkule",
+    "hum first hum first",
+    "running",
+    "jeep",
+    "hurry",
+    "competition",
+    "bollywood meme"
   ],
-  "sentiment": "neutral",
+  "sentiment": "sarcastic",
   "image_width": 800,
-  "image_height": 600,
+  "image_height": 445,
   "example": {
-    "text": "Hum First Hum First"
+    "top_text": "Relatives when free food is announced at a wedding:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Setup or scenario triggering the rush to be first",
+      "x": 20,
+      "y": 15,
+      "width": 760,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

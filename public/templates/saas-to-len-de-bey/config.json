@@ -1,31 +1,35 @@
 {
   "id": "saas-to-len-de-bey",
-  "name": "Saas To Len De Bey",
-  "visual_description": "Indian meme template: Saas To Len De Bey",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Saas To Len De Bey'",
+  "name": "Saas Toh Len De Bey - Aakash Gupta",
+  "visual_description": "Standup comedian Aakash Gupta holding a microphone on stage looking bewildered and overwhelmed.",
+  "usage_context": "Used to express feeling overwhelmed or rushed when bombarded with tasks, questions, or demands immediately after finishing something.",
   "keywords": [
-    "indian meme",
-    "saas",
-    "len",
-    "bey"
+    "aakash gupta",
+    "saas toh len de bey",
+    "standup comedy",
+    "give me a break",
+    "let me breathe",
+    "indian comedian",
+    "overwhelmed"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1600,
+  "image_height": 900,
   "example": {
-    "text": "Saas To Len De Bey"
+    "top_text": "HR: You are selected!\nRelatives 5 seconds later: Shaadi kab kar rahe ho?"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "Situation or prompt causing overwhelm or rush",
+      "x": 60,
+      "y": 40,
+      "width": 1480,
+      "height": 220,
+      "fontSize": 56,
       "color": "white",
       "stroke": "black",
+      "maxLength": 120,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

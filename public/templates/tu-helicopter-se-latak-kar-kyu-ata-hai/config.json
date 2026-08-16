@@ -1,35 +1,37 @@
 {
   "id": "tu-helicopter-se-latak-kar-kyu-ata-hai",
-  "name": "Tu Helicopter Se Latak Kar Kyu Ata Hai (Sooryavanshi)",
-  "visual_description": "Indian meme template: Tu Helicopter Se Latak Kar Kyu Ata Hai (Sooryavanshi)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Tu Helicopter Se Latak Kar Kyu Ata Hai (Sooryavanshi)'",
+  "name": "Aur Tu Har Baar Helicopter Se Latak Ke Kyun Aata Hai",
+  "visual_description": "Ajay Devgn as Singham questioning Akshay Kumar as Sooryavanshi side-by-side in police uniforms.",
+  "usage_context": "Used to question someone's repetitive, overly dramatic, or unnecessarily extra habits and entries.",
   "keywords": [
-    "indian meme",
+    "sooryavanshi",
+    "singham",
+    "ajay devgn",
+    "akshay kumar",
     "helicopter",
-    "latak",
-    "kar",
-    "kyu",
-    "ata",
-    "hai",
-    "(sooryavanshi)"
+    "rohit shetty",
+    "bollywood",
+    "cop universe",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 600,
+  "image_height": 338,
   "example": {
-    "text": "Tu Helicopter Se Latak Kar Kyu Ata Hai (Sooryavanshi)"
+    "caption": "Friend ordering something fancy at a cheap dhaba"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Situation or setup describing someone being extra or dramatic",
+      "x": 20,
+      "y": 15,
+      "width": 560,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 70,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

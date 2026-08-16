@@ -1,34 +1,36 @@
 {
   "id": "sab-kuch-shanti-purvak-tareeke-se-hoga",
   "name": "Sab Kuch Shanti Purvak Tareeke Se Hoga",
-  "visual_description": "Indian meme template: Sab Kuch Shanti Purvak Tareeke Se Hoga",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Sab Kuch Shanti Purvak Tareeke Se Hoga'",
+  "visual_description": "Side-by-side shots of a political leader claiming on a news mic that everything will happen peacefully, while right next to it he is seen wielding a lathi against an auto-rickshaw.",
+  "usage_context": "Used sarcastically to mock hypocrisy, ironic situations, or when violent actions completely contradict peaceful claims.",
   "keywords": [
-    "indian meme",
-    "sab",
-    "kuch",
-    "shanti",
-    "purvak",
-    "tareeke",
-    "hoga"
+    "sab kuch shanti purvak tareeke se hoga",
+    "peaceful protest",
+    "irony",
+    "hypocrisy",
+    "lathi",
+    "auto vandalism",
+    "news interview",
+    "indian political meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 630,
   "example": {
-    "text": "Sab Kuch Shanti Purvak Tareeke Se Hoga"
+    "top_text": "HR saying layoffs will be handled with utmost empathy and care:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Setup text describing a peaceful claim versus contradictory harsh actions",
+      "x": 40,
+      "y": 20,
+      "width": 1120,
+      "height": 100,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

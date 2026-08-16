@@ -1,35 +1,36 @@
 {
   "id": "chutiya-hai-ye-important-nahi-humara-ladka",
-  "name": "Chutiya Hai Ye Important Nahi Humara Ladka (Mirzapur)",
-  "visual_description": "Indian meme template: Chutiya Hai Ye Important Nahi Humara Ladka (Mirzapur)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Chutiya Hai Ye Important Nahi Humara Ladka (Mirzapur)'",
+  "name": "Munna Bhai Saying Nahi",
+  "visual_description": "Sanjay Dutt as Munna Bhai wearing a turquoise blue shirt with a confused expression, captioned 'Nahi'.",
+  "usage_context": "Used to express a blunt, humorous refusal or direct denial to an absurd request or question.",
   "keywords": [
-    "indian meme",
-    "chutiya",
-    "hai",
-    "important",
+    "munna bhai",
+    "sanjay dutt",
     "nahi",
-    "humara",
-    "ladka",
-    "(mirzapur)"
+    "no",
+    "munna bhai mbbs",
+    "refusal",
+    "denial",
+    "bollywood meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1000,
+  "image_height": 446,
   "example": {
-    "text": "Chutiya Hai Ye Important Nahi Humara Ladka (Mirzapur)"
+    "top_text": "Boss: Can you handle one small task over the weekend?"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or question prompting the blunt 'Nahi' response",
+      "x": 30,
+      "y": 20,
+      "width": 940,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

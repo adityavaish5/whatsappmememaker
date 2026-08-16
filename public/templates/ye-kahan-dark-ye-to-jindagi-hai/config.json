@@ -1,34 +1,36 @@
 {
   "id": "ye-kahan-dark-ye-to-jindagi-hai",
-  "name": "Ye Kahan Dark Ye To Jindagi Hai (Biswa Comicstaan)",
-  "visual_description": "Indian meme template: Ye Kahan Dark Ye To Jindagi Hai (Biswa Comicstaan)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Kahan Dark Ye To Jindagi Hai (Biswa Comicstaan)'",
+  "name": "Ye Kahan Dark Hai Ye Toh Jindagi Hai",
+  "visual_description": "Comedian Biswa Kalyan Rath speaking into a microphone with an expressive hand gesture on the Comicstaan judge panel, with yellow subtitles reading 'Ye kahan dark hai, ye toh jindagi hai'.",
+  "usage_context": "Used to react sarcastically to bleak, depressing, or dark situations by stating that it is just normal everyday reality.",
   "keywords": [
-    "indian meme",
-    "kahan",
-    "dark",
-    "jindagi",
-    "hai",
-    "(biswa",
-    "comicstaan)"
+    "biswa kalyan rath",
+    "comicstaan",
+    "ye kahan dark hai",
+    "ye toh jindagi hai",
+    "amazon prime",
+    "stand up comedy",
+    "dark humor",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 960,
+  "image_height": 540,
   "example": {
-    "text": "Ye Kahan Dark Ye To Jindagi Hai (Biswa Comicstaan)"
+    "caption": "Friend: Your jokes are getting too dark lately"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Setup or situation context text at the top",
+      "x": 30,
+      "y": 20,
+      "width": 900,
+      "height": 100,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

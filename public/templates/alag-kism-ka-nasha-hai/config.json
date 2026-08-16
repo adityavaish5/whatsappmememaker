@@ -1,34 +1,36 @@
 {
   "id": "alag-kism-ka-nasha-hai",
-  "name": "Alag Kism Ka Nasha Hai (Criminal Justice)",
-  "visual_description": "Indian meme template: Alag Kism Ka Nasha Hai (Criminal Justice)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Alag Kism Ka Nasha Hai (Criminal Justice)'",
+  "name": "Alag Kism Ka Nasha Hai - Criminal Justice",
+  "visual_description": "Pankaj Tripathi as lawyer Madhav Mishra with a shoulder bag, delivering the dialogue 'Alag kism ka nasha hai'.",
+  "usage_context": "Used to describe a bizarrely addictive habit, guilty pleasure, or unique obsession.",
   "keywords": [
-    "indian meme",
-    "alag",
-    "kism",
-    "nasha",
-    "hai",
-    "(criminal",
-    "justice)"
+    "pankaj tripathi",
+    "criminal justice",
+    "madhav mishra",
+    "alag kism ka nasha hai",
+    "addiction",
+    "guilty pleasure",
+    "hotstar",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1042,
+  "image_height": 828,
   "example": {
-    "text": "Alag Kism Ka Nasha Hai (Criminal Justice)"
+    "caption": "Looking at old embarrassing photos at 3 AM"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Situation or habit that gives a strange high",
+      "x": 30,
+      "y": 25,
+      "width": 982,
+      "height": 130,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

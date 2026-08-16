@@ -1,30 +1,36 @@
 {
-  "id": "nahi",
-  "name": "Nahi",
-  "visual_description": "Indian meme template: Nahi",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Nahi'",
+  "id": "tu-hai-tereko-pata-nahi-hai-lekin-tu-hai",
+  "name": "Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai",
+  "visual_description": "Naveen Kasturia as a judge in TVF's Rowdies parody sitting at a desk and gesturing while talking, with bottom subtitle 'Tu hai. Tereko pata nahi hai lekin tu hai'.",
+  "usage_context": "Used to sarcastically or humorously convince someone of a trait, flaw, or truth they are currently in denial about.",
   "keywords": [
+    "tvf",
+    "rowdies",
+    "naveen kasturia",
+    "tu hai tereko pata nahi hai",
+    "roadies parody",
     "indian meme",
-    "nahi"
+    "hindi meme"
   ],
-  "sentiment": "neutral",
+  "sentiment": "sarcastic",
   "image_width": 800,
-  "image_height": 600,
+  "image_height": 400,
   "example": {
-    "text": "Nahi"
+    "caption": "Friend: 'Bhai main toxic thodi hoon?'\nMe:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Setup or context caption placed at the top",
+      "x": 20,
+      "y": 10,
+      "width": 760,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

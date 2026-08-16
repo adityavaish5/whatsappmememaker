@@ -1,37 +1,36 @@
 {
   "id": "aaj-mere-dukh-nirasha-ki-koi-seema-nahi-hai",
-  "name": "Aaj Mere Dukh Nirasha Ki Koi Seema Nahi Hai (Ramayana)",
-  "visual_description": "Indian meme template: Aaj Mere Dukh Nirasha Ki Koi Seema Nahi Hai (Ramayana)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Aaj Mere Dukh Nirasha Ki Koi Seema Nahi Hai (Ramayana)'",
+  "name": "Munna Bhai Saying Nahi",
+  "visual_description": "Sanjay Dutt as Munna Bhai in a cyan shirt with a reluctant, hesitant expression saying 'Nahi'.",
+  "usage_context": "Used to express an outright, blunt, or awkward refusal to a request, question, or proposition.",
   "keywords": [
-    "indian meme",
-    "aaj",
-    "mere",
-    "dukh",
-    "nirasha",
-    "koi",
-    "seema",
+    "munna bhai",
+    "sanjay dutt",
+    "munna bhai mbbs",
     "nahi",
-    "hai",
-    "(ramayana)"
+    "no",
+    "refusal",
+    "bollywood",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1046,
+  "image_height": 454,
   "example": {
-    "text": "Aaj Mere Dukh Nirasha Ki Koi Seema Nahi Hai (Ramayana)"
+    "caption": "Subah 6 baje uthke gym chalega?"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Situation or question prompting a blunt 'Nahi'",
+      "x": 30,
+      "y": 20,
+      "width": 986,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,34 +1,37 @@
 {
   "id": "meri-aankhon-me-to-dekh",
-  "name": "Meri Aankhon Me To Dekh (Mujhse Shaadi Karogi)",
-  "visual_description": "Indian meme template: Meri Aankhon Me To Dekh (Mujhse Shaadi Karogi)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Meri Aankhon Me To Dekh (Mujhse Shaadi Karogi)'",
+  "name": "Meri Aankhon Me To Dekh",
+  "visual_description": "Akshay Kumar smiling and forcibly grabbing Salman Khan by the cheek to make him look into his eyes from the movie Mujhse Shaadi Karogi.",
+  "usage_context": "Used to show confrontation, forcing someone to pay attention, catch a lie, or make someone face an awkward reality.",
   "keywords": [
-    "indian meme",
-    "meri",
-    "aankhon",
-    "dekh",
-    "(mujhse",
-    "shaadi",
-    "karogi)"
+    "akshay kumar",
+    "salman khan",
+    "mujhse shaadi karogi",
+    "sunny",
+    "sameer",
+    "meri aankhon me to dekh",
+    "look at me",
+    "bollywood",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1600,
+  "image_height": 900,
   "example": {
-    "text": "Meri Aankhon Me To Dekh (Mujhse Shaadi Karogi)"
+    "top_text": "When your friend says he didn't eat your food"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "Situation or setup caption at the top",
+      "x": 40,
+      "y": 30,
+      "width": 1520,
+      "height": 130,
+      "fontSize": 56,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

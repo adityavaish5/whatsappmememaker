@@ -1,35 +1,37 @@
 {
   "id": "tumhare-tarah-40-log-aur-hai",
-  "name": "Tumhare Tarah 40 Log Aur Hai (Sooryavanshi)",
-  "visual_description": "Indian meme template: Tumhare Tarah 40 Log Aur Hai (Sooryavanshi)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Tumhare Tarah 40 Log Aur Hai (Sooryavanshi)'",
+  "name": "Tumhare Tarah 40 Log Aur Hai",
+  "visual_description": "Akshay Kumar as DCP Veer Sooryavanshi leaning forward at an interrogation desk with a stern expression and subtitle at the bottom.",
+  "usage_context": "Used to mock someone who thinks they are irreplaceable, unique, or demanding special treatment.",
   "keywords": [
-    "indian meme",
-    "tumhare",
-    "tarah",
-    "log",
-    "aur",
-    "hai",
-    "(sooryavanshi)"
+    "akshay kumar",
+    "sooryavanshi",
+    "tumhare tarah 40 log aur hai",
+    "hr meme",
+    "interview",
+    "sarcasm",
+    "dismissive",
+    "bollywood meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 675,
   "example": {
-    "text": "Tumhare Tarah 40 Log Aur Hai (Sooryavanshi)"
+    "caption": "When a candidate asks for 200% hike during the interview"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Situation or setup text provoking the dismissive reaction",
+      "x": 40,
+      "y": 30,
+      "width": 1120,
+      "height": 130,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

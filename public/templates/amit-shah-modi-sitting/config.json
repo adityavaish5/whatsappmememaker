@@ -1,32 +1,39 @@
 {
   "id": "amit-shah-modi-sitting",
-  "name": "Amit Shah & Modi Sitting",
-  "visual_description": "Indian meme template: Amit Shah & Modi Sitting",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Amit Shah & Modi Sitting'",
+  "name": "Amit Shah and Modi Wrapped in Shawls",
+  "visual_description": "Amit Shah and Narendra Modi sitting cross-legged outdoors tightly wrapped in warm shawls during winter, looking solemn.",
+  "usage_context": "Used to joke about extreme Delhi winter, feeling freezing cold, or two quiet friends sitting uncomfortably at a social gathering waiting to leave.",
   "keywords": [
-    "indian meme",
-    "amit",
-    "shah",
+    "amit shah",
     "modi",
-    "sitting"
+    "narendra modi",
+    "shawl",
+    "winter",
+    "delhi winter",
+    "bjp",
+    "blanket",
+    "cold",
+    "sitting",
+    "duo"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 750,
+  "image_height": 464,
   "example": {
-    "text": "Amit Shah & Modi Sitting"
+    "top_text": "ME AND MY FRIEND AT 7 AM WINTER TUITION"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Main caption or situational text at the top",
+      "x": 20,
+      "y": 15,
+      "width": 710,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

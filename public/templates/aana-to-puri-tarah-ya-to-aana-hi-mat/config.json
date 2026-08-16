@@ -1,34 +1,36 @@
 {
   "id": "aana-to-puri-tarah-ya-to-aana-hi-mat",
-  "name": "Aana To Puri Tarah Ya To Aana Hi Mat",
-  "visual_description": "Indian meme template: Aana To Puri Tarah Ya To Aana Hi Mat",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Aana To Puri Tarah Ya To Aana Hi Mat'",
+  "name": "Aana Toh Puri Tarah Aana - Kartik Aaryan",
+  "visual_description": "Kartik Aaryan looking emotional and teary-eyed in Love Aaj Kal 2 with subtitle 'Aana toh puri tarah aana Ya toh aana hi mat'.",
+  "usage_context": "Used to demand full commitment or absolute presence, rejecting half-hearted efforts, partial returns, or mixed signals.",
   "keywords": [
-    "indian meme",
-    "aana",
-    "puri",
-    "tarah",
-    "aana",
-    "mat"
+    "kartik aaryan",
+    "love aaj kal",
+    "aana toh puri tarah",
+    "emotional",
+    "commitment",
+    "hindi dialogue",
+    "bollywood meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "dramatic",
+  "image_width": 1080,
+  "image_height": 810,
   "example": {
-    "text": "Aana To Puri Tarah Ya To Aana Hi Mat"
+    "top_text": "When sleep decides to visit at 3 AM for just 20 minutes"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Setup or situation demanding all-or-nothing commitment",
+      "x": 40,
+      "y": 30,
+      "width": 1000,
+      "height": 130,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

@@ -1,34 +1,35 @@
 {
   "id": "amit-shah-aap-chronology-samajh-lijiye",
   "name": "Amit Shah Aap Chronology Samajh Lijiye",
-  "visual_description": "Indian meme template: Amit Shah Aap Chronology Samajh Lijiye",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Amit Shah Aap Chronology Samajh Lijiye'",
+  "visual_description": "Amit Shah speaking into microphones at a press conference, gesturing with his hand while explaining a sequence.",
+  "usage_context": "Used humorously or sarcastically to explain a chain of events, overcomplicated logic, conspiracy theories, or predictable outcomes.",
   "keywords": [
-    "indian meme",
-    "amit",
-    "shah",
-    "aap",
+    "amit shah",
     "chronology",
-    "samajh",
-    "lijiye"
+    "aap chronology samajh lijiye",
+    "bjp",
+    "indian politics",
+    "sequence",
+    "explanation"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
+  "image_height": 675,
   "example": {
-    "text": "Amit Shah Aap Chronology Samajh Lijiye"
+    "top_text": "Me explaining to my parents how skipping 5 minutes of sleep ruined my entire semester"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "The setup, scenario, or sequence of events being explained",
+      "x": 40,
+      "y": 30,
+      "width": 1120,
+      "height": 130,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 120,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

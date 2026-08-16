@@ -1,33 +1,37 @@
 {
   "id": "salman-khan-dabangg-3-breathing-fire",
-  "name": "Salman Khan Dabangg 3 Breathing Fire",
-  "visual_description": "Indian meme template: Salman Khan Dabangg 3 Breathing Fire",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Salman Khan Dabangg 3 Breathing Fire'",
+  "name": "Salman Khan Breathing Fire Dabangg 3",
+  "visual_description": "Salman Khan as Chulbul Pandey blows a massive plume of fire from his mouth while a surrounding crowd watches in shock.",
+  "usage_context": "Used to describe spitting intense roasts, spitting straight facts, or reacting to eating something extremely spicy.",
   "keywords": [
-    "indian meme",
-    "salman",
-    "khan",
-    "dabangg",
-    "breathing",
-    "fire"
+    "salman khan",
+    "chulbul pandey",
+    "dabangg 3",
+    "breathing fire",
+    "spitting fire",
+    "spicy food",
+    "roast",
+    "facts",
+    "indian meme template"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1024,
+  "image_height": 469,
   "example": {
-    "text": "Salman Khan Dabangg 3 Breathing Fire"
+    "top_text": "Me after eating one spicy momo chutney:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or setup prompt",
+      "x": 30,
+      "y": 20,
+      "width": 964,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

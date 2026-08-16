@@ -1,27 +1,27 @@
 {
   "id": "zomato-happy-delivery-guy",
   "name": "Zomato Happy Delivery Guy (Sonu)",
-  "visual_description": "Close-up selfie view of viral delivery partner Sonu wearing a helmet and smiling cheerfully at the camera.",
-  "usage_context": "Used to express pure happiness, innocent contentment, wholesome satisfaction, or pretending to be totally fine with minimal gains.",
+  "visual_description": "Viral delivery partner Sonu smiling broadly while wearing a helmet and delivery jacket.",
+  "usage_context": "Used to express pure happiness, wholesomeness, simple contentment, or smiling through life's small wins.",
   "keywords": [
     "zomato delivery boy",
     "sonu zomato",
-    "happy smile",
-    "wholesome",
-    "viral rider",
+    "happy rider",
+    "smiling man",
+    "wholesome meme",
     "indian meme"
   ],
   "sentiment": "positive",
   "image_width": 730,
   "image_height": 627,
   "example": {
-    "top_text": "WHEN THE CUSTOMER GIVES",
-    "bottom_text": "A 10 RUPEE TIP"
+    "top_text": "WHEN THE CUSTOMER SAYS",
+    "bottom_text": "KEEP THE CHANGE"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Top caption setup",
+      "description": "Top setup text over the helmet",
       "x": 20,
       "y": 15,
       "width": 690,
@@ -36,9 +36,9 @@
     },
     {
       "id": "bottom_text",
-      "description": "Bottom punchline text",
+      "description": "Bottom punchline text over the jacket",
       "x": 20,
-      "y": 510,
+      "y": 515,
       "width": 690,
       "height": 95,
       "fontSize": 48,

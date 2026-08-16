@@ -1,30 +1,36 @@
 {
   "id": "operation-successful",
-  "name": "Operation Successful",
-  "visual_description": "Indian meme template: Operation Successful",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Operation Successful'",
+  "name": "Johnny Lever Operation Successful",
+  "visual_description": "Johnny Lever dressed in surgeon scrubs and a helmet with a headlamp, excitedly shouting 'Operation Successful'.",
+  "usage_context": "Used sarcastically or genuinely to celebrate completing a chaotic, accidental, or sketchy task successfully.",
   "keywords": [
-    "indian meme",
-    "operation",
-    "successful"
+    "johnny lever",
+    "operation successful",
+    "doctor",
+    "surgeon",
+    "bollywood",
+    "comedy",
+    "babulal",
+    "success"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 576,
+  "image_height": 324,
   "example": {
-    "text": "Operation Successful"
+    "top_text": "Fixed the production bug by restarting the server"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or task completed unexpectedly",
+      "x": 20,
+      "y": 15,
+      "width": 536,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

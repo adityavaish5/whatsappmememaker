@@ -1,35 +1,37 @@
 {
   "id": "tu-hai-tereko-pata-nahi-hai-lekin-tu-hai",
   "name": "Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai",
-  "visual_description": "Indian meme template: Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai'",
+  "visual_description": "Naveen Kasturia and Arunabh Kumar sitting at an audition desk parodying MTV Roadies in TVF Rowdies 9 with bottom caption.",
+  "usage_context": "Used to sarcastically tell someone that they possess a certain negative or funny trait, even if they deny or remain unaware of it.",
   "keywords": [
+    "tvf",
+    "the viral fever",
+    "rowdies",
+    "roadies spoof",
+    "naveen kasturia",
+    "tu hai",
+    "tereko pata nahi hai",
     "indian meme",
-    "hai",
-    "tereko",
-    "pata",
-    "nahi",
-    "hai",
-    "lekin",
-    "hai"
+    "hindi comedy"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1600,
+  "image_height": 800,
   "example": {
-    "text": "Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai"
+    "top_caption": "Friend: 'Bhai main thoda sa bhi toxic nahi hoon'"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_caption",
+      "description": "Situation or claim being refuted",
+      "x": 60,
+      "y": 20,
+      "width": 1480,
+      "height": 130,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

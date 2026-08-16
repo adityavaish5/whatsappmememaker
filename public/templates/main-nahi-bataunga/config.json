@@ -1,32 +1,35 @@
 {
   "id": "main-nahi-bataunga",
-  "name": "Main Nahi Bataunga (Golmaal 3)",
-  "visual_description": "Indian meme template: Main Nahi Bataunga (Golmaal 3)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Main Nahi Bataunga (Golmaal 3)'",
+  "name": "Munna Bhai Nahi",
+  "visual_description": "Sanjay Dutt in a cyan shirt with a deadpan/confused expression, captioned 'Nahi'.",
+  "usage_context": "Used to flatly refuse, deny, or reject a proposal or request in a blunt, comical manner.",
   "keywords": [
-    "indian meme",
-    "main",
+    "sanjay dutt",
+    "munna bhai",
     "nahi",
-    "bataunga",
-    "(golmaal"
+    "refusal",
+    "denial",
+    "bollywood meme",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1000,
+  "image_height": 440,
   "example": {
-    "text": "Main Nahi Bataunga (Golmaal 3)"
+    "caption": "Will you wake up early tomorrow?"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
+      "id": "caption",
+      "description": "Situation or question leading to a flat refusal",
+      "x": 480,
+      "y": 40,
+      "width": 480,
       "height": 180,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

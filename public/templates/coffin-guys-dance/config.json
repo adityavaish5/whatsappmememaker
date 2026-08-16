@@ -1,31 +1,36 @@
 {
   "id": "coffin-guys-dance",
-  "name": "Coffin Guys' Dance",
-  "visual_description": "Indian meme template: Coffin Guys' Dance",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Coffin Guys' Dance'",
+  "name": "Coffin Dance / Dancing Pallbearers",
+  "visual_description": "Four-panel collage showing Ghanaian pallbearers in black suits and sunglasses dancing while carrying a casket.",
+  "usage_context": "Used humorously to signify imminent doom, fatal mistakes, or inevitable epic fails.",
   "keywords": [
-    "indian meme",
-    "coffin",
-    "guys'",
-    "dance"
+    "coffin dance",
+    "dancing pallbearers",
+    "astronomia",
+    "ghana pallbearers",
+    "funeral dance",
+    "fail",
+    "imminent doom",
+    "rip"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 656,
+  "image_height": 342,
   "example": {
-    "text": "Coffin Guys' Dance"
+    "top_text": "WHEN YOU ACCIDENTALLY LIKE A 5-YEAR-OLD POST"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Caption describing the disastrous mistake or impending doom",
+      "x": 20,
+      "y": 10,
+      "width": 616,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

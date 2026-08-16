@@ -1,32 +1,51 @@
 {
   "id": "monisha-beta",
-  "name": "Monisha Beta (Sarabhai vs Sarabhai)",
-  "visual_description": "Indian meme template: Monisha Beta (Sarabhai vs Sarabhai)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Monisha Beta (Sarabhai vs Sarabhai)'",
+  "name": "Maya Sarabhai Monisha Beta",
+  "visual_description": "Maya Sarabhai wearing a green saree and necklace, holding a drink with a sarcastic, condescending smile.",
+  "usage_context": "Used to mock middle-class habits or euphemize cheap actions into absurdly posh English terms.",
   "keywords": [
-    "indian meme",
-    "monisha",
-    "beta",
-    "(sarabhai",
-    "sarabhai)"
+    "maya sarabhai",
+    "ratna pathak shah",
+    "sarabhai vs sarabhai",
+    "monisha beta",
+    "too middle class",
+    "posh",
+    "indian sitcom"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 740,
+  "image_height": 416,
   "example": {
-    "text": "Monisha Beta (Sarabhai vs Sarabhai)"
+    "top_text": "MONISHA BETA, 'KANJOOS' IS SO MIDDLE CLASS",
+    "bottom_text": "SAY 'FINANCIALLY CONSERVATIVE'"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
+      "id": "top_text",
+      "description": "Maya correcting a middle-class behavior",
+      "x": 20,
+      "y": 15,
       "width": 700,
-      "height": 180,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Maya's sophisticated alternative phrase",
+      "x": 20,
+      "y": 320,
+      "width": 700,
+      "height": 80,
+      "fontSize": 48,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

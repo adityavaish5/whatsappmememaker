@@ -1,35 +1,38 @@
 {
   "id": "sala-gajab-kharab-vyawastha-hai",
-  "name": "Sala Gajab Kharab Vyawastha Hai (Panchayat)",
-  "visual_description": "Indian meme template: Sala Gajab Kharab Vyawastha Hai (Panchayat)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Sala Gajab Kharab Vyawastha Hai (Panchayat)'",
+  "name": "Gajab Kharab Vyawastha Hai (Panchayat)",
+  "visual_description": "Groom Ganesh from the web series Panchayat sitting annoyed with a currency garland around his neck.",
+  "usage_context": "Used to express frustration, disappointment, or sarcastic complaint about poor management, bad infrastructure, or disorganized events.",
   "keywords": [
-    "indian meme",
-    "sala",
-    "gajab",
-    "kharab",
-    "vyawastha",
-    "hai",
-    "(panchayat)"
+    "panchayat",
+    "gajab kharab vyawastha hai",
+    "asif khan",
+    "ganesh dulha",
+    "groom",
+    "tvf",
+    "bad management",
+    "disappointment",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 980,
+  "image_height": 540,
   "example": {
-    "text": "Sala Gajab Kharab Vyawastha Hai (Panchayat)"
+    "caption": "Me after visiting any government office for 5 minutes:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Setup or situation describing poor organization or failed expectations",
+      "x": 30,
+      "y": 20,
+      "width": 920,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

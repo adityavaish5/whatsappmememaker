@@ -1,35 +1,36 @@
 {
   "id": "gareebo-dekho-aise-dikhte-hai-ameer-log",
   "name": "Gareebo Dekho Aise Dikhte Hai Ameer Log",
-  "visual_description": "Indian meme template: Gareebo Dekho Aise Dikhte Hai Ameer Log",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Gareebo Dekho Aise Dikhte Hai Ameer Log'",
+  "visual_description": "Comedian Zakir Khan performing stand-up at Canvas Laugh Club, holding a mic and pointing into the crowd with a smirk.",
+  "usage_context": "Used sarcastically to call out someone showing off minor wealth, extravagant spending, or rich lifestyle habits.",
   "keywords": [
-    "indian meme",
-    "gareebo",
-    "dekho",
-    "aise",
-    "dikhte",
-    "hai",
-    "ameer",
-    "log"
+    "zakir khan",
+    "canvas laugh club",
+    "gareebo dekho",
+    "ameer log",
+    "rich people",
+    "stand up comedy",
+    "indian standup",
+    "sarcasm"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 680,
+  "image_height": 382,
   "example": {
-    "text": "Gareebo Dekho Aise Dikhte Hai Ameer Log"
+    "setup": "Friend orders water bottle at an expensive restaurant"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "setup",
+      "description": "The situation or action showing off wealth or extravagance",
+      "x": 20,
+      "y": 15,
+      "width": 640,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

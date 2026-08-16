@@ -1,34 +1,36 @@
 {
   "id": "rajpal-yadav-eating",
-  "name": "Rajpal Yadav Eating (De Dana Dan)",
-  "visual_description": "Indian meme template: Rajpal Yadav Eating (De Dana Dan)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Rajpal Yadav Eating (De Dana Dan)'",
+  "name": "Nawazuddin Siddiqui Chup Bilkul Chup (Gangs of Wasseypur)",
+  "visual_description": "Nawazuddin Siddiqui with a mustache putting his index finger to his lips demanding silence, with subtitle 'Chup... Bilkul Chup'.",
+  "usage_context": "Used to aggressively silence someone who is speaking nonsense, giving unsolicited advice, or talking too much.",
   "keywords": [
+    "nawazuddin siddiqui",
+    "faizal khan",
+    "gangs of wasseypur",
+    "chup bilkul chup",
+    "shut up",
+    "silence",
     "indian meme",
-    "rajpal",
-    "yadav",
-    "eating",
-    "(de",
-    "dana",
-    "dan)"
+    "bollywood"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 658,
+  "image_height": 346,
   "example": {
-    "text": "Rajpal Yadav Eating (De Dana Dan)"
+    "top_text": "When a relative starts talking about your marriage plans"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or person needing to be silenced immediately",
+      "x": 20,
+      "y": 15,
+      "width": 618,
+      "height": 60,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 70,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

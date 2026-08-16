@@ -1,35 +1,36 @@
 {
   "id": "jaa-raha-hu-lekin-wapas-jarur-aaunga",
   "name": "Jaa Raha Hu Lekin Wapas Jarur Aaunga",
-  "visual_description": "Indian meme template: Jaa Raha Hu Lekin Wapas Jarur Aaunga",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Jaa Raha Hu Lekin Wapas Jarur Aaunga'",
+  "visual_description": "Two characters facing each other dramatically indoors with subtitle text at the bottom.",
+  "usage_context": "Used to joke about making a temporary exit, failing an attempt, or closing an app/game with the full intent to return shortly.",
   "keywords": [
-    "indian meme",
-    "jaa",
-    "raha",
-    "lekin",
-    "wapas",
-    "jarur",
-    "aaunga"
+    "jaa raha hu lekin wapas jarur aaunga",
+    "wapas aaunga",
+    "bollywood",
+    "hindi dialogue",
+    "comeback",
+    "farewell",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1100,
+  "image_height": 619,
   "example": {
-    "text": "Jaa Raha Hu Lekin Wapas Jarur Aaunga"
+    "caption": "Me closing Instagram to study for 5 minutes"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
+      "id": "caption",
+      "description": "Situation or setup text describing a temporary departure",
       "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "y": 25,
+      "width": 1000,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

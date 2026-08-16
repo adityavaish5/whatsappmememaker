@@ -1,33 +1,37 @@
 {
   "id": "main-yahaan-wahaan-bhi-gayi",
-  "name": "Main Yahaan Wahaan Bhi Gayi",
-  "visual_description": "Indian meme template: Main Yahaan Wahaan Bhi Gayi",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Main Yahaan Wahaan Bhi Gayi'",
+  "name": "Main Yahaan Wahaan Bhi Gayi - Dhoom 2",
+  "visual_description": "Two-panel meme of Aishwarya Rai dancing in 'Crazy Kiya Re' from Dhoom 2, gesturing left ('Main yahaan bhi gayi') and right ('Main wahaan bhi gayi').",
+  "usage_context": "Used to describe searching everywhere, trying multiple options, or wandering around looking for something lost.",
   "keywords": [
-    "indian meme",
-    "main",
-    "yahaan",
-    "wahaan",
-    "bhi",
-    "gayi"
+    "aishwarya rai",
+    "crazy kiya re",
+    "dhoom 2",
+    "main yahaan bhi gayi",
+    "main wahaan bhi gayi",
+    "bollywood",
+    "dance",
+    "searching",
+    "everywhere"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 600,
+  "image_height": 338,
   "example": {
-    "text": "Main Yahaan Wahaan Bhi Gayi"
+    "top_text": "Me searching for my glasses when they are on my head"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or scenario describing searching everywhere",
+      "x": 10,
+      "y": 10,
+      "width": 580,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

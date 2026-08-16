@@ -1,32 +1,36 @@
 {
   "id": "lekin-permission-humara-lagega",
   "name": "Lekin Permission Humara Lagega",
-  "visual_description": "Indian meme template: Lekin Permission Humara Lagega",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Lekin Permission Humara Lagega'",
+  "visual_description": "Vijay Raaz gesturing sternly with Ayushmann Khurrana watching in Gulabo Sitabo, with subtitle 'Lekin permission hamara lagega.'",
+  "usage_context": "Used to assert authority, gatekeep, or remind someone that approval is required before taking action.",
   "keywords": [
-    "indian meme",
-    "lekin",
+    "lekin permission humara lagega",
+    "vijay raaz",
+    "ayushmann khurrana",
+    "gulabo sitabo",
     "permission",
-    "humara",
-    "lagega"
+    "authority",
+    "gatekeeping",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 750,
+  "image_height": 300,
   "example": {
-    "text": "Lekin Permission Humara Lagega"
+    "top_text": "When your younger sibling plans a trip with their friends"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or setup text at the top",
+      "x": 20,
+      "y": 15,
+      "width": 710,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

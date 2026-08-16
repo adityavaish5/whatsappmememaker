@@ -1,32 +1,36 @@
 {
   "id": "bas-kijiye-bohot-hogaya",
   "name": "Bas Kijiye Bohot Hogaya",
-  "visual_description": "Indian meme template: Bas Kijiye Bohot Hogaya",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Bas Kijiye Bohot Hogaya'",
+  "visual_description": "Jaya Bachchan holds Amitabh Bachchan's arm asking him to stop dancing as Shah Rukh Khan watches in Kabhi Khushi Kabhie Gham.",
+  "usage_context": "Used to tell someone to stop when something has gone too far, become excessive, or gotten out of hand.",
   "keywords": [
-    "indian meme",
-    "bas",
-    "kijiye",
-    "bohot",
-    "hogaya"
+    "bas kijiye bohot hogaya",
+    "kabhie khushi kabhie gham",
+    "k3g",
+    "jaya bachchan",
+    "amitabh bachchan",
+    "shah rukh khan",
+    "enough",
+    "stop"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "negative",
+  "image_width": 600,
+  "image_height": 338,
   "example": {
-    "text": "Bas Kijiye Bohot Hogaya"
+    "caption": "When relatives start asking about marriage plans for the 10th time"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Situation or annoying prompt that needs to stop",
+      "x": 20,
+      "y": 15,
+      "width": 560,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

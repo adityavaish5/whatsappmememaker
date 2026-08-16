@@ -1,34 +1,35 @@
 {
   "id": "ye-shareef-shaney-ki-kundli-chahiye-mereko-immediately",
   "name": "Ye Shareef Shaney Ki Kundli Chahiye Mereko Immediately",
-  "visual_description": "Indian meme template: Ye Shareef Shaney Ki Kundli Chahiye Mereko Immediately",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Shareef Shaney Ki Kundli Chahiye Mereko Immediately'",
+  "visual_description": "Anil Kapoor as Majnu Bhai in Welcome looking suspicious with subtitle 'ye shareef shaney ki kundli chahiye mereko, immediately'.",
+  "usage_context": "Used when wanting background information or dirt on someone who appears overly innocent or suspicious.",
   "keywords": [
-    "indian meme",
-    "shareef",
-    "shaney",
-    "kundli",
-    "chahiye",
-    "mereko",
-    "immediately"
+    "anil kapoor",
+    "majnu bhai",
+    "welcome",
+    "ye shareef shaney ki kundli",
+    "hindi movie meme",
+    "investigation",
+    "suspicious"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 560,
+  "image_height": 373,
   "example": {
-    "text": "Ye Shareef Shaney Ki Kundli Chahiye Mereko Immediately"
+    "top_text": "When a new colleague joins and acts too polite in every meeting"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Setup or scenario describing someone acting overly innocent or suspicious",
+      "x": 20,
+      "y": 15,
+      "width": 520,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

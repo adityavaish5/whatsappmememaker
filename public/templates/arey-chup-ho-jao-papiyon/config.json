@@ -1,35 +1,35 @@
 {
   "id": "arey-chup-ho-jao-papiyon",
-  "name": "Arey Chup Ho Jao Papiyon (Deewane Huye Paagal)",
-  "visual_description": "Indian meme template: Arey Chup Ho Jao Papiyon (Deewane Huye Paagal)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Arey Chup Ho Jao Papiyon (Deewane Huye Paagal)'",
+  "name": "Arey Chup Ho Jao Papiyon",
+  "visual_description": "Akshay Kumar angrily telling a chaotic lineup of men including Johnny Lever, Paresh Rawal, and Shahid Kapoor to shut up in Deewane Huye Paagal.",
+  "usage_context": "Used to demand silence from a chaotic group of friends, coworkers, or internet users discussing nonsensical or unethical ideas.",
   "keywords": [
-    "indian meme",
-    "arey",
-    "chup",
-    "jao",
-    "papiyon",
-    "(deewane",
-    "huye",
-    "paagal)"
+    "arey chup ho jao papiyon",
+    "akshay kumar",
+    "deewane huye paagal",
+    "johnny lever",
+    "paresh rawal",
+    "shut up",
+    "hindi meme"
   ],
-  "sentiment": "neutral",
+  "sentiment": "sarcastic",
   "image_width": 800,
-  "image_height": 600,
+  "image_height": 418,
   "example": {
-    "text": "Arey Chup Ho Jao Papiyon (Deewane Huye Paagal)"
+    "top_text": "Group chat planning another impossible Goa trip"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or group being addressed",
+      "x": 20,
+      "y": 15,
+      "width": 760,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

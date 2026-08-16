@@ -1,35 +1,36 @@
 {
   "id": "ananya-pandey-maine-bahut-struggle-kiya-hai",
-  "name": "Ananya Pandey Maine Bahut Struggle Kiya Hai",
-  "visual_description": "Indian meme template: Ananya Pandey Maine Bahut Struggle Kiya Hai",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ananya Pandey Maine Bahut Struggle Kiya Hai'",
+  "name": "Ananya Panday Maine Bohot Struggle Kiya Hai",
+  "visual_description": "Ananya Panday speaking earnestly during an interview with the subtitle 'Mene bhot struggle kiya hai' at the bottom.",
+  "usage_context": "Used sarcastically to mock over-dramatic complaints, minor inconveniences, or privileged people claiming hardship.",
   "keywords": [
-    "indian meme",
-    "ananya",
-    "pandey",
-    "maine",
-    "bahut",
+    "ananya pandey",
     "struggle",
-    "kiya",
-    "hai"
+    "mene bhot struggle kiya hai",
+    "rajeev masand",
+    "nepotism",
+    "bollywood",
+    "sarcasm",
+    "fake struggle"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1280,
+  "image_height": 720,
   "example": {
-    "text": "Ananya Pandey Maine Bahut Struggle Kiya Hai"
+    "top_text": "When my phone battery drops to 20% and the charger is 2 feet away"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
+      "id": "top_text",
+      "description": "The trivial hardship or mock struggle situation",
       "x": 50,
-      "y": 50,
-      "width": 700,
+      "y": 30,
+      "width": 1180,
       "height": 180,
-      "fontSize": 48,
+      "fontSize": 54,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,31 +1,37 @@
 {
   "id": "disappear-kar-diye",
-  "name": "Disappear Kar Diye",
-  "visual_description": "Indian meme template: Disappear Kar Diye",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Disappear Kar Diye'",
+  "name": "Disappear Kar Diye - Gangs of Wasseypur",
+  "visual_description": "Ramadhir Singh (Tigmanshu Dhulia) looking down in disbelief with his men around him, captioned 'Disappear kar diye!'",
+  "usage_context": "Used when money, people, items, or expectations suddenly vanish without a trace.",
   "keywords": [
-    "indian meme",
-    "disappear",
-    "kar",
-    "diye"
+    "disappear kar diye",
+    "ramadhir singh",
+    "tigmanshu dhulia",
+    "gangs of wasseypur",
+    "gow",
+    "shocked",
+    "vanished",
+    "disappeared",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 640,
+  "image_height": 304,
   "example": {
-    "text": "Disappear Kar Diye"
+    "top_text": "Salary aate hi EMI aur bills:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or setup describing something that vanished instantly",
+      "x": 20,
+      "y": 15,
+      "width": 600,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

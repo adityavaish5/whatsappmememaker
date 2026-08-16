@@ -1,33 +1,38 @@
 {
   "id": "yes-to-all",
-  "name": "Yes To All",
-  "visual_description": "Indian meme template: Yes To All",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Yes To All'",
+  "name": "Windows Dialog Yes to All",
+  "visual_description": "Retro Windows XP style alert popup showing 'Select option...' with a cursor clicking the 'Yes to All' button.",
+  "usage_context": "Used to express eagerly or helplessly accepting all bad options, vices, or life problems simultaneously.",
   "keywords": [
-    "indian meme",
-    "yes",
-    "all"
+    "windows xp",
+    "dialog box",
+    "popup alert",
+    "yes to all",
+    "pc prompt",
+    "reaction",
+    "relatable"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 805,
+  "image_height": 338,
   "example": {
-    "text": "Yes To All"
+    "question": "Do you want anxiety, insomnia, or caffeine addiction?"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "question",
+      "description": "Question or prompt offering multiple choices",
+      "x": 160,
+      "y": 100,
+      "width": 600,
+      "height": 90,
       "fontSize": 48,
-      "color": "white",
-      "stroke": "black",
-      "uppercase": true,
-      "textAlign": "center",
-      "fontFamily": "Impact"
+      "color": "black",
+      "stroke": "transparent",
+      "maxLength": 80,
+      "uppercase": false,
+      "textAlign": "left",
+      "fontFamily": "Arial"
     }
   ]
 }

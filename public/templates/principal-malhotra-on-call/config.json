@@ -1,35 +1,36 @@
 {
   "id": "principal-malhotra-on-call",
-  "name": "Principal Malhotra On Call (Kuch Kuch Hota Hai)",
-  "visual_description": "Indian meme template: Principal Malhotra On Call (Kuch Kuch Hota Hai)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Principal Malhotra On Call (Kuch Kuch Hota Hai)'",
+  "name": "Principal Malhotra Talking On Phone",
+  "visual_description": "Four-panel collage of Principal Malhotra (Anupam Kher) lying on a bed in white nightwear, kicking his legs up and smiling giddily while chatting on a cordless phone.",
+  "usage_context": "Used to portray someone acting giddy, blushing, gossiping excitedly, or behaving like a lovestruck teenager while talking to a crush or best friend.",
   "keywords": [
-    "indian meme",
-    "principal",
-    "malhotra",
-    "call",
-    "(kuch",
-    "kuch",
-    "hota",
-    "hai)"
+    "principal malhotra",
+    "anupam kher",
+    "kuch kuch hota hai",
+    "ms braganza",
+    "phone call",
+    "blushing",
+    "gossip",
+    "bollywood"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "positive",
+  "image_width": 1500,
+  "image_height": 1184,
   "example": {
-    "text": "Principal Malhotra On Call (Kuch Kuch Hota Hai)"
+    "caption": "Me after 5 minutes of talking to my crush"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "caption",
+      "description": "Situation or caption describing why someone is giggling or blushing on a call",
+      "x": 40,
+      "y": 20,
+      "width": 1420,
+      "height": 110,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,31 +1,36 @@
 {
   "id": "paise-barbaad-bhenchod",
-  "name": "Paise Barbaad Bhenchod",
-  "visual_description": "Indian meme template: Paise Barbaad Bhenchod",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Paise Barbaad Bhenchod'",
+  "name": "CarryMinati Paise Barbaad Bhenchod",
+  "visual_description": "CarryMinati holding his hands to his head in intense regret and frustration with the subtitle 'Paise barbaad bhench*d'.",
+  "usage_context": "Used to express deep regret, frustration, or buyer's remorse after wasting money or time on something pointless.",
   "keywords": [
-    "indian meme",
-    "paise",
-    "barbaad",
-    "bhenchod"
+    "carryminati",
+    "ajey nagar",
+    "paise barbaad bhenchod",
+    "money wasted",
+    "regret",
+    "buyers remorse",
+    "indian youtuber",
+    "frustration"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "negative",
+  "image_width": 1024,
+  "image_height": 512,
   "example": {
-    "text": "Paise Barbaad Bhenchod"
+    "setup": "Bought expensive gym membership on 1st Jan and went only once"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "setup",
+      "description": "Situation or scenario describing wasted money or effort",
+      "x": 30,
+      "y": 20,
+      "width": 964,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

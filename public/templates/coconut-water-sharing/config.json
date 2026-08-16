@@ -1,31 +1,36 @@
 {
   "id": "coconut-water-sharing",
-  "name": "Coconut Water Sharing",
-  "visual_description": "Indian meme template: Coconut Water Sharing",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Coconut Water Sharing'",
+  "name": "Couple Sharing Coconut Water",
+  "visual_description": "A rural Indian man and woman drinking from the same tender coconut using two separate straws while looking intently at each other.",
+  "usage_context": "Used to joke about budget dates, cheap romantic gestures, mutual sharing, or mooching off a single resource with a partner or friend.",
   "keywords": [
-    "indian meme",
-    "coconut",
-    "water",
+    "coconut water",
+    "couple",
+    "straw",
+    "romance",
+    "budget date",
+    "desi couple",
+    "village romance",
     "sharing"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 600,
+  "image_height": 450,
   "example": {
-    "text": "Coconut Water Sharing"
+    "top_text": "Bro taking her on an expensive romantic date:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Top caption describing the romantic or budget situation",
+      "x": 20,
+      "y": 15,
+      "width": 560,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

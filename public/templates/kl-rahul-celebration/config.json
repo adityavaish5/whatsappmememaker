@@ -1,30 +1,36 @@
 {
   "id": "kl-rahul-celebration",
-  "name": "KL Rahul Celebration",
-  "visual_description": "Indian meme template: KL Rahul Celebration",
-  "usage_context": "Use when expressing the sentiment or reaction of 'KL Rahul Celebration'",
+  "name": "KL Rahul Shut Out the Noise Celebration",
+  "visual_description": "Indian cricketer KL Rahul in blue jersey closing his eyes and plugging his ears with gloved fingers.",
+  "usage_context": "Use to depict ignoring critics, toxic opinions, unsolicited advice, or tuning out external drama.",
   "keywords": [
-    "indian meme",
-    "rahul",
-    "celebration"
+    "kl rahul",
+    "shut out the noise",
+    "cricket",
+    "celebration",
+    "ears closed",
+    "ignore haters",
+    "silence critics",
+    "team india"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
+  "sentiment": "positive",
+  "image_width": 980,
   "image_height": 600,
   "example": {
-    "text": "KL Rahul Celebration"
+    "top_text": "ME IGNORING RELATIVES ASKING ABOUT MY MARRIAGE PLANS"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Caption explaining what noise or advice is being ignored",
+      "x": 40,
+      "y": 20,
+      "width": 900,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

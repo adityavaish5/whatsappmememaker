@@ -1,33 +1,36 @@
 {
   "id": "tum-sath-ho-ya-na-ho-kya-fark-hai",
   "name": "Tum Sath Ho Ya Na Ho Kya Fark Hai",
-  "visual_description": "Indian meme template: Tum Sath Ho Ya Na Ho Kya Fark Hai",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Tum Sath Ho Ya Na Ho Kya Fark Hai'",
+  "visual_description": "Deepika Padukone consoling Ranbir Kapoor lying on a table from the song Agar Tum Saath Ho in the movie Tamasha.",
+  "usage_context": "Used to express heartbreak, existential loneliness, or indifference to someone's presence or assistance.",
   "keywords": [
-    "indian meme",
-    "tum",
-    "sath",
-    "kya",
-    "fark",
-    "hai"
+    "tamasha",
+    "ranbir kapoor",
+    "deepika padukone",
+    "agar tum saath ho",
+    "sad",
+    "heartbreak",
+    "lonely",
+    "bollywood"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "negative",
+  "image_width": 1600,
+  "image_height": 900,
   "example": {
-    "text": "Tum Sath Ho Ya Na Ho Kya Fark Hai"
+    "top_text": "When internet goes down while studying"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
+      "id": "top_text",
+      "description": "Setup or context describing a hopeless or indifferent situation",
       "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "y": 30,
+      "width": 1500,
+      "height": 150,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

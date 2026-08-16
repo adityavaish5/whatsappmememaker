@@ -1,34 +1,36 @@
 {
   "id": "rishabh-pant-looking-for-the-ball",
   "name": "Rishabh Pant Looking For The Ball",
-  "visual_description": "Indian meme template: Rishabh Pant Looking For The Ball",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Rishabh Pant Looking For The Ball'",
+  "visual_description": "Indian wicketkeeper Rishabh Pant looks up at the sky in confusion searching for the cricket ball, while it is right between his legs.",
+  "usage_context": "Used to mock situations where someone is desperately searching for something that is right in front of them or completely obvious.",
   "keywords": [
-    "indian meme",
-    "rishabh",
-    "pant",
-    "looking",
-    "for",
-    "the",
-    "ball"
+    "rishabh pant",
+    "cricket",
+    "india vs bangladesh",
+    "looking for ball",
+    "confused",
+    "krunal pandya",
+    "funny sports moment",
+    "blind spot"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 600,
+  "image_height": 338,
   "example": {
-    "text": "Rishabh Pant Looking For The Ball"
+    "top_text": "Me looking for my phone using my phone's flashlight"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Caption describing searching for something that is right in front of you",
+      "x": 20,
+      "y": 15,
+      "width": 560,
+      "height": 70,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 65,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

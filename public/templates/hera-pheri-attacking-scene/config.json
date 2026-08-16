@@ -1,32 +1,37 @@
 {
   "id": "hera-pheri-attacking-scene",
-  "name": "Hera Pheri Attacking Scene",
-  "visual_description": "Indian meme template: Hera Pheri Attacking Scene",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Hera Pheri Attacking Scene'",
+  "name": "Khadak Singh and Mob Charging (Hera Pheri)",
+  "visual_description": "Kharak Singh (Om Puri) leading an angry mob of men wearing turbans and carrying wooden sticks, charging forward inside an industrial warehouse.",
+  "usage_context": "Used to portray a squad, family, or group rushing aggressively or enthusiastically into a situation or confrontation.",
   "keywords": [
-    "indian meme",
-    "hera",
-    "pheri",
-    "attacking",
-    "scene"
+    "hera pheri",
+    "khadak singh",
+    "om puri",
+    "mob attack",
+    "charging",
+    "punjabi mob",
+    "lathi charge",
+    "squad rushing",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1500,
+  "image_height": 705,
   "example": {
-    "text": "Hera Pheri Attacking Scene"
+    "top_text": "Me and the boys rushing to claim free pizza at the office"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "Situation causing the group to charge forward",
+      "x": 40,
+      "y": 25,
+      "width": 1420,
+      "height": 130,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

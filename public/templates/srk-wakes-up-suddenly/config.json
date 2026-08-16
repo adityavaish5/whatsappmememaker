@@ -1,31 +1,52 @@
 {
   "id": "srk-wakes-up-suddenly",
-  "name": "SRK Wakes Up Suddenly",
-  "visual_description": "Indian meme template: SRK Wakes Up Suddenly",
-  "usage_context": "Use when expressing the sentiment or reaction of 'SRK Wakes Up Suddenly'",
+  "name": "Shah Rukh Khan Sleeping vs Waking Up Realization",
+  "visual_description": "Two-panel split image of Shah Rukh Khan sleeping peacefully on a floral pillow on the left, and suddenly opening his eyes wide in shock or sudden realization on the right.",
+  "usage_context": "Used to show a sudden jolt of memory, realization, or panic that ruins peaceful sleep or relaxation.",
   "keywords": [
-    "indian meme",
+    "shah rukh khan",
     "srk",
-    "wakes",
-    "suddenly"
+    "sleeping",
+    "waking up",
+    "sudden realization",
+    "panic",
+    "eyes wide open",
+    "bollywood"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "negative",
+  "image_width": 1200,
+  "image_height": 450,
   "example": {
-    "text": "SRK Wakes Up Suddenly"
+    "left_text": "Sleeping peacefully at 3 AM",
+    "right_text": "Remembering I forgot to submit the assignment"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "left_text",
+      "description": "Text describing the peaceful or carefree state",
+      "x": 20,
+      "y": 20,
+      "width": 560,
+      "height": 100,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "right_text",
+      "description": "Text describing the sudden panic or realization",
+      "x": 620,
+      "y": 20,
+      "width": 560,
+      "height": 100,
+      "fontSize": 48,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

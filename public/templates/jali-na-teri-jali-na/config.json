@@ -1,34 +1,36 @@
 {
   "id": "jali-na-teri-jali-na",
-  "name": "Jali Na Teri Jali Na (Mujhse Shaadi Karogi)",
-  "visual_description": "Indian meme template: Jali Na Teri Jali Na (Mujhse Shaadi Karogi)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Jali Na Teri Jali Na (Mujhse Shaadi Karogi)'",
+  "name": "Jali Na Teri Jali Na",
+  "visual_description": "Akshay Kumar in a hospital gown grinning mockingly and pointing his finger forward with the subtitle 'Jali na? Teri jali na?'",
+  "usage_context": "Used to mock someone who is obviously jealous, irritated, or envious of your success or good fortune.",
   "keywords": [
-    "indian meme",
-    "jali",
-    "teri",
-    "jali",
-    "(mujhse",
-    "shaadi",
-    "karogi)"
+    "akshay kumar",
+    "mujhse shaadi karogi",
+    "jali na teri jali na",
+    "sunny",
+    "jealousy",
+    "taunt",
+    "smug",
+    "pointing"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1280,
+  "image_height": 720,
   "example": {
-    "text": "Jali Na Teri Jali Na (Mujhse Shaadi Karogi)"
+    "caption": "When your colleague sees you leaving early after getting promoted"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "caption",
+      "description": "Situation or setup describing someone getting jealous",
+      "x": 60,
+      "y": 30,
+      "width": 1160,
+      "height": 140,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

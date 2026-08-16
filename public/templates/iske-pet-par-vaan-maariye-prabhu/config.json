@@ -1,35 +1,37 @@
 {
   "id": "iske-pet-par-vaan-maariye-prabhu",
-  "name": "Iske Pet Par Vaan Maariye Prabhu (Ramayana)",
-  "visual_description": "Indian meme template: Iske Pet Par Vaan Maariye Prabhu (Ramayana)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Iske Pet Par Vaan Maariye Prabhu (Ramayana)'",
+  "name": "Iske Pet Par Baan Maariye Prabhu",
+  "visual_description": "Vibhishan folded hands advising Lord Rama on his chariot to shoot an arrow at Ravana's navel, from Ramanand Sagar's Ramayan.",
+  "usage_context": "Used to suggest hitting the exact weak spot or revealing the secret vulnerability to bring someone down.",
   "keywords": [
-    "indian meme",
-    "iske",
-    "pet",
-    "par",
-    "vaan",
-    "maariye",
-    "prabhu",
-    "(ramayana)"
+    "ramayan",
+    "vibhishan",
+    "lord rama",
+    "arun govil",
+    "pet par teer maariye",
+    "iske pet par vaan maariye prabhu",
+    "ramanand sagar",
+    "weak spot",
+    "advice meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 960,
+  "image_height": 540,
   "example": {
-    "text": "Iske Pet Par Vaan Maariye Prabhu (Ramayana)"
+    "top_text": "Me giving tips to my bro on how to win an argument with his girlfriend"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or context where someone gives targeted advice",
+      "x": 40,
+      "y": 20,
+      "width": 880,
+      "height": 100,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

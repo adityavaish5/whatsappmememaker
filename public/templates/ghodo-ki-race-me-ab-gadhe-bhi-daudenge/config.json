@@ -1,33 +1,36 @@
 {
   "id": "ghodo-ki-race-me-ab-gadhe-bhi-daudenge",
-  "name": "Ghodo Ki Race Me Ab Gadhe Bhi Daudenge",
-  "visual_description": "Indian meme template: Ghodo Ki Race Me Ab Gadhe Bhi Daudenge",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ghodo Ki Race Me Ab Gadhe Bhi Daudenge'",
+  "name": "Ghodo Ki Race Mein Ab Gadhe Bhi Daudenge",
+  "visual_description": "Anil Kapoor as Majnu Bhai from the movie Welcome wearing sunglasses with his sidekicks, looking condescendingly.",
+  "usage_context": "Used mockingly when an unqualified or unworthy person enters a competitive field or tries to compete with experts.",
   "keywords": [
-    "indian meme",
-    "ghodo",
-    "race",
+    "welcome",
+    "anil kapoor",
+    "majnu bhai",
+    "ghodo ki race",
     "gadhe",
-    "bhi",
-    "daudenge"
+    "bollywood meme",
+    "sarcasm",
+    "hindi dialogue"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1040,
+  "image_height": 585,
   "example": {
-    "text": "Ghodo Ki Race Me Ab Gadhe Bhi Daudenge"
+    "top_text": "When backbenchers start applying for the same high-paying job as toppers"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Context or situation describing someone unqualified competing in a tough field",
+      "x": 30,
+      "y": 20,
+      "width": 980,
+      "height": 130,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

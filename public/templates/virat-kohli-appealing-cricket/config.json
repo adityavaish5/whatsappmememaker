@@ -1,32 +1,36 @@
 {
   "id": "virat-kohli-appealing-cricket",
-  "name": "Virat Kohli Appealing Cricket",
-  "visual_description": "Indian meme template: Virat Kohli Appealing Cricket",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Virat Kohli Appealing Cricket'",
+  "name": "Virat Kohli Confused Gesturing",
+  "visual_description": "Four-panel image of Indian cricketer Virat Kohli on the field in a blue jersey, gesturing with his hands out in confusion and disbelief.",
+  "usage_context": "Used to express utter confusion, asking 'What did I do?', or questioning someone's bizarre reasoning or unfair decision.",
   "keywords": [
-    "indian meme",
-    "virat",
-    "kohli",
-    "appealing",
-    "cricket"
+    "virat kohli",
+    "cricket",
+    "team india",
+    "confused",
+    "what",
+    "disbelief",
+    "bcci",
+    "reaction"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1600,
+  "image_height": 900,
   "example": {
-    "text": "Virat Kohli Appealing Cricket"
+    "top_text": "Me explaining to my mom that the milk spilled on its own"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "Situation or question causing disbelief/confusion",
+      "x": 80,
+      "y": 30,
+      "width": 1440,
+      "height": 130,
+      "fontSize": 54,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

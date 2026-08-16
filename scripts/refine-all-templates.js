@@ -2,6 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
+// Helper to pause execution
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
 async function run() {
   const templatesDir = path.join(process.cwd(), 'public', 'templates');
   
@@ -16,6 +19,7 @@ async function run() {
     .map(dirent => dirent.name);
 
   console.log(`🚀 Starting refinement for all ${folders.length} templates...`);
+  console.log(`ℹ️ Templates will be refined locally using the --no-git flag to prevent branch conflicts.`);
 
   const successful = [];
   const failed = [];
@@ -27,14 +31,20 @@ async function run() {
     console.log(`--------------------------------------------------`);
 
     try {
-      // Execute the refine-template.js script for this template
-      // inherit stdio so we see the full log output and any interactive / error messages
-      execSync(`node scripts/refine-template.js "${templateId}"`, { stdio: 'inherit' });
+      // Execute with --no-git so git branches and PRs aren't created in the loop.
+      // This is extremely safe and prevents the branch/git conflicts that cause crashes.
+      execSync(`node scripts/refine-template.js "${templateId}" --no-git`, { stdio: 'inherit' });
       successful.push(templateId);
-      console.log(`✅ Successfully refined template: ${templateId}`);
+      console.log(`✅ Successfully refined template locally: ${templateId}`);
     } catch (error) {
       console.error(`❌ Failed to refine template: ${templateId}`);
       failed.push({ id: templateId, error: error.message || error });
+    }
+
+    // Add a short 1-second delay between templates to stay within API rate limits
+    if (i < folders.length - 1) {
+      console.log('⏳ Waiting 1s before next template...');
+      await delay(1000);
     }
   }
 

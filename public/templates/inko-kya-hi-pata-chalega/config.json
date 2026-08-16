@@ -1,34 +1,35 @@
 {
   "id": "inko-kya-hi-pata-chalega",
-  "name": "Inko Kya Hi Pata Chalega (Abhishek Upmanyu)",
-  "visual_description": "Indian meme template: Inko Kya Hi Pata Chalega (Abhishek Upmanyu)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Inko Kya Hi Pata Chalega (Abhishek Upmanyu)'",
+  "name": "Inko Kya Hi Pata Chalega",
+  "visual_description": "Stand-up comedian Abhishek Upmanyu performing on stage at Canvas Laugh Club with the subtitle 'Inko kya hi pata chalega'.",
+  "usage_context": "Used to describe secretly cutting corners, lying, or doing something deceptive assuming no one will ever notice or find out.",
   "keywords": [
-    "indian meme",
-    "inko",
-    "kya",
-    "pata",
-    "chalega",
-    "(abhishek",
-    "upmanyu)"
+    "abhishek upmanyu",
+    "inko kya hi pata chalega",
+    "stand up comedy",
+    "canvas laugh club",
+    "hindi meme",
+    "secret",
+    "cheat"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 830,
+  "image_height": 467,
   "example": {
-    "text": "Inko Kya Hi Pata Chalega (Abhishek Upmanyu)"
+    "caption": "Copying code from Stack Overflow without understanding it"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Situation or action done assuming nobody will notice",
+      "x": 380,
+      "y": 40,
+      "width": 420,
+      "height": 220,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

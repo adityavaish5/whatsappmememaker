@@ -1,36 +1,37 @@
 {
   "id": "akkha-public-ko-maalum-kaun-ane-wala-hai",
-  "name": "Akkha Public Ko Maalum Kaun Ane Wala Hai (Sooryavanshi)",
-  "visual_description": "Indian meme template: Akkha Public Ko Maalum Kaun Ane Wala Hai (Sooryavanshi)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Akkha Public Ko Maalum Kaun Ane Wala Hai (Sooryavanshi)'",
+  "name": "Akkha Public Ko Maalum Hai Kaun Aane Wala Hai",
+  "visual_description": "Ranveer Singh as Simmba in police uniform gesturing with a confident smirk inside a police station.",
+  "usage_context": "Used to hype up an obvious or highly anticipated arrival, outcome, or return of a known person or entity.",
   "keywords": [
-    "indian meme",
-    "akkha",
-    "public",
-    "maalum",
-    "kaun",
-    "ane",
-    "wala",
-    "hai",
-    "(sooryavanshi)"
+    "ranveer singh",
+    "simmba",
+    "sooryavanshi",
+    "akkha public ko maalum",
+    "bollywood",
+    "cop universe",
+    "rohit shetty",
+    "anticipation",
+    "hype"
   ],
-  "sentiment": "neutral",
+  "sentiment": "positive",
   "image_width": 800,
-  "image_height": 600,
+  "image_height": 450,
   "example": {
-    "text": "Akkha Public Ko Maalum Kaun Ane Wala Hai (Sooryavanshi)"
+    "caption": "When the teacher asks who is going to get full marks in viva"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Setup or situation describing an obvious upcoming event or person",
+      "x": 30,
+      "y": 20,
+      "width": 740,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

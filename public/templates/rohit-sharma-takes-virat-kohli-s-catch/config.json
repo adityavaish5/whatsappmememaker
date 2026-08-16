@@ -1,34 +1,35 @@
 {
   "id": "rohit-sharma-takes-virat-kohli-s-catch",
   "name": "Rohit Sharma Takes Virat Kohli's Catch",
-  "visual_description": "Indian meme template: Rohit Sharma Takes Virat Kohli's Catch",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Rohit Sharma Takes Virat Kohli's Catch'",
+  "visual_description": "Indian cricketer Rohit Sharma diving across the slip cordon to grab a catch right in front of a waiting Virat Kohli.",
+  "usage_context": "Used to meme someone snatching an opportunity, credit, or task right before someone else can get to it.",
   "keywords": [
-    "indian meme",
-    "rohit",
-    "sharma",
-    "takes",
-    "virat",
-    "kohli's",
-    "catch"
+    "rohit sharma",
+    "virat kohli",
+    "cricket",
+    "slip catch",
+    "india cricket team",
+    "stealing credit",
+    "interception"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1024,
+  "image_height": 484,
   "example": {
-    "text": "Rohit Sharma Takes Virat Kohli's Catch"
+    "top_text": "HR stepping in to take credit for the team's successful project"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Main caption or context text at the top",
+      "x": 32,
+      "y": 20,
+      "width": 960,
+      "height": 100,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

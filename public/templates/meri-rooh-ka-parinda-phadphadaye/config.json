@@ -1,32 +1,35 @@
 {
   "id": "meri-rooh-ka-parinda-phadphadaye",
-  "name": "Meri Rooh Ka Parinda Phadphadaye",
-  "visual_description": "Indian meme template: Meri Rooh Ka Parinda Phadphadaye",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Meri Rooh Ka Parinda Phadphadaye'",
+  "name": "Meri Rooh Ka Parinda Phadphadaye - Ranbir Kapoor",
+  "visual_description": "Ranbir Kapoor singing passionately into a microphone in front of old steam locomotives with the subtitle 'Meri rooh ka parinda phadphadaye'.",
+  "usage_context": "Used to express intense inner restlessness, agitation, anxiety, or dramatic longing in humorous life situations.",
   "keywords": [
-    "indian meme",
-    "meri",
-    "rooh",
-    "parinda",
-    "phadphadaye"
+    "ranbir kapoor",
+    "ae dil hai mushkil",
+    "bulleya",
+    "meri rooh ka parinda phadphadaye",
+    "restlessness",
+    "singing",
+    "bollywood"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "dramatic",
+  "image_width": 1046,
+  "image_height": 578,
   "example": {
-    "text": "Meri Rooh Ka Parinda Phadphadaye"
+    "top_text": "When the wifi disconnects right in the middle of an online match"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "The setup or situation causing extreme restlessness or agitation",
+      "x": 20,
+      "y": 15,
+      "width": 1006,
+      "height": 130,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

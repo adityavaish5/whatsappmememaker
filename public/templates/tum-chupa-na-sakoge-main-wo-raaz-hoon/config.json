@@ -1,34 +1,36 @@
 {
   "id": "tum-chupa-na-sakoge-main-wo-raaz-hoon",
-  "name": "Tum Chupa Na Sakoge Main Wo Raaz Hoon",
-  "visual_description": "Indian meme template: Tum Chupa Na Sakoge Main Wo Raaz Hoon",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Tum Chupa Na Sakoge Main Wo Raaz Hoon'",
+  "name": "Tum Chupa Na Sakoge Main Woh Raaz Hoon - Veer Zaara",
+  "visual_description": "Shah Rukh Khan speaking intensely to Preity Zinta in bridal attire with subtitle 'Tum Chupa Na Sakoge Main Woh Raaz Hoon'.",
+  "usage_context": "Used to joke about unavoidable truths, inescapable habits, persistent secrets, or hidden problems that always resurface.",
   "keywords": [
-    "indian meme",
-    "tum",
-    "chupa",
-    "sakoge",
-    "main",
-    "raaz",
-    "hoon"
+    "veer zaara",
+    "shah rukh khan",
+    "preity zinta",
+    "main yahaan hoon",
+    "tum chupa na sakoge",
+    "bollywood",
+    "secret",
+    "srk"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
+  "sentiment": "sarcastic",
+  "image_width": 1200,
   "image_height": 600,
   "example": {
-    "text": "Tum Chupa Na Sakoge Main Wo Raaz Hoon"
+    "caption": "My dark search history to my incognito tab:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "caption",
+      "description": "Top setup text explaining what secret or truth is being revealed",
+      "x": 40,
+      "y": 30,
+      "width": 1120,
+      "height": 110,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,33 +1,35 @@
 {
   "id": "haan-ye-karlo-pehle",
-  "name": "Haan Ye Karlo Pehle (Raju Srivastav)",
-  "visual_description": "Indian meme template: Haan Ye Karlo Pehle (Raju Srivastav)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Haan Ye Karlo Pehle (Raju Srivastav)'",
+  "name": "Haan Ye Karlo Pehle",
+  "visual_description": "Comedian Raju Srivastav holding his head in frustration during a stand-up performance with 'Haan ye karlo pehle' subtitle.",
+  "usage_context": "Used sarcastically when someone interrupts important work with irrelevant or pointless tasks.",
   "keywords": [
-    "indian meme",
-    "haan",
-    "karlo",
-    "pehle",
-    "(raju",
-    "srivastav)"
+    "raju srivastav",
+    "haan ye karlo pehle",
+    "standup comedy",
+    "laughter challenge",
+    "frustration",
+    "sarcasm",
+    "indian meme"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 720,
+  "image_height": 540,
   "example": {
-    "text": "Haan Ye Karlo Pehle (Raju Srivastav)"
+    "top_text": "Exam tomorrow morning\nMe cleaning my room at 2 AM:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "top_text",
+      "description": "Situation or distraction before the reaction",
+      "x": 20,
+      "y": 15,
+      "width": 680,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,30 +1,36 @@
 {
   "id": "karwali-bezzati",
-  "name": "Karwali Bezzati",
-  "visual_description": "Indian meme template: Karwali Bezzati",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Karwali Bezzati'",
+  "name": "Abhishek Upmanyu Karwali Bezzati",
+  "visual_description": "Indian stand-up comedian Abhishek Upmanyu holding a microphone on stage with an open-hand gesture and the subtitle 'Karwali Bezzati?'.",
+  "usage_context": "Used to mock someone who unnecessarily invited humiliation, failure, or an awkward situation upon themselves.",
   "keywords": [
-    "indian meme",
-    "karwali",
-    "bezzati"
+    "abhishek upmanyu",
+    "karwali bezzati",
+    "stand up comedy",
+    "indian comedian",
+    "insult",
+    "humiliation",
+    "sarcasm",
+    "sharam"
   ],
-  "sentiment": "neutral",
+  "sentiment": "sarcastic",
   "image_width": 800,
-  "image_height": 600,
+  "image_height": 450,
   "example": {
-    "text": "Karwali Bezzati"
+    "setup_text": "Argued with the teacher only to be proven wrong in front of the whole class"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "setup_text",
+      "description": "Situation leading to self-inflicted embarrassment or humiliation",
+      "x": 20,
+      "y": 15,
+      "width": 760,
+      "height": 110,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

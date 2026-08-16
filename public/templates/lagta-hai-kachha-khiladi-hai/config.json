@@ -1,33 +1,37 @@
 {
   "id": "lagta-hai-kachha-khiladi-hai",
-  "name": "Lagta Hai Kachha Khiladi Hai",
-  "visual_description": "Indian meme template: Lagta Hai Kachha Khiladi Hai",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Lagta Hai Kachha Khiladi Hai'",
+  "name": "Lagta Hai Kachcha Khiladi Hai",
+  "visual_description": "Amar (Aamir Khan) and Prem (Salman Khan) in Andaz Apna Apna looking skeptically at a gunman holding a pistol.",
+  "usage_context": "Used to mock someone's amateur behavior, lack of experience, or rookie mistakes in a situation.",
   "keywords": [
-    "indian meme",
-    "lagta",
-    "hai",
-    "kachha",
-    "khiladi",
-    "hai"
+    "andaz apna apna",
+    "aamir khan",
+    "salman khan",
+    "amar prem",
+    "kachha khiladi",
+    "amateur",
+    "rookie",
+    "bollywood",
+    "comedy"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 1040,
+  "image_height": 546,
   "example": {
-    "text": "Lagta Hai Kachha Khiladi Hai"
+    "caption": "When a scammer calls using a registered number"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
+      "id": "caption",
+      "description": "Situation describing someone acting like a novice or making an amateur mistake",
+      "x": 40,
+      "y": 20,
+      "width": 960,
+      "height": 100,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

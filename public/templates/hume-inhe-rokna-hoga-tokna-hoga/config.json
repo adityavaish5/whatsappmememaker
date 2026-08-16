@@ -1,30 +1,38 @@
 {
   "id": "hume-inhe-rokna-hoga-tokna-hoga",
-  "name": "Hume Inhe Rokna Hoga Tokna Hoga",
-  "visual_description": "Indian meme template for Hume Inhe Rokna Hoga Tokna Hoga",
-  "usage_context": "Use when appropriate based on Hume Inhe Rokna Hoga Tokna Hoga",
+  "name": "Hume Inhe Rokna Hoga Tokna Hoga - Narendra Modi",
+  "visual_description": "Prime Minister Narendra Modi addressing the nation with open hand gestures, the Indian flag behind him, and the subtitle 'Hume inhe rokna hoga, tokna hoga'.",
+  "usage_context": "Used to express the urgent need to stop or call out someone doing an annoying, cringe, or unacceptable habit or behavior.",
   "keywords": [
-    "indian meme"
+    "narendra modi",
+    "pm modi",
+    "hume inhe rokna hoga",
+    "tokna hoga",
+    "indian flag",
+    "speech",
+    "reaction"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 727,
+  "image_height": 409,
   "example": {
-    "text": "Example text"
+    "caption": "When relatives start asking about your marriage plans at family gatherings"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main text area",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 200,
+      "id": "caption",
+      "description": "Situation or behavior that must be stopped",
+      "x": 20,
+      "y": 15,
+      "width": 687,
+      "height": 90,
       "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
-      "textAlign": "center"
+      "maxLength": 100,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
     }
   ]
 }
