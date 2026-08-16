@@ -1,0 +1,55 @@
+{
+  "id": "bernie-sanders-once-again-asking",
+  "name": "Bernie Sanders Once Again Asking",
+  "visual_description": "Bernie Sanders wearing glasses and a taupe winter coat speaking directly to the camera outdoors.",
+  "usage_context": "Used to make repeated, persistent, or desperate pleas for help, money, attention, or favors.",
+  "keywords": [
+    "bernie sanders",
+    "i am once again asking",
+    "financial support",
+    "asking",
+    "winter coat",
+    "politics",
+    "plea",
+    "donation"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 926,
+  "image_height": 688,
+  "example": {
+    "top_text": "I AM ONCE AGAIN ASKING",
+    "bottom_text": "FOR YOUR FINANCIAL SUPPORT"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Standard opening line or context of repeated request",
+      "x": 20,
+      "y": 15,
+      "width": 886,
+      "height": 90,
+      "fontSize": 46,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "The specific thing being requested",
+      "x": 20,
+      "y": 570,
+      "width": 886,
+      "height": 95,
+      "fontSize": 46,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}
