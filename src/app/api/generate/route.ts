@@ -26,15 +26,15 @@ async function getMemeFromLLM(reqData: GenerateMemeRequest): Promise<LLMResponse
     }))
   }));
 
-  const systemInstruction = `You are a world-class meme generator bot. Your job is to select the most appropriate meme template based on a user's conversation and context, and then generate funny, highly-relevant text to place on that meme.
+  const systemInstruction = `You are a world-class meme generator bot. Your job is to generate up to 5 different meme options based on a user's conversation and context. Provide a variety of jokes, sentiments, and template choices.
 
 Here is the catalog of available meme templates:
 ${JSON.stringify(llmCatalog, null, 2)}
 
 Instructions:
 1. Analyze the Context and Conversation provided by the user.
-2. Select ONE template from the catalog that best fits the humor or situation.
-3. You MUST generate short, punchy text for EVERY text area defined in the chosen template's 'text_areas_to_fill'.
+2. Select up to 5 templates from the catalog that best fit the humor or situation.
+3. You MUST generate short, punchy text for EVERY text area defined in the chosen templates' 'text_areas_to_fill'.
 4. CRITICAL: The 'text_payloads' object MUST contain keys that exactly match the IDs from 'text_areas_to_fill'. Do NOT leave it empty.
 5. Ensure the text fits the 'description' of that text area.`;
 
@@ -47,10 +47,14 @@ Instructions:
     // parsing z.record() objects with Gemini's structured output.
     const systemPromptWithSchema = systemInstruction + `\n\nCRITICAL: You MUST output strictly valid JSON and nothing else. No markdown formatting like \`\`\`json. Your JSON must follow this exact structure:
 {
-  "selected_template_id": "ONE OF: ${validTemplateIds}",
-  "text_payloads": {
-    "exact_text_area_id_here": "your funny text here"
-  }
+  "memes": [
+    {
+      "selected_template_id": "ONE OF: ${validTemplateIds}",
+      "text_payloads": {
+        "exact_text_area_id_here": "your funny text here"
+      }
+    }
+  ]
 }`;
 
     const { text } = await generateText({
@@ -68,11 +72,15 @@ Instructions:
     console.error("LLM Generation failed:", e);
     // Fallback if LLM fails
     return {
-      selected_template_id: 'drake',
-      text_payloads: {
-        top_right: "The LLM failed to connect",
-        bottom_right: "But the fallback code works!"
-      }
+      memes: [
+        {
+          selected_template_id: 'drake',
+          text_payloads: {
+            top_right: "The LLM failed to connect",
+            bottom_right: "But the fallback code works!"
+          }
+        }
+      ]
     };
   }
 }
@@ -109,83 +117,93 @@ export async function POST(req: NextRequest) {
       throw new Error("GEMINI_API_KEY is not configured on the server.");
     }
 
-    // 1. Ask LLM for the best template and text
+    // 1. Ask LLM for the best templates and text
     const llmResponse = await getMemeFromLLM(body);
     
     console.log("RAW LLM Output:", JSON.stringify(llmResponse, null, 2));
 
-    // 2. Find template details
-    const template = templates.find(t => t.id === llmResponse.selected_template_id);
-    if (!template) {
-      console.error(`LLM chose an invalid template ID: "${llmResponse.selected_template_id}"`);
-      throw new Error(`Template '${llmResponse.selected_template_id}' not found in registry`);
-    }
-
-    // 3. Load image buffer
-    const imagePath = path.join(process.cwd(), 'public', 'templates', template.filename);
+    const generatedMemes = [];
     
-    // Fallback logic if image doesn't exist (since we haven't downloaded the actual jpgs yet)
-    let image;
-    try {
-      image = await loadImage(imagePath);
-    } catch(e) {
-      // Create a dummy image if file is missing
-      const dummyCanvas = createCanvas(1200, 1200);
-      const dctx = dummyCanvas.getContext('2d');
-      dctx.fillStyle = '#cccccc';
-      dctx.fillRect(0, 0, 1200, 1200);
-      dctx.fillStyle = '#000000';
-      dctx.font = '40px Arial';
-      dctx.fillText('Placeholder Image for: ' + template.filename, 100, 100);
-      
-      // Draw placeholder boxes
-      template.text_areas.forEach(area => {
-        dctx.strokeStyle = 'red';
-        dctx.lineWidth = 4;
-        dctx.strokeRect(area.x, area.y, area.width, area.height);
-      });
-      image = await loadImage(dummyCanvas.toBuffer());
-    }
+    // Ensure we have an array of memes to process (max 5)
+    const memesToProcess = Array.isArray(llmResponse.memes) ? llmResponse.memes.slice(0, 5) : [];
 
-    // 4. Set up Canvas to draw the meme
-    const canvas = createCanvas(image.width, image.height);
-    const ctx = canvas.getContext('2d');
-    
-    // Draw background
-    ctx.drawImage(image, 0, 0, image.width, image.height);
-
-    // Draw text
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-
-    template.text_areas.forEach(area => {
-      const text = llmResponse.text_payloads[area.id] || "";
-      
-      ctx.font = `bold ${area.fontSize}px Impact, Arial`;
-      ctx.fillStyle = area.color;
-      
-      if (area.stroke) {
-        ctx.strokeStyle = area.stroke;
-        ctx.lineWidth = area.fontSize / 10;
-      } else {
-        ctx.lineWidth = 0;
+    for (const memeData of memesToProcess) {
+      // 2. Find template details
+      const template = templates.find(t => t.id === memeData.selected_template_id);
+      if (!template) {
+        console.error(`LLM chose an invalid template ID: "${memeData.selected_template_id}"`);
+        continue;
       }
 
-      // Center the text inside the bounding box
-      const centerX = area.x + (area.width / 2);
-      const centerY = area.y + (area.height / 2);
+      // 3. Load image buffer
+      const imagePath = path.join(process.cwd(), 'public', 'templates', template.filename);
       
-      wrapText(ctx, text, centerX, centerY, area.width, area.fontSize * 1.2);
-    });
+      let image;
+      try {
+        image = await loadImage(imagePath);
+      } catch(e) {
+        const dummyCanvas = createCanvas(1200, 1200);
+        const dctx = dummyCanvas.getContext('2d');
+        dctx.fillStyle = '#cccccc';
+        dctx.fillRect(0, 0, 1200, 1200);
+        dctx.fillStyle = '#000000';
+        dctx.font = '40px Arial';
+        dctx.fillText('Placeholder Image for: ' + template.filename, 100, 100);
+        template.text_areas.forEach(area => {
+          dctx.strokeStyle = 'red';
+          dctx.lineWidth = 4;
+          dctx.strokeRect(area.x, area.y, area.width, area.height);
+        });
+        image = await loadImage(dummyCanvas.toBuffer());
+      }
 
-    // 5. Convert back to base64 to send to client
-    const buffer = canvas.toBuffer('image/png');
-    const base64Image = `data:image/png;base64,${buffer.toString('base64')}`;
+      // 4. Set up Canvas to draw the meme
+      const canvas = createCanvas(image.width, image.height);
+      const ctx = canvas.getContext('2d');
+      
+      ctx.drawImage(image, 0, 0, image.width, image.height);
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+
+      template.text_areas.forEach(area => {
+        let text = memeData.text_payloads[area.id] || "";
+        if (area.uppercase) text = text.toUpperCase();
+        
+        const fontFamily = area.fontFamily || 'Arial';
+        ctx.font = `bold ${area.fontSize}px ${fontFamily}`;
+        ctx.fillStyle = area.color;
+        
+        if (area.stroke) {
+          ctx.strokeStyle = area.stroke;
+          ctx.lineWidth = area.fontSize / 10;
+        } else {
+          ctx.lineWidth = 0;
+        }
+
+        ctx.textAlign = area.textAlign || 'center';
+        ctx.textBaseline = 'middle';
+
+        let anchorX = area.x + (area.width / 2);
+        if (ctx.textAlign === 'left') anchorX = area.x;
+        if (ctx.textAlign === 'right') anchorX = area.x + area.width;
+
+        const anchorY = area.y + (area.height / 2);
+        wrapText(ctx, text, anchorX, anchorY, area.width, area.fontSize * 1.2);
+      });
+
+      // 5. Convert to base64
+      const buffer = canvas.toBuffer('image/png');
+      const base64Image = `data:image/png;base64,${buffer.toString('base64')}`;
+      
+      generatedMemes.push({
+        url: base64Image,
+        template_name: template.name
+      });
+    }
 
     return NextResponse.json({ 
       success: true, 
-      imageUrl: base64Image,
-      template_used: template.name,
+      memes: generatedMemes,
       debug_info: {
         user_inputs: body,
         llm_system_instruction: "See server logs for prompt details",

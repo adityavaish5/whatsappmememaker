@@ -5,6 +5,9 @@
     "visual_description": "Two panels of Drake. Top panel: Drake looking disgusted and turning away. Bottom panel: Drake pointing approvingly with a smile.",
     "usage_context": "Use when comparing two things, rejecting the first option (bad/undesired) and accepting the second option (good/desired).",
     "keywords": ["drake", "reject", "accept", "comparison", "prefer"],
+    "sentiment": "comparison",
+    "image_width": 1200,
+    "image_height": 1200,
     "example": {
       "top_right": "Writing your own CSS",
       "bottom_right": "Using Tailwind"
@@ -19,7 +22,10 @@
         "width": 550,
         "height": 500,
         "fontSize": 48,
-        "color": "black"
+        "color": "black",
+        "maxLength": 60,
+        "uppercase": false,
+        "textAlign": "center"
       },
       {
         "id": "bottom_right",
@@ -29,7 +35,10 @@
         "width": 550,
         "height": 400,
         "fontSize": 48,
-        "color": "black"
+        "color": "black",
+        "maxLength": 60,
+        "uppercase": false,
+        "textAlign": "center"
       }
     ]
   },
@@ -39,6 +48,9 @@
     "visual_description": "A man walking with his girlfriend looks back checking out another attractive woman. The girlfriend looks offended.",
     "usage_context": "Use when someone is distracted by a new, shiny, or bad thing while ignoring their current obligation, reliable option, or partner.",
     "keywords": ["distracted", "boyfriend", "girlfriend", "jealous", "looking back"],
+    "sentiment": "sarcastic",
+    "image_width": 1200,
+    "image_height": 800,
     "example": {
       "new_thing": "New JS Framework",
       "person": "Web Developers",
@@ -49,35 +61,47 @@
       {
         "id": "new_thing",
         "description": "The new, attractive distraction (woman in red)",
-        "x": 200,
-        "y": 500,
-        "width": 300,
-        "height": 200,
+        "x": 100,
+        "y": 450,
+        "width": 350,
+        "height": 300,
         "fontSize": 40,
         "color": "white",
-        "stroke": "black"
+        "stroke": "black",
+        "maxLength": 40,
+        "uppercase": true,
+        "textAlign": "center",
+        "fontFamily": "Impact"
       },
       {
         "id": "person",
         "description": "The person being distracted (the boyfriend)",
-        "x": 600,
-        "y": 400,
-        "width": 250,
-        "height": 200,
+        "x": 550,
+        "y": 350,
+        "width": 300,
+        "height": 250,
         "fontSize": 40,
         "color": "white",
-        "stroke": "black"
+        "stroke": "black",
+        "maxLength": 30,
+        "uppercase": true,
+        "textAlign": "center",
+        "fontFamily": "Impact"
       },
       {
         "id": "old_thing",
         "description": "The neglected original obligation/option (the angry girlfriend)",
         "x": 900,
-        "y": 450,
+        "y": 400,
         "width": 250,
-        "height": 200,
+        "height": 250,
         "fontSize": 40,
         "color": "white",
-        "stroke": "black"
+        "stroke": "black",
+        "maxLength": 40,
+        "uppercase": true,
+        "textAlign": "center",
+        "fontFamily": "Impact"
       }
     ]
   }

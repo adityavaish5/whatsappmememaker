@@ -7,7 +7,7 @@ export default function Home() {
   const [context, setContext] = useState('');
   const [conversation, setConversation] = useState('');
   const [loading, setLoading] = useState(false);
-  const [memeUrl, setMemeUrl] = useState<string | null>(null);
+  const [memes, setMemes] = useState<{url: string, template_name: string}[] | null>(null);
 
   const handleGenerate = async () => {
     if (!context && !conversation) return;
@@ -30,7 +30,7 @@ export default function Home() {
       console.log('----------------------------------');
 
       if (data.success) {
-        setMemeUrl(data.imageUrl);
+        setMemes(data.memes);
       } else {
         alert('Error: ' + data.error);
         console.error("Server Error Details:", data.debug_info?.raw_error);
@@ -51,7 +51,7 @@ export default function Home() {
             Contextual Meme Generator
           </h1>
           <p className="mt-4 text-xl text-gray-500">
-            Paste your chat history, and let AI pick the perfect meme.
+            Paste your chat history, and let AI generate multiple meme options.
           </p>
         </div>
 
@@ -107,25 +107,29 @@ export default function Home() {
 
             {/* Right Column: Output */}
             <div className="p-8 bg-gray-50 border-l border-gray-100 flex flex-col items-center justify-center min-h-[400px]">
-              {memeUrl ? (
-                <div className="space-y-4 w-full text-center">
-                  <h3 className="text-sm font-medium text-gray-500">Result</h3>
-                  <div className="relative rounded-lg overflow-hidden shadow-lg border border-gray-200">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={memeUrl} alt="Generated Meme" className="w-full h-auto object-contain" />
-                  </div>
-                  <a
-                    href={memeUrl}
-                    download="meme.png"
-                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                  >
-                    Download Image
-                  </a>
+              {memes && memes.length > 0 ? (
+                <div className="space-y-8 w-full max-h-[800px] overflow-y-auto pr-2">
+                  {memes.map((meme, idx) => (
+                    <div key={idx} className="space-y-4 w-full text-center pb-8 border-b border-gray-200 last:border-0 last:pb-0">
+                      <h3 className="text-sm font-medium text-gray-500">Option {idx + 1}: {meme.template_name}</h3>
+                      <div className="relative rounded-lg overflow-hidden shadow-lg border border-gray-200">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={meme.url} alt={`Generated Meme ${idx + 1}`} className="w-full h-auto object-contain" />
+                      </div>
+                      <a
+                        href={meme.url}
+                        download={`meme-option-${idx + 1}.png`}
+                        className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      >
+                        Download Image
+                      </a>
+                    </div>
+                  ))}
                 </div>
               ) : (
                 <div className="text-center text-gray-400 space-y-4">
                   <ImageIcon className="mx-auto h-16 w-16 text-gray-300" />
-                  <p className="text-sm">Your generated meme will appear here</p>
+                  <p className="text-sm">Your generated memes will appear here</p>
                 </div>
               )}
             </div>
