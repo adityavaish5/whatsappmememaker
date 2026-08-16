@@ -56,7 +56,7 @@ Analyze the attached image and the current config metadata. Your goal is to impr
 2. **Text Area Bounding Boxes & Positioning**:
    - Determine the actual pixel width and height of the image.
    - Position the 'text_areas' bounding boxes (x, y, width, height) so the text sits cleanly in empty space or designated caption areas WITHOUT covering essential faces, expressions, or key visual elements.
-   - Configure appropriate 'fontSize', 'color' (usually "white" with "black" stroke, or "black"), 'stroke', 'uppercase', 'textAlign', and 'fontFamily'.
+   - Configure appropriate 'fontSize' (MUST be at least 48px for legibility, larger if space permits), 'color' (usually "white" with "black" stroke, or "black"), 'stroke', 'uppercase', 'textAlign', and 'fontFamily'.
 
 Current Config:
 ${JSON.stringify(currentConfig, null, 2)}
@@ -118,6 +118,16 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
     responseText = responseText.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
 
     const updatedConfig = JSON.parse(responseText);
+
+    // Enforce minimum font size of 48px
+    if (updatedConfig.text_areas && Array.isArray(updatedConfig.text_areas)) {
+      updatedConfig.text_areas.forEach(ta => {
+        if (typeof ta.fontSize === 'number' && ta.fontSize < 48) {
+          console.log(`⚠️ Enforcing min fontSize 48px (was ${ta.fontSize}px) for text area "${ta.id}"`);
+          ta.fontSize = 48;
+        }
+      });
+    }
 
     // Save updated config.json
     fs.writeFileSync(configPath, JSON.stringify(updatedConfig, null, 2));
