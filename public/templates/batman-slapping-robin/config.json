@@ -1,0 +1,54 @@
+{
+  "id": "batman-slapping-robin",
+  "name": "Batman Slapping Robin",
+  "visual_description": "Vintage comic panel of Batman forcefully slapping Robin across the face mid-sentence with two speech bubbles at top.",
+  "usage_context": "Used to aggressively interrupt or shut down annoying, naive, or cliché statements.",
+  "keywords": [
+    "batman",
+    "robin",
+    "batman slapping robin",
+    "my parents are dead",
+    "slap",
+    "shut up",
+    "dc comics"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 400,
+  "image_height": 387,
+  "example": {
+    "robin_text": "MY PARENTS ARE COMING—",
+    "batman_text": "MY PARENTS ARE DEAD!"
+  },
+  "text_areas": [
+    {
+      "id": "robin_text",
+      "description": "Robin's premise in the left speech bubble",
+      "x": 10,
+      "y": 6,
+      "width": 185,
+      "height": 80,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "batman_text",
+      "description": "Batman's angry reaction in the right speech bubble",
+      "x": 205,
+      "y": 6,
+      "width": 185,
+      "height": 80,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}
