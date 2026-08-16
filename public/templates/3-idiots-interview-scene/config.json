@@ -28,13 +28,8 @@
       "x": 20,
       "y": 15,
       "width": 696,
-<<<<<<< HEAD
       "height": 80,
       "fontSize": 48,
-=======
-      "height": 65,
-      "fontSize": 24,
->>>>>>> template-improve/3-idiots-interview-scene
       "color": "white",
       "stroke": "black",
       "maxLength": 100,
@@ -48,13 +43,8 @@
       "x": 20,
       "y": 300,
       "width": 696,
-<<<<<<< HEAD
       "height": 80,
       "fontSize": 48,
-=======
-      "height": 65,
-      "fontSize": 24,
->>>>>>> template-improve/3-idiots-interview-scene
       "color": "white",
       "stroke": "black",
       "maxLength": 100,
@@ -68,13 +58,8 @@
       "x": 20,
       "y": 900,
       "width": 696,
-<<<<<<< HEAD
       "height": 80,
       "fontSize": 48,
-=======
-      "height": 65,
-      "fontSize": 24,
->>>>>>> template-improve/3-idiots-interview-scene
       "color": "white",
       "stroke": "black",
       "maxLength": 100,
