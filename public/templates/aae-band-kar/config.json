@@ -1,33 +1,38 @@
 {
   "id": "aae-band-kar",
-  "name": "Aae Band Kar (TMKOC)",
-  "visual_description": "Indian meme template: Aae Band Kar (TMKOC)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Aae Band Kar (TMKOC)'",
+  "name": "Aae Band Kar Band Kar TMKOC",
+  "visual_description": "Jethalal from Taarak Mehta Ka Ooltah Chashmah looking terrified and waving his hands in panic, with Taarak and Champaklal standing beside him.",
+  "usage_context": "Used to react when someone is doing something extremely annoying, playing cringe content, or to tell someone to immediately shut up or stop.",
   "keywords": [
-    "indian meme",
-    "aae",
-    "band",
-    "kar",
-    "(tmkoc)"
+    "jethalal",
+    "taarak mehta",
+    "tmkoc",
+    "aae band kar",
+    "band kar",
+    "stop it",
+    "cringe",
+    "shut up",
+    "hindi comedy"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "negative",
+  "image_width": 768,
+  "image_height": 432,
   "example": {
-    "text": "Aae Band Kar (TMKOC)"
+    "caption": "Friend starts playing cringe Reels with full volume in public"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 44,
+      "id": "caption",
+      "description": "Situation or annoying action that triggers the panic reaction",
+      "x": 20,
+      "y": 15,
+      "width": 728,
+      "height": 75,
+      "fontSize": 26,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

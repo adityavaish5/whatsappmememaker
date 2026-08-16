@@ -94,6 +94,9 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
   const model = genAI.getGenerativeModel({ model: 'gemini-3.7-flash' });
 
   try {
+<<<<<<< Updated upstream
+    // Git & PR Creation Workflow - MUST checkout branch BEFORE modifying files!
+=======
     const result = await model.generateContent([
       systemPrompt,
       imagePart
@@ -108,11 +111,12 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
     fs.writeFileSync(configPath, JSON.stringify(updatedConfig, null, 2));
     console.log(`✅ Updated public/templates/${templateId}/config.json`);
 
-    // Run test renderer to generate updated test output image
+    // Run test renderer for ONLY this template to generate updated test output image
     console.log(`🎨 Rendering updated test image for ${templateId}...`);
-    execSync(`npm run test:templates`, { stdio: 'inherit' });
+    execSync(`npx ts-node -O '{"module":"commonjs"}' scripts/render-single.ts "${templateId}"`, { stdio: 'inherit' });
 
     // Git & PR Creation Workflow
+>>>>>>> Stashed changes
     const branchName = `template-improve/${templateId}`;
     console.log(`\n🌿 Creating git branch: ${branchName}...`);
 
@@ -127,8 +131,27 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
       execSync(`git checkout ${branchName}`, { stdio: 'pipe' });
     }
 
+    const result = await model.generateContent([
+      systemPrompt,
+      imagePart
+    ]);
+
+    let responseText = result.response.text().trim();
+    responseText = responseText.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+
+    const updatedConfig = JSON.parse(responseText);
+
+    // Save updated config.json
+    fs.writeFileSync(configPath, JSON.stringify(updatedConfig, null, 2));
+    console.log(`✅ Updated public/templates/${templateId}/config.json`);
+
+    // Run test renderer for ONLY this template to generate updated test output image
+    console.log(`🎨 Rendering updated test image for ${templateId}...`);
+    execSync(`npx ts-node -O '{"module":"commonjs"}' scripts/render-single.ts "${templateId}"`, { stdio: 'inherit' });
+
     // Stage only this template's config.json and its test output image
-    execSync(`git add public/templates/${templateId}/config.json test-output/${templateId}.png`, { stdio: 'pipe' });
+    // Using -f to force add the test image because test-output is in .gitignore
+    execSync(`git add public/templates/${templateId}/config.json test-output/${templateId}.png -f`, { stdio: 'pipe' });
 
     // Commit
     const commitMsg = `refactor(template): improve metadata and bounding boxes for ${updatedConfig.name || templateId}`;
@@ -148,13 +171,26 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
 2. **Bounding Boxes & Positioning**: Adjusted text area coordinates (x, y, width, height) to sit cleanly on the image without obscuring key visual elements.
 
 ### Updated Template Sample:
-Check \`test-output/${templateId}.png\` for the newly rendered sample.`;
+Check test-output/${templateId}.png for the newly rendered sample.`;
 
-    const prCommand = `gh pr create --title "${prTitle}" --body "${prBody}" --head ${branchName} --base main`;
-    const prOutput = execSync(prCommand).toString().trim();
-
-    console.log(`\n🎉 Pull Request created successfully!`);
-    console.log(`PR Link: ${prOutput}\n`);
+    // Check if PR already exists to avoid throwing an error
+    let prOutput = '';
+    try {
+      const prCheck = execSync(`gh pr list --head "${branchName}" --json url`, { stdio: 'pipe' }).toString().trim();
+      const prs = JSON.parse(prCheck);
+      if (prs && prs.length > 0) {
+        prOutput = prs[0].url;
+        console.log(`\n🔄 Pull Request already exists: ${prOutput}`);
+        // Optionally edit/update the PR body if needed, or just push changes which updates the PR automatically
+      } else {
+        const prCommand = `gh pr create --title "${prTitle}" --body "${prBody}" --head "${branchName}" --base main`;
+        prOutput = execSync(prCommand).toString().trim();
+        console.log(`\n🎉 Pull Request created successfully!`);
+        console.log(`PR Link: ${prOutput}\n`);
+      }
+    } catch (e) {
+      console.log("Error checking/creating PR (might exist or CLI auth error):", e.message);
+    }
 
     // Switch back to main branch
     execSync(`git checkout main`, { stdio: 'pipe' });
