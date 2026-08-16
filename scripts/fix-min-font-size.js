@@ -30,10 +30,12 @@ function run() {
       let wasUpdated = false;
 
       if (config.text_areas && Array.isArray(config.text_areas)) {
+        const minFontSize = Math.max(30, Math.round((config.image_height || 1000) * 0.04));
+        
         config.text_areas.forEach(ta => {
-          if (typeof ta.fontSize === 'number' && ta.fontSize < 48) {
-            console.log(`[${folder}] Enforcing min fontSize 48px (was ${ta.fontSize}px) for text area "${ta.id}"`);
-            ta.fontSize = 48;
+          if (typeof ta.fontSize === 'number' && ta.fontSize < minFontSize) {
+            console.log(`[${folder}] Enforcing min fontSize ${minFontSize}px (was ${ta.fontSize}px) for text area "${ta.id}"`);
+            ta.fontSize = minFontSize;
             wasUpdated = true;
           }
         });
