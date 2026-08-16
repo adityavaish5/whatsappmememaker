@@ -91,7 +91,7 @@ CRITICAL: Return ONLY a raw valid JSON object for config.json matching this exac
   ]
 }`;
 
-  const model = genAI.getGenerativeModel({ model: 'gemini-3.7-flash' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
   try {
     // Git & PR Creation Workflow - MUST checkout branch BEFORE modifying files!
