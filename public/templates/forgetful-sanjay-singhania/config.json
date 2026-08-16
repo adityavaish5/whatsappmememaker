@@ -1,36 +1,36 @@
 {
   "id": "forgetful-sanjay-singhania",
   "name": "Ghajini Short Term Memory Loss",
-  "visual_description": "Aamir Khan as Sanjay Singhania touching the scar on his head with a confused, forgetful expression.",
-  "usage_context": "Used to express sudden forgetfulness, memory blanks, brain fade, or trying desperately to recall something obvious.",
+  "visual_description": "Aamir Khan as Sanjay Singhania in Ghajini touching his shaved, scarred head with a perplexed look inside a shopping mall.",
+  "usage_context": "Used to express sudden forgetfulness, blanking out on obvious details, or experiencing momentary amnesia.",
   "keywords": [
     "ghajini",
     "aamir khan",
     "sanjay singhania",
     "memory loss",
+    "short term memory loss",
     "forgetful",
     "confused",
-    "brain fart",
-    "trying to remember"
+    "blank mind"
   ],
   "sentiment": "sarcastic",
   "image_width": 800,
-  "image_height": 420,
+  "image_height": 415,
   "example": {
-    "caption": "Me entering a room and forgetting why I came there"
+    "caption": "Opening a new tab and immediately forgetting what I wanted to search"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Caption describing a situation where someone forgets something instantly",
+      "description": "Situation describing sudden forgetfulness or memory lapse",
       "x": 20,
-      "y": 20,
+      "y": 10,
       "width": 760,
-      "height": 110,
-      "fontSize": 48,
+      "height": 70,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
-      "maxLength": 90,
+      "maxLength": 80,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

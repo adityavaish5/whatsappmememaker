@@ -1,36 +1,36 @@
 {
   "id": "bhai-ne-bola-karne-ka-matlab-karne-ka",
   "name": "Bhai Ne Bola Karne Ka Matlab Karne Ka",
-  "visual_description": "Circuit (Arshad Warsi) from Munna Bhai M.B.B.S. giving an intense, unquestioning stare while enforcing Munna's instructions to others.",
-  "usage_context": "Used to convey blind loyalty, unquestioning obedience to a boss or best friend's absurd demands, or following instructions without asking questions.",
+  "visual_description": "Circuit (Arshad Warsi) from Munna Bhai M.B.B.S. intimidating medical students with an aggressive, authoritative expression.",
+  "usage_context": "Used to justify executing orders blindly or without hesitation simply because a senior, boss, or friend commanded it.",
   "keywords": [
     "circuit",
     "arshad warsi",
     "munna bhai mbbs",
-    "bhai ne bola",
+    "bhai ne bola karne ka",
     "matlab karne ka",
-    "blind loyalty",
-    "bollywood meme",
-    "hindi meme"
+    "blind obedience",
+    "loyalty",
+    "bollywood meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1280,
   "image_height": 590,
   "example": {
-    "top_text": "When your best friend says 'chal usko block kar de'"
+    "top_text": "When your best friend tells you to instantly dislike someone"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Scenario prompting unquestioned obedience or action",
-      "x": 40,
-      "y": 20,
-      "width": 1200,
-      "height": 110,
-      "fontSize": 48,
+      "description": "Caption or situation commanding total obedience",
+      "x": 30,
+      "y": 15,
+      "width": 1220,
+      "height": 80,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"

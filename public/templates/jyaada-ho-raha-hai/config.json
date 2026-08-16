@@ -1,12 +1,13 @@
 {
   "id": "jyaada-ho-raha-hai",
   "name": "Jyaada Ho Raha Hai",
-  "visual_description": "Stand-up comedian Biswa Kalyan Rath holding a microphone on stage with caption 'JYAADA HO RAHA HAI' at the bottom.",
-  "usage_context": "Used to call out someone overreacting, exaggerating, or taking things too far.",
+  "visual_description": "Comedian Biswa Kalyan Rath speaking into a microphone on stage with caption 'JYAADA HO RAHA HAI' below.",
+  "usage_context": "Used to call out someone overreacting, exaggerating, or taking an action excessively far.",
   "keywords": [
     "biswa kalyan rath",
     "stand up comedy",
     "jyaada ho raha hai",
+    "zyada ho raha hai",
     "overreacting",
     "indian comedian",
     "annoyed"
@@ -15,17 +16,17 @@
   "image_width": 800,
   "image_height": 450,
   "example": {
-    "setup": "Friend studying 16 hours a day for internal exams"
+    "setup": "Friend studying 16 hours a day for internal college exams"
   },
   "text_areas": [
     {
       "id": "setup",
-      "description": "Situation or person doing something excessively",
-      "x": 30,
+      "description": "Excessive or exaggerated situation",
+      "x": 40,
       "y": 20,
-      "width": 740,
-      "height": 90,
-      "fontSize": 48,
+      "width": 720,
+      "height": 80,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

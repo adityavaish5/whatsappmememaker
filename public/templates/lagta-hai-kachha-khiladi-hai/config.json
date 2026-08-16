@@ -1,34 +1,34 @@
 {
   "id": "lagta-hai-kachha-khiladi-hai",
   "name": "Lagta Hai Kachcha Khiladi Hai",
-  "visual_description": "Amar (Aamir Khan) and Prem (Salman Khan) in Andaz Apna Apna looking skeptically at a gunman holding a pistol.",
-  "usage_context": "Used to mock someone's amateur behavior, lack of experience, or rookie mistakes in a situation.",
+  "visual_description": "Amar (Aamir Khan) calmly evaluates an armed mugger holding a gun wrapped in paper while Prem (Salman Khan) looks on nervously.",
+  "usage_context": "Used to mock someone displaying obvious inexperience, rookie mistakes, or amateur behavior.",
   "keywords": [
     "andaz apna apna",
     "aamir khan",
     "salman khan",
     "amar prem",
-    "kachha khiladi",
+    "kachcha khiladi",
     "amateur",
     "rookie",
-    "bollywood",
-    "comedy"
+    "noob",
+    "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 1040,
   "image_height": 546,
   "example": {
-    "caption": "When a scammer calls using a registered number"
+    "caption": "When a scammer sends an OTP request before even pitching the scheme"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation describing someone acting like a novice or making an amateur mistake",
-      "x": 40,
-      "y": 20,
-      "width": 960,
-      "height": 100,
-      "fontSize": 48,
+      "description": "Situation describing someone acting like a novice or failing at a task",
+      "x": 30,
+      "y": 15,
+      "width": 980,
+      "height": 95,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

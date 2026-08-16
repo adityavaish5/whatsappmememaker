@@ -1,33 +1,32 @@
 {
   "id": "ee-wala-ek-tho-aur-hai-ka",
   "name": "Ee Wala Ek Thu Aur Hai Ka",
-  "visual_description": "A smiling man with a beard draped in a shawl looks greedily or eagerly at someone off-screen with the subtitle 'Ee Wala Ek Thu Aur Hai Ka'.",
-  "usage_context": "Used to react when someone asks for an extra item, bribe, bonus, or demanding a duplicate of something they really like.",
+  "visual_description": "A smiling man wearing a kurta and shawl looking greedily at someone with the subtitle 'Ee Wala Ek Thu Aur Hai Ka'.",
+  "usage_context": "Used to express greed, wanting an extra free item, or asking for seconds humorously.",
   "keywords": [
     "ee wala ek thu aur hai ka",
     "panchayat",
-    "tvf",
-    "greedy smile",
+    "panchayat season 2",
+    "greedy",
     "asking for more",
-    "bhojpuri",
-    "hindi web series",
-    "indian meme"
+    "indian meme template",
+    "bihari hindi dialogue"
   ],
   "sentiment": "sarcastic",
   "image_width": 1080,
   "image_height": 608,
   "example": {
-    "setup": "Relatives after already taking 3 boxes of sweets from the wedding"
+    "setup": "Relatives after already packing 3 boxes of wedding sweets"
   },
   "text_areas": [
     {
       "id": "setup",
-      "description": "Situation leading to asking for one more of something",
-      "x": 30,
-      "y": 20,
-      "width": 1020,
-      "height": 130,
-      "fontSize": 48,
+      "description": "Situation prompting someone to ask for one more item",
+      "x": 40,
+      "y": 25,
+      "width": 1000,
+      "height": 110,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

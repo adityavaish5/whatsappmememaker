@@ -1,8 +1,8 @@
 {
   "id": "karwali-bezzati",
   "name": "Abhishek Upmanyu Karwali Bezzati",
-  "visual_description": "Indian stand-up comedian Abhishek Upmanyu holding a microphone on stage with an open-hand gesture and the subtitle 'Karwali Bezzati?'.",
-  "usage_context": "Used to mock someone who unnecessarily invited humiliation, failure, or an awkward situation upon themselves.",
+  "visual_description": "Comedian Abhishek Upmanyu on stage holding a mic with a questioning gesture and the caption 'Karwali Bezzati ?'.",
+  "usage_context": "Used to mock someone who unnecessarily invited their own humiliation or awkward failure.",
   "keywords": [
     "abhishek upmanyu",
     "karwali bezzati",
@@ -10,27 +10,26 @@
     "indian comedian",
     "insult",
     "humiliation",
-    "sarcasm",
-    "sharam"
+    "sarcasm"
   ],
   "sentiment": "sarcastic",
-  "image_width": 800,
-  "image_height": 450,
+  "image_width": 512,
+  "image_height": 288,
   "example": {
-    "setup_text": "Argued with the teacher only to be proven wrong in front of the whole class"
+    "setup_text": "Told parents 'mera paper bohot accha gaya' without checking answers"
   },
   "text_areas": [
     {
       "id": "setup_text",
       "description": "Situation leading to self-inflicted embarrassment or humiliation",
-      "x": 20,
-      "y": 15,
-      "width": 760,
-      "height": 110,
-      "fontSize": 48,
+      "x": 15,
+      "y": 10,
+      "width": 482,
+      "height": 65,
+      "fontSize": 30,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

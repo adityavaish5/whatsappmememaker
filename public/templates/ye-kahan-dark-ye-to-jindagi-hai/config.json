@@ -1,33 +1,33 @@
 {
   "id": "ye-kahan-dark-ye-to-jindagi-hai",
   "name": "Ye Kahan Dark Hai Ye Toh Jindagi Hai",
-  "visual_description": "Comedian Biswa Kalyan Rath speaking into a microphone with an expressive hand gesture on the Comicstaan judge panel, with yellow subtitles reading 'Ye kahan dark hai, ye toh jindagi hai'.",
-  "usage_context": "Used to react sarcastically to bleak, depressing, or dark situations by stating that it is just normal everyday reality.",
+  "visual_description": "Comedian Biswa Kalyan Rath holding a microphone and gesturing on Comicstaan with yellow subtitle 'Ye kahan dark hai, ye toh jindagi hai'.",
+  "usage_context": "Used to react sarcastically to bleak, grim, or dark situations by claiming it is just ordinary life.",
   "keywords": [
     "biswa kalyan rath",
     "comicstaan",
     "ye kahan dark hai",
     "ye toh jindagi hai",
-    "amazon prime",
-    "stand up comedy",
     "dark humor",
-    "indian meme"
+    "stand up comedy",
+    "amazon prime",
+    "life"
   ],
   "sentiment": "sarcastic",
-  "image_width": 960,
-  "image_height": 540,
+  "image_width": 914,
+  "image_height": 514,
   "example": {
-    "caption": "Friend: Your jokes are getting too dark lately"
+    "setup": "Friend: Why are your jokes so depressing lately?"
   },
   "text_areas": [
     {
-      "id": "caption",
-      "description": "Setup or situation context text at the top",
-      "x": 30,
-      "y": 20,
-      "width": 900,
-      "height": 100,
-      "fontSize": 48,
+      "id": "setup",
+      "description": "Situation or comment being reacted to",
+      "x": 20,
+      "y": 15,
+      "width": 874,
+      "height": 85,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

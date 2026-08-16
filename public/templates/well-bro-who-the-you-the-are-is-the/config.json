@@ -1,35 +1,33 @@
 {
   "id": "well-bro-who-the-you-the-are-is-the",
-  "name": "Well Bro Who The You The Are Is The - Gopi FIR",
-  "visual_description": "Head Constable Gopi from FIR sitting in the police station looking confused, with the subtitle 'Well bro who the you the are is the?'",
-  "usage_context": "Used to sarcastically ask someone who they are, especially when an unfamiliar or unauthorized person tries to give advice or interfere.",
+  "name": "Well Bro Who The You The Are Is The",
+  "visual_description": "Head Constable Gopi from TV show F.I.R. looking puzzled in uniform with broken English subtitle.",
+  "usage_context": "Used to question someone's audacity, unfamiliar presence, or irrelevant opinion sarcastically.",
   "keywords": [
-    "gopi",
+    "gopi bhalla",
     "fir",
     "sab tv",
-    "gopi bhalla",
     "well bro who the you the are is the",
     "broken english",
+    "who are you",
     "police",
-    "indian meme",
-    "confusion",
-    "sarcasm"
+    "confusion"
   ],
   "sentiment": "sarcastic",
   "image_width": 686,
   "image_height": 540,
   "example": {
-    "caption": "When a junior gives advice to seniors on their first day"
+    "caption": "When a stranger joins the group chat and starts giving life advice"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Top setup or situation text",
+      "description": "Top setup text describing an awkward or unauthorized encounter",
       "x": 20,
       "y": 15,
       "width": 646,
-      "height": 110,
-      "fontSize": 48,
+      "height": 95,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

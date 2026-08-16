@@ -1,32 +1,33 @@
 {
   "id": "mujhe-kyu-toda",
-  "name": "Mujhe Kyu Toda",
-  "visual_description": "A bruised character with a battered expression surrounded by distressed henchmen, edited with Devendra Fadnavis's face, asking 'Mujhe kyu toda?'.",
-  "usage_context": "Used when someone gets dragged into a conflict, punished unfairly, or blamed and targeted for no apparent reason.",
+  "name": "Mujhe Kyu Toda (Devendra Fadnavis Face Swap)",
+  "visual_description": "A bruised and beaten man in a torn vest with politician Devendra Fadnavis's face edited on, surrounded by crying henchmen in construction helmets with the caption 'Mujhe kyu toda?'.",
+  "usage_context": "Used to express confusion and distress after being unexpectedly punished, attacked, or caught in the crossfire of a situation you weren't involved in.",
   "keywords": [
     "mujhe kyu toda",
-    "welcome movie",
+    "welcome",
     "devendra fadnavis",
     "beaten up",
+    "crossfire",
     "innocent bystander",
-    "unfair punishment",
-    "hindi meme"
+    "bollywood meme",
+    "maharashtra politics"
   ],
   "sentiment": "sarcastic",
-  "image_width": 1200,
-  "image_height": 630,
+  "image_width": 1600,
+  "image_height": 840,
   "example": {
-    "top_text": "Me minding my own business during a family argument"
+    "top_text": "Me peacefully sitting in group chat getting roasted for no reason"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or context describing why someone unfairly got caught in the crossfire",
+      "description": "Caption explaining the situation where someone is unfairly targeted",
       "x": 40,
-      "y": 20,
-      "width": 1120,
-      "height": 130,
-      "fontSize": 52,
+      "y": 30,
+      "width": 1520,
+      "height": 140,
+      "fontSize": 56,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

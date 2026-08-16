@@ -1,34 +1,33 @@
 {
   "id": "hum-first-hum-first",
   "name": "Hum First Hum First",
-  "visual_description": "Akshay Kumar in a pink shirt running in a hurry beside a blue Mahindra jeep with a caption saying 'Hum first.. Hum first'.",
-  "usage_context": "Used to describe someone desperately rushing to grab an opportunity, cut in line, or claim priority over others.",
+  "visual_description": "Akshay Kumar as Sachin Tichkule sprinting frantically past a blue Mahindra jeep, captioned 'Hum first.. Hum first'.",
+  "usage_context": "Depicting someone rushing greedily or competitively to be the first to grab a freebie, offer, or opportunity.",
   "keywords": [
     "akshay kumar",
     "khatta meetha",
     "sachin tichkule",
     "hum first hum first",
     "running",
-    "jeep",
-    "hurry",
+    "rush",
     "competition",
-    "bollywood meme"
+    "jeep"
   ],
   "sentiment": "sarcastic",
   "image_width": 800,
   "image_height": 445,
   "example": {
-    "top_text": "Relatives when free food is announced at a wedding:"
+    "setup_text": "Relatives when the buffet opens at an Indian wedding:"
   },
   "text_areas": [
     {
-      "id": "top_text",
-      "description": "Setup or scenario triggering the rush to be first",
+      "id": "setup_text",
+      "description": "Situation or scenario causing people to rush competitively",
       "x": 20,
       "y": 15,
       "width": 760,
-      "height": 90,
-      "fontSize": 48,
+      "height": 75,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

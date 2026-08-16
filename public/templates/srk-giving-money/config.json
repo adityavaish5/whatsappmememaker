@@ -1,35 +1,35 @@
 {
   "id": "srk-giving-money",
-  "name": "SRK Swades Train Water Buying",
-  "visual_description": "Three vertical panels showing Shah Rukh Khan looking out of a train window, handing a coin to buy water from a boy, and getting emotional holding his forehead.",
-  "usage_context": "Used to express intense empathy, unexpected emotional realization, sudden guilt, or poignant moments of humility.",
+  "name": "SRK Swades Train Water Scene",
+  "visual_description": "Three vertical panels showing Shah Rukh Khan looking out a train window, handing a coin to a child vendor, and breaking into tears.",
+  "usage_context": "Used for moments of intense realization, sudden guilt, humility, or feeling emotional over a small gesture.",
   "keywords": [
     "shah rukh khan",
     "srk",
     "swades",
-    "train",
     "mohan bhargava",
+    "train",
     "water",
     "coin",
     "emotional",
-    "realization",
-    "sad"
+    "crying",
+    "realization"
   ],
   "sentiment": "negative",
   "image_width": 700,
   "image_height": 1024,
   "example": {
-    "top_text": "WHEN YOU TIP THE DELIVERY GUY ₹20 AND HE SAYS 'BHAGWAN AAPKA BHALA KARE'"
+    "top_text": "WHEN YOU TIP ₹10 TO THE DELIVERY GUY AND HE SAYS 'BHAGWAN AAPKA BHALA KARE'"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Main setup or emotional realization caption",
-      "x": 30,
-      "y": 20,
-      "width": 640,
-      "height": 120,
-      "fontSize": 48,
+      "description": "Caption explaining the emotional realization or guilty moment",
+      "x": 20,
+      "y": 15,
+      "width": 660,
+      "height": 100,
+      "fontSize": 41,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

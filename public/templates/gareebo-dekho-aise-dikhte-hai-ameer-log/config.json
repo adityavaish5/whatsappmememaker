@@ -1,15 +1,15 @@
 {
   "id": "gareebo-dekho-aise-dikhte-hai-ameer-log",
   "name": "Gareebo Dekho Aise Dikhte Hai Ameer Log",
-  "visual_description": "Comedian Zakir Khan performing stand-up at Canvas Laugh Club, holding a mic and pointing into the crowd with a smirk.",
-  "usage_context": "Used sarcastically to call out someone showing off minor wealth, extravagant spending, or rich lifestyle habits.",
+  "visual_description": "Comedian Zakir Khan gesturing towards an audience member while performing stand-up comedy on stage at Canvas Laugh Club.",
+  "usage_context": "Used sarcastically to mock minor displays of wealth, fancy purchases, or pretentious spending habits.",
   "keywords": [
     "zakir khan",
     "canvas laugh club",
     "gareebo dekho",
     "ameer log",
     "rich people",
-    "stand up comedy",
+    "standup comedy",
     "indian standup",
     "sarcasm"
   ],
@@ -17,17 +17,17 @@
   "image_width": 680,
   "image_height": 382,
   "example": {
-    "setup": "Friend orders water bottle at an expensive restaurant"
+    "setup": "When someone buys a bottle of packaged water at a roadside dhaba"
   },
   "text_areas": [
     {
       "id": "setup",
-      "description": "The situation or action showing off wealth or extravagance",
+      "description": "The situation or action showing off minor wealth or luxury",
       "x": 20,
       "y": 15,
       "width": 640,
-      "height": 90,
-      "fontSize": 48,
+      "height": 70,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

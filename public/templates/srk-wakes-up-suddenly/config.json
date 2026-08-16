@@ -1,8 +1,8 @@
 {
   "id": "srk-wakes-up-suddenly",
-  "name": "Shah Rukh Khan Sleeping vs Waking Up Realization",
-  "visual_description": "Two-panel split image of Shah Rukh Khan sleeping peacefully on a floral pillow on the left, and suddenly opening his eyes wide in shock or sudden realization on the right.",
-  "usage_context": "Used to show a sudden jolt of memory, realization, or panic that ruins peaceful sleep or relaxation.",
+  "name": "Shah Rukh Khan Sleeping vs Waking Up Shocked",
+  "visual_description": "Two-panel meme showing Shah Rukh Khan sleeping peacefully on a floral pillow on the left, and abruptly waking up with eyes wide open in shock on the right.",
+  "usage_context": "Used to express sudden late-night panic, instant regret, or remembering an urgent task while trying to sleep.",
   "keywords": [
     "shah rukh khan",
     "srk",
@@ -10,25 +10,25 @@
     "waking up",
     "sudden realization",
     "panic",
-    "eyes wide open",
+    "wide eyes",
     "bollywood"
   ],
-  "sentiment": "negative",
+  "sentiment": "comparison",
   "image_width": 1200,
-  "image_height": 450,
+  "image_height": 447,
   "example": {
     "left_text": "Sleeping peacefully at 3 AM",
-    "right_text": "Remembering I forgot to submit the assignment"
+    "right_text": "Remembering I left the stove on"
   },
   "text_areas": [
     {
       "id": "left_text",
-      "description": "Text describing the peaceful or carefree state",
+      "description": "Text describing peaceful sleep or ignorance of a problem",
       "x": 20,
-      "y": 20,
+      "y": 15,
       "width": 560,
       "height": 100,
-      "fontSize": 48,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,
@@ -38,12 +38,12 @@
     },
     {
       "id": "right_text",
-      "description": "Text describing the sudden panic or realization",
+      "description": "Text describing sudden realization or panic",
       "x": 620,
-      "y": 20,
+      "y": 15,
       "width": 560,
       "height": 100,
-      "fontSize": 48,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

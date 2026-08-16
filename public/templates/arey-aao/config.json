@@ -1,37 +1,36 @@
 {
   "id": "arey-aao",
   "name": "Arey Aao - Welcome",
-  "visual_description": "Vijay Raaz in a red shirt frantically waving his arm and calling out on a movie set with film equipment in the background.",
-  "usage_context": "Used to express impatience while waiting for someone or something to arrive, or calling upon chaotic situations eagerly.",
+  "visual_description": "Film assistant director in a red shirt frantically waving his arm and calling out on a movie set.",
+  "usage_context": "Used to express intense impatience, desperate waiting, or eagerly calling someone to arrive quickly.",
   "keywords": [
-    "welcome",
-    "vijay raaz",
+    "welcome movie",
     "arey aao",
-    "bollywood",
-    "director",
-    "shouting",
+    "areyy aaooo",
+    "film shoot",
+    "calling",
     "waiting",
     "impatient",
-    "movie set"
+    "bollywood meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1024,
   "image_height": 576,
   "example": {
-    "top_text": "Me waiting for the weekend like:"
+    "top_text": "Me waiting for my salary on the last day of the month:"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Top caption setting up the situation or waiting scenario",
-      "x": 30,
-      "y": 20,
-      "width": 964,
-      "height": 90,
-      "fontSize": 48,
+      "description": "Top caption describing the situation of impatient waiting or calling out",
+      "x": 20,
+      "y": 15,
+      "width": 984,
+      "height": 95,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
-      "maxLength": 70,
+      "maxLength": 75,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

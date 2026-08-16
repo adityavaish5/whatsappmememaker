@@ -1,36 +1,36 @@
 {
   "id": "alag-kism-ka-nasha-hai",
-  "name": "Alag Kism Ka Nasha Hai - Criminal Justice",
-  "visual_description": "Pankaj Tripathi as lawyer Madhav Mishra with a shoulder bag, delivering the dialogue 'Alag kism ka nasha hai'.",
-  "usage_context": "Used to describe a bizarrely addictive habit, guilty pleasure, or unique obsession.",
+  "name": "Alag Kism Ka Nasha Hai",
+  "visual_description": "Pankaj Tripathi as Madhav Mishra wearing a dark shirt with a shoulder bag strap, captioned 'Alag kism ka nasha hai,' at the bottom.",
+  "usage_context": "Used to describe bizarrely addictive feelings, weirdly satisfying habits, or guilty pleasures.",
   "keywords": [
     "pankaj tripathi",
     "criminal justice",
     "madhav mishra",
     "alag kism ka nasha hai",
     "addiction",
+    "satisfaction",
     "guilty pleasure",
-    "hotstar",
-    "hindi meme"
+    "hindi meme template"
   ],
   "sentiment": "sarcastic",
   "image_width": 1042,
   "image_height": 828,
   "example": {
-    "caption": "Looking at old embarrassing photos at 3 AM"
+    "caption": "Cancelling plans at the last minute to sleep in"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or habit that gives a strange high",
-      "x": 30,
+      "description": "Situation or strange addiction being described",
+      "x": 40,
       "y": 25,
-      "width": 982,
+      "width": 962,
       "height": 130,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,36 +1,35 @@
 {
   "id": "bada-pachtaoge",
   "name": "Bada Pachtaoge - Vicky Kaushal",
-  "visual_description": "Vicky Kaushal looking aside with a solemn, melancholic expression from the music video 'Pachtaoge'.",
-  "usage_context": "Used to jokingly or dramatically warn someone they will severely regret leaving, refusing an offer, or making a poor decision.",
+  "visual_description": "Vicky Kaushal staring sideways solemnly with lyrics 'Ho mujhe chhod kar jo tum jaaoge Bada pachtaoge' on screen.",
+  "usage_context": "Used to playfully or sarcastically warn someone they will severely regret rejecting, leaving, or abandoning something.",
   "keywords": [
     "bada pachtaoge",
     "vicky kaushal",
-    "nora fatehi",
-    "arijit singh",
     "pachtaoge",
     "regret",
-    "warning",
-    "sad"
+    "breakup",
+    "rejection",
+    "leaving"
   ],
   "sentiment": "sarcastic",
-  "image_width": 1200,
-  "image_height": 700,
+  "image_width": 1040,
+  "image_height": 608,
   "example": {
-    "caption": "When a company rejects your job application"
+    "caption": "Company after I decline their lowball job offer:"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Setup or situation caption explaining who is leaving or making a regretful decision",
-      "x": 40,
-      "y": 30,
-      "width": 1120,
-      "height": 130,
-      "fontSize": 48,
+      "description": "Setup describing a situation where someone leaves or rejects you",
+      "x": 30,
+      "y": 25,
+      "width": 980,
+      "height": 110,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,33 +1,33 @@
 {
   "id": "come-on-baby-kick-it-kick-it",
   "name": "Badshah C'mon Baby Kick It Kick It",
-  "visual_description": "Rapper Badshah wearing orange-tinted sunglasses and a colorful jacket, singing in the 'Genda Phool' music video with dancers in traditional Bengali attire in the background.",
-  "usage_context": "Used to hype someone up, encourage immediate action, or humorously reference kick-starting an old bike/device.",
+  "visual_description": "Rapper Badshah in orange-tinted sunglasses and a colorful jacket singing in the Genda Phool music video with background dancers.",
+  "usage_context": "Used to hype someone up, encourage kicking an object, or joke about kick-starting an old motorcycle/scooter.",
   "keywords": [
     "badshah",
     "genda phool",
     "c'mon baby kick it kick it",
     "come on baby kick it kick it",
+    "kick start",
+    "scooter",
     "hindi music video",
-    "hype",
-    "bike kick start",
-    "jacqueline fernandez"
+    "hype"
   ],
   "sentiment": "sarcastic",
   "image_width": 1600,
   "image_height": 800,
   "example": {
-    "caption": "Dad when the 15-year-old Bajaj Chetak won't start:"
+    "caption": "Dad when the 15-year-old Bajaj Chetak refuses to start:"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or setup text prompting the kick reaction",
-      "x": 80,
-      "y": 40,
-      "width": 1440,
-      "height": 140,
-      "fontSize": 56,
+      "description": "Situation or setup text prompting the kick command",
+      "x": 50,
+      "y": 30,
+      "width": 1500,
+      "height": 130,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

@@ -1,8 +1,8 @@
 {
   "id": "tu-helicopter-se-latak-kar-kyu-ata-hai",
   "name": "Aur Tu Har Baar Helicopter Se Latak Ke Kyun Aata Hai",
-  "visual_description": "Ajay Devgn as Singham questioning Akshay Kumar as Sooryavanshi side-by-side in police uniforms.",
-  "usage_context": "Used to question someone's repetitive, overly dramatic, or unnecessarily extra habits and entries.",
+  "visual_description": "Ajay Devgn as Singham and Akshay Kumar as Sooryavanshi standing in police uniforms with Singham questioning him.",
+  "usage_context": "Used to call out someone for being unnecessarily dramatic, extra, or repetitive in their behavior.",
   "keywords": [
     "sooryavanshi",
     "singham",
@@ -10,28 +10,27 @@
     "akshay kumar",
     "helicopter",
     "rohit shetty",
-    "bollywood",
     "cop universe",
-    "hindi meme"
+    "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 600,
   "image_height": 338,
   "example": {
-    "caption": "Friend ordering something fancy at a cheap dhaba"
+    "caption": "When a friend enters the group chat with unnecessary drama"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or setup describing someone being extra or dramatic",
-      "x": 20,
-      "y": 15,
-      "width": 560,
-      "height": 70,
-      "fontSize": 48,
+      "description": "Situation or setup describing overly dramatic behavior",
+      "x": 10,
+      "y": 10,
+      "width": 580,
+      "height": 55,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
-      "maxLength": 70,
+      "maxLength": 65,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

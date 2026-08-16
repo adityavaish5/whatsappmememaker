@@ -1,8 +1,8 @@
 {
   "id": "modi-with-trash",
-  "name": "Modi Plogging on Beach / Carrying Trash",
-  "visual_description": "Indian Prime Minister Narendra Modi walking on a sandy beach holding an acupressure roller and carrying a large plastic bag filled with collected trash over his shoulder.",
-  "usage_context": "Used to represent carrying useless teammates, cleaning up someone else's mess, or bearing the burden of toxic/worthless things alone.",
+  "name": "Modi Beach Plogging",
+  "visual_description": "Narendra Modi standing on a sandy beach holding an acupressure roller and carrying a clear bag of collected trash over his shoulder.",
+  "usage_context": "Used to joke about carrying a useless team, cleaning up others' messes, or carrying garbage burdens alone.",
   "keywords": [
     "narendra modi",
     "modi",
@@ -11,39 +11,39 @@
     "mamallapuram",
     "trash",
     "carrying team",
-    "swachh bharat",
-    "indian politician"
+    "swachh bharat"
   ],
   "sentiment": "sarcastic",
-  "image_width": 736,
-  "image_height": 818,
+  "image_width": 684,
+  "image_height": 768,
   "example": {
-    "top_text": "ME CARRYING MY SQUAD IN EVERY MATCH"
+    "top_text": "ME CARRYING MY SQUAD TO VICTORY",
+    "trash_label": "TEAMMATES"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Top caption describing carrying useless people or cleaning up a mess",
-      "x": 30,
-      "y": 25,
-      "width": 676,
-      "height": 110,
-      "fontSize": 48,
+      "description": "Top caption describing carrying worthless burdens or cleaning up messes",
+      "x": 20,
+      "y": 20,
+      "width": 644,
+      "height": 90,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
-      "maxLength": 65,
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"
     },
     {
       "id": "trash_label",
-      "description": "Optional label placed over the trash bag",
-      "x": 260,
-      "y": 280,
-      "width": 200,
+      "description": "Label over the bag of trash",
+      "x": 270,
+      "y": 260,
+      "width": 170,
       "height": 80,
-      "fontSize": 48,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 20,

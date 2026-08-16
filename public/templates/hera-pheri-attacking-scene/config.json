@@ -1,37 +1,37 @@
 {
   "id": "hera-pheri-attacking-scene",
-  "name": "Khadak Singh and Mob Charging (Hera Pheri)",
-  "visual_description": "Kharak Singh (Om Puri) leading an angry mob of men wearing turbans and carrying wooden sticks, charging forward inside an industrial warehouse.",
-  "usage_context": "Used to portray a squad, family, or group rushing aggressively or enthusiastically into a situation or confrontation.",
+  "name": "Khadak Singh Mob Charging (Hera Pheri)",
+  "visual_description": "Khadak Singh (Om Puri) leading an angry group of turbaned men with sticks charging forward in a warehouse.",
+  "usage_context": "Depicts a group or squad enthusiastically or aggressively rushing into a situation or confrontation.",
   "keywords": [
     "hera pheri",
     "khadak singh",
+    "kharak singh",
     "om puri",
     "mob attack",
     "charging",
-    "punjabi mob",
+    "me and the boys",
     "lathi charge",
-    "squad rushing",
-    "indian meme"
+    "running"
   ],
   "sentiment": "sarcastic",
   "image_width": 1500,
   "image_height": 705,
   "example": {
-    "top_text": "Me and the boys rushing to claim free pizza at the office"
+    "top_text": "Me and the boys rushing to the canteen the second someone says treat"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation causing the group to charge forward",
-      "x": 40,
-      "y": 25,
-      "width": 1420,
-      "height": 130,
-      "fontSize": 52,
+      "description": "Caption explaining why the group is aggressively rushing in",
+      "x": 50,
+      "y": 20,
+      "width": 1400,
+      "height": 110,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,32 +1,32 @@
 {
   "id": "isne-poori-duniya-ko-hairaan-kar-diya-hai",
   "name": "Isne Poori Duniya Ko Hairaan Kar Diya Hai",
-  "visual_description": "PM Narendra Modi gesturing during a televised address with the Indian national flag in the background and a subtitle at the bottom.",
-  "usage_context": "Used sarcastically or genuinely to react to surprising achievements, bizarre events, or unexpected actions that stun everyone.",
+  "visual_description": "PM Narendra Modi raising his hand during a speech, Indian tricolor in background, with yellow subtitle at bottom.",
+  "usage_context": "Used sarcastically or genuinely to react to shocking achievements, unexpected plot twists, or unbelievable situations.",
   "keywords": [
     "narendra modi",
     "modi speech",
     "isne poori duniya ko hairaan kar diya hai",
     "surprise",
+    "shocked",
     "bjp",
-    "indian politics",
     "reaction"
   ],
   "sentiment": "sarcastic",
   "image_width": 600,
   "image_height": 338,
   "example": {
-    "top_text": "Backbencher scoring 95% in exams"
+    "top_text": "Backbencher securing 95% in board exams"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or person responsible for the shocking surprise",
-      "x": 20,
-      "y": 15,
-      "width": 560,
-      "height": 70,
-      "fontSize": 48,
+      "description": "Situation or person that surprised everyone",
+      "x": 15,
+      "y": 10,
+      "width": 570,
+      "height": 60,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

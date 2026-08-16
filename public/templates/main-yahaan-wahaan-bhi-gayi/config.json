@@ -1,8 +1,8 @@
 {
   "id": "main-yahaan-wahaan-bhi-gayi",
   "name": "Main Yahaan Wahaan Bhi Gayi - Dhoom 2",
-  "visual_description": "Two-panel meme of Aishwarya Rai dancing in 'Crazy Kiya Re' from Dhoom 2, gesturing left ('Main yahaan bhi gayi') and right ('Main wahaan bhi gayi').",
-  "usage_context": "Used to describe searching everywhere, trying multiple options, or wandering around looking for something lost.",
+  "visual_description": "Two-panel meme of Aishwarya Rai dancing in 'Crazy Kiya Re' with captions 'Main yahaan bhi gayi' and 'Main wahaan bhi gayi'.",
+  "usage_context": "Used to describe searching everywhere, trying multiple options, or aimlessly wandering around looking for something.",
   "keywords": [
     "aishwarya rai",
     "crazy kiya re",
@@ -23,12 +23,12 @@
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or scenario describing searching everywhere",
+      "description": "Caption describing the scenario of searching everywhere",
       "x": 10,
       "y": 10,
       "width": 580,
-      "height": 70,
-      "fontSize": 48,
+      "height": 60,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

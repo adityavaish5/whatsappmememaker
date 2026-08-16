@@ -1,32 +1,31 @@
 {
   "id": "meri-rooh-ka-parinda-phadphadaye",
   "name": "Meri Rooh Ka Parinda Phadphadaye - Ranbir Kapoor",
-  "visual_description": "Ranbir Kapoor singing passionately into a microphone in front of old steam locomotives with the subtitle 'Meri rooh ka parinda phadphadaye'.",
-  "usage_context": "Used to express intense inner restlessness, agitation, anxiety, or dramatic longing in humorous life situations.",
+  "visual_description": "Ranbir Kapoor singing into a mic with steam engines in the background, captioned 'Meri rooh ka parinda phadphadaye'.",
+  "usage_context": "Used to convey inner chaos, impatience, intense agitation, or dramatic distress in everyday relatable situations.",
   "keywords": [
     "ranbir kapoor",
     "ae dil hai mushkil",
     "bulleya",
     "meri rooh ka parinda phadphadaye",
     "restlessness",
-    "singing",
     "bollywood"
   ],
-  "sentiment": "dramatic",
+  "sentiment": "sarcastic",
   "image_width": 1046,
   "image_height": 578,
   "example": {
-    "top_text": "When the wifi disconnects right in the middle of an online match"
+    "top_text": "When your food delivery order is delayed by 5 minutes"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "The setup or situation causing extreme restlessness or agitation",
-      "x": 20,
+      "description": "Situation causing restlessness or dramatic anxiety",
+      "x": 25,
       "y": 15,
-      "width": 1006,
-      "height": 130,
-      "fontSize": 48,
+      "width": 996,
+      "height": 110,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

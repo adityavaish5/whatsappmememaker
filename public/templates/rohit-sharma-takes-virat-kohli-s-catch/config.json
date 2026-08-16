@@ -1,8 +1,8 @@
 {
   "id": "rohit-sharma-takes-virat-kohli-s-catch",
-  "name": "Rohit Sharma Takes Virat Kohli's Catch",
-  "visual_description": "Indian cricketer Rohit Sharma diving across the slip cordon to grab a catch right in front of a waiting Virat Kohli.",
-  "usage_context": "Used to meme someone snatching an opportunity, credit, or task right before someone else can get to it.",
+  "name": "Rohit Sharma Intercepting Virat Kohli Catch",
+  "visual_description": "Rohit Sharma diving across the slip cordon to grab a catch right in front of a waiting Virat Kohli.",
+  "usage_context": "Used to show someone swooping in to snatch credit, a task, or an opportunity right before someone else gets it.",
   "keywords": [
     "rohit sharma",
     "virat kohli",
@@ -16,17 +16,17 @@
   "image_width": 1024,
   "image_height": 484,
   "example": {
-    "top_text": "HR stepping in to take credit for the team's successful project"
+    "top_text": "Manager stepping in to send the final update email on a project I completed"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Main caption or context text at the top",
+      "description": "Main caption text placed across the empty grass at top",
       "x": 32,
-      "y": 20,
+      "y": 16,
       "width": 960,
-      "height": 100,
-      "fontSize": 48,
+      "height": 85,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

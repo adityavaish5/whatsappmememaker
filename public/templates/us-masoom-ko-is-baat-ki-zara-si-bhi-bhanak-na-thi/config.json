@@ -1,7 +1,7 @@
 {
   "id": "us-masoom-ko-is-baat-ki-zara-si-bhi-bhanak-na-thi",
-  "name": "Anoop Soni Crime Patrol Zara Si Bhi Bhanak Na Thi",
-  "visual_description": "Crime Patrol host Anup Soni standing with a serious expression in a light blue shirt in front of the Wagah Border gate.",
+  "name": "Anoop Soni Crime Patrol Us Masoom Ko",
+  "visual_description": "Crime Patrol host Anup Soni with a serious expression in a light green shirt standing before the Wagah Border gate.",
   "usage_context": "Used to ironically foreshadow a disastrous or comedic mistake someone is blissfully unaware they are about to make.",
   "keywords": [
     "anoop soni",
@@ -18,18 +18,18 @@
   "image_width": 750,
   "image_height": 422,
   "example": {
-    "top_text": "Me happily texting back 'Aur batao' at 2 AM",
-    "bottom_text": "Us masoom ko zara bhi bhanak nahi thi ki neend uddne wali hai"
+    "top_text": "Me happily replying 'aur batao' at 2 AM",
+    "bottom_text": "Lekin us masoom ko zara bhi bhanak nahi thi"
   },
   "text_areas": [
     {
       "id": "top_text",
       "description": "Setup or innocent action before disaster",
-      "x": 25,
+      "x": 20,
       "y": 15,
-      "width": 700,
-      "height": 90,
-      "fontSize": 48,
+      "width": 710,
+      "height": 75,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 70,
@@ -40,11 +40,11 @@
     {
       "id": "bottom_text",
       "description": "Dramatic Crime Patrol narration punchline",
-      "x": 25,
-      "y": 320,
-      "width": 700,
-      "height": 90,
-      "fontSize": 48,
+      "x": 20,
+      "y": 340,
+      "width": 710,
+      "height": 70,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

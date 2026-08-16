@@ -1,37 +1,36 @@
 {
   "id": "salman-khan-dabangg-3-breathing-fire",
   "name": "Salman Khan Breathing Fire Dabangg 3",
-  "visual_description": "Salman Khan as Chulbul Pandey blows a massive plume of fire from his mouth while a surrounding crowd watches in shock.",
-  "usage_context": "Used to describe spitting intense roasts, spitting straight facts, or reacting to eating something extremely spicy.",
+  "visual_description": "Salman Khan as Chulbul Pandey wearing aviators breathes a plume of fire while a crowd watches in awe.",
+  "usage_context": "Used to illustrate spitting harsh truths, savage roasts, intense anger, or reacting to spicy food.",
   "keywords": [
     "salman khan",
     "chulbul pandey",
     "dabangg 3",
     "breathing fire",
     "spitting fire",
-    "spicy food",
     "roast",
-    "facts",
-    "indian meme template"
+    "spicy food",
+    "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 1024,
   "image_height": 469,
   "example": {
-    "top_text": "Me after eating one spicy momo chutney:"
+    "top_text": "When you accidentally eat the whole green chili in the biryani"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or setup prompt",
-      "x": 30,
-      "y": 20,
-      "width": 964,
-      "height": 90,
-      "fontSize": 48,
+      "description": "Caption describing an intense or fiery reaction",
+      "x": 20,
+      "y": 15,
+      "width": 984,
+      "height": 70,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
-      "maxLength": 60,
+      "maxLength": 70,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

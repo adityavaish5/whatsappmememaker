@@ -1,8 +1,8 @@
 {
   "id": "coffin-guys-dance",
   "name": "Coffin Dance / Dancing Pallbearers",
-  "visual_description": "Four-panel collage showing Ghanaian pallbearers in black suits and sunglasses dancing while carrying a casket.",
-  "usage_context": "Used humorously to signify imminent doom, fatal mistakes, or inevitable epic fails.",
+  "visual_description": "Four-panel collage showing Ghanaian pallbearers in black suits and sunglasses carrying a casket.",
+  "usage_context": "Used humorously to signify impending doom, fatal mistakes, or inevitable failure.",
   "keywords": [
     "coffin dance",
     "dancing pallbearers",
@@ -17,17 +17,17 @@
   "image_width": 656,
   "image_height": 342,
   "example": {
-    "top_text": "WHEN YOU ACCIDENTALLY LIKE A 5-YEAR-OLD POST"
+    "top_text": "WHEN YOU ACCIDENTALLY REPLY ALL"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Caption describing the disastrous mistake or impending doom",
+      "description": "Text describing the catastrophic mistake or disastrous action",
       "x": 20,
       "y": 10,
       "width": 616,
-      "height": 70,
-      "fontSize": 48,
+      "height": 65,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

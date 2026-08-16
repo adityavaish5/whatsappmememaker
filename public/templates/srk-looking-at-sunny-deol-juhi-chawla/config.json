@@ -1,8 +1,8 @@
 {
   "id": "srk-looking-at-sunny-deol-juhi-chawla",
   "name": "SRK Staring at Sunny Deol and Juhi Chawla in Darr Holi Scene",
-  "visual_description": "Two-panel meme from Darr (1993). Top shows Sunny Deol and Juhi Chawla hugging happily during Holi. Bottom shows Shah Rukh Khan in disguise with colored face playing a tambourine and glaring enviously.",
-  "usage_context": "Used to portray jealousy, feeling left out, third-wheeling, or obsessively watching others enjoy what you desire.",
+  "visual_description": "Two-panel meme from Darr (1993). Top shows Sunny Deol and Juhi Chawla happily embracing during Holi. Bottom shows Shah Rukh Khan in disguise with colored face playing a tambourine and staring enviously.",
+  "usage_context": "Used to express jealousy, FOMO, third-wheeling, or secretly plotting while watching others celebrate.",
   "keywords": [
     "srk",
     "shah rukh khan",
@@ -16,22 +16,22 @@
     "third wheel",
     "bollywood"
   ],
-  "sentiment": "sarcastic",
+  "sentiment": "comparison",
   "image_width": 1024,
   "image_height": 1024,
   "example": {
     "top_text": "Couples making Valentine's Day plans",
-    "bottom_text": "Me planning how to ruin their day"
+    "bottom_text": "Me single and plotting their downfall"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Label for the happy couple or favored group in the top panel",
-      "x": 30,
+      "description": "Label for the happy couple or favored situation in top panel",
+      "x": 40,
       "y": 40,
-      "width": 460,
-      "height": 220,
-      "fontSize": 48,
+      "width": 450,
+      "height": 200,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 70,
@@ -41,12 +41,12 @@
     },
     {
       "id": "bottom_text",
-      "description": "Label for the jealous/obsessed observer in the bottom panel",
-      "x": 510,
-      "y": 550,
-      "width": 480,
+      "description": "Label for the jealous observer in bottom panel",
+      "x": 520,
+      "y": 540,
+      "width": 460,
       "height": 220,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 70,

@@ -1,15 +1,13 @@
 {
   "id": "gopal-looking-from-above",
-  "name": "Gopal On Ceiling Fan Looking Down",
-  "visual_description": "Ajay Devgn as Gopal from Golmaal sitting atop a ceiling fan, smirking and looking down mischievously.",
-  "usage_context": "Used to portray smug superiority, silently judging someone from an unexpected position, or catching someone red-handed.",
+  "name": "Gopal On Ceiling Fan",
+  "visual_description": "Ajay Devgn as Gopal from Golmaal perched on a ceiling fan, smirking mischievously downwards.",
+  "usage_context": "Used to express smugness, eavesdropping, or silently catching someone off guard from an unexpected vantage point.",
   "keywords": [
     "gopal",
     "ajay devgn",
     "golmaal",
-    "fan",
     "ceiling fan",
-    "looking down",
     "smirk",
     "caught",
     "hindi meme",
@@ -19,23 +17,23 @@
   "image_width": 1080,
   "image_height": 456,
   "example": {
-    "caption": "Me watching guests leave after eating all their snacks"
+    "caption": "Me watching relatives leave without realizing they forgot their phone"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Caption placed in the empty space on the left",
-      "x": 40,
-      "y": 40,
-      "width": 440,
-      "height": 220,
-      "fontSize": 48,
+      "description": "Main caption placed in the open space on the left",
+      "x": 30,
+      "y": 30,
+      "width": 430,
+      "height": 260,
+      "fontSize": 34,
       "color": "black",
       "stroke": "none",
-      "maxLength": 80,
+      "maxLength": 90,
       "uppercase": false,
       "textAlign": "left",
-      "fontFamily": "Impact"
+      "fontFamily": "sans-serif"
     }
   ]
 }

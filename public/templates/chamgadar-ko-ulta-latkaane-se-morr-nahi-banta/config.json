@@ -1,35 +1,37 @@
 {
   "id": "chamgadar-ko-ulta-latkaane-se-morr-nahi-banta",
   "name": "Chamgadar Ko Ulta Latkaane Se Morr Nahi Banta",
-  "visual_description": "Paresh Rawal as Lilaram in Malamaal Weekly wearing a white turban and kurta, speaking next to a lottery blackboard.",
-  "usage_context": "Used sarcastically to call out pretentiousness or when changing superficial aspects does not change reality.",
+  "visual_description": "Lilaram (Paresh Rawal) in a white turban and kurta speaking dismissively near a blackboard in Malamaal Weekly.",
+  "usage_context": "Used to mock superficial or pretentious attempts to make something cheap and ordinary look luxurious or superior.",
   "keywords": [
     "paresh rawal",
+    "lilaram",
     "malamaal weekly",
     "chamgadar",
     "morr",
-    "hindi movie dialogue",
+    "roast",
     "sarcasm",
-    "roast"
+    "hindi comedy",
+    "dialogue"
   ],
   "sentiment": "sarcastic",
   "image_width": 680,
   "image_height": 425,
   "example": {
-    "caption": "Putting RGB lights on a potato PC"
+    "caption": "Putting an Apple sticker on a second-hand Android phone"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Top caption describing a futile attempt to make something mediocre look premium",
+      "description": "Setup describing a cheap upgrade or pretentious behavior",
       "x": 20,
       "y": 15,
       "width": 640,
-      "height": 90,
-      "fontSize": 48,
+      "height": 75,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
-      "maxLength": 60,
+      "maxLength": 70,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

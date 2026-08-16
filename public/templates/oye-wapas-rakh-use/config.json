@@ -1,35 +1,36 @@
 {
   "id": "oye-wapas-rakh-use",
-  "name": "Oye Wapas Rakh Use - Kabir Singh",
-  "visual_description": "Two-panel meme featuring Shahid Kapoor as Kabir Singh turning aggressively and pointing with the captions 'Oye!!' and 'Wapas Rakh Use'.",
-  "usage_context": "Used to express intense possessiveness, anger, or demanding someone put something back that they shouldn't touch.",
+  "name": "Oye Wapas Rakh Use",
+  "visual_description": "Two-panel image of Kabir Singh (Shahid Kapoor) turning back and furiously pointing forward with text subtitles 'Oye!!' and 'Wapas Rakh Use'.",
+  "usage_context": "Used to express aggressive possessiveness, warning someone not to touch or take something belonging to you.",
   "keywords": [
     "kabir singh",
     "shahid kapoor",
     "oye wapas rakh use",
     "put it back",
-    "bollywood meme",
+    "bollywood",
     "angry reaction",
-    "possessive"
+    "possessive",
+    "warning"
   ],
   "sentiment": "negative",
   "image_width": 1000,
   "image_height": 546,
   "example": {
-    "caption": "When your sibling touches your leftover food from the fridge"
+    "caption": "When someone picks up the last slice of pizza you claimed"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Top context or situation triggering the reaction",
+      "description": "Top context or situation triggering the warning",
       "x": 20,
       "y": 15,
       "width": 960,
-      "height": 90,
-      "fontSize": 48,
+      "height": 85,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,32 +1,32 @@
 {
   "id": "hum-koi-mandir-ka-ghanta-hai-jo-koi-bhi-baja-jata-hai",
-  "name": "Hum Koi Mandir Ka Ghanta Hai - Hungama",
-  "visual_description": "Rajpal Yadav shouting in frustration and anger with mouth wide open from the movie Hungama.",
-  "usage_context": "Used to express frustration when feeling constantly targeted, exploited, or blamed by everyone unfairly.",
+  "name": "Hum Koi Mandir Ka Ghanta Hai",
+  "visual_description": "Rajpal Yadav shouting furiously with an open mouth in Hungama, with subtitle at the bottom.",
+  "usage_context": "Used to express intense frustration when feeling constantly taken advantage of, blamed, or mistreated by everyone.",
   "keywords": [
     "rajpal yadav",
     "hungama",
     "mandir ka ghanta",
     "frustrated",
-    "screaming",
-    "bollywood meme",
-    "hindi comedy"
+    "shouting",
+    "hindi meme",
+    "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 1280,
   "image_height": 720,
   "example": {
-    "caption": "When both mom and dad scold you for your sibling's mistake:"
+    "caption": "When manager assigns everyone else's pending work to you on Friday evening:"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Setup or situation causing unfair targeting",
-      "x": 40,
-      "y": 30,
-      "width": 1200,
-      "height": 150,
-      "fontSize": 52,
+      "description": "Situation where someone is unfairly targeted or exploited",
+      "x": 30,
+      "y": 20,
+      "width": 1220,
+      "height": 130,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

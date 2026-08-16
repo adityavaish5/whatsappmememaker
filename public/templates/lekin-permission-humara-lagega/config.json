@@ -1,8 +1,8 @@
 {
   "id": "lekin-permission-humara-lagega",
-  "name": "Lekin Permission Humara Lagega",
-  "visual_description": "Vijay Raaz gesturing sternly with Ayushmann Khurrana watching in Gulabo Sitabo, with subtitle 'Lekin permission hamara lagega.'",
-  "usage_context": "Used to assert authority, gatekeep, or remind someone that approval is required before taking action.",
+  "name": "Lekin Permission Hamara Lagega",
+  "visual_description": "Vijay Raaz sternly speaking to an elder with Ayushmann Khurrana watching closely in Gulabo Sitabo, with yellow subtitle 'Lekin permission hamara lagega.'",
+  "usage_context": "Used when establishing authority, gatekeeping decisions, or reminding someone that final approval rests with you.",
   "keywords": [
     "lekin permission humara lagega",
     "vijay raaz",
@@ -11,23 +11,23 @@
     "permission",
     "authority",
     "gatekeeping",
-    "hindi meme"
+    "bollywood meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 750,
   "image_height": 300,
   "example": {
-    "top_text": "When your younger sibling plans a trip with their friends"
+    "top_text": "When your younger sibling plans a Goa trip with friends"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or setup text at the top",
+      "description": "Caption or situation text placed at the top",
       "x": 20,
-      "y": 15,
+      "y": 10,
       "width": 710,
-      "height": 70,
-      "fontSize": 48,
+      "height": 55,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

@@ -1,33 +1,34 @@
 {
   "id": "saanse-jaye-atak-atak",
   "name": "Saanse Jaye Atak Atak",
-  "visual_description": "Jacqueline Fernandez in traditional Bengali attire holding a dhunachi in the music video Genda Phool, captioned 'Saanse jaye atak atak'.",
-  "usage_context": "Used to describe moments of extreme shock, breathless anxiety, sudden panic, or being completely awestruck.",
+  "visual_description": "Jacqueline Fernandez dancing in traditional Bengali saree holding a dhunachi pot with the subtitle 'Saanse jaye atak atak'.",
+  "usage_context": "Depicting moments of breathless panic, sudden shock, extreme anxiety, or nervous anticipation.",
   "keywords": [
     "saanse jaye atak atak",
     "jacqueline fernandez",
     "genda phool",
     "badshah",
     "breathless",
-    "panic",
     "shock",
-    "indian meme"
+    "anxiety",
+    "scared",
+    "hindi meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1000,
   "image_height": 525,
   "example": {
-    "top_text": "When the teacher says 'Take out a blank sheet of paper'"
+    "top_text": "When dad suddenly asks to see your unlocked phone"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation causing anxiety, breathless shock, or intense awe",
-      "x": 40,
-      "y": 30,
-      "width": 920,
+      "description": "Scenario inducing breathless anxiety, sudden panic, or shock",
+      "x": 30,
+      "y": 20,
+      "width": 940,
       "height": 110,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

@@ -1,32 +1,32 @@
 {
   "id": "aana-to-puri-tarah-ya-to-aana-hi-mat",
   "name": "Aana Toh Puri Tarah Aana - Kartik Aaryan",
-  "visual_description": "Kartik Aaryan looking emotional and teary-eyed in Love Aaj Kal 2 with subtitle 'Aana toh puri tarah aana Ya toh aana hi mat'.",
-  "usage_context": "Used to demand full commitment or absolute presence, rejecting half-hearted efforts, partial returns, or mixed signals.",
+  "visual_description": "Kartik Aaryan looking emotional and tearful in Love Aaj Kal with the subtitle 'Aana toh puri tarah aana Ya toh aana hi mat'.",
+  "usage_context": "Used to convey frustration with mixed signals, half-hearted commitments, or fleeting occurrences.",
   "keywords": [
     "kartik aaryan",
     "love aaj kal",
-    "aana toh puri tarah",
+    "aana toh puri tarah aana",
+    "ya toh aana hi mat",
     "emotional",
-    "commitment",
-    "hindi dialogue",
-    "bollywood meme"
+    "bollywood",
+    "hindi dialogue"
   ],
-  "sentiment": "dramatic",
+  "sentiment": "sarcastic",
   "image_width": 1080,
   "image_height": 810,
   "example": {
-    "top_text": "When sleep decides to visit at 3 AM for just 20 minutes"
+    "top_text": "When sleep visits me at 4 AM for just 15 minutes"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or situation demanding all-or-nothing commitment",
+      "description": "Caption demanding all-or-nothing commitment",
       "x": 40,
       "y": 30,
       "width": 1000,
       "height": 130,
-      "fontSize": 48,
+      "fontSize": 46,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

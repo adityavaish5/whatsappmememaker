@@ -1,32 +1,32 @@
 {
   "id": "ye-toh-tatti-hai",
   "name": "Ye Toh Tatti Hai",
-  "visual_description": "A bald goon peers over the shoulder of another henchman looking into a box with disgust, subtitled 'Ye toh tatti hai'.",
-  "usage_context": "Used to express extreme disappointment, disgust, or pointing out that something hyped or received is completely worthless or garbage.",
+  "visual_description": "Henchmen from Delhi Belly look into an open box in disgust with the subtitle 'Ye toh tatti hai'.",
+  "usage_context": "Expressing disappointment, disgust, or calling a hyped product, result, or situation complete garbage.",
   "keywords": [
     "delhi belly",
     "ye toh tatti hai",
-    "vijay raaz",
+    "disgust",
     "disappointment",
     "trash",
     "garbage",
     "bollywood"
   ],
   "sentiment": "negative",
-  "image_width": 1000,
-  "image_height": 450,
+  "image_width": 960,
+  "image_height": 434,
   "example": {
-    "top_caption": "Me looking at my semester exam results after studying all night"
+    "top_caption": "Me looking at my bank balance after payday weekend"
   },
   "text_areas": [
     {
       "id": "top_caption",
-      "description": "Situation leading to receiving or discovering something completely terrible",
-      "x": 30,
-      "y": 20,
-      "width": 940,
-      "height": 90,
-      "fontSize": 48,
+      "description": "Situation resulting in an awful or worthless outcome",
+      "x": 20,
+      "y": 15,
+      "width": 920,
+      "height": 75,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

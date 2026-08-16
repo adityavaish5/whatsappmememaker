@@ -1,33 +1,32 @@
 {
   "id": "coconut-water-sharing",
   "name": "Couple Sharing Coconut Water",
-  "visual_description": "A rural Indian man and woman drinking from the same tender coconut using two separate straws while looking intently at each other.",
-  "usage_context": "Used to joke about budget dates, cheap romantic gestures, mutual sharing, or mooching off a single resource with a partner or friend.",
+  "visual_description": "A rural Indian couple drinking tender coconut water together using two straws from a single coconut.",
+  "usage_context": "Used to satirize low-budget dates, extreme sharing, or mutual mooching off a single resource.",
   "keywords": [
     "coconut water",
     "couple",
-    "straw",
-    "romance",
     "budget date",
-    "desi couple",
-    "village romance",
-    "sharing"
+    "sharing",
+    "romance",
+    "straw",
+    "desi couple"
   ],
   "sentiment": "sarcastic",
   "image_width": 600,
   "image_height": 450,
   "example": {
-    "top_text": "Bro taking her on an expensive romantic date:"
+    "top_text": "Me and my bestie sharing one Netflix account"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Top caption describing the romantic or budget situation",
+      "description": "Top caption describing the budget date or sharing scenario",
       "x": 20,
       "y": 15,
       "width": 560,
       "height": 70,
-      "fontSize": 48,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

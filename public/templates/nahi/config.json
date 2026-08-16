@@ -1,35 +1,35 @@
 {
   "id": "tu-hai-tereko-pata-nahi-hai-lekin-tu-hai",
   "name": "Tu Hai Tereko Pata Nahi Hai Lekin Tu Hai",
-  "visual_description": "Naveen Kasturia as a judge in TVF's Rowdies parody sitting at a desk and gesturing while talking, with bottom subtitle 'Tu hai. Tereko pata nahi hai lekin tu hai'.",
-  "usage_context": "Used to sarcastically or humorously convince someone of a trait, flaw, or truth they are currently in denial about.",
+  "visual_description": "Naveen Kasturia gesturing while seated at an audition table in TVF's Rowdies parody with subtitle text at the bottom.",
+  "usage_context": "Used to sarcastically tell someone they embody a trait or flaw they refuse to admit.",
   "keywords": [
     "tvf",
+    "the viral fever",
     "rowdies",
     "naveen kasturia",
-    "tu hai tereko pata nahi hai",
-    "roadies parody",
-    "indian meme",
-    "hindi meme"
+    "tu hai tereko pata nahi hai lekin tu hai",
+    "roadies spoof",
+    "denial"
   ],
   "sentiment": "sarcastic",
   "image_width": 800,
   "image_height": 400,
   "example": {
-    "caption": "Friend: 'Bhai main toxic thodi hoon?'\nMe:"
+    "caption": "Friend: 'Bhai main bilkul toxic nahi hoon!'"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Setup or context caption placed at the top",
+      "description": "Setup or premise context placed at the top",
       "x": 20,
-      "y": 10,
+      "y": 12,
       "width": 760,
-      "height": 70,
-      "fontSize": 48,
+      "height": 55,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"

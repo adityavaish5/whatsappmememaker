@@ -1,33 +1,34 @@
 {
   "id": "listening-to-song",
   "name": "Bhide Poetry Appreciation TMKOC",
-  "visual_description": "Four-panel collage of Bhide reciting poetry while Jethalal, Champaklal, and Daya react with dramatic appreciation and 'wah wah' gestures.",
-  "usage_context": "Used to show someone intensely vibing or pretending to be deeply moved by song lyrics, poetry, or dramatic speeches.",
+  "visual_description": "Four-panel collage from TMKOC featuring Bhide reciting poetry while Jethalal, Daya, and Champaklal react with dramatic appreciation gestures.",
+  "usage_context": "Used to express intense vibing, relatable emotions, or dramatic appreciation towards song lyrics, profound quotes, or speeches.",
   "keywords": [
     "tmkoc",
     "jethalal",
     "bhide",
     "shayari",
-    "kavita",
+    "kavi sammelan",
     "wah wah",
+    "irshad",
     "listening to music",
-    "taarak mehta"
+    "lyrics"
   ],
   "sentiment": "sarcastic",
-  "image_width": 1080,
-  "image_height": 810,
+  "image_width": 1040,
+  "image_height": 742,
   "example": {
-    "caption": "Me listening to sad Bollywood songs after minor inconvenience"
+    "caption": "Me listening to heartbreaking Arijit Singh songs after dropping my samosa"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or song being listened to dramatically",
-      "x": 40,
-      "y": 20,
+      "description": "The song, lyrics, or situation being deeply appreciated",
+      "x": 20,
+      "y": 15,
       "width": 1000,
-      "height": 110,
-      "fontSize": 48,
+      "height": 95,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

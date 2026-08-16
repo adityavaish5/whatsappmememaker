@@ -1,32 +1,32 @@
 {
   "id": "hum-iss-ladke-ko-jante-hai",
-  "name": "Hum Iss Ladke Ko Jante Hai (MS Dhoni)",
-  "visual_description": "Commentator in a red shirt and hat points emphatically across a cricket field alongside a fellow commentator from the film M.S. Dhoni: The Untold Story.",
-  "usage_context": "Used to boast about recognizing someone famous, notoriously skilled, or troublemaking before anyone else did.",
+  "name": "Hum Iss Ladke Ko Jante Hain (MS Dhoni)",
+  "visual_description": "Cricket commentator in a red polo and hat points excitedly across the field alongside another commentator at a commentary desk.",
+  "usage_context": "Used to express sudden recognition or boast about knowing someone who achieved success or did something noteworthy.",
   "keywords": [
-    "hum iss ladke ko jante hai",
+    "hum iss ladke ko jante hain",
     "ms dhoni movie",
-    "cricket",
-    "commentator pointing",
     "rajesh sharma",
+    "cricket commentator pointing",
     "we know this boy",
+    "recognition meme",
     "bollywood meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1280,
   "image_height": 603,
   "example": {
-    "top_text": "Relatives when you finally crack a government exam:"
+    "top_text": "Relatives when you finally clear a government exam:"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or setup text describing a moment of sudden recognition or claiming credit",
+      "description": "Caption describing a situation where someone takes credit or claims to know a successful person",
       "x": 40,
-      "y": 20,
+      "y": 15,
       "width": 1200,
-      "height": 100,
-      "fontSize": 48,
+      "height": 90,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

@@ -1,32 +1,32 @@
 {
   "id": "hume-inhe-rokna-hoga-tokna-hoga",
-  "name": "Hume Inhe Rokna Hoga Tokna Hoga - Narendra Modi",
-  "visual_description": "Prime Minister Narendra Modi addressing the nation with open hand gestures, the Indian flag behind him, and the subtitle 'Hume inhe rokna hoga, tokna hoga'.",
-  "usage_context": "Used to express the urgent need to stop or call out someone doing an annoying, cringe, or unacceptable habit or behavior.",
+  "name": "Hume Inhe Rokna Hoga Tokna Hoga",
+  "visual_description": "Narendra Modi speaking with open hands in front of the Indian flag with yellow subtitle text.",
+  "usage_context": "Used to sarcastically or seriously emphasize stopping someone from engaging in annoying, cringe, or intolerable behavior.",
   "keywords": [
     "narendra modi",
     "pm modi",
     "hume inhe rokna hoga",
     "tokna hoga",
-    "indian flag",
     "speech",
+    "bjp",
     "reaction"
   ],
   "sentiment": "sarcastic",
   "image_width": 727,
   "image_height": 409,
   "example": {
-    "caption": "When relatives start asking about your marriage plans at family gatherings"
+    "caption": "People who watch reels on full volume in public"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or behavior that must be stopped",
+      "description": "The annoying habit or behavior to stop",
       "x": 20,
-      "y": 15,
+      "y": 12,
       "width": 687,
-      "height": 90,
-      "fontSize": 48,
+      "height": 75,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

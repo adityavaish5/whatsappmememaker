@@ -1,32 +1,33 @@
 {
   "id": "zinda-pakadna-hai-bhosdiwale-ko",
   "name": "Zinda Pakadna Hai Bhosdiwalo Ko",
-  "visual_description": "Kaleen Bhaiya (Pankaj Tripathi) in Mirzapur points forward aggressively against a painted wall.",
-  "usage_context": "Used to express catching someone red-handed or wanting to interrogate someone who messed up.",
+  "visual_description": "Kaleen Bhaiya (Pankaj Tripathi) in Mirzapur pointing forward intensely against a wall painted with a Buddha sketch.",
+  "usage_context": "Used to express wanting to catch someone red-handed or pursue a culprit for payback after they cause chaos.",
   "keywords": [
     "kaleen bhaiya",
     "pankaj tripathi",
     "mirzapur",
     "zinda pakadna hai",
+    "bsdivalo",
     "pointing",
-    "indian meme",
-    "catch him alive"
+    "catch him alive",
+    "hindi meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1024,
   "image_height": 576,
   "example": {
-    "top_text": "When your friend takes the last slice of pizza and starts running"
+    "top_text": "When your friend takes the last slice of pizza and tries to run away"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation setting up the pursuit or confrontation",
-      "x": 40,
-      "y": 20,
-      "width": 944,
-      "height": 110,
-      "fontSize": 48,
+      "description": "Caption describing the target who needs to be caught",
+      "x": 32,
+      "y": 16,
+      "width": 960,
+      "height": 95,
+      "fontSize": 40,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

@@ -1,33 +1,34 @@
 {
   "id": "le-nikaal-photu",
   "name": "Le Nikaal Photu",
-  "visual_description": "Saurabh Shukla lifting his shirt to expose his belly in anger while a cameraman tries to film/photograph him.",
-  "usage_context": "Used to show complete shamelessness, defiance, or daring someone to expose or document your flaws/absurd behavior.",
+  "visual_description": "Batuk Maharaj (Saurabh Shukla) angrily lifts his shirt exposing his belly towards a cameraman in Lage Raho Munna Bhai.",
+  "usage_context": "Used to express brazen defiance, shamelessness, or daring someone to document or expose your questionable behavior.",
   "keywords": [
-    "saurabh shukla",
     "le nikaal photu",
-    "cameraman",
+    "saurabh shukla",
+    "batuk maharaj",
+    "lage raho munna bhai",
     "belly",
+    "cameraman",
     "shameless",
-    "bollywood",
-    "lage rahi munna bhai",
-    "defiance"
+    "defiance",
+    "bollywood meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1200,
   "image_height": 553,
   "example": {
-    "top_text": "When HR threatens to record me coming 2 hours late every day"
+    "top_text": "When HR catches me leaving office at 4 PM"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation provoking shameless defiance or exposure",
-      "x": 30,
-      "y": 20,
-      "width": 1140,
-      "height": 100,
-      "fontSize": 48,
+      "description": "Caption describing a situation of complete shamelessness or defiance",
+      "x": 20,
+      "y": 15,
+      "width": 1160,
+      "height": 90,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

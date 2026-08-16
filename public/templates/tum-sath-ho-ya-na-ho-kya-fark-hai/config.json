@@ -1,8 +1,8 @@
 {
   "id": "tum-sath-ho-ya-na-ho-kya-fark-hai",
   "name": "Tum Sath Ho Ya Na Ho Kya Fark Hai",
-  "visual_description": "Deepika Padukone consoling Ranbir Kapoor lying on a table from the song Agar Tum Saath Ho in the movie Tamasha.",
-  "usage_context": "Used to express heartbreak, existential loneliness, or indifference to someone's presence or assistance.",
+  "visual_description": "Deepika Padukone consoling a distressed Ranbir Kapoor with her hand on his head, from the song Agar Tum Saath Ho in Tamasha.",
+  "usage_context": "Used to express feelings of apathy, heartbreak, helplessness, or when someone's support doesn't change a ruined situation.",
   "keywords": [
     "tamasha",
     "ranbir kapoor",
@@ -10,27 +10,27 @@
     "agar tum saath ho",
     "sad",
     "heartbreak",
-    "lonely",
+    "depression",
     "bollywood"
   ],
   "sentiment": "negative",
   "image_width": 1600,
   "image_height": 900,
   "example": {
-    "top_text": "When internet goes down while studying"
+    "top_text": "When your friend sends notes 5 minutes before the exam"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or context describing a hopeless or indifferent situation",
+      "description": "Situation or setup highlighting futility, depression, or indifference",
       "x": 50,
       "y": 30,
       "width": 1500,
-      "height": 150,
-      "fontSize": 52,
+      "height": 160,
+      "fontSize": 54,
       "color": "white",
       "stroke": "black",
-      "maxLength": 90,
+      "maxLength": 100,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

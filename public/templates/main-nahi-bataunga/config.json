@@ -1,15 +1,15 @@
 {
   "id": "main-nahi-bataunga",
   "name": "Munna Bhai Nahi",
-  "visual_description": "Sanjay Dutt in a cyan shirt with a deadpan/confused expression, captioned 'Nahi'.",
-  "usage_context": "Used to flatly refuse, deny, or reject a proposal or request in a blunt, comical manner.",
+  "visual_description": "Munna Bhai (Sanjay Dutt) in a cyan shirt with a deadpan expression beside subtitle text saying 'Nahi'.",
+  "usage_context": "Used to flatly refuse a request, suggestion, or situation in a blunt, comedic manner.",
   "keywords": [
-    "sanjay dutt",
     "munna bhai",
+    "sanjay dutt",
     "nahi",
     "refusal",
     "denial",
-    "bollywood meme",
+    "munna bhai mbbs",
     "hindi meme"
   ],
   "sentiment": "sarcastic",
@@ -21,12 +21,12 @@
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or question leading to a flat refusal",
+      "description": "Question or prompt provoking a direct refusal",
       "x": 480,
-      "y": 40,
+      "y": 30,
       "width": 480,
       "height": 180,
-      "fontSize": 48,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

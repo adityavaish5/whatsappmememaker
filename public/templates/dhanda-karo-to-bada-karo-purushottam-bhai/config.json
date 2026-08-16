@@ -1,33 +1,33 @@
 {
   "id": "dhanda-karo-to-bada-karo-purushottam-bhai",
   "name": "Dhanda Karo Toh Bada Karo Purushottam Bhai",
-  "visual_description": "Nawazuddin Siddiqui as Ganesh Gaitonde sitting shirtless in a swimming pool holding a cigarette, addressing a companion.",
-  "usage_context": "Used to give ambitious, excessive business advice or humorously criticize small-scale thinking and low-risk plans.",
+  "visual_description": "Ganesh Gaitonde (Nawazuddin Siddiqui) shirtless in a swimming pool with a cigarette, advising Purushottam.",
+  "usage_context": "Used to sarcastically encourage extreme scale or mock overly cautious business and life decisions.",
   "keywords": [
     "sacred games",
     "ganesh gaitonde",
     "nawazuddin siddiqui",
     "purushottam bhai",
     "dhanda karo",
-    "hindi meme",
     "business advice",
-    "pool scene"
+    "pool",
+    "hindi meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1600,
   "image_height": 756,
   "example": {
-    "top_text": "Me telling my friend who just bought 1 share worth ₹50"
+    "top_text": "Me after investing ₹100 in crypto and waiting for 10x returns"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or contextual situation prompting the ambitious advice",
-      "x": 60,
+      "description": "Situation or caption leading into the business advice",
+      "x": 50,
       "y": 30,
-      "width": 1480,
-      "height": 160,
-      "fontSize": 52,
+      "width": 1500,
+      "height": 140,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

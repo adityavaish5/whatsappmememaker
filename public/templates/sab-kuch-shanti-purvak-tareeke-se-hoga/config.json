@@ -1,17 +1,17 @@
 {
   "id": "sab-kuch-shanti-purvak-tareeke-se-hoga",
   "name": "Sab Kuch Shanti Purvak Tareeke Se Hoga",
-  "visual_description": "Side-by-side shots of a political leader claiming on a news mic that everything will happen peacefully, while right next to it he is seen wielding a lathi against an auto-rickshaw.",
-  "usage_context": "Used sarcastically to mock hypocrisy, ironic situations, or when violent actions completely contradict peaceful claims.",
+  "visual_description": "Split image showing a political leader telling a news reporter everything will be peaceful, while simultaneously smashing an auto-rickshaw with a lathi.",
+  "usage_context": "Used to mock hypocrisy, irony, or when violent and aggressive actions blatantly contradict peaceful claims.",
   "keywords": [
     "sab kuch shanti purvak tareeke se hoga",
     "peaceful protest",
     "irony",
     "hypocrisy",
-    "lathi",
+    "lathi charge",
     "auto vandalism",
-    "news interview",
-    "indian political meme"
+    "rjd bihar bandh",
+    "abp news interview"
   ],
   "sentiment": "sarcastic",
   "image_width": 1200,
@@ -22,15 +22,15 @@
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup text describing a peaceful claim versus contradictory harsh actions",
-      "x": 40,
+      "description": "Setup describing a polite or peaceful claim before harsh reality unfolds",
+      "x": 30,
       "y": 20,
-      "width": 1120,
-      "height": 100,
-      "fontSize": 48,
+      "width": 1140,
+      "height": 90,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 110,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

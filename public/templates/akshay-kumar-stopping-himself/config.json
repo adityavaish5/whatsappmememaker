@@ -1,33 +1,33 @@
 {
   "id": "akshay-kumar-stopping-himself",
   "name": "Akshay Kumar Controlling Hand (Housefull 3)",
-  "visual_description": "Akshay Kumar in a black sleeveless shirt grimacing while using one hand to hold back his other arm from moving forward.",
-  "usage_context": "Used when trying desperately to control oneself from doing something impulsive, texting someone, or reacting violently.",
+  "visual_description": "Akshay Kumar clenches his teeth while physically restraining his own extending arm.",
+  "usage_context": "Used to show extreme self-control against doing an impulsive, aggressive, or petty act.",
   "keywords": [
     "akshay kumar",
     "housefull 3",
-    "sandy sundi",
+    "sandy",
+    "sundi",
     "controlling hand",
-    "stopping myself",
-    "urge to slap",
+    "holding back",
     "self control",
-    "indian meme"
+    "urge"
   ],
   "sentiment": "sarcastic",
   "image_width": 1080,
   "image_height": 708,
   "example": {
-    "caption": "Me trying not to reply 'ok' when someone writes a 500-word paragraph"
+    "caption": "Me stopping myself from saying 'told you so' to my best friend"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or impulse being restrained",
-      "x": 380,
+      "description": "The impulsive urge or response being restrained",
+      "x": 420,
       "y": 30,
-      "width": 670,
-      "height": 180,
-      "fontSize": 48,
+      "width": 620,
+      "height": 220,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

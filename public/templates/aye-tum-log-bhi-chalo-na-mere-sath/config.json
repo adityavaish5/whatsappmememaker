@@ -1,32 +1,34 @@
 {
   "id": "aye-tum-log-bhi-chalo-na-mere-sath",
-  "name": "Majnu Bhai Aye Tum Log Bhi Chalo Na Mere Saath",
-  "visual_description": "Majnu Bhai (Anil Kapoor) scratching his head shyly while asking his companions to come along with him.",
-  "usage_context": "Used when asking friends for backup or moral support before entering an intimidating, awkward, or romantic situation.",
+  "name": "Majnu Bhai - Aye Tum Log Bhi Chalo Na Mere Saath",
+  "visual_description": "Majnu Bhai (Anil Kapoor) in a black jacket scratching the back of his head shyly while looking down at his crew.",
+  "usage_context": "Used when needing moral support, backup, or company before facing an intimidating, nervous, or awkward situation.",
   "keywords": [
     "welcome",
     "anil kapoor",
     "majnu bhai",
     "aye tum log bhi chalo na mere saath",
-    "bollywood",
+    "moral support",
+    "shy",
     "nervous",
-    "friends"
+    "friends backup",
+    "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 1280,
   "image_height": 720,
   "example": {
-    "caption": "Me asking my friends to come along when viva examiner calls my roll number"
+    "caption": "When the teacher calls you to the staffroom and you look at your best friends"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or setup where someone needs their friends' backup",
+      "description": "Situation requiring moral support or backup from friends",
       "x": 40,
-      "y": 30,
+      "y": 20,
       "width": 1200,
-      "height": 160,
-      "fontSize": 52,
+      "height": 120,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

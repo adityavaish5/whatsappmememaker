@@ -1,8 +1,8 @@
 {
   "id": "virat-kohli-appealing-cricket",
   "name": "Virat Kohli Confused Gesturing",
-  "visual_description": "Four-panel image of Indian cricketer Virat Kohli on the field in a blue jersey, gesturing with his hands out in confusion and disbelief.",
-  "usage_context": "Used to express utter confusion, asking 'What did I do?', or questioning someone's bizarre reasoning or unfair decision.",
+  "visual_description": "Four-panel grid of cricketer Virat Kohli in blue Team India jersey gesturing with open hands in bewilderment.",
+  "usage_context": "Expressing confusion, disbelief, or demanding an explanation for an absurd decision or situation.",
   "keywords": [
     "virat kohli",
     "cricket",
@@ -10,24 +10,23 @@
     "confused",
     "what",
     "disbelief",
-    "bcci",
     "reaction"
   ],
   "sentiment": "sarcastic",
   "image_width": 1600,
   "image_height": 900,
   "example": {
-    "top_text": "Me explaining to my mom that the milk spilled on its own"
+    "top_text": "Me asking the examiner where this out-of-syllabus question came from"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or question causing disbelief/confusion",
-      "x": 80,
-      "y": 30,
-      "width": 1440,
-      "height": 130,
-      "fontSize": 54,
+      "description": "Situation causing bewilderment or confusion",
+      "x": 60,
+      "y": 25,
+      "width": 1480,
+      "height": 110,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

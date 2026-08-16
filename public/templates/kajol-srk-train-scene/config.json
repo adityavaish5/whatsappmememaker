@@ -1,8 +1,8 @@
 {
   "id": "kajol-srk-train-scene",
   "name": "DDLJ Train Climax Scene",
-  "visual_description": "Simran (Kajol) running along the railway platform reaching out to Raj (Shah Rukh Khan) standing at the train door extending his hand.",
-  "usage_context": "Used to represent desperately chasing a deadline, goal, opportunity, or last-minute rescue/support.",
+  "visual_description": "Simran (Kajol) in a traditional outfit runs along a train, reaching toward Raj (Shah Rukh Khan) extending his hand from the doorway.",
+  "usage_context": "Depicts someone desperately trying to catch up with an elusive goal, deadline, or last-minute savior.",
   "keywords": [
     "ddlj",
     "shah rukh khan",
@@ -12,8 +12,8 @@
     "raj",
     "train scene",
     "dilwale dulhania le jayenge",
-    "reaching out",
-    "chasing"
+    "chasing",
+    "rescue"
   ],
   "sentiment": "positive",
   "image_width": 780,
@@ -25,12 +25,12 @@
   "text_areas": [
     {
       "id": "simran_label",
-      "description": "Label for Kajol/Simran chasing the train",
-      "x": 30,
+      "description": "Label for Simran running desperately",
+      "x": 20,
       "y": 380,
       "width": 300,
       "height": 90,
-      "fontSize": 48,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 50,
@@ -40,12 +40,12 @@
     },
     {
       "id": "srk_label",
-      "description": "Label for SRK/Raj extending a helping hand",
+      "description": "Label for SRK leaning out to help",
       "x": 480,
-      "y": 140,
+      "y": 20,
       "width": 280,
       "height": 90,
-      "fontSize": 48,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 50,

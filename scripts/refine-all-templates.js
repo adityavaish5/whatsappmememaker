@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { exec } = require('child_process');
+const util = require('util');
+const execAsync = util.promisify(exec);
 
 // Helper to pause execution
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -24,27 +26,36 @@ async function run() {
   const successful = [];
   const failed = [];
 
-  for (let i = 0; i < folders.length; i++) {
-    const templateId = folders[i];
-    console.log(`\n--------------------------------------------------`);
-    console.log(`📦 [${i + 1}/${folders.length}] Refining template: ${templateId}`);
-    console.log(`--------------------------------------------------`);
+  const CONCURRENCY = 15; // Number of templates to process simultaneously
 
+  async function processTemplate(templateId, index, total) {
+    console.log(`📦 [${index + 1}/${total}] Started refining template: ${templateId}`);
     try {
       // Execute with --no-git so git branches and PRs aren't created in the loop.
       // This is extremely safe and prevents the branch/git conflicts that cause crashes.
-      execSync(`node scripts/refine-template.js "${templateId}" --no-git`, { stdio: 'inherit' });
+      await execAsync(`node scripts/refine-template.js "${templateId}" --no-git`);
       successful.push(templateId);
       console.log(`✅ Successfully refined template locally: ${templateId}`);
     } catch (error) {
-      console.error(`❌ Failed to refine template: ${templateId}`);
+      console.error(`❌ Failed to refine template: ${templateId}\n${error.stdout || ''}\n${error.stderr || error.message}`);
       failed.push({ id: templateId, error: error.message || error });
     }
+  }
 
-    // Add a short 1-second delay between templates to stay within API rate limits
-    if (i < folders.length - 1) {
-      console.log('⏳ Waiting 1s before next template...');
-      await delay(1000);
+  for (let i = 0; i < folders.length; i += CONCURRENCY) {
+    const batch = folders.slice(i, i + CONCURRENCY);
+    console.log(`\n🔄 Processing batch ${Math.floor(i / CONCURRENCY) + 1} of ${Math.ceil(folders.length / CONCURRENCY)} (size: ${batch.length})`);
+    
+    const promises = batch.map((templateId, batchIndex) => {
+      return processTemplate(templateId, i + batchIndex, folders.length);
+    });
+    
+    await Promise.all(promises);
+    
+    // Add a delay between batches to stay within API rate limits
+    if (i + CONCURRENCY < folders.length) {
+      console.log('⏳ Waiting 2s before next batch...');
+      await delay(2000);
     }
   }
 

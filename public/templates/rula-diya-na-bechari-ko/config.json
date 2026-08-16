@@ -1,36 +1,36 @@
 {
   "id": "rula-diya-na-bechari-ko",
   "name": "Rula Diya Na Bechaari Ko",
-  "visual_description": "Aman Verma consoles his crying wife while casting an accusing look at his mother Hema Malini from the film Baghban.",
-  "usage_context": "Used sarcastically to call someone out for unnecessarily hurting, upsetting, or offending someone, or making a trivial issue dramatic.",
+  "visual_description": "Aman Verma holds his crying wife while giving an accusatory glare to Hema Malini in Baghban.",
+  "usage_context": "Used sarcastically or dramatically when someone upsets another person over minor issues or overreacts to criticism.",
   "keywords": [
     "baghban",
     "rula diya na bechari ko",
     "hema malini",
     "aman verma",
+    "rimi sen",
     "guilt trip",
     "drama",
-    "family drama",
-    "crying wife"
+    "crying"
   ],
   "sentiment": "sarcastic",
   "image_width": 1280,
   "image_height": 720,
   "example": {
-    "top_text": "When you show your mom her own screen time report"
+    "top_text": "When you politely ask your friend to pay back their debt"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or action causing the emotional distress/drama",
-      "x": 40,
+      "description": "Caption explaining the action or situation that caused dramatic crying",
+      "x": 30,
       "y": 20,
-      "width": 1200,
-      "height": 130,
-      "fontSize": 52,
+      "width": 1220,
+      "height": 110,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

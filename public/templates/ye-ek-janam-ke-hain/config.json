@@ -1,16 +1,17 @@
 {
   "id": "ye-ek-janam-ke-hain",
   "name": "Ye Ek Janam K Hain - Anubhav Singh Bassi",
-  "visual_description": "Stand-up comedian Anubhav Singh Bassi bending forward holding a mic on the Canvas Laugh Club stage with a shocked expression.",
-  "usage_context": "Used to express shock, disbelief, or overwhelmed amusement when someone reveals an excessively long list of problems, sins, tasks, or backlogs.",
+  "visual_description": "Anubhav Singh Bassi bending forward holding a mic on the Canvas Laugh Club stage with a shocked expression, with yellow subtitle 'Ye ek janam k hain?' at the bottom.",
+  "usage_context": "Used to express shock and disbelief when faced with an overwhelming quantity of tasks, sins, backlogs, or problems.",
   "keywords": [
     "anubhav singh bassi",
-    "bassi stand up",
+    "bassi",
     "canvas laugh club",
-    "ye ek janam ke hain",
-    "cheating stand up",
-    "disbelief",
-    "indian standup comedy"
+    "cheating",
+    "ye ek janam k hain",
+    "shock",
+    "stand up comedy",
+    "disbelief"
   ],
   "sentiment": "sarcastic",
   "image_width": 1200,
@@ -21,12 +22,12 @@
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or setup creating an overwhelming list",
-      "x": 380,
-      "y": 40,
-      "width": 780,
+      "description": "The setup or context describing an overwhelming list or burden",
+      "x": 420,
+      "y": 30,
+      "width": 740,
       "height": 180,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

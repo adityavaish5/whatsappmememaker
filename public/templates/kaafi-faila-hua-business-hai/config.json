@@ -1,8 +1,8 @@
 {
   "id": "kaafi-faila-hua-business-hai",
   "name": "Kaafi Faila Hua Business Hai",
-  "visual_description": "Nana Patekar as Don Uday Shetty in Welcome sitting with a tilak on his forehead and smiling smugly with the subtitle 'Kaafi Faila hua Business hai'.",
-  "usage_context": "Used sarcastically or humorously to describe a massive mess, chaotic situation, or to ironically brag about a widespread network or illicit activity.",
+  "visual_description": "Nana Patekar as Uday Shetty in Welcome with a forehead tilak, smiling subtly with bottom text reading 'Kaafi Faila hua Business hai'.",
+  "usage_context": "Used ironically to boast about widespread issues, messy life situations, backlogs, or extensive networks.",
   "keywords": [
     "kaafi faila hua business hai",
     "welcome",
@@ -10,24 +10,23 @@
     "uday bhai",
     "uday shetty",
     "bollywood",
-    "indian meme",
-    "business"
+    "hindi meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1040,
   "image_height": 475,
   "example": {
-    "caption": "When someone asks how many backlogs you have:"
+    "caption": "When someone asks how many backlogs I have:"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or setup text at the top",
+      "description": "Top context or setup caption",
       "x": 30,
-      "y": 20,
+      "y": 15,
       "width": 980,
-      "height": 110,
-      "fontSize": 48,
+      "height": 90,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

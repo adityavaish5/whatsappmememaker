@@ -1,35 +1,35 @@
 {
   "id": "inko-kya-hi-pata-chalega",
   "name": "Inko Kya Hi Pata Chalega",
-  "visual_description": "Stand-up comedian Abhishek Upmanyu performing on stage at Canvas Laugh Club with the subtitle 'Inko kya hi pata chalega'.",
-  "usage_context": "Used to describe secretly cutting corners, lying, or doing something deceptive assuming no one will ever notice or find out.",
+  "visual_description": "Comedian Abhishek Upmanyu performing stand-up at Canvas Laugh Club with subtitle 'Inko kya hi pata chalega'.",
+  "usage_context": "Used to express cutting corners, deceiving others, or doing something secretly thinking nobody will ever notice.",
   "keywords": [
     "abhishek upmanyu",
     "inko kya hi pata chalega",
     "stand up comedy",
     "canvas laugh club",
-    "hindi meme",
-    "secret",
-    "cheat"
+    "they will never know",
+    "deception",
+    "secret"
   ],
   "sentiment": "sarcastic",
   "image_width": 830,
   "image_height": 467,
   "example": {
-    "caption": "Copying code from Stack Overflow without understanding it"
+    "caption": "Adding dummy comments to meet the code commit deadline"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or action done assuming nobody will notice",
-      "x": 380,
+      "description": "Situation or action done assuming no one will notice",
+      "x": 470,
       "y": 40,
-      "width": 420,
-      "height": 220,
-      "fontSize": 48,
+      "width": 340,
+      "height": 320,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

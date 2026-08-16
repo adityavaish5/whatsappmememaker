@@ -1,8 +1,8 @@
 {
   "id": "bahut-tej-ho-gaye-ho",
   "name": "Bahut Tej Ho Gaye Ho (CarryMinati)",
-  "visual_description": "CarryMinati (Ajey Nagar) wearing glasses and smirking/winking in front of his wooden studio background with YouTube play buttons.",
-  "usage_context": "Used sarcastically or playfully when reacting to someone acting overly clever, sly, or opportunistic.",
+  "visual_description": "CarryMinati (Ajey Nagar) smiling and winking while seated in his gaming chair with subtitle 'Bahut tej ho gaye ho'.",
+  "usage_context": "Used to playfully or sarcastically point out someone acting extra smart, sneaky, or overly clever.",
   "keywords": [
     "carryminati",
     "ajey nagar",
@@ -10,26 +10,27 @@
     "clever",
     "smart",
     "sarcasm",
+    "chalaak",
     "indian youtuber"
   ],
   "sentiment": "sarcastic",
   "image_width": 1080,
-  "image_height": 608,
+  "image_height": 576,
   "example": {
-    "caption": "When your younger brother starts deleting his browser history"
+    "caption": "When you pretend your mic is broken right when the teacher asks you a question"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation setup explaining someone acting clever",
-      "x": 40,
-      "y": 20,
-      "width": 1000,
-      "height": 130,
-      "fontSize": 48,
+      "description": "Setup or situation describing someone acting smart or sneaky",
+      "x": 30,
+      "y": 15,
+      "width": 1020,
+      "height": 95,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

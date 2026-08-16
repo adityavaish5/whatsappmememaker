@@ -1,8 +1,8 @@
 {
   "id": "modi-pose-in-parliament",
   "name": "Narendra Modi Hands on Hips in Parliament",
-  "visual_description": "Prime Minister Narendra Modi standing in the Lok Sabha with his hands placed firmly on his hips and a stern expression.",
-  "usage_context": "Used to express disappointment, waiting for an explanation, defiance, or a confrontational 'now what?' reaction similar to the Pakistani cricket fan meme.",
+  "visual_description": "Prime Minister Narendra Modi standing in the Lok Sabha with hands on his hips and a stern, questioning expression.",
+  "usage_context": "Used to convey annoyance, impatience, or demanding an explanation, similar to the disappointed cricket fan meme.",
   "keywords": [
     "modi",
     "narendra modi",
@@ -19,18 +19,18 @@
   "image_width": 400,
   "image_height": 300,
   "example": {
-    "top_text": "Me waiting for my friend to explain",
-    "bottom_text": "why he canceled plans last minute"
+    "top_text": "Mom waiting for me to explain",
+    "bottom_text": "why the 2000 rupees note is missing"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Top setup caption",
+      "description": "Top caption setting up the situation",
       "x": 10,
       "y": 10,
       "width": 380,
-      "height": 50,
-      "fontSize": 48,
+      "height": 45,
+      "fontSize": 30,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,
@@ -44,8 +44,8 @@
       "x": 10,
       "y": 245,
       "width": 380,
-      "height": 50,
-      "fontSize": 48,
+      "height": 45,
+      "fontSize": 30,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

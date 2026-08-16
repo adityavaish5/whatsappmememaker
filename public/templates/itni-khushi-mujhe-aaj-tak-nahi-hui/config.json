@@ -1,33 +1,33 @@
 {
   "id": "itni-khushi-mujhe-aaj-tak-nahi-hui",
   "name": "Itni Khushi Mujhe Aaj Tak Nahi Hui",
-  "visual_description": "Govinda crying tears of joy into a tissue next to Salman Khan from the movie Partner.",
-  "usage_context": "Used to express overwhelming, dramatic, or sarcastic joy and relief over small or unexpected wins.",
+  "visual_description": "Bhaskar (Govinda) crying emotional tears into a tissue beside Prem (Salman Khan) from the movie Partner.",
+  "usage_context": "Used to express dramatic, tearful happiness, immense relief, or sarcastic joy over a minor success.",
   "keywords": [
-    "partner movie",
+    "partner",
     "govinda",
     "salman khan",
     "itni khushi mujhe aaj tak nahi hui",
-    "crying happy",
+    "bhaskar",
     "tears of joy",
-    "bollywood meme",
-    "overwhelmed"
+    "crying happy",
+    "bollywood"
   ],
   "sentiment": "sarcastic",
-  "image_width": 750,
-  "image_height": 422,
+  "image_width": 746,
+  "image_height": 419,
   "example": {
-    "top_text": "When the teacher cancels the surprise test"
+    "top_text": "When the code works on the first run without errors"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or event leading to extreme happiness or relief",
-      "x": 30,
+      "description": "Situation causing overwhelming happiness or relief",
+      "x": 20,
       "y": 15,
-      "width": 690,
-      "height": 90,
-      "fontSize": 48,
+      "width": 706,
+      "height": 70,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

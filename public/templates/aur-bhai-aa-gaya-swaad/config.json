@@ -1,35 +1,36 @@
 {
   "id": "aur-bhai-aa-gaya-swaad",
   "name": "Aur Bhai Aa Gaya Swaad",
-  "visual_description": "Stand-up comedian Abhishek Upmanyu grinning and holding a mic on the Canvas Laugh Club stage with subtitle 'Aur bhai, aagaya swaad'.",
-  "usage_context": "Used mockingly or sarcastically when someone ignores advice, faces an obvious bad consequence, and gets instant karma.",
+  "visual_description": "Abhishek Upmanyu holding a mic and adjusting glasses on a standup comedy stage with a caption below.",
+  "usage_context": "Used to mock someone who ignored warnings and suffered predictable negative consequences or instant karma.",
   "keywords": [
     "abhishek upmanyu",
     "aur bhai aa gaya swaad",
     "canvas laugh club",
-    "stand up comedy",
+    "standup comedy",
     "karma",
+    "regret",
     "sarcasm",
-    "indian standup"
+    "told you so"
   ],
   "sentiment": "sarcastic",
   "image_width": 960,
   "image_height": 540,
   "example": {
-    "top_text": "When your friend doesn't study and fails the exam"
+    "top_text": "When you touch a hot pan right after mom said 'garam hai mat chhoona'"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or scenario leading to instant regret or karma",
-      "x": 30,
-      "y": 20,
-      "width": 900,
-      "height": 100,
-      "fontSize": 48,
+      "description": "Situation describing someone ignoring warnings and facing regret",
+      "x": 20,
+      "y": 15,
+      "width": 920,
+      "height": 90,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

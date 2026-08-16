@@ -1,36 +1,35 @@
 {
   "id": "ek-cheez-bolke-char-gina-raha-hai",
-  "name": "Ek Cheez Bolke Chaar Gina Raha Hai CarryMinati",
-  "visual_description": "YouTuber CarryMinati (Ajey Nagar) holding up four fingers with an annoyed expression in his gaming chair.",
-  "usage_context": "Used to mock someone who promises one simple point or thing but ends up giving a long list, overcomplicating, or exaggerating.",
+  "name": "Ek Cheez Bolke Chaar Gina Raha Hai",
+  "visual_description": "CarryMinati holds up four fingers with an annoyed expression in front of his YouTube play button wall.",
+  "usage_context": "Used to call out someone who claims they will do or say only one thing, but ends up presenting multiple things.",
   "keywords": [
     "carryminati",
     "ajey nagar",
-    "ek cheez bolke char",
-    "youtube",
-    "roast",
+    "ek cheez bolke chaar",
     "four fingers",
-    "hindi meme",
+    "roast",
+    "youtube",
     "indian meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 728,
   "image_height": 409,
   "example": {
-    "top_text": "Teacher: Only one question for homework\nMeanwhile the question: 1(a), 1(b), 1(c), 1(d)"
+    "top_text": "Mom: Bas ek kaam bol rahi hu dhyan se sunna"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or setup text explaining someone promising one thing but delivering multiple",
+      "description": "Situation or premise where someone promises one thing but gives multiple",
       "x": 20,
       "y": 15,
       "width": 688,
-      "height": 90,
-      "fontSize": 48,
+      "height": 70,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

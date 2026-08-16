@@ -1,36 +1,39 @@
 {
   "id": "ye-koi-tarika-hai-bheek-mangne-ka",
-  "name": "Ye Koi Tarika Hai Bheek Mangne Ka? (Golmaal)",
-  "visual_description": "Indian meme template: Ye Koi Tarika Hai Bheek Mangne Ka? (Golmaal)",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ye Koi Tarika Hai Bheek Mangne Ka? (Golmaal)'",
+  "name": "Ye Koi Tarika Hai Bheek Mangne Ka",
+  "visual_description": "Laxman (Sharman Joshi) holds out a donation box directly in front of Madhav (Arshad Warsi) among college students.",
+  "usage_context": "Used to mock shameless, annoying, or overly aggressive ways people ask for money, likes, shares, or favors.",
   "keywords": [
-    "indian meme",
-    "koi",
-    "tarika",
-    "hai",
-    "bheek",
-    "mangne",
-    "ka?",
-    "(golmaal)"
+    "golmaal",
+    "ye koi tarika hai bheek mangne ka",
+    "arshad warsi",
+    "sharman joshi",
+    "madhav",
+    "laxman",
+    "begging",
+    "donation",
+    "subscribe",
+    "asking for likes"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "sarcastic",
+  "image_width": 670,
+  "image_height": 286,
   "example": {
-    "text": "Ye Koi Tarika Hai Bheek Mangne Ka? (Golmaal)"
+    "top_text": "YouTubers placing 10 reminders to subscribe in a 3-minute video:"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "top_text",
+      "description": "The setup or scenario describing subtle/aggressive asking",
+      "x": 20,
+      "y": 10,
+      "width": 630,
+      "height": 55,
+      "fontSize": 30,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

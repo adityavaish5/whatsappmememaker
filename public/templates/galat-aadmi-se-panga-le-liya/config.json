@@ -1,8 +1,8 @@
 {
   "id": "galat-aadmi-se-panga-le-liya",
   "name": "Galat Aadmi Se Panga Le Liya - Puneet Superstar",
-  "visual_description": "Puneet Superstar looking into his phone camera with a serious and menacing face, with the caption 'Galat aadmi se panga le liya' at the bottom.",
-  "usage_context": "Used humorously to warn someone they picked a fight or messed with the wrong person, often in petty or ironically non-threatening situations.",
+  "visual_description": "Puneet Superstar glaring intensely into his selfie camera with the subtitle 'Galat aadmi se panga le liya' at the bottom.",
+  "usage_context": "Used to sarcastically show warning, petty revenge, or making someone regret crossing you.",
   "keywords": [
     "puneet superstar",
     "lord puneet",
@@ -10,23 +10,23 @@
     "warning",
     "threat",
     "revenge",
-    "indian meme template"
+    "indian meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1600,
   "image_height": 900,
   "example": {
-    "setup": "When someone cuts you off in traffic and you follow them all the way home"
+    "setup": "When the teacher gives you 0 in viva so you refuse to share the WiFi password"
   },
   "text_areas": [
     {
       "id": "setup",
-      "description": "Situation or scenario describing who made the mistake of messing with you",
-      "x": 60,
-      "y": 40,
-      "width": 1480,
-      "height": 160,
-      "fontSize": 52,
+      "description": "Situation or scenario leading to an over-the-top retaliation",
+      "x": 50,
+      "y": 30,
+      "width": 1500,
+      "height": 130,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

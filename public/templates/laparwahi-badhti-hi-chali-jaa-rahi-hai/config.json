@@ -1,36 +1,35 @@
 {
   "id": "laparwahi-badhti-hi-chali-jaa-rahi-hai",
-  "name": "Narendra Modi Laparwahi Badhte Hee Chale Jaa Rahi Hai",
-  "visual_description": "Indian Prime Minister Narendra Modi speaking with a concerned expression against the Indian national flag backdrop, with the subtitle 'Laparwahi badhte hee chale jaa rahi hai'.",
-  "usage_context": "Used to call out someone's increasing carelessness, procrastination, bad habits, or deteriorating discipline.",
+  "name": "Narendra Modi Laparwahi Badhti Hi Chali Jaa Rahi Hai",
+  "visual_description": "Indian Prime Minister Narendra Modi gesturing with concern during a national address, with the Indian flag in the background and subtitle 'Laparwahi badhte hee chale jaa rahi hai'.",
+  "usage_context": "Used to react to increasing carelessness, worsening discipline, chronic procrastination, or self-destructive habits.",
   "keywords": [
     "narendra modi",
     "pm modi",
-    "laparwahi",
-    "badhte hee chale jaa rahi hai",
+    "laparwahi badhti hi chali jaa rahi hai",
     "carelessness",
-    "speech",
-    "indian political meme",
-    "covid address"
+    "address to nation",
+    "covid address",
+    "speech"
   ],
   "sentiment": "sarcastic",
   "image_width": 1600,
   "image_height": 900,
   "example": {
-    "top_text": "Me watching myself open Instagram during exam prep for the 50th time:"
+    "top_text": "Me watching myself spend 6 hours on reels one night before exam:"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or context showing increasing carelessness or bad habits",
-      "x": 60,
-      "y": 30,
-      "width": 1480,
-      "height": 180,
-      "fontSize": 52,
+      "description": "Situation or behavior depicting escalating carelessness or procrastination",
+      "x": 50,
+      "y": 20,
+      "width": 1500,
+      "height": 110,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
-      "maxLength": 120,
+      "maxLength": 100,
       "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"

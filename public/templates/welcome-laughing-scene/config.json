@@ -1,16 +1,17 @@
 {
   "id": "welcome-laughing-scene",
-  "name": "Welcome Movie Gang Laughing",
-  "visual_description": "Vijay Raaz, Snehal Dabi, and Mushtaq Khan on crutches laughing uncontrollably at a racecourse.",
-  "usage_context": "Used to mock someone's unrealistic plan, ridiculous claim, or utter foolishness with hearty group laughter.",
+  "name": "Welcome Movie Henchmen Laughing",
+  "visual_description": "Mushtaq Khan on crutches and fellow henchmen laughing hysterically at a racecourse railing.",
+  "usage_context": "Used to mock someone's ridiculous claims, absurd ideas, or doomed-to-fail plans.",
   "keywords": [
     "welcome",
     "laughing",
-    "vijay raaz",
     "mushtaq khan",
+    "ballu",
     "bollywood meme",
     "group laughing",
-    "hindi comedy"
+    "hindi comedy",
+    "welcome movie"
   ],
   "sentiment": "sarcastic",
   "image_width": 923,
@@ -21,12 +22,12 @@
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation causing uncontrollable laughter",
+      "description": "Caption explaining the hilarious or absurd situation",
       "x": 30,
-      "y": 20,
+      "y": 15,
       "width": 863,
-      "height": 100,
-      "fontSize": 48,
+      "height": 95,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

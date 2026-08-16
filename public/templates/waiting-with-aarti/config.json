@@ -1,8 +1,8 @@
 {
   "id": "waiting-with-aarti",
   "name": "Jaya Bachchan Aarti Thali (K3G)",
-  "visual_description": "Jaya Bachchan dressed in traditional cream attire holding a lit pooja/aarti thali with an expectant smile in Kabhi Khushi Kabhie Gham.",
-  "usage_context": "Used sarcastically or dramatically to show someone eagerly waiting to welcome someone who finally showed up or did something bare minimum.",
+  "visual_description": "Jaya Bachchan wearing a cream saree and jewellery, holding an aarti thali with an expectant smile amidst background dancers.",
+  "usage_context": "Used to express overly dramatic or sarcastic preparation to welcome someone who finally showed up or did the bare minimum.",
   "keywords": [
     "jaya bachchan",
     "k3g",
@@ -11,14 +11,15 @@
     "pooja",
     "welcoming",
     "mom waiting",
+    "shah rukh khan helicopter entrance",
     "indian mom"
   ],
   "sentiment": "sarcastic",
-  "image_width": 750,
-  "image_height": 445,
+  "image_width": 800,
+  "image_height": 477,
   "example": {
-    "top_text": "MOM WHEN I FINALLY WAKE UP",
-    "bottom_text": "AT 2 PM ON SUNDAY"
+    "top_text": "MOM WAITING WITH AARTI",
+    "bottom_text": "WHEN I FINALLY WAKE UP AT 1 PM"
   },
   "text_areas": [
     {
@@ -26,9 +27,9 @@
       "description": "Setup or situation text",
       "x": 20,
       "y": 15,
-      "width": 710,
-      "height": 70,
-      "fontSize": 48,
+      "width": 760,
+      "height": 65,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,
@@ -38,12 +39,12 @@
     },
     {
       "id": "bottom_text",
-      "description": "Punchline or punchy conclusion",
+      "description": "Punchline or action description",
       "x": 20,
-      "y": 365,
-      "width": 710,
+      "y": 395,
+      "width": 760,
       "height": 65,
-      "fontSize": 48,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

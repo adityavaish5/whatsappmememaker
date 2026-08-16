@@ -1,34 +1,31 @@
 {
   "id": "tum-mujhe-tang-karne-lage-ho",
   "name": "Tum Mujhe Tang Karne Lage Ho",
-  "visual_description": "Sara Ali Khan shouting angrily with mouth open in a scene from Love Aaj Kal 2, with yellow subtitle 'Tum mujhe tang karne lage ho' at the bottom.",
-  "usage_context": "Used to express intense annoyance, frustration, or being fed up with someone or something repetitive and irritating.",
+  "visual_description": "Close-up of Sara Ali Khan expressing frustration with open mouth, yellow subtitle text at the bottom.",
+  "usage_context": "Used to express annoyance or frustration toward repetitive and irritating people, apps, or situations.",
   "keywords": [
     "tum mujhe tang karne lage ho",
     "sara ali khan",
     "love aaj kal",
-    "kartik aaryan",
-    "irritated",
     "annoyed",
     "frustrated",
-    "overacting",
-    "bollywood"
+    "irritation"
   ],
   "sentiment": "negative",
   "image_width": 1280,
   "image_height": 720,
   "example": {
-    "top_text": "Swiggy and Zomato sending notifications every 5 minutes:"
+    "top_text": "Me to delivery apps sending notifications every 10 minutes:"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or person causing irritation",
+      "description": "Caption describing the annoying trigger or situation",
       "x": 40,
       "y": 30,
       "width": 1200,
-      "height": 130,
-      "fontSize": 48,
+      "height": 110,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

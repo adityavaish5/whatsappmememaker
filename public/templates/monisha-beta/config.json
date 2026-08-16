@@ -1,14 +1,14 @@
 {
   "id": "monisha-beta",
   "name": "Maya Sarabhai Monisha Beta",
-  "visual_description": "Maya Sarabhai wearing a green saree and necklace, holding a drink with a sarcastic, condescending smile.",
-  "usage_context": "Used to mock middle-class habits or euphemize cheap actions into absurdly posh English terms.",
+  "visual_description": "Maya Sarabhai smiling condescendingly while holding a cocktail glass.",
+  "usage_context": "Used to mock middle-class habits by proposing pretentiously upscale alternatives.",
   "keywords": [
     "maya sarabhai",
-    "ratna pathak shah",
-    "sarabhai vs sarabhai",
     "monisha beta",
+    "sarabhai vs sarabhai",
     "too middle class",
+    "ratna pathak shah",
     "posh",
     "indian sitcom"
   ],
@@ -16,18 +16,18 @@
   "image_width": 740,
   "image_height": 416,
   "example": {
-    "top_text": "MONISHA BETA, 'KANJOOS' IS SO MIDDLE CLASS",
-    "bottom_text": "SAY 'FINANCIALLY CONSERVATIVE'"
+    "top_text": "MONISHA BETA, 'BARGAIN' IS SO MIDDLE CLASS",
+    "bottom_text": "SAY 'PRICE NEGOTIATION'"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Maya correcting a middle-class behavior",
+      "description": "Maya correcting a middle-class phrase or habit",
       "x": 20,
       "y": 15,
       "width": 700,
-      "height": 90,
-      "fontSize": 48,
+      "height": 75,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,
@@ -37,12 +37,12 @@
     },
     {
       "id": "bottom_text",
-      "description": "Maya's sophisticated alternative phrase",
+      "description": "Maya's posh alternative phrase",
       "x": 20,
-      "y": 320,
+      "y": 325,
       "width": 700,
-      "height": 80,
-      "fontSize": 48,
+      "height": 75,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

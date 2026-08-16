@@ -1,34 +1,34 @@
 {
   "id": "guess-karo-hum-kahan-hain",
   "name": "Guess Karo Hum Kahan Hain - K3G",
-  "visual_description": "Amitabh Bachchan wearing sunglasses on a phone call while stepping off a private jet with Jaya Bachchan, with caption 'Guess karo hum kahan hain?'.",
-  "usage_context": "Used to mock unannounced visits, flex luxury locations, or surprise someone by arriving at an unexpected place.",
+  "visual_description": "Amitabh Bachchan wearing sunglasses on a phone call while stepping off a private jet with Jaya Bachchan in Kabhi Khushi Kabhie Gham.",
+  "usage_context": "Used to joke about sudden unannounced arrivals, uninvited guests, or surprising someone by turning up at their location.",
   "keywords": [
     "guess karo hum kahan hain",
     "kabhi khushi kabhie gham",
     "k3g",
     "amitabh bachchan",
+    "jaya bachchan",
     "yashvardhan raichand",
     "private jet",
     "surprise visit",
-    "flex",
     "bollywood meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1024,
   "image_height": 460,
   "example": {
-    "setup": "Relatives when you are home alone on a Sunday"
+    "setup": "Relatives 5 minutes after asking 'Beta ghar pe ho kya?'"
   },
   "text_areas": [
     {
       "id": "setup",
-      "description": "Situation or scenario leading to the surprise arrival",
+      "description": "Scenario describing an unexpected arrival or surprise visit",
       "x": 520,
-      "y": 40,
-      "width": 470,
-      "height": 220,
-      "fontSize": 48,
+      "y": 35,
+      "width": 465,
+      "height": 225,
+      "fontSize": 38,
       "color": "black",
       "stroke": "none",
       "maxLength": 80,

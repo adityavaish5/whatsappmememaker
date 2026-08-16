@@ -1,8 +1,8 @@
 {
   "id": "bhanu-pratap-singh-in-disguise",
   "name": "Bhanu Pratap Singh In Disguise",
-  "visual_description": "Amitabh Bachchan as Thakur Bhanupratap Singh from Sooryavansham disguised with a white cloth over his head, standing discreetly amidst a crowd.",
-  "usage_context": "Used to describe spying on someone secretly, using incognito mode, or attending an event while trying to remain unnoticed.",
+  "visual_description": "Thakur Bhanupratap Singh (Amitabh Bachchan) disguised with a white shawl over his head secretly observing among a crowd in Sooryavansham.",
+  "usage_context": "Used to describe secretly attending an event incognito, lurking, or observing someone unnoticed.",
   "keywords": [
     "sooryavansham",
     "bhanupratap",
@@ -10,28 +10,28 @@
     "disguise",
     "incognito",
     "spying",
-    "crowd",
-    "hindi cinema",
-    "bollywood meme"
+    "lurking",
+    "stalking",
+    "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 1024,
   "image_height": 512,
   "example": {
-    "top_text": "ME IN MY CRUSH'S WEDDING JUST FOR FREE PANEER"
+    "top_text": "Me attending my ex's wedding for free paneer tikka"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Caption explaining the covert or undercover situation",
-      "x": 30,
-      "y": 20,
-      "width": 964,
+      "description": "Caption describing an undercover or incognito observation situation",
+      "x": 20,
+      "y": 15,
+      "width": 984,
       "height": 110,
-      "fontSize": 48,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
-      "maxLength": 90,
+      "maxLength": 85,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

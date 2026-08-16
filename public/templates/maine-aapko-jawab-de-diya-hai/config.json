@@ -1,33 +1,34 @@
 {
   "id": "maine-aapko-jawab-de-diya-hai",
-  "name": "Maine Aapko Jawab De Diya Hai",
-  "visual_description": "An NDTV reporter holding a red mic interviewing a man with glasses on the street who is angrily refusing to answer further questions.",
-  "usage_context": "Used to shut down repeated questioning, deflect persistent inquiries, or abruptly end an argument.",
+  "name": "Mene Aapko Jawab De Diya Hai (Kirit Somaiya NDTV Interview)",
+  "visual_description": "BJP politician Kirit Somaiya sternly addressing an NDTV reporter with a red mic on a street, with a black bottom subtitle bar reading 'Mene Aapko Jawab De Diya Hai!'.",
+  "usage_context": "Used to express refusal to answer further questions, shut down nagging interrogations, or abruptly end an awkward conversation.",
   "keywords": [
     "maine aapko jawab de diya hai",
-    "ndtv interview",
-    "reporter",
+    "mene aapko jawab de diya hai",
     "kirit somaiya",
-    "news debate",
+    "ndtv",
+    "reporter",
+    "interview",
     "indian meme",
-    "shut down",
-    "deflection"
+    "avoiding questions",
+    "bjp"
   ],
   "sentiment": "sarcastic",
   "image_width": 567,
   "image_height": 394,
   "example": {
-    "top_text": "When HR asks why I want to switch companies after 6 months"
+    "top_text": "When relatives ask about my marriage plans for the 10th time"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Scenario or question prompting the defensive response",
-      "x": 20,
-      "y": 15,
-      "width": 527,
-      "height": 70,
-      "fontSize": 48,
+      "description": "Caption or situation prompting the defensive reply",
+      "x": 15,
+      "y": 10,
+      "width": 537,
+      "height": 65,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

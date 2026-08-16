@@ -1,8 +1,8 @@
 {
   "id": "hiding-face-under-cooking-pots",
-  "name": "Golmaal Boys Hiding Under Pots",
-  "visual_description": "Four men walking in a row at an event covering their heads and faces with large metal cooking vessels and boxes to disguise themselves.",
-  "usage_context": "Used to depict awkwardly trying to avoid someone, sneaking into a place uninvited, or hiding from responsibilities and embarrassing situations.",
+  "name": "Golmaal Gang Hiding Under Utensils",
+  "visual_description": "Four men walking in line at an event covering their heads and upper bodies with large metal pots and containers.",
+  "usage_context": "Depicting stealthy escapes, avoiding awkward social encounters, or crashing an event for free food.",
   "keywords": [
     "golmaal",
     "ajay devgn",
@@ -13,25 +13,25 @@
     "cooking pots",
     "patila",
     "stealth",
-    "introvert",
-    "avoiding someone",
+    "wedding crashers",
+    "avoiding relatives",
     "indian meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 724,
   "image_height": 348,
   "example": {
-    "top_text": "Me and the boys entering the wedding for free food"
+    "top_text": "Me and the boys entering a wedding for free food"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Top caption describing the stealthy or embarrassing situation",
-      "x": 20,
-      "y": 15,
-      "width": 684,
-      "height": 65,
-      "fontSize": 48,
+      "description": "Top caption describing sneaking in or avoiding something",
+      "x": 12,
+      "y": 10,
+      "width": 700,
+      "height": 55,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

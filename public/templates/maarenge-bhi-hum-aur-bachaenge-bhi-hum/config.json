@@ -1,31 +1,31 @@
 {
   "id": "maarenge-bhi-hum-aur-bachaenge-bhi-hum",
   "name": "Maarenge Bhi Hum Aur Bachaenge Bhi Hum",
-  "visual_description": "Salman Khan as Chulbul Pandey in Dabangg 3 looking serious and intense with a moustache.",
-  "usage_context": "Used to describe scenarios where someone creates a problem and then acts as the savior solving it.",
+  "visual_description": "Salman Khan as Chulbul Pandey looking intensely with subtitle 'Maarenge bhi hum aur bachaayenge bhi hum'.",
+  "usage_context": "Used when an individual or company causes a problem only to take credit for solving it.",
   "keywords": [
     "salman khan",
     "chulbul pandey",
     "dabangg 3",
     "maarenge bhi hum",
-    "bollywood meme",
+    "bollywood",
     "hindi dialogue"
   ],
   "sentiment": "sarcastic",
   "image_width": 600,
   "image_height": 338,
   "example": {
-    "top_text": "Anti-virus companies creating new viruses:"
+    "top_text": "Anti-virus companies creating new computer viruses:"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup caption describing the situation or entity creating and solving the problem",
-      "x": 20,
-      "y": 15,
-      "width": 560,
-      "height": 90,
-      "fontSize": 48,
+      "description": "Setup caption describing the situation or hypocritical savior entity",
+      "x": 15,
+      "y": 10,
+      "width": 570,
+      "height": 65,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 70,

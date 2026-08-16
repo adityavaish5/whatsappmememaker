@@ -1,33 +1,34 @@
 {
   "id": "tumhare-tarah-40-log-aur-hai",
   "name": "Tumhare Tarah 40 Log Aur Hai",
-  "visual_description": "Akshay Kumar as DCP Veer Sooryavanshi leaning forward at an interrogation desk with a stern expression and subtitle at the bottom.",
-  "usage_context": "Used to mock someone who thinks they are irreplaceable, unique, or demanding special treatment.",
+  "visual_description": "Akshay Kumar leaning forward at an interrogation desk pointing a pen, with bottom subtitle 'Tumhare tarah 40 log aur hai'.",
+  "usage_context": "Used to dismiss someone who feels unique, irreplaceable, or entitled to special demands.",
   "keywords": [
     "akshay kumar",
     "sooryavanshi",
     "tumhare tarah 40 log aur hai",
+    "40 log aur hai",
+    "interview meme",
     "hr meme",
-    "interview",
+    "replaceable",
     "sarcasm",
-    "dismissive",
-    "bollywood meme"
+    "dismissive"
   ],
   "sentiment": "sarcastic",
   "image_width": 1200,
-  "image_height": 675,
+  "image_height": 667,
   "example": {
-    "caption": "When a candidate asks for 200% hike during the interview"
+    "caption": "When a candidate with 1 year experience demands a 50 LPA package"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or setup text provoking the dismissive reaction",
-      "x": 40,
-      "y": 30,
-      "width": 1120,
+      "description": "Setup scenario provoking the dismissive reaction",
+      "x": 30,
+      "y": 25,
+      "width": 1140,
       "height": 130,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

@@ -1,50 +1,51 @@
 {
   "id": "zomato-happy-delivery-guy",
   "name": "Zomato Happy Delivery Guy (Sonu)",
-  "visual_description": "Viral delivery partner Sonu smiling broadly while wearing a helmet and delivery jacket.",
-  "usage_context": "Used to express pure happiness, wholesomeness, simple contentment, or smiling through life's small wins.",
+  "visual_description": "Close-up of viral Zomato delivery partner Sonu smiling warmly wearing a helmet and winter jacket.",
+  "usage_context": "Used to convey unadulterated happiness, wholesomeness, simple contentment, or smiling through everyday life.",
   "keywords": [
     "zomato delivery boy",
     "sonu zomato",
     "happy rider",
     "smiling man",
-    "wholesome meme",
-    "indian meme"
+    "wholesome",
+    "indian meme",
+    "delhi"
   ],
   "sentiment": "positive",
   "image_width": 730,
   "image_height": 627,
   "example": {
-    "top_text": "WHEN THE CUSTOMER SAYS",
-    "bottom_text": "KEEP THE CHANGE"
+    "top_text": "WHEN THE ORDER CANCELS",
+    "bottom_text": "AND YOU GET FREE BIRYANI"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Top setup text over the helmet",
+      "description": "Setup text placed across the top helmet surface",
       "x": 20,
       "y": 15,
       "width": 690,
-      "height": 95,
-      "fontSize": 48,
+      "height": 90,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
-      "maxLength": 60,
+      "maxLength": 55,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"
     },
     {
       "id": "bottom_text",
-      "description": "Bottom punchline text over the jacket",
+      "description": "Punchline text placed across the bottom jacket area",
       "x": 20,
-      "y": 515,
+      "y": 520,
       "width": 690,
-      "height": 95,
-      "fontSize": 48,
+      "height": 90,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
-      "maxLength": 60,
+      "maxLength": 55,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

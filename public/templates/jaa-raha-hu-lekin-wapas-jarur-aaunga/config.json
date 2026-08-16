@@ -1,8 +1,8 @@
 {
   "id": "jaa-raha-hu-lekin-wapas-jarur-aaunga",
   "name": "Jaa Raha Hu Lekin Wapas Jarur Aaunga",
-  "visual_description": "Two characters facing each other dramatically indoors with subtitle text at the bottom.",
-  "usage_context": "Used to joke about making a temporary exit, failing an attempt, or closing an app/game with the full intent to return shortly.",
+  "visual_description": "Two men facing each other solemnly indoors with the yellow subtitle 'jaa raha hu lekin wapas jarur aaunga' at the bottom.",
+  "usage_context": "Used to humorous effect when temporarily leaving a place, closing a social media app, or logging off a game with the intention to return soon.",
   "keywords": [
     "jaa raha hu lekin wapas jarur aaunga",
     "wapas aaunga",
@@ -10,7 +10,8 @@
     "hindi dialogue",
     "comeback",
     "farewell",
-    "indian meme"
+    "quitting",
+    "temporary exit"
   ],
   "sentiment": "sarcastic",
   "image_width": 1100,
@@ -21,12 +22,12 @@
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or setup text describing a temporary departure",
+      "description": "Caption describing a temporary exit or defeat before an inevitable return",
       "x": 50,
-      "y": 25,
+      "y": 20,
       "width": 1000,
       "height": 110,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

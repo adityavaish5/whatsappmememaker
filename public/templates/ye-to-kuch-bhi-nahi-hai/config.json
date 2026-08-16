@@ -1,33 +1,37 @@
 {
   "id": "ye-to-kuch-bhi-nahi-hai",
-  "name": "Ye To Kuch Bhi Nahi Hai",
-  "visual_description": "Indian meme template: Ye To Kuch Bhi Nahi Hai",
-  "usage_context": "Use when expressing the sentiment or reaction of 'Ye To Kuch Bhi Nahi Hai'",
+  "name": "Munna Bhai Nahi",
+  "visual_description": "Sanjay Dutt as Munna Bhai in a turquoise shirt looking confused and saying 'Nahi'.",
+  "usage_context": "Used to give a blunt, straight-faced refusal or denial to an absurd question, suggestion, or situation.",
   "keywords": [
-    "indian meme",
-    "kuch",
-    "bhi",
+    "munna bhai mbbs",
+    "sanjay dutt",
     "nahi",
-    "hai"
+    "no",
+    "denial",
+    "refusal",
+    "hindi meme",
+    "bollywood"
   ],
-  "sentiment": "neutral",
-  "image_width": 800,
-  "image_height": 600,
+  "sentiment": "negative",
+  "image_width": 1005,
+  "image_height": 433,
   "example": {
-    "text": "Ye To Kuch Bhi Nahi Hai"
+    "caption": "Did you study for today's exam?"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Main caption or reaction text for this meme",
-      "x": 50,
-      "y": 50,
-      "width": 700,
-      "height": 180,
-      "fontSize": 48,
+      "id": "caption",
+      "description": "Question or situation prompting a blunt 'Nahi' response",
+      "x": 460,
+      "y": 40,
+      "width": 510,
+      "height": 220,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
-      "uppercase": true,
+      "maxLength": 100,
+      "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"
     }

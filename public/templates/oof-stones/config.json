@@ -1,36 +1,36 @@
 {
   "id": "oof-stones",
-  "name": "Oof Stones / Oooo Stones",
-  "visual_description": "Four carved stone pebbles with expressive facial sculptures making a round-mouthed 'oof' or 'ooo' reaction face against a grey background.",
-  "usage_context": "Used as a collective reaction to a savage roast, painful burn, cringe moment, or unexpected shock.",
+  "name": "Oof Stones / Oooo Reaction Stones",
+  "visual_description": "Four smooth carved stone sculptures with round-mouthed 'Oof' or 'Ooo' expressions.",
+  "usage_context": "Expressing collective shock, secondhand embarrassment, or reacting to a savage burn or roast.",
   "keywords": [
     "oof stones",
-    "ooo stones",
+    "oooo stones",
     "stone faces",
     "reaction",
-    "roast",
     "burn",
+    "roast",
     "cringe",
-    "shock"
+    "collective oof"
   ],
   "sentiment": "sarcastic",
   "image_width": 800,
   "image_height": 509,
   "example": {
-    "caption": "WHEN SHE REPLIES 'OK BRO' TO YOUR 5-PARAGRAPH CONFESSION"
+    "caption": "WHEN THE TEACHER ROASTS THE CLASS TOPPER"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "The setup or roast being reacted to",
-      "x": 30,
-      "y": 20,
-      "width": 740,
-      "height": 90,
-      "fontSize": 48,
+      "description": "The setup, roast, or painful burn being reacted to",
+      "x": 20,
+      "y": 15,
+      "width": 760,
+      "height": 75,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

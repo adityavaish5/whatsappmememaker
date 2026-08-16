@@ -1,36 +1,37 @@
 {
   "id": "tumhe-to-fansi-hogi-fansi",
-  "name": "Tumhe To Fansi Hogi Fansi - ACP Pradyuman CID",
-  "visual_description": "ACP Pradyuman from CID looking furious with a raised hand gesture, delivering his iconic dialogue with subtitle 'Tumhe to fansi hogi fansi'.",
-  "usage_context": "Used to comically declare extreme, exaggerated punishment for minor mistakes, petty crimes, or annoying habits.",
+  "name": "Tumhe To Fansi Hogi Fansi - ACP Pradyuman",
+  "visual_description": "ACP Pradyuman from CID with a furious expression and raised hand gesture, captioned with the subtitle 'Tumhe to fansi hogi fansi'.",
+  "usage_context": "Used humorously to demand extreme punishment or the death penalty for trivial mistakes, annoying habits, or minor betrayals.",
   "keywords": [
     "CID",
     "ACP Pradyuman",
     "Shivaji Satam",
     "tumhe to fansi hogi",
+    "fansi",
     "death sentence",
-    "indian tv meme",
     "sony tv",
-    "anger"
+    "indian tv meme",
+    "overreaction"
   ],
   "sentiment": "sarcastic",
   "image_width": 640,
   "image_height": 402,
   "example": {
-    "setup": "Friend who reveals spoilers without a warning:"
+    "setup": "When someone leaves only 1 sip of cold drink in the bottle:"
   },
   "text_areas": [
     {
       "id": "setup",
-      "description": "Situation or minor offense deserving extreme punishment",
-      "x": 20,
-      "y": 15,
-      "width": 600,
-      "height": 90,
-      "fontSize": 48,
+      "description": "Situation or minor offense deserving extreme over-the-top punishment",
+      "x": 15,
+      "y": 12,
+      "width": 610,
+      "height": 70,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 75,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

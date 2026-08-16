@@ -1,33 +1,34 @@
 {
   "id": "kl-rahul-celebration",
-  "name": "KL Rahul Shut Out the Noise Celebration",
-  "visual_description": "Indian cricketer KL Rahul in blue jersey closing his eyes and plugging his ears with gloved fingers.",
-  "usage_context": "Use to depict ignoring critics, toxic opinions, unsolicited advice, or tuning out external drama.",
+  "name": "KL Rahul Shut Out The Noise Celebration",
+  "visual_description": "Cricketer KL Rahul in Team India's blue jersey closing his eyes and plugging his ears with batting gloves.",
+  "usage_context": "Used to represent ignoring haters, silencing critics, tuning out unsolicited advice, or staying unbothered by drama.",
   "keywords": [
     "kl rahul",
     "shut out the noise",
     "cricket",
+    "india cricket team",
     "celebration",
     "ears closed",
-    "ignore haters",
+    "ignore",
     "silence critics",
-    "team india"
+    "unbothered"
   ],
   "sentiment": "positive",
-  "image_width": 980,
-  "image_height": 600,
+  "image_width": 1080,
+  "image_height": 648,
   "example": {
     "top_text": "ME IGNORING RELATIVES ASKING ABOUT MY MARRIAGE PLANS"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Caption explaining what noise or advice is being ignored",
+      "description": "Text describing what noise, critics, or unwanted advice is being ignored",
       "x": 40,
       "y": 20,
-      "width": 900,
+      "width": 1000,
       "height": 110,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

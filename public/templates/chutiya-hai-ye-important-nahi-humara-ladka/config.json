@@ -1,8 +1,8 @@
 {
   "id": "chutiya-hai-ye-important-nahi-humara-ladka",
-  "name": "Munna Bhai Saying Nahi",
-  "visual_description": "Sanjay Dutt as Munna Bhai wearing a turquoise blue shirt with a confused expression, captioned 'Nahi'.",
-  "usage_context": "Used to express a blunt, humorous refusal or direct denial to an absurd request or question.",
+  "name": "Munna Bhai Nahi",
+  "visual_description": "Sanjay Dutt as Munna Bhai in a cyan shirt responding bluntly with a yellow subtitle reading 'Nahi'.",
+  "usage_context": "Used to convey a flat, blunt, and unapologetic refusal or denial to an unreasonable question or request.",
   "keywords": [
     "munna bhai",
     "sanjay dutt",
@@ -11,23 +11,23 @@
     "munna bhai mbbs",
     "refusal",
     "denial",
-    "bollywood meme"
+    "reaction"
   ],
   "sentiment": "sarcastic",
   "image_width": 1000,
   "image_height": 446,
   "example": {
-    "top_text": "Boss: Can you handle one small task over the weekend?"
+    "top_text": "Boss: Can you complete this task over the weekend?"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or question prompting the blunt 'Nahi' response",
-      "x": 30,
-      "y": 20,
-      "width": 940,
-      "height": 90,
-      "fontSize": 48,
+      "description": "The setup question or request prompting a blunt refusal",
+      "x": 20,
+      "y": 15,
+      "width": 960,
+      "height": 80,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

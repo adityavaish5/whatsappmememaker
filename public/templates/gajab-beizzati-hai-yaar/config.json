@@ -1,8 +1,8 @@
 {
   "id": "gajab-beizzati-hai-yaar",
   "name": "Gajab Beizzati Hai Yaar",
-  "visual_description": "Asif Khan (Ganesh) looking offended and shocked sideways in a scene from Panchayat Season 1 with the Hindi subtitle 'गजब बेज्जती है यार'.",
-  "usage_context": "Used to express intense embarrassment, public humiliation, or being unexpectedly roasted or disrespected.",
+  "visual_description": "Ganesh (Asif Khan) looking shocked and offended at a wedding in Panchayat Season 1 with Hindi subtitle 'गजब बेज्जती है यार'.",
+  "usage_context": "Reaction template for unexpected insults, embarrassment, or extreme disrespect.",
   "keywords": [
     "gajab beizzati hai yaar",
     "panchayat",
@@ -10,24 +10,24 @@
     "ganesh",
     "insult",
     "embarrassment",
-    "indian meme",
-    "tvf"
+    "tvf",
+    "phulera"
   ],
   "sentiment": "sarcastic",
   "image_width": 640,
   "image_height": 360,
   "example": {
-    "top_text": "When your card gets declined in front of your date"
+    "top_text": "When your younger sibling roasts you in front of relatives"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or situation describing an insulting or embarrassing moment",
-      "x": 20,
-      "y": 15,
-      "width": 600,
-      "height": 90,
-      "fontSize": 48,
+      "description": "Insulting or embarrassing situation context",
+      "x": 15,
+      "y": 12,
+      "width": 610,
+      "height": 70,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

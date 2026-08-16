@@ -1,32 +1,32 @@
 {
   "id": "saas-to-len-de-bey",
   "name": "Saas Toh Len De Bey - Aakash Gupta",
-  "visual_description": "Standup comedian Aakash Gupta holding a microphone on stage looking bewildered and overwhelmed.",
-  "usage_context": "Used to express feeling overwhelmed or rushed when bombarded with tasks, questions, or demands immediately after finishing something.",
+  "visual_description": "Standup comedian Aakash Gupta holding a microphone on stage, glancing sideways in disbelief with the caption 'saas toh len de bey' at the bottom.",
+  "usage_context": "Used to express feeling overwhelmed, rushed, or demanded for follow-up results before even catching one's breath.",
   "keywords": [
     "aakash gupta",
     "saas toh len de bey",
     "standup comedy",
-    "give me a break",
     "let me breathe",
-    "indian comedian",
-    "overwhelmed"
+    "overwhelmed",
+    "relatives",
+    "demands"
   ],
   "sentiment": "sarcastic",
   "image_width": 1600,
   "image_height": 900,
   "example": {
-    "top_text": "HR: You are selected!\nRelatives 5 seconds later: Shaadi kab kar rahe ho?"
+    "top_text": "Completed graduation today\nRelatives 5 minutes later: Shaadi kab kar rahe ho?"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or prompt causing overwhelm or rush",
-      "x": 60,
+      "description": "Situation or rushed demand causing overwhelm",
+      "x": 50,
       "y": 40,
-      "width": 1480,
-      "height": 220,
-      "fontSize": 56,
+      "width": 1500,
+      "height": 200,
+      "fontSize": 52,
       "color": "white",
       "stroke": "black",
       "maxLength": 120,

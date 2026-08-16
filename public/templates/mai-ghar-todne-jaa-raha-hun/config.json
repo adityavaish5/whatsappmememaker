@@ -1,8 +1,8 @@
 {
   "id": "mai-ghar-todne-jaa-raha-hun",
   "name": "Main Ghar Todne Jaa Raha Hun",
-  "visual_description": "Bhide from TMKOC wearing sunglasses and a light blue shirt with a determined, serious expression outdoors, with the caption 'Main ghar todne jaa raha hun'.",
-  "usage_context": "Used humorously when intending to ruin someone's relationship, cause chaos in a group, or meddle in someone's personal affairs.",
+  "visual_description": "Bhide from TMKOC wearing sunglasses and a blue shirt with a serious expression.",
+  "usage_context": "Used humorously when intentionally going to cause drama, ruin a relationship, or stir chaos in a group.",
   "keywords": [
     "bhide",
     "tmkoc",
@@ -10,8 +10,8 @@
     "main ghar todne jaa raha hun",
     "mandar chandwadkar",
     "sunglasses",
-    "home wrecker",
-    "drama"
+    "drama",
+    "chaos"
   ],
   "sentiment": "sarcastic",
   "image_width": 1200,
@@ -22,15 +22,15 @@
   "text_areas": [
     {
       "id": "caption",
-      "description": "Context or setup leading to the reaction",
-      "x": 40,
-      "y": 25,
-      "width": 1120,
-      "height": 100,
-      "fontSize": 48,
+      "description": "Setup or situation prompting chaotic interference",
+      "x": 30,
+      "y": 15,
+      "width": 1140,
+      "height": 90,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,32 +1,32 @@
 {
   "id": "haan-ye-karlo-pehle",
   "name": "Haan Ye Karlo Pehle",
-  "visual_description": "Comedian Raju Srivastav holding his head in frustration during a stand-up performance with 'Haan ye karlo pehle' subtitle.",
-  "usage_context": "Used sarcastically when someone interrupts important work with irrelevant or pointless tasks.",
+  "visual_description": "Comedian Raju Srivastav holding his head in frustration during a stand-up routine, captioned 'Haan ye karlo pehle'.",
+  "usage_context": "Used sarcastically when someone prioritizes irrelevant tasks or makes absurd demands during critical moments.",
   "keywords": [
     "raju srivastav",
     "haan ye karlo pehle",
+    "the great indian laughter challenge",
     "standup comedy",
-    "laughter challenge",
     "frustration",
     "sarcasm",
-    "indian meme"
+    "priorities"
   ],
   "sentiment": "sarcastic",
   "image_width": 720,
   "image_height": 540,
   "example": {
-    "top_text": "Exam tomorrow morning\nMe cleaning my room at 2 AM:"
+    "top_text": "Exam tomorrow morning\nMe redesigning my playlist at 3 AM:"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or distraction before the reaction",
+      "description": "The misplaced priority or distracting situation",
       "x": 20,
       "y": 15,
       "width": 680,
       "height": 90,
-      "fontSize": 48,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

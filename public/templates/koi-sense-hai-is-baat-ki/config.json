@@ -1,38 +1,36 @@
 {
   "id": "koi-sense-hai-is-baat-ki",
-  "name": "Koi Sense Hai Is Baat Ki - Anubhav Singh Bassi",
-  "visual_description": "Two-panel meme of comedian Anubhav Singh Bassi performing stand-up on stage. Top panel shows him asking 'Koi sense hai is baat ki?' and bottom panel shows him answering 'Humein bahut lag rahi thi us time'.",
-  "usage_context": "Used to describe irrational, illogical, or bizarre decisions and actions that felt completely justified or made total sense in the heat of the moment.",
+  "name": "Koi Sense Hai Is Baat Ki",
+  "visual_description": "Two-panel stand-up comedy format showing Anubhav Singh Bassi asking 'Koi sense hai is baat ki?' in the top panel and answering 'Humein bahut lag rahi thi us time' in the bottom panel.",
+  "usage_context": "Used to mock irrational or illogical decisions that seemed like a great idea in the moment.",
   "keywords": [
-    "bassi",
     "anubhav singh bassi",
-    "standup comedy",
+    "bassi",
     "koi sense hai is baat ki",
     "humein bahut lag rahi thi us time",
+    "standup comedy",
     "cheating",
-    "hostel",
-    "indian meme template",
     "regret",
-    "funny logic"
+    "illogical decision"
   ],
   "sentiment": "sarcastic",
   "image_width": 1024,
   "image_height": 1024,
   "example": {
-    "situation": "Drinking 4 cups of coffee at 2 AM before an 8 AM exam"
+    "situation": "Buying gym membership on 1st January and never going again"
   },
   "text_areas": [
     {
       "id": "situation",
-      "description": "The irrational decision or action that made sense back then",
+      "description": "The illogical action or decision",
       "x": 40,
-      "y": 30,
+      "y": 25,
       "width": 944,
-      "height": 120,
-      "fontSize": 48,
+      "height": 110,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

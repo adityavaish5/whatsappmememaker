@@ -1,31 +1,33 @@
 {
   "id": "hiding-behind-door",
-  "name": "Guy Holding Freestanding Door",
-  "visual_description": "A man holds a freestanding wooden door closed to block intruders, unaware there are no walls around it.",
-  "usage_context": "Used to mock useless security measures, ineffective rules, or a false sense of protection.",
+  "name": "Holding Door With No Walls",
+  "visual_description": "A man frantically holds a closed wooden door attached to a low brick wall, while goons easily bypass him through the wide open sides.",
+  "usage_context": "Used to mock useless security measures, ineffective rules, futile precautions, or a false sense of safety.",
   "keywords": [
     "holding door",
     "useless security",
-    "open wall",
+    "no walls",
+    "open door meme",
     "false security",
     "firewall meme",
-    "indian meme template"
+    "telugu meme template",
+    "indian movie comedy"
   ],
   "sentiment": "sarcastic",
   "image_width": 854,
   "image_height": 360,
   "example": {
-    "top_text": "Me accepting cookies to protect my privacy"
+    "top_text": "Me closing all background apps to save 1% battery"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Caption describing a futile or useless security effort",
+      "description": "Caption describing a futile effort or useless security measure",
       "x": 20,
       "y": 15,
       "width": 814,
-      "height": 70,
-      "fontSize": 48,
+      "height": 60,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 70,

@@ -1,8 +1,8 @@
 {
   "id": "meri-aankhon-me-to-dekh",
   "name": "Meri Aankhon Me To Dekh",
-  "visual_description": "Akshay Kumar smiling and forcibly grabbing Salman Khan by the cheek to make him look into his eyes from the movie Mujhse Shaadi Karogi.",
-  "usage_context": "Used to show confrontation, forcing someone to pay attention, catch a lie, or make someone face an awkward reality.",
+  "visual_description": "Akshay Kumar grabs Salman Khan's face, forcing him to look directly at him with a mischievous smile.",
+  "usage_context": "Used to represent catching someone lying, forcing attention, or demanding direct answers in an awkward situation.",
   "keywords": [
     "akshay kumar",
     "salman khan",
@@ -10,9 +10,8 @@
     "sunny",
     "sameer",
     "meri aankhon me to dekh",
-    "look at me",
-    "bollywood",
-    "hindi meme"
+    "confrontation",
+    "bollywood meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 1600,
@@ -24,9 +23,9 @@
     {
       "id": "top_text",
       "description": "Situation or setup caption at the top",
-      "x": 40,
+      "x": 50,
       "y": 30,
-      "width": 1520,
+      "width": 1500,
       "height": 130,
       "fontSize": 56,
       "color": "white",

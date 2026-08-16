@@ -1,36 +1,36 @@
 {
   "id": "rishabh-pant-looking-for-the-ball",
   "name": "Rishabh Pant Looking For The Ball",
-  "visual_description": "Indian wicketkeeper Rishabh Pant looks up at the sky in confusion searching for the cricket ball, while it is right between his legs.",
-  "usage_context": "Used to mock situations where someone is desperately searching for something that is right in front of them or completely obvious.",
+  "visual_description": "Wicketkeeper Rishabh Pant looks upward searching for the cricket ball while it drops right between his legs.",
+  "usage_context": "Used to mock missing something obvious or searching everywhere for an item right under one's nose.",
   "keywords": [
     "rishabh pant",
     "cricket",
     "india vs bangladesh",
     "looking for ball",
-    "confused",
     "krunal pandya",
-    "funny sports moment",
-    "blind spot"
+    "obvious",
+    "funny",
+    "confused"
   ],
   "sentiment": "sarcastic",
   "image_width": 600,
   "image_height": 338,
   "example": {
-    "top_text": "Me looking for my phone using my phone's flashlight"
+    "top_text": "Me looking for my glasses while wearing them"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Caption describing searching for something that is right in front of you",
-      "x": 20,
-      "y": 15,
-      "width": 560,
-      "height": 70,
-      "fontSize": 48,
+      "description": "Caption describing missing an obvious object or solution",
+      "x": 15,
+      "y": 10,
+      "width": 570,
+      "height": 65,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
-      "maxLength": 65,
+      "maxLength": 60,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

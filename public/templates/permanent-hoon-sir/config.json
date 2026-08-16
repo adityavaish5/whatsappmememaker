@@ -1,32 +1,32 @@
 {
   "id": "permanent-hoon-sir",
   "name": "Permanent Hoon Sir",
-  "visual_description": "Govind from 3 Idiots staring wide-eyed and stunned from behind a green wooden door with the caption 'Permanent hoon sir'.",
-  "usage_context": "Used to express invulnerability to firing, stubborn job security, staying indefinitely, or unshakeable tenure in any situation.",
+  "visual_description": "Govind from 3 Idiots peeking wide-eyed behind a green door with the subtitle 'Permanent hoon sir'.",
+  "usage_context": "Used to boast about job security, untouchability, or refusal to leave despite threats or chaos.",
   "keywords": [
     "permanent hoon sir",
     "3 idiots",
     "govind",
+    "virus servant",
     "job security",
-    "government employee",
-    "indian meme",
-    "tenure"
+    "government job",
+    "indian meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 900,
   "image_height": 473,
   "example": {
-    "setup": "Boss: Kaam nahi karoge toh nikaal dunga\nGovt Employee:"
+    "setup": "HR: We are going through layoffs\nGovt employees:"
   },
   "text_areas": [
     {
       "id": "setup",
-      "description": "Situation or dialog prompting the 'Permanent hoon sir' reaction",
-      "x": 30,
-      "y": 20,
-      "width": 840,
-      "height": 110,
-      "fontSize": 48,
+      "description": "Situation or dialogue prompting unbothered job security",
+      "x": 20,
+      "y": 15,
+      "width": 860,
+      "height": 95,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

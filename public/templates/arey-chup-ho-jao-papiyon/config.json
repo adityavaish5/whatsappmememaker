@@ -1,35 +1,35 @@
 {
   "id": "arey-chup-ho-jao-papiyon",
   "name": "Arey Chup Ho Jao Papiyon",
-  "visual_description": "Akshay Kumar angrily telling a chaotic lineup of men including Johnny Lever, Paresh Rawal, and Shahid Kapoor to shut up in Deewane Huye Paagal.",
-  "usage_context": "Used to demand silence from a chaotic group of friends, coworkers, or internet users discussing nonsensical or unethical ideas.",
+  "visual_description": "Akshay Kumar gesturing frantically to silence an arguing crowd of men including Johnny Lever and Sunil Shetty in Deewane Huye Paagal.",
+  "usage_context": "Used to shut down loud, chaotic debates, ridiculous suggestions, or group chat mayhem.",
   "keywords": [
     "arey chup ho jao papiyon",
     "akshay kumar",
     "deewane huye paagal",
     "johnny lever",
-    "paresh rawal",
     "shut up",
+    "group chat",
     "hindi meme"
   ],
   "sentiment": "sarcastic",
-  "image_width": 800,
-  "image_height": 418,
+  "image_width": 1024,
+  "image_height": 535,
   "example": {
-    "top_text": "Group chat planning another impossible Goa trip"
+    "top_text": "When everyone in the family group starts sharing unverified WhatsApp forwards"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or group being addressed",
+      "description": "Situation causing chaotic or annoying discussions",
       "x": 20,
       "y": 15,
-      "width": 760,
-      "height": 90,
-      "fontSize": 48,
+      "width": 984,
+      "height": 75,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

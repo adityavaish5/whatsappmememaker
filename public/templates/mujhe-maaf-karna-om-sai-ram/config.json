@@ -1,35 +1,35 @@
 {
   "id": "mujhe-maaf-karna-om-sai-ram",
   "name": "Mujhe Maaf Karna Om Sai Ram",
-  "visual_description": "Two crying children singing and praying together from the Bollywood movie Biwi No. 1.",
-  "usage_context": "Used to express mock guilt, preemptive apology, or regret before/after committing a relatable mistake or guilty pleasure.",
+  "visual_description": "Two crying kids hugging and singing with a subtitle overlay at the bottom.",
+  "usage_context": "Used to express humorous guilt, fake remorse, or seeking forgiveness after committing a relatable mistake or guilty pleasure.",
   "keywords": [
     "mujhe maaf karna om sai ram",
     "biwi no 1",
     "crying kids",
     "guilt",
     "apology",
-    "bollywood meme",
-    "praying"
+    "bollywood",
+    "sai baba"
   ],
   "sentiment": "sarcastic",
   "image_width": 800,
   "image_height": 373,
   "example": {
-    "caption": "Me eating junk food at 2 AM after promising to diet"
+    "caption": "Me ordering dessert at 2 AM after promising to start a strict diet"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation causing guilt or needing forgiveness",
+      "description": "The situation or guilty pleasure causing you to apologize",
       "x": 20,
-      "y": 15,
+      "y": 10,
       "width": 760,
-      "height": 95,
-      "fontSize": 48,
+      "height": 70,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

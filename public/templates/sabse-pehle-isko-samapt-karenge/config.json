@@ -1,33 +1,33 @@
 {
   "id": "sabse-pehle-isko-samapt-karenge",
   "name": "Sabse Pehle Isko Samapt Karenge",
-  "visual_description": "Akhilendra Mishra portraying Ravana in mythological TV series Ramayan with wide furious eyes and a grand crown, accompanied by the subtitle 'Sabse pehle isko samapt karenge!'.",
-  "usage_context": "Used to express an eager determination to finish or eliminate an easy task, target, or annoyance first before tackling anything else.",
+  "visual_description": "Akhilendra Mishra as Ravana in Ramayan (2008) with an intense, wide-eyed glare and the subtitle 'Sabse pehle isko samapt karenge!'.",
+  "usage_context": "Used when targeting an easy task, annoying obstacle, or specific problem to eliminate before handling the rest.",
   "keywords": [
     "sabse pehle isko samapt karenge",
     "akhilendra mishra",
-    "ravan",
-    "ramayan",
-    "indian meme",
+    "ravana",
+    "ramayan 2008",
+    "finish first",
     "target",
-    "destroy first",
-    "hindi dialogue"
+    "elimination",
+    "hindi meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 680,
   "image_height": 484,
   "example": {
-    "top_text": "Me spotting the 2-mark question in a 3-hour exam:"
+    "top_text": "Me spotting the easiest 2-mark question in a 3-hour exam:"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup scenario or trigger for wanting to finish off something first",
+      "description": "Situation or target chosen to be tackled first",
       "x": 20,
       "y": 15,
       "width": 640,
-      "height": 110,
-      "fontSize": 48,
+      "height": 95,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

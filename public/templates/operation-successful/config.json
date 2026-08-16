@@ -1,33 +1,35 @@
 {
   "id": "operation-successful",
   "name": "Johnny Lever Operation Successful",
-  "visual_description": "Johnny Lever dressed in surgeon scrubs and a helmet with a headlamp, excitedly shouting 'Operation Successful'.",
-  "usage_context": "Used sarcastically or genuinely to celebrate completing a chaotic, accidental, or sketchy task successfully.",
+  "visual_description": "Johnny Lever dressed as an absurd surgeon in green scrubs and a white hard hat with a torch, excitedly saying 'Operation Successful'.",
+  "usage_context": "Used to celebrate finishing a task, fixing a bug, or pulling off a plan using chaotic, clumsy, or questionable methods.",
   "keywords": [
     "johnny lever",
     "operation successful",
+    "baadshah",
+    "ram lal",
     "doctor",
     "surgeon",
     "bollywood",
     "comedy",
-    "babulal",
-    "success"
+    "success",
+    "hacker"
   ],
   "sentiment": "sarcastic",
   "image_width": 576,
-  "image_height": 324,
+  "image_height": 310,
   "example": {
     "top_text": "Fixed the production bug by restarting the server"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or task completed unexpectedly",
-      "x": 20,
-      "y": 15,
-      "width": 536,
-      "height": 70,
-      "fontSize": 48,
+      "description": "Situation or task completed unexpectedly or via jank methods",
+      "x": 15,
+      "y": 10,
+      "width": 546,
+      "height": 65,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

@@ -1,17 +1,17 @@
 {
   "id": "saif-ali-khan-thumbs-up",
   "name": "Saif Ali Khan Double Thumbs Up",
-  "visual_description": "Saif Ali Khan as Rohit Patel in Kal Ho Naa Ho smiling enthusiastically and giving double thumbs up across a dinner table.",
-  "usage_context": "Used to express overly enthusiastic approval, forced optimism, fake confidence, or awkward agreement.",
+  "visual_description": "Saif Ali Khan smiling enthusiastically with double thumbs up across a dinner table while a waiter fixes his hair from behind.",
+  "usage_context": "Used to convey awkward agreement, fake confidence, pretending everything is going great, or forced optimism.",
   "keywords": [
     "saif ali khan",
     "rohit patel",
     "kal ho naa ho",
-    "thumbs up",
+    "double thumbs up",
     "bollywood",
-    "approval",
+    "awkward smile",
     "agreement",
-    "awkward smile"
+    "pretending everything is fine"
   ],
   "sentiment": "sarcastic",
   "image_width": 1024,
@@ -22,12 +22,12 @@
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Main caption setting up the situation or reaction",
-      "x": 30,
-      "y": 20,
-      "width": 964,
-      "height": 90,
-      "fontSize": 48,
+      "description": "Top caption describing the awkward situation or forced agreement",
+      "x": 20,
+      "y": 15,
+      "width": 984,
+      "height": 75,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

@@ -1,8 +1,8 @@
 {
   "id": "iska-answer-to-nai-ata-mujhe",
   "name": "Iska Answer To Aata Hi Nahi Mujhe",
-  "visual_description": "Comedian Abhishek Upmanyu on stage holding a mic with a perplexed expression, with the caption 'iska answer to aata hi nahi mujhe' at the bottom.",
-  "usage_context": "Used to express cluelessness or an inability to answer a question during exams, viva, job interviews, or awkward social situations.",
+  "visual_description": "Comedian Abhishek Upmanyu on stage holding a mic with an open-hand confused expression and yellow subtitle at bottom.",
+  "usage_context": "Used to express cluelessness, unpreparedness, or inability to answer difficult questions in exams, interviews, or conversations.",
   "keywords": [
     "abhishek upmanyu",
     "stand up comedy",
@@ -11,27 +11,26 @@
     "clueless",
     "viva",
     "exam",
-    "interview",
-    "indian meme"
+    "interview"
   ],
   "sentiment": "sarcastic",
   "image_width": 1200,
   "image_height": 720,
   "example": {
-    "top_text": "Interviewer: Where do you see yourself in 5 years?"
+    "top_text": "Interviewer: Tell me something that's not on your resume"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or question triggering the clueless response",
-      "x": 40,
-      "y": 30,
-      "width": 1120,
-      "height": 140,
-      "fontSize": 52,
+      "description": "Question or scenario showing complete cluelessness",
+      "x": 30,
+      "y": 25,
+      "width": 1140,
+      "height": 130,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

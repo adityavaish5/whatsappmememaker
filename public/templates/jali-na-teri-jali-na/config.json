@@ -1,33 +1,34 @@
 {
   "id": "jali-na-teri-jali-na",
-  "name": "Jali Na Teri Jali Na",
-  "visual_description": "Akshay Kumar in a hospital gown grinning mockingly and pointing his finger forward with the subtitle 'Jali na? Teri jali na?'",
-  "usage_context": "Used to mock someone who is obviously jealous, irritated, or envious of your success or good fortune.",
+  "name": "Jali Na Teri Jali Na - Akshay Kumar",
+  "visual_description": "Akshay Kumar smiling mischievously and pointing his finger forward with the subtitle 'Jali na? Teri jali na?' at the bottom.",
+  "usage_context": "Used to gloat or tease someone who is visibly jealous, annoyed, or burned by your success or actions.",
   "keywords": [
     "akshay kumar",
     "mujhse shaadi karogi",
-    "jali na teri jali na",
     "sunny",
+    "jali na teri jali na",
     "jealousy",
-    "taunt",
+    "teasing",
     "smug",
-    "pointing"
+    "gloating",
+    "taunt"
   ],
   "sentiment": "sarcastic",
   "image_width": 1280,
   "image_height": 720,
   "example": {
-    "caption": "When your colleague sees you leaving early after getting promoted"
+    "caption": "When you leave office at 5 PM while everyone else has weekend shifts"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or setup describing someone getting jealous",
-      "x": 60,
-      "y": 30,
-      "width": 1160,
-      "height": 140,
-      "fontSize": 52,
+      "description": "Setup or situation describing someone getting jealous or annoyed",
+      "x": 40,
+      "y": 20,
+      "width": 1200,
+      "height": 130,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

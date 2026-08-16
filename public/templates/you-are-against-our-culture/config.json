@@ -1,8 +1,8 @@
 {
   "id": "you-are-against-our-culture",
   "name": "You Are Against Our Culture - Taapsee Pannu",
-  "visual_description": "Taapsee Pannu holding a microphone on stage and accusingly pointing at someone in the audience.",
-  "usage_context": "Used sarcastically to mock moral policing, conservative outrage, or overly traditional relatives reacting to harmless modern choices.",
+  "visual_description": "Taapsee Pannu on stage with a mic pointing accusingly at someone with a serious expression.",
+  "usage_context": "Mocks extreme moral policing, orthodox reactions, or conservative outrage against harmless choices.",
   "keywords": [
     "taapsee pannu",
     "one mic stand",
@@ -10,8 +10,8 @@
     "indian standup comedy",
     "moral policing",
     "pointing",
-    "indian aunties",
-    "sanskaar"
+    "sanskari",
+    "relatives"
   ],
   "sentiment": "sarcastic",
   "image_width": 980,
@@ -22,12 +22,12 @@
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or statement triggering the extreme conservative reaction",
+      "description": "Trigger situation provoking conservative outrage",
       "x": 30,
       "y": 20,
       "width": 920,
-      "height": 150,
-      "fontSize": 48,
+      "height": 130,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

@@ -1,32 +1,33 @@
 {
   "id": "tera-kaam-ho-gaya-tu-ja",
   "name": "Tera Kaam Ho Gaya Tu Ja",
-  "visual_description": "Nana Patekar (Uday Shetty) smiling and holding Paresh Rawal's (Ghungroo) hand on a couch in Welcome, with the subtitle 'Tera kaam ho gaya tu ja'.",
-  "usage_context": "Used to dismiss someone immediately after their usefulness or task is finished.",
+  "visual_description": "Nana Patekar smiling and gesturing dismissal while holding Paresh Rawal's hand on a couch in Welcome, captioned 'Tera kaam ho gaya tu ja'.",
+  "usage_context": "Used to dismiss someone immediately after their role, task, or usefulness is completed.",
   "keywords": [
     "tera kaam ho gaya tu ja",
     "welcome",
     "nana patekar",
     "uday shetty",
     "paresh rawal",
+    "ghungroo",
     "dismissal",
-    "hindi comedy"
+    "bollywood comedy"
   ],
   "sentiment": "sarcastic",
   "image_width": 1024,
   "image_height": 455,
   "example": {
-    "top_text": "When the group project is submitted and you talk to the free rider"
+    "top_text": "When the group project gets submitted and you look at the freeloader"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or context scenario at the top",
+      "description": "Context scenario or punchline setup at the top",
       "x": 30,
-      "y": 20,
+      "y": 15,
       "width": 964,
-      "height": 90,
-      "fontSize": 48,
+      "height": 75,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

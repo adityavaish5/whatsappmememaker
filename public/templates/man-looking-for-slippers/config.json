@@ -1,8 +1,8 @@
 {
   "id": "man-looking-for-slippers",
-  "name": "Finding Chappal Outside Temple / Identical Slippers Confusion",
-  "visual_description": "A shirtless young man stands with hands on hips, looking helplessly at dozens of identical blue-and-white rubber flip-flops scattered across the floor outside a rack.",
-  "usage_context": "Used to depict extreme confusion when trying to find one's belongings among identical options, especially relatable to leaving shoes outside temples, mosques, or hostels.",
+  "name": "Man Looking for Slippers / Temple Chappal Confusion",
+  "visual_description": "A shirtless young man stands looking helplessly at dozens of identical blue and white flip-flops scattered on the floor by a shoe rack.",
+  "usage_context": "Used to express confusion, indecisiveness, or frustration when trying to pick one's own item from dozens of identical options, like after visiting a temple.",
   "keywords": [
     "slippers",
     "chappal",
@@ -11,44 +11,44 @@
     "mandir",
     "confusion",
     "lost",
-    "searching",
+    "choices",
     "relatable",
-    "hostel life"
+    "hostel"
   ],
   "sentiment": "sarcastic",
   "image_width": 1000,
   "image_height": 1060,
   "example": {
-    "top_text": "Me outside the temple trying to find the chappal I bought yesterday",
-    "bottom_text": ""
+    "top_text": "Me outside the temple on Tuesday",
+    "bottom_text": "Trying to find the brand new chappal I wore"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Main setup or situation description",
+      "description": "Setup or situation description",
       "x": 30,
-      "y": 30,
+      "y": 25,
       "width": 940,
       "height": 130,
-      "fontSize": 52,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"
     },
     {
       "id": "bottom_text",
-      "description": "Optional punchline or reaction text",
+      "description": "Punchline or reaction",
       "x": 30,
-      "y": 920,
+      "y": 905,
       "width": 940,
-      "height": 110,
-      "fontSize": 50,
+      "height": 125,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

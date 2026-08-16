@@ -1,33 +1,32 @@
 {
   "id": "ek-kahani-hai-jo-sabko-sunani-hai",
   "name": "CarryMinati Yalgaar Ek Kahani Hai",
-  "visual_description": "Close-up of YouTuber CarryMinati (Ajey Nagar) rapping under red ambient lighting wearing glasses, with yellow subtitle 'EK KHAHANI HAI JO SABKO SUNANI HAI' at the bottom.",
-  "usage_context": "Used to dramatize gossiping, venting, spilling tea, or recounting an intense or chaotic story to friends or an audience.",
+  "visual_description": "CarryMinati rapping under red ambient lighting wearing glasses, with subtitle 'EK KHAHANI HAI JO SABKO SUNANI HAI' at the bottom.",
+  "usage_context": "Used to dramatize gossip, tea spilling, or recounting intense personal experiences.",
   "keywords": [
     "carryminati",
     "ajey nagar",
     "yalgaar",
     "ek kahani hai jo sabko sunani hai",
-    "youtube vs tiktok",
+    "gossip",
     "storytime",
-    "spilling tea",
-    "gossip"
+    "tea"
   ],
   "sentiment": "sarcastic",
   "image_width": 984,
   "image_height": 540,
   "example": {
-    "caption": "Me after surviving 2 minutes of office drama:"
+    "caption": "Me after witnessing 2 minutes of office drama:"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Setup or situation before revealing gossip or telling a dramatic story",
-      "x": 30,
-      "y": 20,
-      "width": 924,
-      "height": 110,
-      "fontSize": 48,
+      "description": "Setup or situation before sharing dramatic story or gossip",
+      "x": 20,
+      "y": 15,
+      "width": 944,
+      "height": 95,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

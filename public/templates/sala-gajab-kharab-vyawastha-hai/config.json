@@ -1,37 +1,36 @@
 {
   "id": "sala-gajab-kharab-vyawastha-hai",
-  "name": "Gajab Kharab Vyawastha Hai (Panchayat)",
-  "visual_description": "Groom Ganesh from the web series Panchayat sitting annoyed with a currency garland around his neck.",
-  "usage_context": "Used to express frustration, disappointment, or sarcastic complaint about poor management, bad infrastructure, or disorganized events.",
+  "name": "Gajab Kharab Vyawastha Hai",
+  "visual_description": "Annoyed groom Ganesh from Panchayat wearing a currency garland, seated beside his friends.",
+  "usage_context": "Used to express frustration over mismanagement, terrible service, or chaotic arrangements.",
   "keywords": [
     "panchayat",
     "gajab kharab vyawastha hai",
     "asif khan",
     "ganesh dulha",
-    "groom",
     "tvf",
-    "bad management",
-    "disappointment",
-    "hindi meme"
+    "poor management",
+    "complaint",
+    "hindi meme template"
   ],
   "sentiment": "sarcastic",
   "image_width": 980,
   "image_height": 540,
   "example": {
-    "caption": "Me after visiting any government office for 5 minutes:"
+    "caption": "Me after waiting 2 hours in a bank queue just to be told to go to Counter 3:"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Setup or situation describing poor organization or failed expectations",
+      "description": "Situation describing bad management or frustrating arrangements",
       "x": 30,
-      "y": 20,
+      "y": 15,
       "width": 920,
-      "height": 110,
-      "fontSize": 48,
+      "height": 95,
+      "fontSize": 36,
       "color": "white",
       "stroke": "black",
-      "maxLength": 100,
+      "maxLength": 120,
       "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"

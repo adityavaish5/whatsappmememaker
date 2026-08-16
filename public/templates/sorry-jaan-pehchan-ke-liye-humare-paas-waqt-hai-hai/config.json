@@ -1,8 +1,8 @@
 {
   "id": "sorry-jaan-pehchan-ke-liye-humare-paas-waqt-hai-hai",
-  "name": "Sorry Jaan Pehchan Ke Liye Humare Paas Waqt Nahi Hai (Nayak)",
-  "visual_description": "Anil Kapoor as Shivaji Rao in Nayak standing firmly in a government office meeting room while dismissing small talk from officials.",
-  "usage_context": "Used to express that someone has no time for formalities, introductions, or excuses and wants to get straight to work or point.",
+  "name": "Sorry Jaan Pehchan Ke Liye Humare Paas Waqt Nahi Hai",
+  "visual_description": "Anil Kapoor as Shivaji Rao standing in an office meeting room surrounded by government officials and bureaucrats with subtitle text below.",
+  "usage_context": "Used to dismiss introductions, pleasantries, or irrelevant formalities when in a rush to get straight to the point.",
   "keywords": [
     "nayak",
     "anil kapoor",
@@ -10,26 +10,26 @@
     "paresh rawal",
     "sorry jaan pehchan",
     "waqt nahi hai",
-    "busy",
     "no time",
-    "hindi cinema",
-    "bollywood meme"
+    "busy",
+    "direct",
+    "hindi movie meme"
   ],
   "sentiment": "sarcastic",
-  "image_width": 994,
-  "image_height": 559,
+  "image_width": 1000,
+  "image_height": 550,
   "example": {
-    "caption": "HR: Tell me about yourself and your hobbies\nMe:"
+    "caption": "Interviewer: Tell me about your hobbies\nMe:"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation setting up having no time for formalities",
+      "description": "Setup scenario dismissing small talk or formalities",
       "x": 30,
       "y": 20,
-      "width": 934,
-      "height": 130,
-      "fontSize": 48,
+      "width": 940,
+      "height": 110,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

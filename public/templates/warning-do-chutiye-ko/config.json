@@ -1,35 +1,36 @@
 {
   "id": "warning-do-chutiye-ko",
-  "name": "Warning Do Chutiye Ko - Paatal Lok",
-  "visual_description": "Hathi Ram Chaudhary (Jaideep Ahlawat) looking stern and exhausted with the subtitle 'warning do chutiye ko'.",
-  "usage_context": "Used to express irritation or dismissal towards someone acting foolishly, demanding they be reprimanded or warned.",
+  "name": "Warning Do Chutiye Ko",
+  "visual_description": "Inspector Hathi Ram Chaudhary (Jaideep Ahlawat) looking stern and annoyed with the subtitle 'warning do chutiye ko'.",
+  "usage_context": "Used to express irritation or demand disciplinary action against someone doing foolish or reckless things.",
   "keywords": [
-    "paatal lok",
-    "jaideep ahlawat",
-    "hathi ram",
     "warning do chutiye ko",
-    "police",
+    "paatal lok",
+    "hathi ram chaudhary",
+    "jaideep ahlawat",
     "annoyed",
-    "indian web series"
+    "police",
+    "irritated",
+    "hindi meme"
   ],
   "sentiment": "sarcastic",
   "image_width": 680,
   "image_height": 371,
   "example": {
-    "setup": "When a junior developer pushes untested code straight to production"
+    "setup": "When the intern drops the production database on Friday evening"
   },
   "text_areas": [
     {
       "id": "setup",
-      "description": "Situation or scenario that triggers the warning reaction",
+      "description": "The frustrating situation prompting the reaction",
       "x": 20,
       "y": 15,
       "width": 640,
-      "height": 90,
-      "fontSize": 48,
+      "height": 75,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 85,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

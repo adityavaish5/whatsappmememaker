@@ -1,8 +1,8 @@
 {
   "id": "rajpal-yadav-eating",
-  "name": "Nawazuddin Siddiqui Chup Bilkul Chup (Gangs of Wasseypur)",
-  "visual_description": "Nawazuddin Siddiqui with a mustache putting his index finger to his lips demanding silence, with subtitle 'Chup... Bilkul Chup'.",
-  "usage_context": "Used to aggressively silence someone who is speaking nonsense, giving unsolicited advice, or talking too much.",
+  "name": "Nawazuddin Siddiqui Chup Bilkul Chup",
+  "visual_description": "Nawazuddin Siddiqui holds a finger to his lips with an intense stare and caption 'CHUP MADARC#OD.. BILKUL CHUP'.",
+  "usage_context": "Used to aggressively silence someone who is nagging, overexplaining, or speaking nonsense.",
   "keywords": [
     "nawazuddin siddiqui",
     "faizal khan",
@@ -10,27 +10,27 @@
     "chup bilkul chup",
     "shut up",
     "silence",
-    "indian meme",
+    "shh",
     "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 658,
   "image_height": 346,
   "example": {
-    "top_text": "When a relative starts talking about your marriage plans"
+    "top_text": "When someone starts explaining why 6 AM gym is better than sleep"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or person needing to be silenced immediately",
+      "description": "The annoying statement or situation that prompts an immediate shut up",
       "x": 20,
-      "y": 15,
+      "y": 12,
       "width": 618,
-      "height": 60,
-      "fontSize": 48,
+      "height": 65,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
-      "maxLength": 70,
+      "maxLength": 75,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

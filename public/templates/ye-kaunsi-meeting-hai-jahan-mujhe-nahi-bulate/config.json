@@ -1,36 +1,36 @@
 {
   "id": "ye-kaunsi-meeting-hai-jahan-mujhe-nahi-bulate",
   "name": "Munna Bhai Nahi",
-  "visual_description": "Sanjay Dutt as Munna Bhai in a bright blue shirt looking straight ahead with the caption 'Nahi'.",
-  "usage_context": "Used to express a blunt, straightforward refusal or rejection to an absurd question or proposal.",
+  "visual_description": "Munna Bhai (Sanjay Dutt) wearing a light blue shirt looking blankly forward with yellow subtitle text saying 'Nahi'.",
+  "usage_context": "Used to express an immediate, blunt, or matter-of-fact refusal to an unreasonable request or proposal.",
   "keywords": [
-    "munna bhai",
+    "munna bhai nahi",
+    "munna bhai mbbs",
     "sanjay dutt",
     "nahi",
     "no",
-    "munna bhai mbbs",
     "refusal",
-    "rejection",
+    "straight up no",
     "bollywood"
   ],
-  "sentiment": "negative",
+  "sentiment": "sarcastic",
   "image_width": 1000,
   "image_height": 423,
   "example": {
-    "caption": "Can you work this weekend without extra pay?"
+    "caption": "Can you do overtime today without extra pay?"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or question prompting a direct 'no'",
-      "x": 30,
-      "y": 20,
-      "width": 940,
-      "height": 90,
-      "fontSize": 48,
+      "description": "The setup or proposal being bluntly rejected",
+      "x": 20,
+      "y": 15,
+      "width": 960,
+      "height": 75,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 75,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

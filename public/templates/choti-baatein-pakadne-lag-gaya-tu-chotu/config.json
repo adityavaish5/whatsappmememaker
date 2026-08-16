@@ -1,15 +1,15 @@
 {
   "id": "choti-baatein-pakadne-lag-gaya-tu-chotu",
   "name": "Aeey Choti Choti Baatein Pakadne Lag Gaya Tu Chotu",
-  "visual_description": "Akshay Kumar pinching the cheek of a man in blue pajamas while talking, as an elderly man watches from a chair.",
-  "usage_context": "Used to dismiss someone who is nitpicking minor errors, pointing out petty details, or taking trivial issues too seriously.",
+  "visual_description": "Akshay Kumar pinching the chin/cheek of a boy in blue pajamas while talking, with an older man sitting nearby.",
+  "usage_context": "Used to playfully or sarcastically dismiss someone who points out trivial mistakes, petty details, or minor discrepancies.",
   "keywords": [
     "akshay kumar",
     "bhagam bhag",
     "chotu",
     "choti choti baatein",
-    "bollywood meme",
     "nitpicking",
+    "bollywood meme",
     "sarcastic",
     "hindi comedy"
   ],
@@ -17,17 +17,17 @@
   "image_width": 750,
   "image_height": 422,
   "example": {
-    "top_text": "When friend points out a minor factual error in your exaggerated story"
+    "top_text": "When your friend points out a minor flaw in your exaggerated story"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Context or situation where someone points out minor flaws",
+      "description": "Situation or setup highlighting petty nitpicking or catching minor mistakes",
       "x": 20,
       "y": 15,
       "width": 710,
-      "height": 75,
-      "fontSize": 48,
+      "height": 70,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

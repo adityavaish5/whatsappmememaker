@@ -1,33 +1,33 @@
 {
   "id": "gunda-boys-bad-elements-of-society",
   "name": "Gunda Boys Bad Elements Of Society",
-  "visual_description": "Madhav (Arshad Warsi) from Golmaal squinting with annoyance in a backwards camo cap and glasses.",
-  "usage_context": "Used sarcastically when someone exaggerates minor mischief or unfairly labels people as troublemakers.",
+  "visual_description": "Madhav (Arshad Warsi) in Golmaal wearing a backward camo cap and glasses, squinting with disbelief beside Rimi Sen.",
+  "usage_context": "Used sarcastically when authority figures or society overreact to harmless mischief and label people as criminals.",
   "keywords": [
     "golmaal",
     "arshad warsi",
     "madhav",
     "gunda boys",
     "bad elements of society",
-    "bollywood",
-    "hindi comedy",
-    "troublemakers"
+    "rimi sen",
+    "bollywood comedy",
+    "exaggeration"
   ],
   "sentiment": "sarcastic",
   "image_width": 915,
   "image_height": 387,
   "example": {
-    "top_text": "Backbenchers when they submit homework 5 minutes late:"
+    "top_text": "Society uncle when we play cricket in the parking lot:"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or context caption",
+      "description": "Situation or setup caption",
       "x": 20,
-      "y": 15,
+      "y": 10,
       "width": 875,
-      "height": 90,
-      "fontSize": 48,
+      "height": 75,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

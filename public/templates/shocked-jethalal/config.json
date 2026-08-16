@@ -1,34 +1,34 @@
 {
   "id": "shocked-jethalal",
   "name": "Jethalal Rubbing Eyes in Disbelief",
-  "visual_description": "Four-panel grid of Jethalal Gada from TMKOC looking shocked, rubbing his eyes, and reacting with stunned disbelief.",
-  "usage_context": "Used to show complete disbelief, shock, or inability to process an absurd or horrifying situation even after double-checking.",
+  "visual_description": "Four-panel grid showing Jethalal Gada looking shocked, wiping his eyes, and reacting with stunned disbelief.",
+  "usage_context": "Used to convey extreme shock, double-taking, or utter disbelief at an unexpected or absurd revelation.",
   "keywords": [
     "jethalal",
     "tmkoc",
-    "taarak mehta",
     "dilip joshi",
     "rubbing eyes",
     "disbelief",
     "shocked",
-    "indian meme",
+    "taarak mehta",
+    "gada electronics",
     "four panel"
   ],
   "sentiment": "sarcastic",
   "image_width": 970,
   "image_height": 728,
   "example": {
-    "caption": "When you check your bank balance after a weekend trip"
+    "caption": "Me checking my bank account after a weekend trip"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or revelation that causes shock and disbelief",
+      "description": "Shocking or unbelievable situation",
       "x": 20,
       "y": 15,
       "width": 930,
       "height": 90,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

@@ -1,36 +1,36 @@
 {
   "id": "sadak-se-utha-kar-star-banaunga",
   "name": "Sadak Se Utha Kar Star Banaunga",
-  "visual_description": "Film director played by Vijay Raaz pointing an assertive finger at Majnu Bhai (Anil Kapoor) in Welcome.",
-  "usage_context": "Used to mock grand promises of turning someone unskilled into a success, or boastful mentoring claims.",
+  "visual_description": "Film director Vijay Raaz passionately pointing a finger at Majnu Bhai (Anil Kapoor) in Welcome.",
+  "usage_context": "Used to joke about making exaggerated promises to mentor someone or transform an unqualified person into a success.",
   "keywords": [
-    "welcome movie",
+    "welcome",
     "vijay raaz",
     "anil kapoor",
     "majnu bhai",
     "sadak se utha kar star banaunga",
     "bollywood meme",
-    "promise",
-    "director"
+    "director",
+    "promise"
   ],
   "sentiment": "sarcastic",
   "image_width": 800,
   "image_height": 450,
   "example": {
-    "top_text": "Me giving career advice to my unemployed best friend:"
+    "top_text": "Me convincing my friend to download crypto trading app"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or situation description at the top",
+      "description": "Caption or situation setup at the top",
       "x": 20,
       "y": 15,
       "width": 760,
-      "height": 90,
-      "fontSize": 48,
+      "height": 80,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 75,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

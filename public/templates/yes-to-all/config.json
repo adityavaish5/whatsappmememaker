@@ -1,16 +1,15 @@
 {
   "id": "yes-to-all",
   "name": "Windows Dialog Yes to All",
-  "visual_description": "Retro Windows XP style alert popup showing 'Select option...' with a cursor clicking the 'Yes to All' button.",
-  "usage_context": "Used to express eagerly or helplessly accepting all bad options, vices, or life problems simultaneously.",
+  "visual_description": "Windows XP style dialog popup with a cursor clicking the 'Yes to All' button.",
+  "usage_context": "Used to show eagerly or helplessly accepting multiple bad habits, options, or life problems.",
   "keywords": [
     "windows xp",
     "dialog box",
     "popup alert",
     "yes to all",
     "pc prompt",
-    "reaction",
-    "relatable"
+    "reaction"
   ],
   "sentiment": "sarcastic",
   "image_width": 805,
@@ -22,17 +21,17 @@
     {
       "id": "question",
       "description": "Question or prompt offering multiple choices",
-      "x": 160,
-      "y": 100,
+      "x": 165,
+      "y": 95,
       "width": 600,
       "height": 90,
-      "fontSize": 48,
+      "fontSize": 42,
       "color": "black",
       "stroke": "transparent",
       "maxLength": 80,
       "uppercase": false,
       "textAlign": "left",
-      "fontFamily": "Arial"
+      "fontFamily": "Tahoma"
     }
   ]
 }

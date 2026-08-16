@@ -1,8 +1,8 @@
 {
   "id": "smelling-letter",
-  "name": "Amrish Puri Smelling Letter (DDLJ)",
-  "visual_description": "Two-panel meme of Chaudhry Baldev Singh (Amrish Puri) in DDLJ looking at an aerogramme letter on the left and smelling it passionately on the right.",
-  "usage_context": "Used to express intense craving, nostalgia, or delight in a specific pleasant aroma (e.g., smell of new books, petrol, rain on dry soil, or mom's cooking).",
+  "name": "Amrish Puri Smelling Letter",
+  "visual_description": "Two-panel image of Amrish Puri reading a letter on the left and smelling it with deep longing on the right.",
+  "usage_context": "Used to show obsession or nostalgia for a specific scent like petrol, new book pages, or rain on dry soil.",
   "keywords": [
     "amrish puri",
     "ddlj",
@@ -11,23 +11,23 @@
     "mitti ki khushboo",
     "sniffing",
     "nostalgia",
-    "chaudhry baldev singh"
+    "punjab letter"
   ],
   "sentiment": "positive",
   "image_width": 1000,
   "image_height": 560,
   "example": {
-    "text": "Me smelling the pages of a brand new notebook"
+    "caption": "Me smelling the pages of a brand new book"
   },
   "text_areas": [
     {
-      "id": "text",
-      "description": "Top caption describing what is being smelled or deeply appreciated",
-      "x": 30,
-      "y": 20,
-      "width": 940,
-      "height": 100,
-      "fontSize": 48,
+      "id": "caption",
+      "description": "Top caption describing the irresistible smell or nostalgic object",
+      "x": 20,
+      "y": 15,
+      "width": 960,
+      "height": 90,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

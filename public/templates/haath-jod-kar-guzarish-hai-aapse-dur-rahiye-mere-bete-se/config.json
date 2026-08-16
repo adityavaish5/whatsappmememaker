@@ -1,8 +1,8 @@
 {
   "id": "haath-jod-kar-guzarish-hai-aapse-dur-rahiye-mere-bete-se",
   "name": "Haath Jod Kar Guzarish Hai Aapse - 3 Idiots",
-  "visual_description": "Farhan's father folds his hands pleading with Rancho (Aamir Khan) to stay away from his son Farhan (R. Madhavan) standing in the background.",
-  "usage_context": "Used to sarcastically or desperately beg a bad influence, friend, or entity to stay away from someone or something.",
+  "visual_description": "Farhan's father gestures pleadingly while confronting Rancho, with Farhan watching silently in the background.",
+  "usage_context": "Used to desperately or sarcastically tell a bad influence, addiction, or nuisance to stay away from someone or something.",
   "keywords": [
     "3 idiots",
     "farhan father",
@@ -12,24 +12,24 @@
     "madhavan",
     "haath jod kar gujarish",
     "dur rahiye mere bete se",
-    "indian meme",
+    "stay away",
     "bad influence"
   ],
   "sentiment": "sarcastic",
   "image_width": 750,
   "image_height": 390,
   "example": {
-    "top_text": "Me to my backbencher friend during exam week:"
+    "top_text": "Me to Steam Sales during exam season:"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation or setup prompting the desperate plea",
-      "x": 25,
+      "description": "Situation or entity being asked to stay away",
+      "x": 20,
       "y": 15,
-      "width": 700,
-      "height": 70,
-      "fontSize": 48,
+      "width": 710,
+      "height": 55,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

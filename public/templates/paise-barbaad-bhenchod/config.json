@@ -1,8 +1,8 @@
 {
   "id": "paise-barbaad-bhenchod",
-  "name": "CarryMinati Paise Barbaad Bhenchod",
-  "visual_description": "CarryMinati holding his hands to his head in intense regret and frustration with the subtitle 'Paise barbaad bhench*d'.",
-  "usage_context": "Used to express deep regret, frustration, or buyer's remorse after wasting money or time on something pointless.",
+  "name": "Paise Barbaad Bhenchod - CarryMinati",
+  "visual_description": "CarryMinati holding his hands to his head in frustration and regret with the subtitle 'Paise barbaad bhench*d'.",
+  "usage_context": "Used to express deep buyer's remorse, wasted money, or ruined investments.",
   "keywords": [
     "carryminati",
     "ajey nagar",
@@ -17,17 +17,17 @@
   "image_width": 1024,
   "image_height": 512,
   "example": {
-    "setup": "Bought expensive gym membership on 1st Jan and went only once"
+    "setup": "Engineering degree lene ke baad"
   },
   "text_areas": [
     {
       "id": "setup",
       "description": "Situation or scenario describing wasted money or effort",
-      "x": 30,
-      "y": 20,
-      "width": 964,
-      "height": 110,
-      "fontSize": 48,
+      "x": 20,
+      "y": 15,
+      "width": 984,
+      "height": 90,
+      "fontSize": 42,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

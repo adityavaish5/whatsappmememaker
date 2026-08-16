@@ -1,38 +1,37 @@
 {
   "id": "sabse-pehle-mai-hi-to-aya-tha",
   "name": "Tum Kab Aye - Sabse Pehle Mai Hi To Aya Tha",
-  "visual_description": "Two-panel meme from Welcome showing RDX (Feroz Khan) asking 'Tum kab aye?' and Dr. Ghungroo (Paresh Rawal) replying 'Sabse pehle mai hi to aya tha sir'.",
-  "usage_context": "Used when your presence, effort, or contribution is completely ignored or forgotten despite being the very first to arrive or do something.",
+  "visual_description": "Two-panel meme from Welcome with RDX (Feroz Khan) asking 'Tum kab aye?' and Dr. Ghungroo (Paresh Rawal) answering 'Sabse pehle mai hi to aya tha sir'.",
+  "usage_context": "Used to express feeling overlooked or ignored despite being present, early, or involved from the very beginning.",
   "keywords": [
     "welcome",
     "paresh rawal",
     "feroz khan",
-    "ghungroo",
+    "dr ghungroo",
     "rdx",
     "tum kab aye",
     "sabse pehle mai hi to aya tha",
-    "hindi comedy",
-    "ignored"
+    "ignored",
+    "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 720,
   "image_height": 720,
   "example": {
-    "top_text": "Teacher to the student sitting on the first bench:",
-    "bottom_text": "Who attended all online lectures without missing one"
+    "caption": "When you join the Google Meet at 8:59 AM and the teacher marks you absent at 9:15 AM:"
   },
   "text_areas": [
     {
-      "id": "top_text",
-      "description": "Context or situation setting up the question",
+      "id": "caption",
+      "description": "Top setup or context describing being overlooked",
       "x": 20,
-      "y": 20,
+      "y": 15,
       "width": 680,
-      "height": 100,
-      "fontSize": 48,
+      "height": 95,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 100,
       "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"

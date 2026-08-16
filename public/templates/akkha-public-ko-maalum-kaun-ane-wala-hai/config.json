@@ -1,34 +1,31 @@
 {
   "id": "akkha-public-ko-maalum-kaun-ane-wala-hai",
-  "name": "Akkha Public Ko Maalum Hai Kaun Aane Wala Hai",
-  "visual_description": "Ranveer Singh as Simmba in police uniform gesturing with a confident smirk inside a police station.",
-  "usage_context": "Used to hype up an obvious or highly anticipated arrival, outcome, or return of a known person or entity.",
+  "name": "Akkha Public Ko Maalum Koun Aane Wala Hai",
+  "visual_description": "Ranveer Singh as Inspector Sangram Bhalerao (Simmba) in uniform gesturing confidently with a smile inside a police station.",
+  "usage_context": "Used to express excitement or certainty when someone highly anticipated, prominent, or notorious is about to arrive.",
   "keywords": [
     "ranveer singh",
     "simmba",
     "sooryavanshi",
+    "rohit shetty cop universe",
     "akkha public ko maalum",
-    "bollywood",
-    "cop universe",
-    "rohit shetty",
-    "anticipation",
-    "hype"
+    "bollywood"
   ],
   "sentiment": "positive",
   "image_width": 800,
   "image_height": 450,
   "example": {
-    "caption": "When the teacher asks who is going to get full marks in viva"
+    "caption": "When the principal enters the class and asks who broke the window"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Setup or situation describing an obvious upcoming event or person",
-      "x": 30,
-      "y": 20,
-      "width": 740,
-      "height": 110,
-      "fontSize": 48,
+      "description": "Situation or question leading to an obvious arrival or result",
+      "x": 20,
+      "y": 15,
+      "width": 760,
+      "height": 90,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 90,

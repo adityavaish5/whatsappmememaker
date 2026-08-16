@@ -1,8 +1,8 @@
 {
   "id": "jethalal-carrying-cylinder",
   "name": "Jethalal Struggling with Cylinder vs Daya Carrying It",
-  "visual_description": "Three-panel meme from TMKOC showing Jethalal struggling to lift a heavy LPG cylinder on the left, Daya easily carrying it on her shoulder top right, and Jethalal in shock bottom right.",
-  "usage_context": "Used to compare two entities where one struggles intensely with a task while the other accomplishes it effortlessly, leaving the first person stunned.",
+  "visual_description": "Three-panel TMKOC meme showing Jethalal struggling to lift a gas cylinder, Daya carrying it effortlessly, and Jethalal looking shocked.",
+  "usage_context": "Used to compare someone struggling with a task against someone completing it effortlessly with ease.",
   "keywords": [
     "jethalal",
     "daya",
@@ -11,16 +11,15 @@
     "taarak mehta",
     "struggle vs easy",
     "strength comparison",
-    "shocked jethalal",
-    "indian meme"
+    "shocked jethalal"
   ],
   "sentiment": "comparison",
   "image_width": 1200,
   "image_height": 750,
   "example": {
     "left_text": "Me studying 10 hours for exam",
-    "top_right_text": "Topper studying 1 hour",
-    "bottom_right_text": "Both got 40 marks"
+    "top_right_text": "Backbencher studying 10 minutes",
+    "bottom_right_text": "He scores more than me"
   },
   "text_areas": [
     {
@@ -28,9 +27,9 @@
       "description": "Label for Jethalal struggling to lift the cylinder",
       "x": 20,
       "y": 20,
-      "width": 450,
+      "width": 600,
       "height": 90,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 50,
@@ -40,12 +39,12 @@
     },
     {
       "id": "top_right_text",
-      "description": "Label for Daya effortlessly carrying the cylinder",
-      "x": 560,
+      "description": "Label for Daya easily carrying the cylinder",
+      "x": 660,
       "y": 20,
-      "width": 600,
+      "width": 520,
       "height": 80,
-      "fontSize": 48,
+      "fontSize": 40,
       "color": "white",
       "stroke": "black",
       "maxLength": 50,
@@ -55,12 +54,12 @@
     },
     {
       "id": "bottom_right_text",
-      "description": "Reaction label for Jethalal's stunned expression",
-      "x": 560,
-      "y": 400,
-      "width": 600,
+      "description": "Reaction label for shocked Jethalal",
+      "x": 660,
+      "y": 640,
+      "width": 520,
       "height": 80,
-      "fontSize": 48,
+      "fontSize": 40,
       "color": "white",
       "stroke": "black",
       "maxLength": 50,

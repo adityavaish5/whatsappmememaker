@@ -1,32 +1,32 @@
 {
   "id": "ye-shareef-shaney-ki-kundli-chahiye-mereko-immediately",
   "name": "Ye Shareef Shaney Ki Kundli Chahiye Mereko Immediately",
-  "visual_description": "Anil Kapoor as Majnu Bhai in Welcome looking suspicious with subtitle 'ye shareef shaney ki kundli chahiye mereko, immediately'.",
-  "usage_context": "Used when wanting background information or dirt on someone who appears overly innocent or suspicious.",
+  "visual_description": "Close-up of Anil Kapoor as Majnu Bhai in Welcome with a skeptical expression and subtitled dialogue.",
+  "usage_context": "Used to express deep suspicion about someone acting overly innocent, requesting background dirt or an investigation.",
   "keywords": [
     "anil kapoor",
     "majnu bhai",
     "welcome",
     "ye shareef shaney ki kundli",
-    "hindi movie meme",
     "investigation",
-    "suspicious"
+    "suspicious",
+    "background check"
   ],
   "sentiment": "sarcastic",
   "image_width": 560,
   "image_height": 373,
   "example": {
-    "top_text": "When a new colleague joins and acts too polite in every meeting"
+    "top_text": "When the topper says 'Maine toh kuch padha hi nahi'"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or scenario describing someone acting overly innocent or suspicious",
+      "description": "Caption describing someone acting unexpectedly innocent or suspicious",
       "x": 20,
-      "y": 15,
+      "y": 12,
       "width": 520,
       "height": 70,
-      "fontSize": 48,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

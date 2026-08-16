@@ -1,33 +1,33 @@
 {
   "id": "humko-maro-humko-zinda-mat-chhodo-saalo",
-  "name": "Humko Maro Humko Zinda Mat Chhodo Saalo - Rajpal Yadav",
-  "visual_description": "Rajpal Yadav in Chup Chup Ke wearing a ruffled servant uniform with a pained, desperate expression and subtitle text.",
-  "usage_context": "Used to express intense frustration, suffering, or feeling constantly tortured by difficult situations or bad luck.",
+  "name": "Humko Maro Humko Zinda Mat Chhodo Saalo",
+  "visual_description": "Rajpal Yadav as Bandya in Chup Chup Ke, crying out in anguish with yellow subtitle text at the bottom.",
+  "usage_context": "Used to express intense suffering, exhaustion, or feeling relentlessly tortured by difficult situations.",
   "keywords": [
     "rajpal yadav",
-    "chup chup ke",
     "bandya",
+    "chup chup ke",
     "humko maro",
-    "hindi comedy",
-    "bollywood meme",
     "frustration",
-    "suffering"
+    "pain",
+    "bollywood comedy",
+    "exam stress"
   ],
-  "sentiment": "sarcastic",
+  "sentiment": "negative",
   "image_width": 1024,
   "image_height": 576,
   "example": {
-    "top_text": "Teacher assigns homework on the last day before vacation"
+    "top_text": "Manager schedules a meeting at 6:59 PM on a Friday"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Situation causing extreme pain, exhaustion, or frustration",
-      "x": 40,
-      "y": 30,
-      "width": 944,
+      "description": "Situation causing extreme distress or agony",
+      "x": 30,
+      "y": 20,
+      "width": 964,
       "height": 130,
-      "fontSize": 48,
+      "fontSize": 44,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

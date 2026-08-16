@@ -1,35 +1,35 @@
 {
   "id": "kisiko-pata-nahi-chalega",
   "name": "Munna Bhai Nahi",
-  "visual_description": "Sanjay Dutt as Munna Bhai in a turquoise shirt looking puzzled with 'Nahi' subtitled at the bottom.",
-  "usage_context": "Used to express blunt, simple, or clueless denial or refusal in relatable situations.",
+  "visual_description": "Munna Bhai (Sanjay Dutt) wearing a bright blue shirt looking confused with 'Nahi' subtitled below.",
+  "usage_context": "Used to express blunt, clueless, or immediate denial and refusal in everyday situations.",
   "keywords": [
-    "munna bhai mbbs",
+    "munna bhai",
     "sanjay dutt",
     "nahi",
     "denial",
-    "refusal",
-    "bollywood meme",
-    "hindi meme"
+    "no",
+    "munna bhai mbbs",
+    "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 1004,
   "image_height": 423,
   "example": {
-    "caption": "Boss: Did you complete the presentation on Sunday?"
+    "caption": "Interviewer: Do you have any relevant work experience?"
   },
   "text_areas": [
     {
       "id": "caption",
       "description": "Setup question or scenario prompting a simple denial",
       "x": 30,
-      "y": 20,
+      "y": 15,
       "width": 944,
-      "height": 90,
-      "fontSize": 48,
+      "height": 85,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 90,
       "uppercase": false,
       "textAlign": "center",
       "fontFamily": "Impact"

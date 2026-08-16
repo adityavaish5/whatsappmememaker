@@ -1,8 +1,8 @@
 {
   "id": "tera-baap-yaha-chodh-kar-gaya-tha-ki-teri-maa",
   "name": "Tera Baap Yaha Chodh Kar Gaya Tha",
-  "visual_description": "Dr. Ghungroo (Paresh Rawal) in spectacles speaking irritably on a mobile phone with subtitle text at the bottom.",
-  "usage_context": "Used to mock someone acting overly entitled, asking for things they don't deserve, or demanding something absurd.",
+  "visual_description": "Dr. Ghungroo (Paresh Rawal) talking angrily on a mobile phone with a yellow subtitle at the bottom.",
+  "usage_context": "Used to express anger or sarcasm towards someone acting overly entitled or demanding something unwarranted.",
   "keywords": [
     "welcome",
     "paresh rawal",
@@ -11,26 +11,26 @@
     "phone call",
     "bollywood meme",
     "sarcasm",
-    "entitlement"
+    "entitled"
   ],
   "sentiment": "sarcastic",
   "image_width": 720,
   "image_height": 345,
   "example": {
-    "caption": "Friend asking for my Netflix password right after subscribing"
+    "caption": "When a friend asks for your Netflix password the second you buy a subscription"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or setup text prompting the angry response",
+      "description": "Setup or situation prompting the sarcastic response",
       "x": 20,
-      "y": 15,
+      "y": 10,
       "width": 680,
-      "height": 75,
-      "fontSize": 48,
+      "height": 65,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

@@ -1,8 +1,8 @@
 {
   "id": "cheerful-vs-afraid",
-  "name": "Bandya Confident vs Panicking (Chup Chup Ke)",
-  "visual_description": "Two-panel meme of Rajpal Yadav as Bandya in Chup Chup Ke. Left: smiling confidently; Right: screaming in terror surrounded by wrestlers.",
-  "usage_context": "Used to show overconfidence before facing an ordeal versus instant regret and panic upon seeing the reality.",
+  "name": "Bandya Confident vs Running Away (Chup Chup Ke)",
+  "visual_description": "Two-panel meme of Rajpal Yadav as Bandya smiling confidently on the left, then screaming in panic and fleeing from wrestlers on the right.",
+  "usage_context": "Used to compare initial optimism or overconfidence with immediate terror upon facing the harsh reality.",
   "keywords": [
     "chup chup ke",
     "rajpal yadav",
@@ -11,24 +11,24 @@
     "expectation vs reality",
     "instant regret",
     "running away",
-    "bollywood"
+    "bollywood meme"
   ],
   "sentiment": "comparison",
   "image_width": 1000,
   "image_height": 530,
   "example": {
-    "left_text": "Applying for a senior role with 1 year experience",
-    "right_text": "The technical interview starts"
+    "left_text": "Applying with fake experience",
+    "right_text": "First day on the job"
   },
   "text_areas": [
     {
       "id": "left_text",
-      "description": "Text describing the initial confidence or optimistic expectation",
+      "description": "Initial confidence or expectation",
       "x": 20,
-      "y": 20,
-      "width": 460,
-      "height": 100,
-      "fontSize": 48,
+      "y": 15,
+      "width": 450,
+      "height": 90,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,
@@ -38,12 +38,12 @@
     },
     {
       "id": "right_text",
-      "description": "Text describing the horrifying reality or sudden realization",
-      "x": 520,
-      "y": 20,
-      "width": 460,
-      "height": 100,
-      "fontSize": 48,
+      "description": "Panic, fear, or harsh reality",
+      "x": 530,
+      "y": 15,
+      "width": 450,
+      "height": 90,
+      "fontSize": 32,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,

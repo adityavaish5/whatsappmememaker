@@ -1,33 +1,33 @@
 {
   "id": "jitta-mil-raha-hai-utne-me-khush-raho",
   "name": "Jitta Mil Rha Hai Utte Mei Khush Raho",
-  "visual_description": "Ayushmann Khurrana gesturing with his index finger warning someone intensely in dim lighting with a caption at the bottom.",
-  "usage_context": "Used to advise someone to be content with the bare minimum they are receiving (like salary appraisals, perks, or marks) before that too is taken away.",
+  "visual_description": "Ayushmann Khurrana raising his index finger in a stern warning gesture.",
+  "usage_context": "Used to express being satisfied with whatever minimal amount or reward is given before even that is revoked.",
   "keywords": [
     "ayushmann khurrana",
-    "jitta mil raha hai",
+    "jitta mil rha hai",
     "utte mei khush raho",
-    "appraisal meme",
-    "salary hike",
     "warning",
-    "indian meme",
+    "salary hike",
+    "appraisal",
+    "compromise",
     "bollywood"
   ],
   "sentiment": "sarcastic",
   "image_width": 1080,
   "image_height": 608,
   "example": {
-    "caption": "HR offering a 3% salary hike after record company profits:"
+    "caption": "HR offering a 3% salary hike after record quarterly profits:"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or scenario describing getting very little",
-      "x": 30,
-      "y": 20,
-      "width": 1020,
+      "description": "Scenario describing settling for the bare minimum",
+      "x": 20,
+      "y": 15,
+      "width": 1040,
       "height": 110,
-      "fontSize": 48,
+      "fontSize": 40,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

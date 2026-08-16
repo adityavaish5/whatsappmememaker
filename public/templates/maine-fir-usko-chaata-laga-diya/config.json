@@ -1,34 +1,34 @@
 {
   "id": "maine-fir-usko-chaata-laga-diya",
   "name": "Maine Fir Usko Chaata Laga Diya",
-  "visual_description": "A male MTV Roadies contestant speaking earnestly during his audition with the subtitle 'Maine fir usko chaata lagadiya' at the bottom.",
-  "usage_context": "Used to describe reacting aggressively, slapping someone, or taking extreme action in response to annoying behavior or betrayal.",
+  "visual_description": "MTV Roadies contestant speaking earnestly during his audition with yellow subtitle text at the bottom.",
+  "usage_context": "Used to express an immediate, aggressive, or physical reaction to annoying actions or betrayal.",
   "keywords": [
     "maine fir usko chaata laga diya",
-    "roadies",
+    "roadies revolution",
     "mtv roadies",
     "its her choice",
     "slap",
     "chaata",
     "audition",
     "neha dhupia",
-    "indian meme"
+    "indian meme template"
   ],
   "sentiment": "sarcastic",
   "image_width": 1280,
   "image_height": 720,
   "example": {
-    "top_text": "When my sibling ate the last slice of pizza I saved for myself:"
+    "top_text": "When someone says 'homework check karva lete hain'"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or scenario describing the provocative situation",
+      "description": "Setup or situation provoking an immediate slap reaction",
       "x": 40,
-      "y": 30,
+      "y": 20,
       "width": 1200,
-      "height": 160,
-      "fontSize": 52,
+      "height": 130,
+      "fontSize": 48,
       "color": "white",
       "stroke": "black",
       "maxLength": 100,

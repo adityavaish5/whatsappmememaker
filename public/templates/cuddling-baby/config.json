@@ -1,35 +1,36 @@
 {
   "id": "cuddling-baby",
-  "name": "TMKOC Men Pampering Baby",
-  "visual_description": "Eight-panel collage of Gokuldham society men (Jethalal, Champaklal, Iyer, Taarak Mehta, Sodhi, Popatlal, Hathi) lovingly holding and cuddling a baby wearing a colorful cap.",
-  "usage_context": "Used to express universal love, pampering, or undivided affection showered on someone or something by everyone in a group.",
+  "name": "TMKOC Men Loving Baby Khushi",
+  "visual_description": "Eight-panel collage of Gokuldham society men from TMKOC lovingly holding and playing with baby Khushi.",
+  "usage_context": "Depicts someone or something receiving universal love, pampering, and adoration from an entire group.",
   "keywords": [
     "tmkoc",
     "taarak mehta ka ooltah chashmah",
-    "baby",
+    "baby khushi",
     "jethalal",
     "champaklal",
+    "bapuji",
+    "sodhi",
+    "popatlal",
     "gokuldham",
-    "cuddling",
     "wholesome",
-    "pampering",
-    "affection"
+    "pampering"
   ],
   "sentiment": "positive",
   "image_width": 720,
   "image_height": 911,
   "example": {
-    "caption": "The youngest cousin when they visit during summer vacation:"
+    "caption": "The youngest cousin when they visit during vacation:"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Main situation or context text",
+      "description": "Top context or situation text",
       "x": 20,
-      "y": 15,
+      "y": 10,
       "width": 680,
       "height": 90,
-      "fontSize": 48,
+      "fontSize": 38,
       "color": "white",
       "stroke": "black",
       "maxLength": 80,

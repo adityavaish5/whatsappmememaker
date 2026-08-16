@@ -1,37 +1,37 @@
 {
   "id": "abp-news-modi-speech-coverage",
   "name": "ABP News Modi Hath Joda Analysis",
-  "visual_description": "ABP News split screen tracking each instance PM Narendra Modi folded hands during a speech with numbered captions from 1st to 7th time.",
-  "usage_context": "Used sarcastically to mock over-the-top Indian news media coverage, or to depict repeatedly apologizing or pleading.",
+  "visual_description": "ABP News broadcast grid showing anchor Rubika Liyaquat alongside seven panels tracking each time PM Narendra Modi folded his hands during an address.",
+  "usage_context": "Used to ridicule sensationalist news reporting or to depict repeated pleading, apologizing, and begging.",
   "keywords": [
     "abp news",
     "modi",
     "hath joda",
+    "rubika liyaquat",
     "godi media",
-    "news channel",
     "indian media",
-    "sarcastic",
+    "apology",
     "begging",
-    "apology"
+    "sarcastic"
   ],
   "sentiment": "sarcastic",
   "image_width": 1007,
   "image_height": 357,
   "example": {
-    "caption": "Me counting how many times I apologized to keep the friendship"
+    "caption": "Me apologizing to my mom every 5 minutes after breaking a cup"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Top contextual caption describing repetitive actions or media obsession",
+      "description": "Top meme caption",
       "x": 20,
       "y": 10,
       "width": 967,
-      "height": 60,
-      "fontSize": 48,
+      "height": 55,
+      "fontSize": 30,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 90,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"

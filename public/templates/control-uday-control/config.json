@@ -1,15 +1,13 @@
 {
   "id": "control-uday-control",
   "name": "Control Uday Control",
-  "visual_description": "Nana Patekar as Uday Shetty wearing sunglasses and a light blue suit on a yacht, smiling while trying to stay calm.",
-  "usage_context": "Used to express self-restraint, suppressing anger, or stopping oneself from reacting impulsively to a frustrating or tempting situation.",
+  "visual_description": "Nana Patekar as Uday Shetty smiling with sunglasses on a yacht, holding back anger.",
+  "usage_context": "Used to convey forced self-restraint or suppressing anger in irritating situations.",
   "keywords": [
     "control uday control",
     "uday shetty",
     "nana patekar",
-    "welcome movie",
     "welcome",
-    "calm down",
     "self control",
     "bollywood meme",
     "hindi meme"
@@ -18,18 +16,18 @@
   "image_width": 480,
   "image_height": 217,
   "example": {
-    "top_text": "ME TRYING NOT TO REPLY TO A DUMB ARGUMENT ONLINE:",
+    "top_text": "WHEN SOMEONE GIVES UNSOLICITED ADVICE:",
     "bottom_text": "CONTROL UDAY CONTROL"
   },
   "text_areas": [
     {
       "id": "top_text",
-      "description": "Setup or situation requiring extreme self-control",
+      "description": "Situation demanding extreme restraint",
       "x": 10,
       "y": 10,
       "width": 260,
       "height": 90,
-      "fontSize": 48,
+      "fontSize": 30,
       "color": "white",
       "stroke": "black",
       "maxLength": 60,
@@ -39,12 +37,12 @@
     },
     {
       "id": "bottom_text",
-      "description": "Punchline or reaction, typically 'Control Uday Control'",
+      "description": "The reaction line or punchline",
       "x": 10,
-      "y": 155,
+      "y": 160,
       "width": 460,
-      "height": 50,
-      "fontSize": 48,
+      "height": 45,
+      "fontSize": 34,
       "color": "white",
       "stroke": "black",
       "maxLength": 40,

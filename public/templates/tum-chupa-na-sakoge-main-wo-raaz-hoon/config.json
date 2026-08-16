@@ -1,8 +1,8 @@
 {
   "id": "tum-chupa-na-sakoge-main-wo-raaz-hoon",
-  "name": "Tum Chupa Na Sakoge Main Woh Raaz Hoon - Veer Zaara",
-  "visual_description": "Shah Rukh Khan speaking intensely to Preity Zinta in bridal attire with subtitle 'Tum Chupa Na Sakoge Main Woh Raaz Hoon'.",
-  "usage_context": "Used to joke about unavoidable truths, inescapable habits, persistent secrets, or hidden problems that always resurface.",
+  "name": "Tum Chupa Na Sakoge Main Woh Raaz Hoon",
+  "visual_description": "Shah Rukh Khan whispering closely to Preity Zinta dressed as a bride from Veer-Zaara with lyrical caption.",
+  "usage_context": "Used to represent inescapable truths, persistent embarrassing secrets, or undeniable facts resurfacing.",
   "keywords": [
     "veer zaara",
     "shah rukh khan",
@@ -14,8 +14,8 @@
     "srk"
   ],
   "sentiment": "sarcastic",
-  "image_width": 1200,
-  "image_height": 600,
+  "image_width": 1600,
+  "image_height": 800,
   "example": {
     "caption": "My dark search history to my incognito tab:"
   },
@@ -25,8 +25,8 @@
       "description": "Top setup text explaining what secret or truth is being revealed",
       "x": 40,
       "y": 30,
-      "width": 1120,
-      "height": 110,
+      "width": 1520,
+      "height": 130,
       "fontSize": 52,
       "color": "white",
       "stroke": "black",

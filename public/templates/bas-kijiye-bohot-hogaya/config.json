@@ -1,36 +1,37 @@
 {
   "id": "bas-kijiye-bohot-hogaya",
   "name": "Bas Kijiye Bohot Hogaya",
-  "visual_description": "Jaya Bachchan holds Amitabh Bachchan's arm asking him to stop dancing as Shah Rukh Khan watches in Kabhi Khushi Kabhie Gham.",
-  "usage_context": "Used to tell someone to stop when something has gone too far, become excessive, or gotten out of hand.",
+  "visual_description": "Jaya Bachchan holds Amitabh Bachchan's arm to stop him while Shah Rukh Khan looks on with a smirk in Kabhi Khushi Kabhie Gham.",
+  "usage_context": "Used to tell someone to stop doing an excessive, embarrassing, or annoying activity.",
   "keywords": [
     "bas kijiye bohot hogaya",
-    "kabhie khushi kabhie gham",
     "k3g",
+    "kabhi khushi kabhie gham",
     "jaya bachchan",
     "amitabh bachchan",
     "shah rukh khan",
+    "shava shava",
     "enough",
-    "stop"
+    "stop it"
   ],
-  "sentiment": "negative",
+  "sentiment": "sarcastic",
   "image_width": 600,
   "image_height": 338,
   "example": {
-    "caption": "When relatives start asking about marriage plans for the 10th time"
+    "caption": "Mom when my dad starts cracking WhatsApp jokes in front of guests"
   },
   "text_areas": [
     {
       "id": "caption",
-      "description": "Situation or annoying prompt that needs to stop",
-      "x": 20,
-      "y": 15,
-      "width": 560,
-      "height": 70,
-      "fontSize": 48,
+      "description": "Situation that has crossed the line and needs to stop",
+      "x": 15,
+      "y": 10,
+      "width": 570,
+      "height": 55,
+      "fontSize": 30,
       "color": "white",
       "stroke": "black",
-      "maxLength": 80,
+      "maxLength": 85,
       "uppercase": true,
       "textAlign": "center",
       "fontFamily": "Impact"
