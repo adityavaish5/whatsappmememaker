@@ -102,11 +102,10 @@ export async function renderMeme(template: MemeTemplate, textPayloads: Record<st
     ctx.font = `${fontWeight} ${area.fontSize}px ${fontFamily}`;
     ctx.fillStyle = area.color || 'white';
     
-    const hasStroke = !!area.stroke;
-    if (hasStroke) {
-      ctx.strokeStyle = area.stroke!;
-      ctx.lineWidth = Math.max(area.fontSize / 10, 2);
-    }
+    const strokeColor = (area.stroke && area.stroke !== 'none') ? area.stroke : 'black';
+    ctx.strokeStyle = strokeColor;
+    ctx.lineWidth = Math.max(area.fontSize / 10, 2);
+    const hasStroke = true;
 
     ctx.textAlign = area.textAlign || 'center';
     ctx.textBaseline = 'middle';

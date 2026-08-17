@@ -79,10 +79,18 @@ Return ONLY raw valid JSON matching this exact structure (no markdown fences, no
     const rawText = (result.text ?? '').trim().replace(/^```json\s*/i, '').replace(/\s*```$/i, '');
     const config: CandidateConfig = JSON.parse(rawText);
 
-    // Fallback defaults if missing
+    // Fallback defaults if missing & enforce white font color + black stroke
     config.id = slug;
     config.image_width = imageWidth;
     config.image_height = imageHeight;
+    if (config.text_areas && Array.isArray(config.text_areas)) {
+      config.text_areas.forEach(ta => {
+        ta.color = 'white';
+        if (!ta.stroke || ta.stroke === 'none') {
+          ta.stroke = 'black';
+        }
+      });
+    }
 
     return config;
   } catch (err: any) {
