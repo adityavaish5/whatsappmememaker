@@ -1,0 +1,54 @@
+{
+  "id": "where-monkey",
+  "name": "Where Banana Orangutans",
+  "visual_description": "Three orangutans edited sitting on a red news studio couch around a coffee table looking confused.",
+  "usage_context": "Used to express confusion, impatience, or disappointment when an expected item, feature, or person is missing.",
+  "keywords": [
+    "where banana",
+    "where monkey",
+    "orangutans on couch",
+    "bbc breakfast orangutans",
+    "confused apes",
+    "missing",
+    "waiting"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 1000,
+  "image_height": 563,
+  "example": {
+    "top_text": "WHERE",
+    "bottom_text": "SALARY HIKE"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Setup word like 'WHERE'",
+      "x": 20,
+      "y": 15,
+      "width": 960,
+      "height": 90,
+      "fontSize": 54,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "The missing subject or object",
+      "x": 20,
+      "y": 455,
+      "width": 960,
+      "height": 90,
+      "fontSize": 54,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

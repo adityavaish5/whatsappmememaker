@@ -1,0 +1,38 @@
+{
+  "id": "monkey-puppet",
+  "name": "Awkward Look Monkey Puppet",
+  "visual_description": "A white caption box above two panels of a brown monkey puppet looking sideways then awkwardly glancing away.",
+  "usage_context": "Used to express guilt, avoidance, embarrassment, or acting oblivious in uncomfortable situations.",
+  "keywords": [
+    "monkey puppet",
+    "awkward look monkey",
+    "pedro puppet",
+    "side eye",
+    "looking away",
+    "nervous",
+    "guilty"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 923,
+  "image_height": 768,
+  "example": {
+    "caption_text": "When the teacher asks who didn't do the homework and you make eye contact"
+  },
+  "text_areas": [
+    {
+      "id": "caption_text",
+      "description": "Top caption describing an awkward or guilty scenario",
+      "x": 20,
+      "y": 20,
+      "width": 883,
+      "height": 240,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 140,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "this-is-fine",
+  "name": "This Is Fine",
+  "visual_description": "Two-panel comic strip of an anthropomorphic dog sitting at a table drinking coffee surrounded by raging fire, calmly saying 'This is fine.'",
+  "usage_context": "Conveys feigned calm, denial, or coping mechanisms in the middle of a worsening disaster or chaotic situation.",
+  "keywords": [
+    "this is fine",
+    "dog in fire",
+    "kc green",
+    "gunshow",
+    "burning room",
+    "denial",
+    "chaos",
+    "crisis",
+    "everything is fine"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 580,
+  "image_height": 282,
+  "example": {
+    "top_text": "EXAM IN 2 HOURS",
+    "bottom_text": "I HAVEN'T OPENED THE BOOK"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Top caption stating the chaotic crisis or looming disaster",
+      "x": 15,
+      "y": 15,
+      "width": 550,
+      "height": 55,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Bottom caption emphasizing the denial, apathy, or worsening reality",
+      "x": 15,
+      "y": 215,
+      "width": 550,
+      "height": 55,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

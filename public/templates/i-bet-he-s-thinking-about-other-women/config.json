@@ -1,0 +1,53 @@
+{
+  "id": "i-bet-he-s-thinking-about-other-women",
+  "name": "I Bet He's Thinking About Other Women",
+  "visual_description": "A woman lies awake in bed looking suspiciously at her partner, while the man faces away staring blankly.",
+  "usage_context": "Contrasting unwarranted relationship paranoia with completely trivial, random, or nerdy internal thoughts.",
+  "keywords": [
+    "i bet he is thinking about other women",
+    "couple in bed",
+    "overthinking",
+    "relationship paranoia",
+    "shower thoughts",
+    "bed meme"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 1654,
+  "image_height": 930,
+  "example": {
+    "woman_thought": "I bet he's thinking about other women...",
+    "man_thought": "If tomato is a fruit, ketchup is a smoothie."
+  },
+  "text_areas": [
+    {
+      "id": "woman_thought",
+      "description": "Woman's paranoid assumption",
+      "x": 30,
+      "y": 30,
+      "width": 620,
+      "height": 180,
+      "fontSize": 38,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 90,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "man_thought",
+      "description": "Man's absurd or random realization",
+      "x": 920,
+      "y": 30,
+      "width": 700,
+      "height": 220,
+      "fontSize": 38,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 140,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

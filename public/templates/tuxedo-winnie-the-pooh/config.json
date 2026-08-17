@@ -1,0 +1,54 @@
+{
+  "id": "tuxedo-winnie-the-pooh",
+  "name": "Tuxedo Winnie the Pooh",
+  "visual_description": "Two-panel comparison of Winnie the Pooh in a regular red shirt looking lethargic versus wearing a classy tuxedo with a smug, refined expression.",
+  "usage_context": "Used to humorously contrast an ordinary or crude phrase/concept with a sophisticated, verbose, or elevated alternative.",
+  "keywords": [
+    "winnie the pooh",
+    "tuxedo pooh",
+    "fancy pooh",
+    "classy pooh",
+    "comparison",
+    "sophisticated",
+    "disney"
+  ],
+  "sentiment": "comparison",
+  "image_width": 800,
+  "image_height": 582,
+  "example": {
+    "normal_text": "Sleeping in",
+    "fancy_text": "Participating in extended voluntary unconsciousness"
+  },
+  "text_areas": [
+    {
+      "id": "normal_text",
+      "description": "Basic, ordinary, or casual concept",
+      "x": 380,
+      "y": 20,
+      "width": 390,
+      "height": 250,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 100,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "fancy_text",
+      "description": "Sophisticated, overly formal, or elevated version",
+      "x": 380,
+      "y": 310,
+      "width": 390,
+      "height": 250,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 120,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

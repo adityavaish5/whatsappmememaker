@@ -1,0 +1,54 @@
+{
+  "id": "two-guys-on-a-bus",
+  "name": "Two Guys on a Bus",
+  "visual_description": "A cartoon showing two men on opposite sides of a bus: one looking sadly at a dark rock cliff, while the other cheerfully photographs a bright, sunny landscape.",
+  "usage_context": "Used to contrast pessimistic versus optimistic viewpoints or negative vs enjoyable experiences of the same subject.",
+  "keywords": [
+    "two guys on a bus",
+    "bus meme",
+    "optimist vs pessimist",
+    "perspective",
+    "sad vs happy",
+    "genildo",
+    "comparison"
+  ],
+  "sentiment": "comparison",
+  "image_width": 762,
+  "image_height": 675,
+  "example": {
+    "left_text": "CODING FOR WORK",
+    "right_text": "CODING A DUMB PERSONAL PROJECT AT 3 AM"
+  },
+  "text_areas": [
+    {
+      "id": "left_text",
+      "description": "Text representing the negative, miserable, or pessimistic side",
+      "x": 25,
+      "y": 35,
+      "width": 325,
+      "height": 140,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "right_text",
+      "description": "Text representing the positive, exciting, or optimistic side",
+      "x": 410,
+      "y": 35,
+      "width": 325,
+      "height": 140,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

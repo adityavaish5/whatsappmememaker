@@ -1,0 +1,70 @@
+{
+  "id": "bell-curve",
+  "name": "IQ Bell Curve / Midwit",
+  "visual_description": "An IQ normal distribution curve with a simpleton Wojak on the left, an overthinking midwit Wojak in the center, and a hooded wise Wojak on the right.",
+  "usage_context": "Used to show that beginners and absolute masters often share the same simple viewpoint, while average intellects overcomplicate matters.",
+  "keywords": [
+    "bell curve",
+    "midwit",
+    "iq",
+    "wojak",
+    "galaxy brain",
+    "enlightened",
+    "horseshoe theory"
+  ],
+  "sentiment": "comparison",
+  "image_width": 675,
+  "image_height": 499,
+  "example": {
+    "left_text": "Use print statements",
+    "middle_text": "No! You must use a multi-threaded remote debugger!",
+    "right_text": "Use print statements"
+  },
+  "text_areas": [
+    {
+      "id": "left_text",
+      "description": "Simple conclusion from low IQ",
+      "x": 15,
+      "y": 170,
+      "width": 210,
+      "height": 110,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "middle_text",
+      "description": "Overcomplicated take from midwit",
+      "x": 180,
+      "y": 15,
+      "width": 315,
+      "height": 110,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 90,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "right_text",
+      "description": "Enlightened conclusion from high IQ",
+      "x": 450,
+      "y": 130,
+      "width": 210,
+      "height": 110,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

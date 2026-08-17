@@ -1,0 +1,38 @@
+{
+  "id": "they-don-t-know",
+  "name": "They Don't Know Party Wojak",
+  "visual_description": "MS Paint sketch of Wojak in a party hat standing alone in the corner watching couples dance.",
+  "usage_context": "Used to express feelings of social alienation, niche personal flexes, or obscure knowledge nobody at a party cares about.",
+  "keywords": [
+    "wojak",
+    "they don't know",
+    "party",
+    "lonely",
+    "corner",
+    "social anxiety",
+    "introvert"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 671,
+  "image_height": 673,
+  "example": {
+    "thought_text": "They don't know I have 50k karma on Reddit"
+  },
+  "text_areas": [
+    {
+      "id": "thought_text",
+      "description": "Internal thought starting with 'They don't know...'",
+      "x": 280,
+      "y": 40,
+      "width": 360,
+      "height": 180,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 100,
+      "uppercase": false,
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    }
+  ]
+}

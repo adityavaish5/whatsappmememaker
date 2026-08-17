@@ -1,0 +1,54 @@
+{
+  "id": "pawn-stars-best-i-can-do",
+  "name": "Pawn Stars Best I Can Do",
+  "visual_description": "Rick Harrison and Corey Harrison standing behind the pawn shop glass counter.",
+  "usage_context": "Used to express lowball counter-offers, bad trades, or disappointing compromises.",
+  "keywords": [
+    "pawn stars",
+    "rick harrison",
+    "corey harrison",
+    "best i can do",
+    "lowball",
+    "negotiation",
+    "trade offer"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 624,
+  "image_height": 352,
+  "example": {
+    "top_text": "YOU WANT 8 HOURS OF SLEEP?",
+    "bottom_text": "BEST I CAN DO IS 4 HOURS AND ANXIETY"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "The setup or high expectation requested",
+      "x": 20,
+      "y": 12,
+      "width": 584,
+      "height": 60,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "The lowball offer or disappointing compromise",
+      "x": 20,
+      "y": 280,
+      "width": 584,
+      "height": 60,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

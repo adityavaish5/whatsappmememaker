@@ -1,0 +1,54 @@
+{
+  "id": "oprah-you-get-a",
+  "name": "Oprah You Get A Car",
+  "visual_description": "Oprah Winfrey shouting excitedly in a red outfit with arms outstretched and mic in hand.",
+  "usage_context": "Used to jokingly or sarcastically declare that everyone receives something in abundance.",
+  "keywords": [
+    "oprah",
+    "oprah winfrey",
+    "you get a car",
+    "giveaway",
+    "excited",
+    "screaming",
+    "everybody gets"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 620,
+  "image_height": 464,
+  "example": {
+    "top_text": "YOU GET TRAFFIC! AND YOU GET TRAFFIC!",
+    "bottom_text": "EVERYBODY GETS TRAFFIC!"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Initial enthusiastic proclamation",
+      "x": 20,
+      "y": 15,
+      "width": 580,
+      "height": 90,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Concluding punchline for everyone",
+      "x": 20,
+      "y": 355,
+      "width": 580,
+      "height": 90,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

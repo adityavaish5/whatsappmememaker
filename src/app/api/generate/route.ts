@@ -83,6 +83,15 @@ Instructions:
   ]
 }`;
 
+    console.log("=== LLM SYSTEM PROMPT ===");
+    console.log(systemPromptWithSchema);
+    console.log("=== LLM USER PROMPT ===");
+    console.log(userPrompt);
+    console.log("=========================");
+
+    lastSystemPrompt = systemPromptWithSchema;
+    lastUserPrompt = userPrompt;
+
     const { text } = await generateText({
       model: google('gemini-3.7-flash'),
       temperature: 0.9,
@@ -112,7 +121,13 @@ Instructions:
   }
 }
 
+let lastSystemPrompt = "";
+let lastUserPrompt = "";
+
 export async function POST(req: NextRequest) {
+  let capturedSystemPrompt = "";
+  let capturedUserPrompt = "";
+
   try {
     const body: GenerateMemeRequest = await req.json();
 
@@ -155,8 +170,8 @@ export async function POST(req: NextRequest) {
       memes: generatedMemes,
       debug_info: {
         user_inputs: body,
-        llm_system_instruction: "See server logs for prompt details",
-        llm_input_prompt: `Context: ${body.context} | Conv: ${body.conversation}`,
+        llm_system_instruction: lastSystemPrompt,
+        llm_input_prompt: lastUserPrompt,
         llm_raw_output: llmResponse
       }
     });

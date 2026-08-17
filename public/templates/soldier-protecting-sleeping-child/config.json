@@ -1,0 +1,70 @@
+{
+  "id": "soldier-protecting-sleeping-child",
+  "name": "Soldier Protecting Sleeping Child",
+  "visual_description": "A soldier shields a peacefully sleeping child with his body, blocking incoming knives, bullets, and grenades.",
+  "usage_context": "Used to represent an entity silently enduring immense hardship or attacks so another can live in carefree ignorance.",
+  "keywords": [
+    "soldier",
+    "sleeping child",
+    "sacrifice",
+    "shield",
+    "protection",
+    "unseen hero",
+    "ignorant"
+  ],
+  "sentiment": "comparison",
+  "image_width": 540,
+  "image_height": 440,
+  "example": {
+    "threats": "Popups & Malicious Ads",
+    "soldier": "AdBlocker",
+    "child": "Me watching free movies"
+  },
+  "text_areas": [
+    {
+      "id": "threats",
+      "description": "Incoming barrage of dangers or problems",
+      "x": 20,
+      "y": 80,
+      "width": 140,
+      "height": 80,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "soldier",
+      "description": "Entity absorbing all the hits",
+      "x": 180,
+      "y": 240,
+      "width": 140,
+      "height": 80,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 35,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "child",
+      "description": "Person resting unaware of the danger",
+      "x": 290,
+      "y": 340,
+      "width": 220,
+      "height": 70,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 35,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

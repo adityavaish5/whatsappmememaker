@@ -1,0 +1,86 @@
+{
+  "id": "clown-applying-makeup",
+  "name": "Putting on Clown Makeup",
+  "visual_description": "Four-panel vertical progression of a man gradually applying full clown makeup, rainbow wig, and red nose.",
+  "usage_context": "Depicts an escalating series of bad choices, flawed logic, or rationalizations that make someone look increasingly foolish.",
+  "keywords": [
+    "clown",
+    "makeup",
+    "putting on clown makeup",
+    "clown progression",
+    "fool",
+    "delusion",
+    "circus"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 750,
+  "image_height": 798,
+  "example": {
+    "stage_1": "I'll text them first",
+    "stage_2": "They're just busy right now",
+    "stage_3": "They will definitely reply tomorrow",
+    "stage_4": "We are getting married"
+  },
+  "text_areas": [
+    {
+      "id": "stage_1",
+      "description": "Initial naive or reasonable assumption",
+      "x": 20,
+      "y": 20,
+      "width": 390,
+      "height": 160,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 90,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "stage_2",
+      "description": "Second rationalizing justification",
+      "x": 20,
+      "y": 220,
+      "width": 390,
+      "height": 160,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 90,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "stage_3",
+      "description": "Third increasingly foolish defense",
+      "x": 20,
+      "y": 420,
+      "width": 390,
+      "height": 160,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 90,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "stage_4",
+      "description": "Final completely absurd and clownish conclusion",
+      "x": 20,
+      "y": 620,
+      "width": 390,
+      "height": 160,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 90,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

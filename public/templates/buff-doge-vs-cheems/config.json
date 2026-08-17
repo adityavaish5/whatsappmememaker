@@ -1,0 +1,86 @@
+{
+  "id": "buff-doge-vs-cheems",
+  "name": "Buff Doge vs. Cheems",
+  "visual_description": "A muscular Shiba Inu stands on the left beside a small, slouching Shiba Inu crying on the right over a white background.",
+  "usage_context": "Comparing a strong, capable historical or ideal entity with its weak, fragile modern equivalent.",
+  "keywords": [
+    "buff doge",
+    "cheems",
+    "swole doge",
+    "shiba inu",
+    "then vs now",
+    "comparison",
+    "doge"
+  ],
+  "sentiment": "comparison",
+  "image_width": 937,
+  "image_height": 720,
+  "example": {
+    "left_title": "GAMERS IN 2004",
+    "right_title": "GAMERS IN 2024",
+    "left_text": "BEAT CAMPAIGN ON HARDEST DIFFICULTY WITHOUT SAVING",
+    "right_text": "CRIES WHEN TUTORIAL DOES NOT HAVE A GPS ARROW"
+  },
+  "text_areas": [
+    {
+      "id": "left_title",
+      "description": "Header title for the superior or historical subject on the left",
+      "x": 20,
+      "y": 20,
+      "width": 440,
+      "height": 90,
+      "fontSize": 34,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 35,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "right_title",
+      "description": "Header title for the inferior or modern subject on the right",
+      "x": 480,
+      "y": 20,
+      "width": 440,
+      "height": 90,
+      "fontSize": 34,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 35,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "left_text",
+      "description": "Description of Buff Doge's impressive feats or strengths",
+      "x": 20,
+      "y": 550,
+      "width": 440,
+      "height": 150,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 70,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "right_text",
+      "description": "Description of Cheems' weak traits or complaints",
+      "x": 480,
+      "y": 550,
+      "width": 440,
+      "height": 150,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 70,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}
