@@ -25,10 +25,18 @@ if (fs.existsSync(templatesDir)) {
   }
 }
 
+function shuffleArray<T>(array: T[]): T[] {
+  const result = [...array];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
 async function getMemeFromLLM(reqData: GenerateMemeRequest): Promise<LLMResponse> {
-  // Select a random sample of 100 templates from the loaded list to reduce tokens and improve speed
-  const shuffled = [...templates].sort(() => 0.5 - Math.random());
-  const selectedTemplates = shuffled.slice(0, 100);
+  // Select a random sample of 40 templates from the loaded list to reduce tokens and improve speed & variety
+  const selectedTemplates = shuffleArray(templates).slice(0, 40);
 
   // Build a minimal catalog for the LLM to save tokens and keep it focused
   const llmCatalog = selectedTemplates.map(t => ({
@@ -77,6 +85,7 @@ Instructions:
 
     const { text } = await generateText({
       model: google('gemini-3.7-flash'),
+      temperature: 0.9,
       system: systemPromptWithSchema,
       prompt: userPrompt
     });

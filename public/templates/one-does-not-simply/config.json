@@ -1,0 +1,53 @@
+{
+  "id": "one-does-not-simply",
+  "name": "One Does Not Simply",
+  "visual_description": "Boromir from The Lord of the Rings making a round gesture with his hand while speaking intensely.",
+  "usage_context": "Used to express that an action is far more difficult, complex, or impossible than it seems.",
+  "keywords": [
+    "one does not simply",
+    "boromir",
+    "lord of the rings",
+    "sean bean",
+    "mordor",
+    "impossible task"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 568,
+  "image_height": 335,
+  "example": {
+    "top_text": "ONE DOES NOT SIMPLY",
+    "bottom_text": "WATCH JUST ONE EPISODE"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Setup phrase starting with 'One Does Not Simply'",
+      "x": 15,
+      "y": 12,
+      "width": 538,
+      "height": 55,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 45,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Punchline stating the impossible or difficult task",
+      "x": 15,
+      "y": 268,
+      "width": 538,
+      "height": 55,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 55,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

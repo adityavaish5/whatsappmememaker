@@ -1,0 +1,54 @@
+{
+  "id": "bernie-sanders-once-again-asking",
+  "name": "I Am Once Again Asking",
+  "visual_description": "US Senator Bernie Sanders wearing a winter jacket outdoors, looking earnestly toward the camera while speaking.",
+  "usage_context": "Used to humorously or desperately repeat a request, plea, or demand for support, attention, or favors.",
+  "keywords": [
+    "bernie sanders",
+    "once again asking",
+    "financial support",
+    "plea",
+    "asking",
+    "winter coat",
+    "politics"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 926,
+  "image_height": 688,
+  "example": {
+    "top_text": "WHEN MY STEAM WALLET IS EMPTY",
+    "bottom_text": "I AM ONCE AGAIN ASKING FOR YOUR FINANCIAL SUPPORT"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Context or setup for the repeated request",
+      "x": 30,
+      "y": 15,
+      "width": 866,
+      "height": 110,
+      "fontSize": 40,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 80,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "The plea or variation of 'I am once again asking...'",
+      "x": 30,
+      "y": 530,
+      "width": 866,
+      "height": 130,
+      "fontSize": 42,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 90,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

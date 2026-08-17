@@ -1,0 +1,54 @@
+{
+  "id": "megamind-peeking",
+  "name": "Megamind Peeking (No Bitches?)",
+  "visual_description": "Fisheye close-up of Megamind looking downward with mock concern and raised eyebrows.",
+  "usage_context": "Used to mock someone for lacking something specific, formatted as 'No [X]?'.",
+  "keywords": [
+    "megamind",
+    "no bitches",
+    "mocking",
+    "fisheye",
+    "peeking",
+    "sarcasm",
+    "dreamworks",
+    "blue"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 540,
+  "image_height": 540,
+  "example": {
+    "top_text": "NO BITCHES?"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Mocking question (e.g., 'NO [X]?')",
+      "x": 20,
+      "y": 20,
+      "width": 500,
+      "height": 90,
+      "fontSize": 48,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Optional secondary punchline",
+      "x": 20,
+      "y": 440,
+      "width": 500,
+      "height": 80,
+      "fontSize": 40,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

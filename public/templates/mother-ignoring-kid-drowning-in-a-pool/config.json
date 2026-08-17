@@ -1,0 +1,71 @@
+{
+  "id": "mother-ignoring-kid-drowning-in-a-pool",
+  "name": "Mother Ignoring Kid Drowning in a Pool",
+  "visual_description": "Two-panel vertical image with a mother lifting a smiling child while another child drowns nearby, contrasted with a skeleton sitting underwater in a chair below.",
+  "usage_context": "Used to illustrate severe favoritism or neglect across three tiers: the favorite, the struggling secondary focus, and the completely forgotten entity.",
+  "keywords": [
+    "mother ignoring kid",
+    "drowning kid in pool",
+    "underwater skeleton",
+    "skeleton in chair",
+    "favoritism",
+    "neglect",
+    "three tiers",
+    "comparison meme"
+  ],
+  "sentiment": "comparison",
+  "image_width": 782,
+  "image_height": 1032,
+  "example": {
+    "favored": "NEW FEATURES",
+    "struggling": "EXISTING BUGS",
+    "forgotten": "DOCUMENTATION"
+  },
+  "text_areas": [
+    {
+      "id": "favored",
+      "description": "Text labeling the favored toddler being lifted by the mother",
+      "x": 380,
+      "y": 80,
+      "width": 360,
+      "height": 90,
+      "fontSize": 41,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "struggling",
+      "description": "Text labeling the kid struggling to stay above water",
+      "x": 30,
+      "y": 280,
+      "width": 340,
+      "height": 90,
+      "fontSize": 41,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "forgotten",
+      "description": "Text labeling the skeleton sitting deep underwater",
+      "x": 220,
+      "y": 620,
+      "width": 340,
+      "height": 90,
+      "fontSize": 41,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

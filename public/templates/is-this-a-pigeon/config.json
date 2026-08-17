@@ -1,0 +1,71 @@
+{
+  "id": "is-this-a-pigeon",
+  "name": "Is This a Pigeon?",
+  "visual_description": "Android protagonist Yutarou Katori gestures confusedly toward a flying yellow butterfly.",
+  "usage_context": "Used sarcastically to mock someone blatantly misinterpreting a situation or drawing ridiculous conclusions.",
+  "keywords": [
+    "is this a pigeon",
+    "butterfly",
+    "anime",
+    "yutarou katori",
+    "fighbird",
+    "confusion",
+    "misidentification",
+    "misunderstanding"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 1080,
+  "image_height": 960,
+  "example": {
+    "person_label": "Me",
+    "butterfly_label": "A minor inconvenience",
+    "bottom_subtitle": "Is this a mental breakdown?"
+  },
+  "text_areas": [
+    {
+      "id": "person_label",
+      "description": "Label for the person making the observation",
+      "x": 60,
+      "y": 720,
+      "width": 380,
+      "height": 140,
+      "fontSize": 38,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "butterfly_label",
+      "description": "Label for the butterfly being observed",
+      "x": 680,
+      "y": 280,
+      "width": 360,
+      "height": 120,
+      "fontSize": 38,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 30,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_subtitle",
+      "description": "Subtitle caption at the bottom",
+      "x": 50,
+      "y": 860,
+      "width": 980,
+      "height": 80,
+      "fontSize": 42,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

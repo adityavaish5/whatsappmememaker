@@ -1,0 +1,56 @@
+{
+  "id": "woman-yelling-at-cat",
+  "name": "Woman Yelling at a Cat",
+  "visual_description": "Side-by-side split image with an emotional screaming blonde woman and friend on the left, facing a bewildered white cat at a dinner table on the right, beneath a top caption header.",
+  "usage_context": "Contrasting an aggressive, emotional accusation with a calm, literal, or confused response.",
+  "keywords": [
+    "woman yelling at cat",
+    "smudge the cat",
+    "taylor armstrong",
+    "kyle richards",
+    "rhobh",
+    "screaming woman",
+    "confused cat",
+    "salad cat",
+    "argument"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 680,
+  "image_height": 438,
+  "example": {
+    "woman_text": "YOU SAID YOU'D BE READY IN FIVE MINUTES!",
+    "cat_text": "I DON'T EVEN HAVE A CLOCK"
+  },
+  "text_areas": [
+    {
+      "id": "woman_text",
+      "description": "Emotional accusation or rant from the woman",
+      "x": 10,
+      "y": 10,
+      "width": 320,
+      "height": 75,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "cat_text",
+      "description": "Confused, literal, or deadpan response from the cat",
+      "x": 350,
+      "y": 10,
+      "width": 320,
+      "height": 75,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

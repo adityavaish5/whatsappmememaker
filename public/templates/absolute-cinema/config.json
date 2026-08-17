@@ -1,0 +1,53 @@
+{
+  "id": "absolute-cinema",
+  "name": "Absolute Cinema",
+  "visual_description": "Black-and-white portrait of filmmaker Martin Scorsese seated with both hands raised in praise.",
+  "usage_context": "Used to genuinely or ironically praise an event, movie, or moment as a masterpiece.",
+  "keywords": [
+    "martin scorsese",
+    "absolute cinema",
+    "hands up",
+    "masterpiece",
+    "peak",
+    "reaction"
+  ],
+  "sentiment": "positive",
+  "image_width": 936,
+  "image_height": 725,
+  "example": {
+    "top_text": "WHEN THE VILLAIN'S PLAN",
+    "bottom_text": "ACTUALLY MAKES COMPLETE SENSE"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Setup or situation description",
+      "x": 220,
+      "y": 20,
+      "width": 496,
+      "height": 80,
+      "fontSize": 36,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Payoff text or 'ABSOLUTE CINEMA' caption",
+      "x": 48,
+      "y": 615,
+      "width": 840,
+      "height": 90,
+      "fontSize": 48,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

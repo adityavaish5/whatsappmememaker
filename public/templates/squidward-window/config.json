@@ -1,0 +1,56 @@
+{
+  "id": "squidward-window",
+  "name": "Squidward Looking Out the Window",
+  "visual_description": "Squidward gloomily watches SpongeBob and Patrick playing happily outside through his window blinds.",
+  "usage_context": "Used to convey FOMO, isolation, sadness, or feeling left out while others have fun.",
+  "keywords": [
+    "squidward",
+    "spongebob",
+    "patrick",
+    "window",
+    "blinds",
+    "fomo",
+    "jealousy",
+    "left out",
+    "sad"
+  ],
+  "sentiment": "negative",
+  "image_width": 598,
+  "image_height": 420,
+  "example": {
+    "squidward_text": "Me working overtime",
+    "outside_text": "My friends on vacation"
+  },
+  "text_areas": [
+    {
+      "id": "squidward_text",
+      "description": "Label for Squidward",
+      "x": 20,
+      "y": 180,
+      "width": 220,
+      "height": 100,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "outside_text",
+      "description": "Label for SpongeBob and Patrick outside",
+      "x": 340,
+      "y": 280,
+      "width": 230,
+      "height": 100,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

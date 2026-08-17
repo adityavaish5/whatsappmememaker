@@ -1,0 +1,70 @@
+{
+  "id": "bike-fall",
+  "name": "Baton Roue / Bike Fall",
+  "visual_description": "Three-panel webcomic by artist Sheng Wang of a cyclist riding normally, shoving a wooden baton into his own front wheel spokes, and crashing onto the ground clutching his knee.",
+  "usage_context": "Used to mock self-inflicted harm or poor decisions where the individual immediately shifts blame to someone else.",
+  "keywords": [
+    "baton roue",
+    "bike fall",
+    "stick in bike wheel",
+    "bicycle crash",
+    "self sabotage",
+    "blame game",
+    "sheng wang"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 500,
+  "image_height": 680,
+  "example": {
+    "setup": "ME LIVING A HEALTHY LIFE",
+    "sabotage": "STAYING UP UNTIL 4 AM ON MY PHONE",
+    "blame": "DAMN HEADACHES, WHY AM I SO UNLUCKY?"
+  },
+  "text_areas": [
+    {
+      "id": "setup",
+      "description": "Initial stable situation or person's identity",
+      "x": 240,
+      "y": 40,
+      "width": 230,
+      "height": 90,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 40,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "sabotage",
+      "description": "Deliberate self-destructive action or choice",
+      "x": 30,
+      "y": 260,
+      "width": 210,
+      "height": 90,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 45,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "blame",
+      "description": "Complaint or scapegoating reaction after failing",
+      "x": 30,
+      "y": 480,
+      "width": 440,
+      "height": 80,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

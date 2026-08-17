@@ -1,0 +1,55 @@
+{
+  "id": "batman-slapping-robin",
+  "name": "Batman Slapping Robin",
+  "visual_description": "Vintage comic panel of Batman slapping Robin mid-conversation with two empty speech bubbles at the top.",
+  "usage_context": "Used to shut down annoying opinions, naive questions, or trending takes with a harsh reality check.",
+  "keywords": [
+    "batman",
+    "robin",
+    "slap",
+    "comic",
+    "dc",
+    "shut up",
+    "silence",
+    "interruption"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 400,
+  "image_height": 387,
+  "example": {
+    "robin_text": "Happy New Ye—",
+    "batman_text": "It's the same life!"
+  },
+  "text_areas": [
+    {
+      "id": "robin_text",
+      "description": "Robin's initial statement or annoying remark",
+      "x": 10,
+      "y": 8,
+      "width": 190,
+      "height": 75,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "batman_text",
+      "description": "Batman's aggressive shut-down retort",
+      "x": 205,
+      "y": 8,
+      "width": 185,
+      "height": 75,
+      "fontSize": 30,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    }
+  ]
+}

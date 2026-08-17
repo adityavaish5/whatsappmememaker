@@ -1,0 +1,57 @@
+{
+  "id": "disaster-girl",
+  "name": "Disaster Girl (Zoe Roth)",
+  "visual_description": "A young girl smirking at the camera with a burning house and firefighters in the background.",
+  "usage_context": "Used to express schadenfreude, malicious intent, petty revenge, or orchestrating chaos.",
+  "keywords": [
+    "disaster girl",
+    "zoe roth",
+    "burning house",
+    "fire",
+    "evil smile",
+    "smirk",
+    "chaos",
+    "revenge",
+    "schadenfreude",
+    "arson"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 500,
+  "image_height": 375,
+  "example": {
+    "top_text": "THEY WOULDN'T LET ME WATCH TV",
+    "bottom_text": "NOW NO ONE CAN"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Setup or situation provoking retaliation",
+      "x": 15,
+      "y": 15,
+      "width": 470,
+      "height": 65,
+      "fontSize": 34,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Punchline depicting petty revenge or evil outcome",
+      "x": 15,
+      "y": 295,
+      "width": 470,
+      "height": 65,
+      "fontSize": 34,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

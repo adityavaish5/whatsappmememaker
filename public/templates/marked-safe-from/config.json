@@ -1,0 +1,38 @@
+{
+  "id": "marked-safe-from",
+  "name": "Marked Safe From",
+  "visual_description": "Facebook Safety Check parody icon featuring a blue triangular flag above 'Marked Safe From' and 'Today' on a white background.",
+  "usage_context": "Used sarcastically to celebrate avoiding viral trends, internet drama, or minor social annoyances.",
+  "keywords": [
+    "facebook safety check",
+    "marked safe from",
+    "blue flag",
+    "sarcasm",
+    "viral trend",
+    "drama",
+    "today"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 618,
+  "image_height": 499,
+  "example": {
+    "event_name": "GOING TO COLDPLAY CONCERT"
+  },
+  "text_areas": [
+    {
+      "id": "event_name",
+      "description": "The avoided trend, drama, or minor inconvenience",
+      "x": 30,
+      "y": 265,
+      "width": 558,
+      "height": 85,
+      "fontSize": 34,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    }
+  ]
+}

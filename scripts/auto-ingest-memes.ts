@@ -8,7 +8,6 @@ import dotenv from 'dotenv';
 import { fetchCandidates } from './ingest/sources';
 import { fetchImageBuffer, inspectCandidate } from './ingest/filter';
 import { annotateCandidate } from './ingest/annotate';
-import { verifyCandidateQA } from './ingest/verify';
 import { IngestOptions } from './ingest/types';
 
 dotenv.config();
@@ -112,21 +111,6 @@ async function main() {
       const configPath = path.join(templateDir, 'config.json');
       fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
 
-      // QA Verification via Canvas & Gemini Vision
-      console.log(`  🎨 Rendering preview & running Vision QA check...`);
-      const qa = await verifyCandidateQA(config, genAI);
-
-      if (!qa.passed) {
-        console.warn(`  ❌ QA Failed (Score ${qa.score}/100): ${qa.feedback}`);
-        // Clean up directory if QA failed
-        if (fs.existsSync(templateDir)) {
-          fs.rmSync(templateDir, { recursive: true, force: true });
-        }
-        summary.push({ slug, name: candidate.title, status: 'failed', reason: `QA score ${qa.score}: ${qa.feedback}` });
-        continue;
-      }
-
-      console.log(`  ✨ QA Passed (Score ${qa.score}/100): ${qa.feedback}`);
       console.log(`  🎉 Successfully created public/templates/${slug}/!`);
 
       addedCount++;

@@ -1,0 +1,54 @@
+{
+  "id": "x-x-everywhere",
+  "name": "X, X Everywhere",
+  "visual_description": "Buzz Lightyear with his arm around a worried Woody, gesturing enthusiastically into the distance.",
+  "usage_context": "Used to mock or point out the overwhelming prevalence of a specific trend, object, or annoyance.",
+  "keywords": [
+    "buzz lightyear",
+    "woody",
+    "toy story",
+    "pixar",
+    "x everywhere",
+    "gesturing",
+    "pointing"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 2118,
+  "image_height": 1440,
+  "example": {
+    "top_text": "ENGINEERS",
+    "bottom_text": "ENGINEERS EVERYWHERE"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "The noun or subject being observed",
+      "x": 50,
+      "y": 40,
+      "width": 2018,
+      "height": 180,
+      "fontSize": 90,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "The noun repeated followed by 'EVERYWHERE'",
+      "x": 50,
+      "y": 1220,
+      "width": 2018,
+      "height": 180,
+      "fontSize": 90,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

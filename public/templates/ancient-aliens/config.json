@@ -1,0 +1,53 @@
+{
+  "id": "ancient-aliens",
+  "name": "Ancient Aliens",
+  "visual_description": "Giorgio A. Tsoukalos gesturing with raised hands and distinctive voluminous hair.",
+  "usage_context": "Humorously attributing unexplained events, minor problems, or bizarre theories to aliens.",
+  "keywords": [
+    "ancient aliens",
+    "giorgio tsoukalos",
+    "aliens guy",
+    "history channel",
+    "conspiracy",
+    "aliens"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 500,
+  "image_height": 445,
+  "example": {
+    "top_text": "I'M NOT SAYING IT WAS ALIENS",
+    "bottom_text": "BUT IT WAS ALIENS"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Setup or premise",
+      "x": 10,
+      "y": 15,
+      "width": 480,
+      "height": 75,
+      "fontSize": 34,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Punchline attributing the cause to aliens",
+      "x": 10,
+      "y": 355,
+      "width": 480,
+      "height": 75,
+      "fontSize": 34,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

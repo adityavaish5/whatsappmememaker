@@ -1,0 +1,55 @@
+{
+  "id": "you-guys-are-getting-paid",
+  "name": "You Guys Are Getting Paid?",
+  "visual_description": "Kenny Rossmore (Will Poulter) looking confused and squinting outside an RV in We're the Millers.",
+  "usage_context": "Used to express naive shock upon realizing others receive compensation or perks while you get nothing.",
+  "keywords": [
+    "you guys are getting paid",
+    "will poulter",
+    "were the millers",
+    "kenny",
+    "confused",
+    "shocked",
+    "unpaid intern",
+    "bonus"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 1046,
+  "image_height": 720,
+  "example": {
+    "top_text": "WHEN COWORKERS COMPLAIN ABOUT A SMALL BONUS",
+    "bottom_text": "YOU GUYS ARE GETTING PAID?"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Setup where others complain about perceived low rewards",
+      "x": 30,
+      "y": 20,
+      "width": 986,
+      "height": 110,
+      "fontSize": 46,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Punchline realizing you receive nothing at all",
+      "x": 30,
+      "y": 590,
+      "width": 986,
+      "height": 105,
+      "fontSize": 46,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

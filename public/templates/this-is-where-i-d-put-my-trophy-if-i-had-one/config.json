@@ -1,0 +1,54 @@
+{
+  "id": "this-is-where-i-d-put-my-trophy-if-i-had-one",
+  "name": "This Is Where I'd Put My Trophy If I Had One",
+  "visual_description": "Two-panel cartoon of Timmy's Dad from The Fairly OddParents gesturing enthusiastically to an empty pedestal, then clenching his hands furiously.",
+  "usage_context": "Used to express frustration, irony, or self-deprecation about lacking something one should or wants to have.",
+  "keywords": [
+    "fairly oddparents",
+    "timmy's dad",
+    "mr turner",
+    "if i had one",
+    "empty pedestal",
+    "trophy",
+    "dinkleberg"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 300,
+  "image_height": 418,
+  "example": {
+    "top_text": "THIS IS WHERE I'D PUT MY SAVINGS",
+    "bottom_text": "IF I HAD ANY!"
+  },
+  "text_areas": [
+    {
+      "id": "top_text",
+      "description": "Setup phrase stating what would be displayed",
+      "x": 10,
+      "y": 10,
+      "width": 280,
+      "height": 70,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "bottom_text",
+      "description": "Punchline lamenting the absence of the item",
+      "x": 10,
+      "y": 340,
+      "width": 280,
+      "height": 70,
+      "fontSize": 30,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 50,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

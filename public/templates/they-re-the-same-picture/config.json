@@ -1,0 +1,54 @@
+{
+  "id": "they-re-the-same-picture",
+  "name": "They're The Same Picture",
+  "visual_description": "Two-panel meme from The Office with Pam holding up two blank papers, followed by her declaring they are identical.",
+  "usage_context": "Used to humorously or sarcastically equate two different things as being completely identical in practice.",
+  "keywords": [
+    "the office",
+    "pam beesly",
+    "corporate needs you to find the differences",
+    "they're the same picture",
+    "comparison",
+    "identical",
+    "same"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 1363,
+  "image_height": 1524,
+  "example": {
+    "left_picture": "Procrastinating by scrolling social media",
+    "right_picture": "Procrastinating by cleaning the entire house"
+  },
+  "text_areas": [
+    {
+      "id": "left_picture",
+      "description": "Label or concept placed on the left paper",
+      "x": 80,
+      "y": 80,
+      "width": 480,
+      "height": 330,
+      "fontSize": 61,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "right_picture",
+      "description": "Label or concept placed on the right paper",
+      "x": 680,
+      "y": 120,
+      "width": 550,
+      "height": 350,
+      "fontSize": 61,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

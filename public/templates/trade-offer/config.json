@@ -1,0 +1,53 @@
+{
+  "id": "trade-offer",
+  "name": "Trade Offer",
+  "visual_description": "TikTok creator Bradeazy in a suit offering a business deal under purple lighting with a Trade Offer banner.",
+  "usage_context": "Used to present humorous, heavily one-sided, or absurd trade proposals.",
+  "keywords": [
+    "trade offer",
+    "i receive you receive",
+    "bradeazy",
+    "deal",
+    "business proposal",
+    "tiktok meme"
+  ],
+  "sentiment": "sarcastic",
+  "image_width": 607,
+  "image_height": 794,
+  "example": {
+    "i_receive": "5 SECONDS OF HEAD SCRATCHES",
+    "you_receive": "UNPROVOKED BITING"
+  },
+  "text_areas": [
+    {
+      "id": "i_receive",
+      "description": "What the poster gets in the trade",
+      "x": 20,
+      "y": 225,
+      "width": 265,
+      "height": 130,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    },
+    {
+      "id": "you_receive",
+      "description": "What the other party gets in the trade",
+      "x": 320,
+      "y": 225,
+      "width": 265,
+      "height": 130,
+      "fontSize": 32,
+      "color": "white",
+      "stroke": "black",
+      "maxLength": 60,
+      "uppercase": true,
+      "textAlign": "center",
+      "fontFamily": "Impact"
+    }
+  ]
+}

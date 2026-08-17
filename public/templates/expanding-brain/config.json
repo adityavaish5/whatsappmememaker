@@ -1,0 +1,87 @@
+{
+  "id": "expanding-brain",
+  "name": "Expanding Brain / Galaxy Brain",
+  "visual_description": "Four-panel comparison of increasing brain glow and cosmic enlightenment alongside text boxes.",
+  "usage_context": "Used to rank ideas hierarchically, ironically presenting the most absurd option as peak intellect.",
+  "keywords": [
+    "expanding brain",
+    "galaxy brain",
+    "iq",
+    "enlightenment",
+    "levels",
+    "progression",
+    "big brain",
+    "comparison"
+  ],
+  "sentiment": "comparison",
+  "image_width": 857,
+  "image_height": 1202,
+  "example": {
+    "tier_1": "Studying weeks before exam",
+    "tier_2": "Studying the night before",
+    "tier_3": "Skimming notes 5 mins before",
+    "tier_4": "Entering exam hall with pure vibes"
+  },
+  "text_areas": [
+    {
+      "id": "tier_1",
+      "description": "Basic concept or common sense",
+      "x": 20,
+      "y": 15,
+      "width": 385,
+      "height": 270,
+      "fontSize": 48,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 80,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "tier_2",
+      "description": "Intermediate or moderately clever idea",
+      "x": 20,
+      "y": 315,
+      "width": 385,
+      "height": 270,
+      "fontSize": 48,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 80,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "tier_3",
+      "description": "Advanced or unconventional idea",
+      "x": 20,
+      "y": 615,
+      "width": 385,
+      "height": 255,
+      "fontSize": 48,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 80,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "tier_4",
+      "description": "Peak absurd enlightenment",
+      "x": 20,
+      "y": 905,
+      "width": 385,
+      "height": 280,
+      "fontSize": 48,
+      "color": "black",
+      "stroke": "none",
+      "maxLength": 80,
+      "uppercase": false,
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    }
+  ]
+}
